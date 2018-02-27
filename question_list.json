@@ -1,0 +1,42 @@
+{
+    "question_list": {
+        "categories": {
+            "general": {
+                "Intent": {
+                    "bonjour": [
+                        "salut", "ciao", "bonjour", "adieu", "hi", "qui est-tu?", "quel âge as-tu?"
+                    ],
+                    "aurevoir": [
+                        "au revoir"
+                    ],
+                    "poli": [
+                        "merci"
+                    ],
+                    "malpoli": [
+                        "juron"
+                    ],
+                    "loisirs": [
+                        "cinéma", "concert"
+                    ],
+                    "météo": [
+                        "il fait beau", "il fait froid"
+                    ],
+                    "sport": [
+                        "ski"
+                    ]
+                }
+            },
+            "landmanbot": {
+                "Intent": {
+                    "éléctions": [
+                        "résultats éléctions {date}"
+                    ],
+                    "votations": [
+                        "résultats votations {date}"
+                    ]
+
+                }
+            }
+        }
+    }
+}
