@@ -43,7 +43,8 @@
                     "user ne comprends pas": [],
                     "user n'aime pas": [],
                     "bot ne comprends pas": [],
-                    "résultats indisponibles": []
+                    "résultats indisponibles": [],
+                    "emojis": []
                 }
             }
         }
