@@ -29,7 +29,8 @@
             "landmanbot": {
                 "Intent": {
                     "éléctions": [
-                        "résultats éléctions {date}"
+                        "résultats éléctions GC",
+                        "résultats étéctions CE"
                     ],
                     "votations": [
                         "résultats votations {date}"
