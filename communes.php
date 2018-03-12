@@ -1,0 +1,11 @@
+//liste des communes
+	$communesIdByName = array ('aire-la-ville' => 1, 'aire la ville' => 1, 'anieres' => 2, 'avully' => 3, 'avusy' => 4, 'bardonnex' => 5, 'bellevue' => 6, 'bernex' => 7, 'carouge' => 8, 'cartigny' => 9, 'celigny' => 10, 'chancy' => 11, 'chene-bougeries' => 12, 'chene bougeries' => 12, 'chene-bourg' => 13, 'chene bourg' => 13, 'choulex' => 14, 'collex-bossy' => 15, 'collex bossy' => 15, 'collex' => 15, 'collonge-bellerive' => 16, 'collonge bellerive' => 16, 'collonge' => 16, 'cologny' => 17, 'confignon' => 18, 'corsier' => 19, 'dardagny' => 20, 'geneve' => 21, 'genthod' => 22, 'grand-saconnex' => 23, 'grand saconnex' => 23, 'grand-sac' => 23, 'grand sac' => 23, 'gy' => 24, 'hermance' => 25, 'jussy' => 26, 'laconnex' => 27, 'lancy' => 28, 'grand-lancy' => 28, 'grand lancy' => 28, 'petit-lancy' => 28, 'petit lancy' => 28, 'meinier' => 29, 'meyrin' => 30, 'onex' => 31, 'perly-certoux' => 32, 'perly certoux' => 32, 'perly' => 32, 'certoux' => 32, 'plan-les-ouates' => 33, 'plan les ouates' => 33, 'plo' => 33, 'pregny-chambesy' => 34, 'pregny chambesy' => 34, 'pregny' => 34, 'chambesy' => 34, 'presinge' => 35, 'puplinge' => 36, 'russin' => 37, 'satigny' => 38, 'soral' => 39, 'thonex' => 40, 'troinex' => 41, 'vandoeuvres' => 42, 'vernier' => 43, 'chatelaine' => 43, 'avanchet' => 43, 'lignon' => 43, 'versoix' => 44, 'veyrier' => 45, 'etranger' => 46, 'se' => 46);
+	<html xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"><head>
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:_dlc_DocId msdt:dt="string">P2FNWD4FKVCR-473636027-11</mso:_dlc_DocId>
+<mso:_dlc_DocIdItemGuid msdt:dt="string">b2f95104-111d-4c46-b1b9-d69e47e4124e</mso:_dlc_DocIdItemGuid>
+<mso:_dlc_DocIdUrl msdt:dt="string">https://ecd.ge.ch/intra/gouvernance/ot/livinglab/chatbot/chatbot201801/_layouts/15/DocIdRedir.aspx?ID=P2FNWD4FKVCR-473636027-11, P2FNWD4FKVCR-473636027-11</mso:_dlc_DocIdUrl>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
