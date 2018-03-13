@@ -25,18 +25,18 @@ Après la fin du travail, SQLI dispose de 14jours pour soumettre un rapport comp
 L'idée est de ne pas utiliser ces crédits pour compiler les réponses questionnaire, afin de ne pas 'gaspiller' les crédits.
 
 => ACTION RL: contacter Jean-Luc Favre (contact de CL) pour définir les questions types
-Le but étant de définir 'intents' et 'utterances' <=
+Le but étant de définir 'intents' et 'utterances' <= Questions posées à CL
 
-=> ACTION RL: demander à Olivier Leclère (OL) s'il dispose d'archives d'articles de presse pour définir les questions <=Question asked. Non il n'en a pas.
+=> ACTION RL: demander à Olivier Leclère (OL) s'il dispose d'archives d'articles de presse pour définir les questions <=Question posée. Non il n'en a pas.
 
-=> ACTION RL: à écrire: un paragraphe définissant les objectifs du chatbot <=
+=> ACTION RL: à écrire: un paragraphe définissant les objectifs du chatbot <= Done. Sent to CL for checking.
 
 Tableau 'dos and donts': à définir les choses à faire/dire et leur contraire
 Exemples:
  - ne pas dire: "je ne comprends pas" plus d'une fois à un user
  - ne pas impliquer de préférence de candidats et/ou partis
 
-=> ACTION RL/CL?: est-ce que les adresses IP des users sont considérées comme données sensibles ? En particulier de savoir 'qui' a demandé 'quoi'. <=
+=> ACTION RL/CL?: est-ce que les adresses IP des users sont considérées comme données sensibles ? En particulier de savoir 'qui' a demandé 'quoi'. <= Question posée à CL
 
 A définir donc:
  - intents & utterances (~= verbes et noms)
