@@ -1,0 +1,60 @@
+Notes de séance dans les bureaux de SQLI
+
+Date: 12 mars 2018
+
+Présents:
+
+Sébastien Vaury - SQLI (SV)
+Guillaume Gravez - SQLI (GG)
+Christopher Larraz - Genève Lab (CL)
+Robert Leckenby - Genève Lab (RL)
+
+# Discussion du chatbot:
+Les 4 niveaux de chatbots:
+ - 1 simple Q/A
+ - 2 Q/A plus algorithm
+ - 3 Cognitif
+ - 4 IA
+Du plus simple au plus compliqué capacité qui augmentent mais risque de dérapages aussi.
+
+# Crédits Oracle:
+SQLI ont obtenu 10KCHF de crédit Oracle (via leur revendeur Arrow).
+Ces crédits représentent environ 400000 'messages' (donc la moitié comme un message inclus question et réponse).
+Après la fin du travail, SQLI dispose de 14jours pour soumettre un rapport complet d'activité sans quoi ils devront rembourser des crédits.
+! Les credits ne peuvent naturellement être utilisés que pour le projet prévu et rien d'autre.
+L'idée est de ne pas utiliser ces crédits pour compiler les réponses questionnaire, afin de ne pas 'gaspiller' les crédits.
+
+=> ACTION RL: contacter Jean-Luc Favre (contact de CL) pour définir les questions types
+Le but étant de définir 'intents' et 'utterances' <=
+
+=> ACTION RL: demander à Olivier Leclère (OL) s'il dispose d'archives d'articles de presse pour définir les questions <=
+
+=> ACTION RL: à écrire: un paragraphe définissant les objectifs du chatbot <=
+
+Tableau 'dos and donts': à définir les choses à faire/dire et leur contraire
+Exemples:
+ - ne pas dire: "je ne comprends pas" plus d'une fois à un user
+ - ne pas impliquer de préférence de candidats et/ou partis
+
+=> ACTION RL/CL?: est-ce que les adresses IP des users sont considérées comme données sensibles ? En particulier de savoir 'qui' a demandé 'quoi'. <=
+
+A définir donc:
+ - intents & utterances (~= verbes et noms)
+ - questions reçues
+ - aggregate de valeur le cas échéant (si au-delà de ce qui est déjà dans les *.json)
+
+=> ACTION RL/Telono: UX pour définir flux de la conversation, ton, vocabulaire, etc. <=
+
+Multi-langue - 'nice-to-have': la langue de base de Oracle sera l'anglais, on pourra utiliser Google Translate, et idéalement on aurait: fr, de, it, en, sp.
+
+Besoin d'entraîner le chatbot dès que possible:
+ - utiliser les groupes d'étudiants (probablement deux groupes sur deux séances, avec une augmentation de la charge sur le chatbot (questions plus compliquées, conversations plus poussées))
+
+=> ACTION RL/OL: peut-on remplacer le code PHP de l'app Facebook par un nouveau déploiement ? Si pas possible, on pourrait déployer un petit site web <=
+
+=> ACTION RL/CL: Potentiellement ajouter un pop-up chatbot sur ge.ch ? <=
+
+Accès Azure et VSTS pour RL/CL à recevoir de SV
+
+=> ACTION RL: ajouter fichiers pertinents (*.json) sur VSTS repo <=
+
