@@ -27,7 +27,7 @@ L'idée est de ne pas utiliser ces crédits pour compiler les réponses question
 => ACTION RL: contacter Jean-Luc Favre (contact de CL) pour définir les questions types
 Le but étant de définir 'intents' et 'utterances' <=
 
-=> ACTION RL: demander à Olivier Leclère (OL) s'il dispose d'archives d'articles de presse pour définir les questions <=
+=> ACTION RL: demander à Olivier Leclère (OL) s'il dispose d'archives d'articles de presse pour définir les questions <=Question asked.
 
 => ACTION RL: à écrire: un paragraphe définissant les objectifs du chatbot <=
 
@@ -50,7 +50,7 @@ Multi-langue - 'nice-to-have': la langue de base de Oracle sera l'anglais, on po
 Besoin d'entraîner le chatbot dès que possible:
  - utiliser les groupes d'étudiants (probablement deux groupes sur deux séances, avec une augmentation de la charge sur le chatbot (questions plus compliquées, conversations plus poussées))
 
-=> ACTION RL/OL: peut-on remplacer le code PHP de l'app Facebook par un nouveau déploiement ? Si pas possible, on pourrait déployer un petit site web <=
+=> ACTION RL/OL: peut-on remplacer le code PHP de l'app Facebook par un nouveau déploiement ? Si pas possible, on pourrait déployer un petit site web <=Question asked.
 
 => ACTION RL/CL: Potentiellement ajouter un pop-up chatbot sur ge.ch ? <=
 

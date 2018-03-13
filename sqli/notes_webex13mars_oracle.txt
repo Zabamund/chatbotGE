@@ -237,7 +237,7 @@ Can also use API search engine in a custom component
 data center is Amsterdam so latency should be good
 
 Use mobile backend as a gateway through connectors to other backend
-
+	
 Oracle Hand on training on mobile stack in Geneva 22 march organised by Eric Mita (?)
 (Mbase = mobile base)
 Mbase includes sms gateway and other capabilities
