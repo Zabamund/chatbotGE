@@ -116,7 +116,7 @@ Entities connected to intent, so even with spelling mistake, the intent will und
 Entities can have synonyms which can include spelling mistakes.
 
 * Dialog flow:
-Built in Yamml file (human-readable JSON)
+Built in YAML file (human-readable JSON)
 States:
 	intent:
 		component:
