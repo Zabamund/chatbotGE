@@ -27,7 +27,7 @@ L'idée est de ne pas utiliser ces crédits pour compiler les réponses question
 => ACTION RL: contacter Jean-Luc Favre (contact de CL) pour définir les questions types
 Le but étant de définir 'intents' et 'utterances' <=
 
-=> ACTION RL: demander à Olivier Leclère (OL) s'il dispose d'archives d'articles de presse pour définir les questions <=Question asked.
+=> ACTION RL: demander à Olivier Leclère (OL) s'il dispose d'archives d'articles de presse pour définir les questions <=Question asked. Non il n'en a pas.
 
 => ACTION RL: à écrire: un paragraphe définissant les objectifs du chatbot <=
 

@@ -265,6 +265,7 @@ Diagram API perhaps to present results
 
 Follow up meeting next week with architecture call
 
-=> ACTION RL: need 'media' logon for JSON access <=
+=> ACTION RL: need 'media' logon for JSON access <= can't have this until (27 & 28 march and 9 & 10 april - test sessions at Uni Mail)
+ 
 
 => ACTION RL: ASK TELONO HOW TO: Each time we communicate results, we need to push the date time (prelim or final) <=
