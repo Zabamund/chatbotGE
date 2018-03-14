@@ -63,7 +63,7 @@ On est ravis vous êtes x personnes à avoir utilisé, merci etc... <=
 
 => - branding - avatar, description, photo (récupérer landmanbot). A modifier ou pas => discuter ou pas? <= question envoyée à Olivier Leclère
 
-=> ACTION RL: envoyer data à Telono et à JLF <=
+=> ACTION RL: envoyer data à Telono et à JLF <= Telono, done.
 
 - ranking des questions pour CE et GC
 
