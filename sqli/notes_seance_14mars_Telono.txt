@@ -9,7 +9,7 @@ Robert Leckenby - Genève Lab (RL)
 Alexis Gérôme - Telono (AG) ?
 Florian Egger - Telono (FE) ?
 
--- message envoyé par RL à AG le 13 mars:
+----- message envoyé par RL à AG le 13 mars:
 [...]
 scope de projet:
 encore à définir exactement, mais comme vous le savez nous allons développer un chatbot qui utilisera des données open-source des élections au Grand Conseil et au Conseil d'Etat pour répondre à des questions d'électeurs.
@@ -21,6 +21,11 @@ deadlines:
 - table d'homonymie finale le 27 mars
 - élections 15 avril
 [...]
+-----
+
+----- Définition objectifs du Chatbot (à finaliser)
+En s'appuyant sur la plateforme chatbot d'Oracle, le Chatbot2018 doit pouvoir comprendre les questions des utilisateurs en langage naturel (leurs 'utterances'), ensuite en extraire le sens et les paramètres (les 'intents' et les 'elements'), et finalement répondre à ces questions en s'appuyant sur le contenu des fichiers *.json disponibles en open-source auxquels il doit accéder pas un service REST.
+-----
 
 Questions:
 1. UX pour définir flux de la conversation, ton, vocabulaire, etc. 
