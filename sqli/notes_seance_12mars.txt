@@ -36,7 +36,7 @@ Exemples:
  - ne pas dire: "je ne comprends pas" plus d'une fois à un user
  - ne pas impliquer de préférence de candidats et/ou partis
 
-=> ACTION RL/CL?: est-ce que les adresses IP des users sont considérées comme données sensibles ? En particulier de savoir 'qui' a demandé 'quoi'. <= Question posée à CL
+=> ACTION RL/CL?: est-ce que les adresses IP des users sont considérées comme données sensibles ? En particulier de savoir 'qui' a demandé 'quoi'. <= Question posée à CL, oui, à inclure dans rapport final.
 
 A définir donc:
  - intents & utterances (~= verbes et noms)
@@ -50,9 +50,9 @@ Multi-langue - 'nice-to-have': la langue de base de Oracle sera l'anglais, on po
 Besoin d'entraîner le chatbot dès que possible:
  - utiliser les groupes d'étudiants (probablement deux groupes sur deux séances, avec une augmentation de la charge sur le chatbot (questions plus compliquées, conversations plus poussées))
 
-=> ACTION RL/OL: peut-on remplacer le code PHP de l'app Facebook par un nouveau déploiement ? Si pas possible, on pourrait déployer un petit site web <=Question asked.
+=> ACTION RL/OL: peut-on remplacer le code PHP de l'app Facebook par un nouveau déploiement ? Si pas possible, on pourrait déployer un petit site web <=Question asked. Selon Olivier peut-être possible, à vérifier
 
-=> ACTION RL/CL: Potentiellement ajouter un pop-up chatbot sur ge.ch ? <=
+=> ACTION RL/CL: Potentiellement ajouter un pop-up chatbot sur ge.ch ? <= éventuellement avec un webhook, mais on garde le même problème que mentionné, c'est-à-dire la 'purge' de la page tous les jours
 
 Accès Azure et VSTS pour RL/CL à recevoir de SV
 

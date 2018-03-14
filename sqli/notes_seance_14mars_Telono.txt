@@ -1,0 +1,31 @@
+Notes de séance UX Telono dans les locaux de Genève Lab
+
+Date: 14 mars 2018 - 10h30-12h
+
+Présents:
+
+Christopher Larraz - Genève Lab (CL)
+Robert Leckenby - Genève Lab (RL)
+Alexis Gérôme - Telono (AG) ?
+Florian Egger - Telono (FE) ?
+
+-- message envoyé par RL à AG le 13 mars:
+[...]
+scope de projet:
+encore à définir exactement, mais comme vous le savez nous allons développer un chatbot qui utilisera des données open-source des élections au Grand Conseil et au Conseil d'Etat pour répondre à des questions d'électeurs.
+Nous espérons obtenir l'aide de Telono pour définir et affiner l'UX, tant pour ce qui est du ton du chatbot que de flux de conversation
+
+deadlines:
+- charte graphique - celle-ci suivra probablement celle de l'Etat de Genève, et devrait être disponible cette semaine
+- fusion parties UX (Telonon) et backend (SQLI) le 25 mars
+- table d'homonymie finale le 27 mars
+- élections 15 avril
+[...]
+
+Questions:
+1. UX pour définir flux de la conversation, ton, vocabulaire, etc. 
+2. [SQLI] Définir un tableau de 'dos and donts' pour le chatbot
+Exemples:
+ - ne pas dire: "je ne comprends pas" plus d'une fois à un user
+ - ne pas impliquer de préférence de candidats et/ou partis
+3. [SQLI] Comment gérer le fait que chaque fois que l'on envoie des résultats, on doit aussi 'pusher' une `timestamp` ?
