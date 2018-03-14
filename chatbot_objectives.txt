@@ -4,7 +4,7 @@ Contexte:
 Il existe déjà un chatbot développé par Olivier Leclère à sa propre initiative qui permet d'avoir accès aux résultats des votations à Genève. Ce bot n'utilise pas de technologies NLP ni de données open-source.
 
 Démarche:
-La démarche qui entoure ce projet est avant tout une expérimentation. Elle vise à évaluer les intérêts et les enjeux des technologies entourant les chatbots pour l'Etat de Genève.
+La démarche qui entoure ce projet est avant tout une expérimentation. Elle vise à évaluer les intérêts et les enjeux des technologies entourant les chatbots pour l'Etat de Genève. Le tout en collaborant avec les acteurs technologiques de l'éco-système régional.
 
-Objectifs du projet Chatbot2018:
-En s'appuyant sur la plateforme chatbot d'Oracle, le Chatbot2018 doit pouvoir comprendre les questions des utilisateurs en langage naturel (leurs 'utterances'), ensuite en extraire le sens et les paramètres (les 'intents' et les 'elements'), et finalement répondre à ces questions en s'appuyant sur le contenu des fichiers *.json disponibles en open-source auxquels il doit accéder pas un service REST.
+Objectifs du projet Chatbot2018 pour les élections GC, CE, du 15 avril 2018:
+En s'appuyant sur la plateforme chatbot d'Oracle, le Chatbot2018 doit pouvoir comprendre les questions des utilisateurs en langage naturel (leurs 'utterances'), ensuite en extraire le sens et les paramètres (les 'intents' et les 'elements'), et finalement répondre à ces questions en s'appuyant sur le contenu des fichiers *.json disponibles en open-source auxquels il doit accéder par un service REST.
