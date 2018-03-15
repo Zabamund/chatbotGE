@@ -44,24 +44,26 @@ Exemples:
 
 =>ACTION RL: Gilles, vérifier si on pourrait avoir un webhook sur ge.ch pour le bot si on ne peut pas le déployer sur FB messenger <= question envoyée à Gilles
 
-=>autocomplete possible in messenger? <=
+=>autocomplete possible in messenger? <= à voir
 
 - UX onboarding?
 
 => ACTION RL: nombre de requêtes ? Compté par conversation ou par message et réponse ? Que faire si on atteint la limite de crédits?  'Phrase pour dire c'est fini, et ensuite on renvoie sur le site web 
-On est ravis vous êtes x personnes à avoir utilisé, merci etc... <=
+On est ravis vous êtes x personnes à avoir utilisé, merci etc... <= à voir avec Oracle
 
-=> ACTION RL, CL: - en utilisant la liste des utilisateurs, peut-être envoyer un msg la semaine suivante pour avoir enquête à posteriori de satisfaction en utilisant `limesurvey` !! ATTENTION IL FAUT DEMANDER AUTORISATION AU USER<=
+=> ACTION RL, CL: - en utilisant la liste des utilisateurs, peut-être envoyer un msg la semaine suivante pour avoir enquête à posteriori de satisfaction en utilisant `limesurvey` !! ATTENTION IL FAUT DEMANDER AUTORISATION AU USER<= !! Attention comment Oracle log les intentions non-comprises (e.g. trop d'opinion qui brouille le msg)
 
 - avant: push pour les résultats ? Oui/non
 - pendant: ping voilà les résultats et résultats sur demande
 - après: ping satisfactions enquête?
 
-- potentiellement trop de questions par rapport à ce qu'on peut répondre, donc probablement 'guider' le user plutôt que de laisser libre court à l'user
+- Guillaume: on pourrait faire un Event Facebook ce qui permettrait de 'pinger' les gens
+
+- potentiellement trop de diversité de questions par rapport à ce qu'on peut répondre, donc probablement 'guider' le user plutôt que de laisser libre court à l'user. Donc lié au 'dos and donts' et la gestion des erreurs
 
 - personnalité du bot, ton, style, Etat... etc.. Telono peut démarrer dessus
 
-=> - branding - avatar, description, photo (récupérer landmanbot). A modifier ou pas => discuter ou pas? <= question envoyée à Olivier Leclère
+=> - branding - avatar, description, photo (récupérer landmanbot). A modifier ou pas => discuter ou pas? <= question envoyée à Olivier Leclère, infos reçues
 
 => ACTION RL: envoyer data à Telono et à JLF <= Telono, done.
 
@@ -69,11 +71,13 @@ On est ravis vous êtes x personnes à avoir utilisé, merci etc... <=
 
 => présenter Alexis à JL Favre <= 
 
-=> présenter Alexis à SQLI jeudi ou vendredi matin <=
+=> présenter Alexis à SQLI jeudi ou vendredi matin <=c'est organisé
 
 
-- Alexis : faut absolument tester le bot - prévu avec des étudiants, quand et combien ?
-=> ACTION RL: combien de temps pour test et modifs semaine du 26? <= 
+- Alexis : faut absolument tester le bot - prévu avec des étudiants, quand et combien ? 5 étudiants ensuite 15, sessions de 1.5hrs max, 15min prés. (Découverte à l'aveugle) 1er break (préparer fiches infos liste candidats, villes, questionnaires - 1. test candide avant test anonyme, ex intéressé politique, parti? 2. Questionnaire . Recouper avec questions sur le bot en-lui, le tout anonyme. Ensuite 20min debrief, pour ressenti)
+2e session, compte Facebook, type de réseau
+
+=> ACTION RL: combien de temps pour test et modifs semaine du 26? <= bot training, bug fix (calculs erronés) min 1 semaine
 
 !! Telono à Milan 21-24 mars , ensuite vacances de Pâques
 
@@ -83,8 +87,8 @@ On est ravis vous êtes x personnes à avoir utilisé, merci etc... <=
 
 - Telono peut aussi demander à sa 'base' (~1000 personnes) de ranker les questions des gens
 
-=> ACTION RL: - chit chat option in Oracle ? Tone in chit chat ? <=
+=> ACTION RL: - chit chat option in Oracle ? Tone in chit chat ? <= il faut éviter d'avoir des modules qu'on ne contrôle pas, du coup gérer ça en msg d'erreur 
 
-- language, répondre une phrase type - à vérifier si on doit taper les questions dans toutes les langues cibles ou non ?
+- language, répondre une phrase type - à vérifier si on doit taper les questions dans toutes les langues cibles ou non ? REPONSE: effectivement tout ce que le 'user' lit, aura été écrit par nous.
 
-=> ACTION RL: à envoyer, gantt chart, objectif et limitations du bot (fonctionnalité), liste des questions, charte graphique(à discuter avec Olivier), coordination Telegram/SQLI (trello, slack?), qui a le dernier mot sur copyright flow UX ? Organiser meeting cette semaine Telono + SQLI. Limites backend de dév pour SQLI. Question des tests (et donc quand livrer les infos pour leur donner le temps de faire les itérations). KPI ? Questionnaire satisfaction, PR -> Etat de Genève innove, communication, etc . Comment faire connaître le bot au public ? <=
+=> ACTION RL: à envoyer, gantt chart, objectif et limitations du bot (fonctionnalité), liste des questions, charte graphique(à discuter avec Olivier), coordination Telono/SQLI (Trello, slack?), qui a le dernier mot sur copyright flow UX ? Organiser meeting cette semaine Telono + SQLI. Limites backend de dév pour SQLI. Question des tests (et donc quand livrer les infos pour leur donner le temps de faire les itérations). KPI ? Questionnaire satisfaction, PR -> Etat de Genève innove, communication, etc . Comment faire connaître le bot au public ? <=

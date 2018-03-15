@@ -1,0 +1,153 @@
+Notes de séance Teleconf SQLI + Telono
+UX
+
+Date: 14 mars 2018 - 10h30-12h
+
+Présents:
+
+Guillaume Gravey - SQLI (GG)
+Sébastien Vaury - SQLI (SV)
+Denitsa Radeva - SQLI (DR)
+Robert Leckenby - Genève Lab (RL)
+Alexis Gérôme - Telono (AG)
+
+______
+INTRO DE GUILLAUME PAR MAIL
+
+Description:Bonjour,
+
+Dans le cadre de l’implémentation du chatbot « Landmanbot » pour l’Etat de Genève je vous propose de faire un premier point afin que nous puissions converger sur les aspects UX et techniques.
+Nous ferons un focus sur les règles à définir pour ce bot et donc à implémenter de notre côté notamment :
+
+  *   Les DOs and DON’Ts
+  *   Les conditions de sortie et la gestion d’erreur
+
+Vous remerciant par avance pour votre disponibilité.
+
+Meilleures salutations,
+
+Guillaume GRAVEY
+______
+
+RL: quick intro
+
+AG: quick intro
+
+SV: quick intro
+Chatbot on Oracle platform, working on back office
+What parts are Telono working on, and what you need?
+
+AG:
+What SQLI needs? Timeline ?
+If we test the wk of 26th, 
+When do sqli need deliverables ?
+
+SV: 
+chatbot on FB messenger or landing page as fallback
+Black box is behind REST API.
+Sync b4 wk of 26th of March
+Try to merge back end with front end between 21-25 march, to have 27-28 training. And another training wk of 2nd of Apr, and finalise b4 10apr.
+User tests end-mar beg-apr. to be used to train the bot >> ie most risk. If user train bot and not good answer, not much time to retrain
+
+AG: scope of project using NLP, from UX perspective, this is too broad and too risky for the bot as endless possibilities. Regarding narrow use-case, UX recommend combine guiding user bot with 'not open ended questions' and the have NLP to catch error. Perhaps easier?
+
+GG: NLP used every time a user 'talks' to the bot. Main concern envision all main questions (use-cases) to be handled. With main cases, we can then train the bot, by defining uttercances. Main cases will be transformed into 'intents' Then code dedicated fct to display results with right answers.
+
+AG: easier to propose specific use-cases.with regards on time (telono has ~3days not full time to offer). So UX cannot offer level of use-cases for all of this.
+
+SV: looks like we mostly agree, we are not using AI, just using NLP to understand utterance.
+
+AG: for the bot, yes use NLP, but try to help user as ppl don't know how to use the bot, ppl not used to 'talk' to bot. So, guiding for bot. Wants to be sure they (telono) is offering 'right' things. 
+
+SV: at beginning, SQLI proposed faq chatbot, then Etat de Genève wanted to increase scope.
+Then discuss with RL, take data available, and provide answers to those data and guide the chatbot somewhat.
+
+>> alignement between SQLI and Telono
+
+AG: Oracle have webhooks and Q&A.
+
+SV: what sqli need. We will have mock-up server.
+When can UX deliver html structure > pour préparer appels JS calés sur structure html.
+
+GG: comme html utile for webhook, main point is to develop for FB messenger.
+What we really need is type questions.
+
+AG:arborescence questions + user-case ds son xp précedente. Guidage utilisateur. Quels sont les possibilités.
+
+GG: ds facebook. Soit sur une page FB qui poste le chat messenger. Comm assez simple avec articles pour expliquer fct de bots. Ensuite prototype intro onboarding le bot. 
+
+AG: nécessité de guider le user par exemple avec boutons d'actions pour guider.
+
+GG: temps contre nous, donc aide fortes visuelles pour le user, pas sûr d'avoir temps. Donc concentrer sur mode conversationnel.
+
+AG: d'un point de vue UX, plus dur à gérer. Par rapport à dire, ok, quel est le modèle de user, et du coup le guider.
+AG peut nous envoyer un prototype pour illustrer
+
+GG: du point du vue bot pur:
+[~]
+1. Intents ce que user veut
+2. utterance pour qualifier intention
+3. entités. Valeurs/paramètres
+Add-on graphiques, sont des accélérateurs. 
+Temps contre nous, et connections FB et Oracle 
+
+AG: pensait que l'inverse serait plus simple - ex. Avoir des aides visuelles pour guider le user.
+
+GG: quel comportement du bot on désire ?
+Dos and donts
+
+AG: pensait guidé serait plus simple pour le tech. 
+
+GG: faut partir des uses-cases. Un mode mix-conversation/graphique comme imaginé par AG, et alternative conversationnel. Donc 2 scénarios, et ensuite en fct temps et complexité, on choisi l'un ou l'autre.
+
+AG: peut prototyper ce qu'il propose. For UX, to deliver next week, they will do quick mapping of mental model for user, using user-base of GVlab to build it. Then he will do a flow, then combine. And plan to deliver next week, and plan to test with users. Can test within FB
+
+SV GG yes in app dev mode. Bot emulator direct in Oracle bot platform
+Test on FB for students in bot, or blank html with webhook as all students may not have FB account.
+
+AG: mobile ?
+
+GG: possible to use webhook on mobile to test if needed to check if responsive.
+
+AG: test on messenger as more options and real 'context' of user is different to html experience.
+
+GG: therefore really need 'dos and donts' . Therefore gather as little info about user, not auth to collect data about user.
+
+All agree - MUST ANONYMISE
+
+GG: need to do calcls to aggregate, therefore need to access backend.
+
+AG: how to collaborate - trello, slack etc.. ?
+GG: RL to manage schedule, and for all comms email or skype.
+
+AG: exemple de ce que SQLI attend ?
+
+GG: uses-cases for 'entraîner' le bot avec les utterances. Et remplir les entités.
+Pour chaque use-case, on doit faire config et fct pour call REST. Phrases de retour sont écrites 'par nous'. Wording doit venir de Telono.
+AG à préparer 1ers use-case, sqli a préparer bot/webhook pour pouvoir tester. Donc 1ère itération trial-error.
+
+AG: besoin de tests dès que possible. sqli aussi.
+
+GG: avait proposé de faire 'event facebook' pour motifs.
+
+SV: attention démarche citoyenne, pas directement l'état donc attention à la 'comm' 
+
+AG: idée de bot avant-après - push data on demand etc
+
+GG: ici difficile à cause des contraintes de confidentialité.
+
+___END OF CALL____
+
+
+- prepare single flow of bot with user
+- prepare single use case with single q/a cycle
+- prepare page with webhook to start and test bot
+- test FB connector to oracle.
+
+- generic intents:
+1. Who are the candidates?
+> for example populate 'entities' and not from *.json ?
+2. Who won the elections?
+> which election ? CE/GC?
+
+=>ACTION RL: NEED A MEDIA ID TO MOCK UP THE REAL PATH - ADD GG TO CONVERSATION WITH OL <=
