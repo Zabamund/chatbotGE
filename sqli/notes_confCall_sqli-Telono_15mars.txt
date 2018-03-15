@@ -1,7 +1,7 @@
 Notes de séance Teleconf SQLI + Telono
 UX
 
-Date: 14 mars 2018 - 10h30-12h
+Date: 15 mars 2018 - 9h-10h
 
 Présents:
 
@@ -139,6 +139,7 @@ GG: ici difficile à cause des contraintes de confidentialité.
 ___END OF CALL____
 
 
+OTHER:
 - prepare single flow of bot with user
 - prepare single use case with single q/a cycle
 - prepare page with webhook to start and test bot
