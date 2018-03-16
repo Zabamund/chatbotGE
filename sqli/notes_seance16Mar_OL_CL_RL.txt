@@ -1,0 +1,28 @@
+Notes de Séance - rapport de progrès (Grand-Pré):
+
+Olivier Leclère (OL)
+Christopher Larraz (CL)
+Robert Leckenby (RL)
+
+RL explique progrès fait, montre tutoriel PastaBot et format fichier csv.
+
+CL Notes: les étudiants seront en vacances de pâques du 29.3 au 8.4
+Donc tests semaine du 26 avant le 29.
+
+OL: 10 jours pour valider application FB, donc bot doit être prêt le 5 avril.
+
+Liste candidats: si Longchamp inclus, vieille liste >>> Pas inclus, donc nouvelle liste
+
+List candidats finaux à recevoir de OL en *.csv
+
+OL aimerait qu'on puisse garder les abonnés de landman bot.
+Donc il faudrait qu'on puisse passer par son app FB, et Google App Engine (host OL's application), et router sur Oracle.
+
+Actuel:
+> FB > Messenger > Bot > GoggleAppEngine
+Souhaité par OL:
+> FB > Messenger > Bot > GoogleAppEngine > Oracle > Backend > JSON
+
+OL note: Lien facebook landmanbot donné à la presse, com déjà engagée sur
+
+=>ACTION RL: org meeting OL et SQLI, idéalement mardi PM<=
