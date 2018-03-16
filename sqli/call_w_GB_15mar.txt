@@ -1,0 +1,29 @@
+Call avec Gilles Barthelet 
+15 mars 2018 
+
+GB, RL
+
+1. Webhook
+Webhook pour mettre le bot sur une page ge.ch - pas possible un jour d'élection, des soucis par le passé, ça sera non, donc
+Webhook pour mettre le bot sur une autre page/instant app/etc, ok mais voir 'Y'
+
+=> ACTION: RL : est-ce qu'on pourrait avoir une sous-page vide html pour mettre le bot le cas échéant. <=
+
+2. 'Y' avec Olivier Leclère (OL)
+Jusqu'ici RL avait compris qu'on 'remplaçait' le bot d'Olivier et que donc la fonctionnalité 'votations' serait perdues. En fait GB envisageait qu'on garde les deux fonctionnalités: 'votations' + 'élections'
+
+'Y' parce qu'un point d'entrée pour les utilisateurs: FB Messenger, avec des users déjà enregistrés qu'on aimerait garder, donc rester sur la même page FB.
+Du coup c'est l'application de OL qui fait le 'call' sur une addresse Oracle pour aller interroger le bot, qui va ensuite au backend.
+
+Facebook[login]>>Messenger>>OL API key>>deploy 2nd bot (sql-bot)>>call to action(FB button)
+
+Du coup =>ACTION RL: à vérifier avec Guillaume Gravey(GG)/Sébastien Vaury(SV), si compris comme ça, ok<=
+
+3. Progrès de ce matin
+Update GB sur ce matin
+
+4. DialogFlow/Oracle
+Commentaire sur agnostisme DialogFlow/Oracle, éléments de la chaîne
+
+5. FB/Oracle instant app/other platforms (Messenger, WhatsApp, Telegram, Slack, etc, etc)
+Suite à 4. On pourrait envisager par la suite de ne pas être limité à Facebook (par exemple pour toucher une population plus large)

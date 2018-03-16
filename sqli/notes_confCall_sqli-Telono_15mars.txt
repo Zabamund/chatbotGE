@@ -151,4 +151,4 @@ OTHER:
 2. Who won the elections?
 > which election ? CE/GC?
 
-=>ACTION RL: NEED A MEDIA ID TO MOCK UP THE REAL PATH - ADD GG TO CONVERSATION WITH OL <=
+=>ACTION RL: NEED A MEDIA ID TO MOCK UP THE REAL PATH - ADD GG TO CONVERSATION WITH OL <= Done, GG and SV added to conversation email

@@ -1,0 +1,15 @@
+Call avec JL Favre 15 mars 2018
+
+Sur présentation de Christopher Larraz (CL)
+Jean-Luc Favre (JLF)
+Robert Leckenby (RL)
+
+Présentations.
+
+RL explique ce qu'on attend, ça correspond bien à ce que JLF avait compris de CL.
+
+Données transférées, RL montre comment accéder et ouvrir jsonformatter.org si jamais pour voir les fichiers data.
+
+JLF va commencer à travailler sur des questions aujourd'hui ou demain, on pourrait se voir mardi prochain, 20 mars. Pour l'instant il est dispo toute la journée, à voir avec Guillaume Gravey (GG) et Sébastien Vaury (SV)
+
+=>ACTION RL: fixer rdv LJF, GG, SV, RL <=
