@@ -1,0 +1,29 @@
+query,topIntent
+I don't want to order this pasta,CancelPasta
+Cancel my pasta,CancelPasta
+Can I cancel this order?,CancelPasta
+Cancel this order,CancelPasta
+I'm not hungry anymore,CancelPasta
+Cancel my pastaz,CancelPasta
+I do not want to order pasta,CancelPasta
+Cancel my pastaaa,CancelPasta
+I do not want this,CancelPasta
+I'm starving,OrderPasta
+give me pasta,OrderPasta
+bring me food,OrderPasta
+arfield attack,OrderPasta
+Garfield attack,OrderPasta
+I want pasta,OrderPasta
+i want spaghetti,OrderPasta
+lasagne !,OrderPasta
+I'm hungry,OrderPasta
+Gimme a pie,OrderPasta
+I want a pizaa,OrderPasta
+"feed me Seymour, feed me!",OrderPasta
+I want a pastaz,OrderPasta
+Give me a pasta,OrderPasta
+I want to order a pasta,OrderPasta
+pasta I want,OrderPasta
+I want a pasta,OrderPasta
+I feel like eating a pasta,OrderPasta
+Make me a pasta,OrderPasta

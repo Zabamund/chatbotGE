@@ -1,0 +1,22 @@
+entity,value,synonyms
+PastaBowlSize,large,lrg:lrge:big
+PastaBowlSize,medium,med
+PastaBowlSize,small,
+PastaBowlSize,personal,
+PastaBowlSize,single spaghetto,just one spag
+PastaCooking,alDente,
+PastaCooking,soft,
+PastaType,cheese,
+PastaType,Veggie,veg:vegee:veggi:vegetarian
+PastaType,pepperoni,
+PastaType,Bolognese,
+PastaType,Meat Lovers,meat
+PastaType,mushroom,
+PastaType,Pesto,
+PastaType,supreme,
+PastaType,Chicken,
+PastaType,Italian,
+PastaType,Gourmet Veggie,
+CheeseType,mozarella,mozarelline:moza:mozarela
+CheeseType,pecorino,romano:percorino:pecora:sardo
+CheeseType,gorgonzola,zola:gorzonla
