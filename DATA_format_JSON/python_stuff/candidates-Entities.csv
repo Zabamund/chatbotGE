@@ -1,32 +1,32 @@
-,fonction,id,liste,nom,photoUrl,sexe
-0,Conseiller-ère d'Etat,20001,"{'id': 203, 'noDepot': 3}",WENGER Saliha (Salika),WENGER_Saliha.jpg,1
-1,Conseiller-ère d'Etat,20002,"{'id': 203, 'noDepot': 3}",HALLER Jocelyne,HALLER_Jocelyne.jpg,1
-2,Conseiller-ère d'Etat,20003,"{'id': 201, 'noDepot': 1}",EMERY-TORRACINTA Anne,EMERY-TORRACINTA_Anne.jpg,1
-3,Conseiller-ère d'Etat,20004,"{'id': 201, 'noDepot': 1}",APOTHÉLOZ Thierry,APOTHELOZ_Thierry.jpg,0
-4,Conseiller-ère d'Etat,20005,"{'id': 201, 'noDepot': 1}",SALERNO Sandrine,SALERNO_Sandrine.jpg,1
-5,Conseiller-ère d'Etat,20006,"{'id': 202, 'noDepot': 2}",HODGERS Antonio,HODGERS_Antonio.jpg,0
-6,Conseiller-ère d'Etat,20007,"{'id': 202, 'noDepot': 2}",DE CHASTONAY Marjorie,DE_CHASTONAY_Marjorie.jpg,1
-7,Conseiller-ère d'Etat,20008,"{'id': 202, 'noDepot': 2}",ROCHAT Yvan,ROCHAT_Yvan.jpg,0
-8,Conseiller-ère d'Etat,20009,"{'id': 204, 'noDepot': 4}",POGGIA Mauro,POGGIA_Mauro.jpg,0
-9,Conseiller-ère d'Etat,20010,"{'id': 204, 'noDepot': 4}",ROCH Ana Belen,ROCH_Ana_Belen.jpg,1
-10,Conseiller-ère d'Etat,20011,"{'id': 204, 'noDepot': 4}",SORMANNI Daniel,SORMANNI_Daniel.jpg,0
-11,Conseiller-ère d'Etat,20012,"{'id': 205, 'noDepot': 5}",MAUDET Pierre,MAUDET_Pierre.jpg,0
-12,Conseiller-ère d'Etat,20013,"{'id': 205, 'noDepot': 5}",DAL BUSCO Serge,DAL_BUSCO_Serge.jpg,0
-13,Conseiller-ère d'Etat,20014,"{'id': 205, 'noDepot': 5}",BARTHASSAT Luc,BARTHASSAT_Luc.jpg,0
-14,Conseiller-ère d'Etat,20015,"{'id': 205, 'noDepot': 5}",FONTANET Nathalie,FONTANET_Nathalie.jpg,1
-15,Conseiller-ère d'Etat,20016,"{'id': 205, 'noDepot': 5}",DE SENARCLENS Alexandre,DE_SENARCLENS_Alexandre.jpg,0
-16,Conseiller-ère d'Etat,20017,"{'id': 206, 'noDepot': 6}",AMBERGER Axel,AMBERGER_Axel.jpg,0
-17,Conseiller-ère d'Etat,20018,"{'id': 203, 'noDepot': 3}",BURGERMEISTER Jean,BURGERMEISTER_Jean.jpg,0
-18,Conseiller-ère d'Etat,20019,"{'id': 208, 'noDepot': 8}",NIDEGGER Yves,NIDEGGER_Yves.jpg,0
-19,Conseiller-ère d'Etat,20020,"{'id': 208, 'noDepot': 8}",BLÄSI Thomas,BLASI_Thomas.jpg,0
-20,Conseiller-ère d'Etat,20021,"{'id': 208, 'noDepot': 8}",FLOREY Stéphane,FLOREY_Stephane.jpg,0
-21,Conseiller-ère d'Etat,20022,"{'id': 211, 'noDepot': 11}",STAUFFER Eric,STAUFFER_Eric.jpg,0
-22,Conseiller-ère d'Etat,20023,"{'id': 211, 'noDepot': 11}",ZACHARIAS Ronald,ZACHARIAS_Ronald.jpg,0
-23,Conseiller-ère d'Etat,20024,"{'id': 209, 'noDepot': 9}",CRETEGNY Willy,CRETEGNY_Willy.jpg,0
-24,Conseiller-ère d'Etat,20025,"{'id': 207, 'noDepot': 7}",AYMON Paul (dit Paul Sierre),AYMON_Paul.jpg,0
-25,Conseiller-ère d'Etat,20026,"{'id': 210, 'noDepot': 10}",ORSINI Magali,ORSINI_Magali.jpg,1
-26,Conseiller-ère d'Etat,20027,"{'id': 210, 'noDepot': 10}",GAUTHIER Pierre,GAUTHIER_Pierre.jpg,0
-27,Conseiller-ère d'Etat,20028,"{'id': 212, 'noDepot': 12}",VIDONNE Thierry,VIDONNE_Thierry.jpg,0
-28,Conseiller-ère d'Etat,20029,"{'id': 212, 'noDepot': 12}",LEITNER André,LEITNER_Andre.jpg,0
-29,Conseiller-ère d'Etat,20030,"{'id': 213, 'noDepot': 13}",FONTANA Jérôme,FONTANA_Jerome.jpg,0
-30,Conseiller-ère d'Etat,20031,"{'id': 213, 'noDepot': 13}",AMSLER Susanne,AMSLER_Susanne.jpg,1
+,entity,value,synonyms
+0,Conseiller-ère d'Etat,WENGER Saliha (Salika),wenger saliha salika
+1,Conseiller-ère d'Etat,HALLER Jocelyne,haller jocelyne
+2,Conseiller-ère d'Etat,EMERY-TORRACINTA Anne,emery-torracinta anne
+3,Conseiller-ère d'Etat,APOTHÉLOZ Thierry,apothéloz thierry
+4,Conseiller-ère d'Etat,SALERNO Sandrine,salerno sandrine
+5,Conseiller-ère d'Etat,HODGERS Antonio,hodgers antonio
+6,Conseiller-ère d'Etat,DE CHASTONAY Marjorie,de chastonay marjorie
+7,Conseiller-ère d'Etat,ROCHAT Yvan,rochat yvan
+8,Conseiller-ère d'Etat,POGGIA Mauro,poggia mauro
+9,Conseiller-ère d'Etat,ROCH Ana Belen,roch ana belen
+10,Conseiller-ère d'Etat,SORMANNI Daniel,sormanni daniel
+11,Conseiller-ère d'Etat,MAUDET Pierre,maudet pierre
+12,Conseiller-ère d'Etat,DAL BUSCO Serge,dal busco serge
+13,Conseiller-ère d'Etat,BARTHASSAT Luc,barthassat luc
+14,Conseiller-ère d'Etat,FONTANET Nathalie,fontanet nathalie
+15,Conseiller-ère d'Etat,DE SENARCLENS Alexandre,de senarclens alexandre
+16,Conseiller-ère d'Etat,AMBERGER Axel,amberger axel
+17,Conseiller-ère d'Etat,BURGERMEISTER Jean,burgermeister jean
+18,Conseiller-ère d'Etat,NIDEGGER Yves,nidegger yves
+19,Conseiller-ère d'Etat,BLÄSI Thomas,bläsi thomas
+20,Conseiller-ère d'Etat,FLOREY Stéphane,florey stéphane
+21,Conseiller-ère d'Etat,STAUFFER Eric,stauffer eric
+22,Conseiller-ère d'Etat,ZACHARIAS Ronald,zacharias ronald
+23,Conseiller-ère d'Etat,CRETEGNY Willy,cretegny willy
+24,Conseiller-ère d'Etat,AYMON Paul (dit Paul Sierre),aymon paul dit paul sierre
+25,Conseiller-ère d'Etat,ORSINI Magali,orsini magali
+26,Conseiller-ère d'Etat,GAUTHIER Pierre,gauthier pierre
+27,Conseiller-ère d'Etat,VIDONNE Thierry,vidonne thierry
+28,Conseiller-ère d'Etat,LEITNER André,leitner andré
+29,Conseiller-ère d'Etat,FONTANA Jérôme,fontana jérôme
+30,Conseiller-ère d'Etat,AMSLER Susanne,amsler susanne
