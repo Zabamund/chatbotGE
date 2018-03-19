@@ -11,11 +11,29 @@ context:
     cooking: "PastaCooking"
     cheese: "CheeseType"
     iResult: "nlpresult"
+    autoTranslate: "boolean"
+    translated: "string"
 states:
+  setAutoTranslate:
+    component: "System.SetVariable"
+    properties:
+      variable: "autoTranslate"
+      value: true
+    transitions: {}
+  detect:
+    component: "System.DetectLanguage"
+    properties: {}
+    transitions: {}
+  translate:
+    component: "System.TranslateInput"
+    properties:
+      variable: "translated"
+    transitions: {}
   intent:
     component: "System.Intent"
     properties:
       variable: "iResult"
+      sourceVariable: "translated"
       confidenceThreshold: 0.4
     transitions:
       actions:
