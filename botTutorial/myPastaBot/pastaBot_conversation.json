@@ -1,0 +1,185 @@
+[
+  {
+    "responses": [
+      {
+        "messagePayload": {
+          "text": "What size Pasta bowl do you want?",
+          "type": "text",
+          "actions": [
+            {
+              "postback": {
+                "variables": {
+                  "size": "large"
+                },
+                "action": "large",
+                "state": "size"
+              },
+              "label": "large",
+              "type": "postback"
+            },
+            {
+              "postback": {
+                "variables": {
+                  "size": "medium"
+                },
+                "action": "medium",
+                "state": "size"
+              },
+              "label": "medium",
+              "type": "postback"
+            },
+            {
+              "postback": {
+                "variables": {
+                  "size": "small"
+                },
+                "action": "small",
+                "state": "size"
+              },
+              "label": "small",
+              "type": "postback"
+            },
+            {
+              "postback": {
+                "variables": {
+                  "size": "personal"
+                },
+                "action": "personal",
+                "state": "size"
+              },
+              "label": "personal",
+              "type": "postback"
+            },
+            {
+              "postback": {
+                "variables": {
+                  "size": "single spaghetto"
+                },
+                "action": "single spaghetto",
+                "state": "size"
+              },
+              "label": "single spaghetto",
+              "type": "postback"
+            }
+          ],
+          "channelExtensions": {
+            "debugInfo": {
+              "variables": {
+                "profile.updatedOn": "2018-03-19T14:14:53.880Z",
+                "profile.languageTag": "en",
+                "profile.lastName": "Chatbot",
+                "iResult": {
+                  "timeStamp": 1521468894026,
+                  "intentMatches": {
+                    "summary": [
+                      {
+                        "score": 0.6756,
+                        "intent": "OrderPasta"
+                      },
+                      {
+                        "score": 0.3244,
+                        "intent": "CancelPasta"
+                      }
+                    ],
+                    "detail": {
+                      "final_norm": [
+                        {
+                          "sentence": [],
+                          "score": 0.6756,
+                          "intent": "OrderPasta"
+                        },
+                        {
+                          "sentence": [],
+                          "score": 0.3244,
+                          "intent": "CancelPasta"
+                        }
+                      ]
+                    }
+                  },
+                  "trainingDataUnit": null,
+                  "botName": "pastaBot",
+                  "appId": "38171CDB-20B8-4284-9023-1B4146A3CAF8",
+                  "query": "${somevar.value}",
+                  "entityMatches": {}
+                },
+                "user.botsUserError": false,
+                "translated": "${somevar.value}",
+                "type": null,
+                "profile.locale": "en-GB",
+                "cheese": null,
+                "userLanguage": null,
+                "profile.timezoneOffset": -3600000,
+                "system.state.size.postbackActions": {
+                  "small": {
+                    "postback": {
+                      "variables": {
+                        "size": "small"
+                      },
+                      "action": "small",
+                      "state": "size"
+                    },
+                    "label": "small"
+                  },
+                  "large": {
+                    "postback": {
+                      "variables": {
+                        "size": "large"
+                      },
+                      "action": "large",
+                      "state": "size"
+                    },
+                    "label": "large"
+                  },
+                  "single spaghetto": {
+                    "postback": {
+                      "variables": {
+                        "size": "single spaghetto"
+                      },
+                      "action": "single spaghetto",
+                      "state": "size"
+                    },
+                    "label": "single spaghetto"
+                  },
+                  "personal": {
+                    "postback": {
+                      "variables": {
+                        "size": "personal"
+                      },
+                      "action": "personal",
+                      "state": "size"
+                    },
+                    "label": "personal"
+                  },
+                  "medium": {
+                    "postback": {
+                      "variables": {
+                        "size": "medium"
+                      },
+                      "action": "medium",
+                      "state": "size"
+                    },
+                    "label": "medium"
+                  }
+                },
+                "size": null,
+                "profile.firstName": "Admin",
+                "cooking": null,
+                "autoTranslate": true,
+                "system.processedUserMessage": false
+              },
+              "currentDialogState": "size",
+              "executedStates": [
+                "resolvesize",
+                "resolvecooking",
+                "resolvetype",
+                "resolvecheese",
+                "size"
+              ]
+            }
+          }
+        },
+        "userId": "8752586"
+      }
+    ]
+  }
+]
