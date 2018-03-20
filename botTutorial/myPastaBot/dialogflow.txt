@@ -108,6 +108,27 @@ states:
       # use the resource bundle to display hard-coded message, or autotranslate if not available
       prompt: "${rb.PastaBowlSize}"
       variable: "size"
+      # fix maximum number of times to prompt user for answer
+      maxPrompts: 2
+    transitions:
+      actions:
+        # if user does not provide answer within maxPrompts, go to:
+        cancel: "setDefaultSize"
+  # move forward if value set
+  conditionExists:
+    component: "System.ConditionExists"
+    properties:
+      variable: "size"
+    transitions:
+      actions:
+        exists: "cooking"
+        notexists: "setDefaultSize"
+  # set default parameter if user does not give valid input
+  setDefaultSize:
+    component: "System.SetVariable"
+    properties:
+      variable: "size"
+      value: "medium"
     transitions: {}
   cooking:
     component: "System.List"
