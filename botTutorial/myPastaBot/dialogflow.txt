@@ -11,24 +11,38 @@ context:
     cooking: "PastaCooking"
     cheese: "CheeseType"
     iResult: "nlpresult"
+    # resources bundle context variable for manual/hybrid translation
+    rb: "resourcebundle"
+    ## autoTranslate required - for hybrid translation usage: hard coded from rb and autotranslate for other languages
     autoTranslate: "boolean"
+    ## variable holding the translated user input
     translated: "string"
 states:
+  # new state before intent - autotranslate
   setAutoTranslate:
     component: "System.SetVariable"
     properties:
       variable: "autoTranslate"
       value: true
     transitions: {}
+  # detect input language
   detect:
     component: "System.DetectLanguage"
     properties: {}
     transitions: {}
+  # translate user input to English for NLP, and store in variable
   translate:
     component: "System.TranslateInput"
     properties:
       variable: "translated"
     transitions: {}
+  # simple state to use profile info
+  #Greeting:
+   # component: "System.Output"
+   # properties:
+    #  text:  "Hello ${profile.firstName}, how can I help you today?"
+    #transitions: {}
+  # intent using user input translated to English
   intent:
     component: "System.Intent"
     properties:
@@ -37,8 +51,31 @@ states:
       confidenceThreshold: 0.4
     transitions:
       actions:
+        Greeting: "checkTag"
         OrderPasta: "resolvesize"
         CancelPasta: "cancelorder"
+  checkTag:
+    component: "System.Output"
+    properties:
+      # the text that’s sent to the user.
+      text: "languageTag is: '${profile.languageTag}'"
+      keepTurn: true
+    transitions: {}
+  switch:
+    component: "System.Switch"
+    properties:
+      source: "${profile.languageTag}"
+      # define 'accepted' languages, these will use resource bundle if available (here only en/default and fr are available), others will be auto-translated
+      values:
+      - "fr"
+      - "en"
+      - "it"
+    transitions:
+      actions:
+        fr: "pastaBotsTest"
+        en: "pastaBotsTest"
+        it: "pastaBotsTest"
+        NONE: "unresolved"
   resolvesize:
     component: "System.SetVariable"
     properties:
@@ -67,26 +104,34 @@ states:
     component: "System.List"
     properties:
       options: "${size.type.enumValues}"
-      prompt: "What size Pasta bowl do you want?"
+      #prompt: "What size Pasta bowl do you want?"
+      # use the resource bundle to display hard-coded message, or autotranslate if not available
+      prompt: "${rb.PastaBowlSize}"
       variable: "size"
     transitions: {}
   cooking:
     component: "System.List"
     properties:
       options: "${cooking.type.enumValues}"
-      prompt: "What cooking do you want for your Pasta?"
+      #prompt: "What cooking do you want for your Pasta?"
+      # use the resource bundle to display hard-coded message, or autotranslate if not available
+      prompt: "${rb.PastaCooking}"
       variable: "cooking"
     transitions: {}
   type:
     component: "System.Text"
     properties:
-      prompt: "What Pasta Sauce do you want?"
+      #prompt: "What Pasta Sauce do you want?"
+      # use the resource bundle to display hard-coded message, or autotranslate if not available
+      prompt: "${rb.PastaType}"
       variable: "type"
     transitions: {}
   cheese:
     component: "System.List"
     properties: 
-      prompt: "What kind of cheese do you want?"
+      #prompt: "What kind of cheese do you want?"
+      # use the resource bundle to display hard-coded message, or autotranslate if not available
+      prompt: "${rb.CheeseType}"
       options: "${cheese.type.enumValues}"
       variable: "cheese"
       nlpResultVariable:       
@@ -115,4 +160,11 @@ states:
     properties:
       text: "I don't understand. What do you want to do?"
     transitions:
-      return: "unresolved"
+      return: "unresolved"    
+  pastaBotsTest:
+    component: "System.Output"
+    properties:
+    # output text from resource bundle and access profile information from user
+      text: "${profile.firstName} ${rb.Greeting}"
+    transitions:
+        return: "pastaBotsTest"
