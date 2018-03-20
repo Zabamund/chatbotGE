@@ -1,0 +1,132 @@
+metadata:
+  platformVersion: "1.0"
+main: true
+name: "MyPastaBot"
+parameters:
+  age: 18
+context:
+  variables:
+    size: "PastaBowlSize"
+    type: "PastaType"
+    cooking: "PastaCooking"
+    cheese: "CheeseType"
+    iResult: "nlpresult"
+    autoTranslate: "boolean"
+    translated: "string"
+    ## variable to hold user language
+    userLanguage: "string"
+    ##
+states:
+  setAutoTranslate:
+    component: "System.SetVariable"
+    properties:
+      variable: "autoTranslate"
+      value: true
+    transitions: {}
+  detect:
+    component: "System.DetectLanguage"
+    properties: {}
+    transitions: {}
+  translate:
+    component: "System.TranslateInput"
+    properties:
+      variable: "translated"
+    transitions: {}
+  unresolvedTranslate:
+    component: "System.TranslateOutput"
+    properties:
+      source: "I'm still learning to speak, I'm sorry if I make mistakes"
+      variable: "translatedApology"
+    transitions: {}
+  intent:
+    component: "System.Intent"
+    properties:
+      variable: "iResult"
+      sourceVariable: "translated"
+      confidenceThreshold: 0.4
+    transitions:
+      actions:
+        OrderPasta: "resolvesize"
+        CancelPasta: "cancelorder"
+  resolvesize:
+    component: "System.SetVariable"
+    properties:
+      variable: "size"
+      value: "${iResult.value.entityMatches['PastaBowlSize'][0]}"
+    transitions: {}
+  resolvecooking:
+    component: "System.SetVariable"
+    properties:
+      variable: "cooking"
+      value: "${iResult.value.entityMatches['PastaCooking'][0]}"
+    transitions: {}
+  resolvetype:
+    component: "System.SetVariable"
+    properties:
+      variable: "type"
+      value: "${iResult.value.entityMatches['PastaType'][0]}"
+    transitions: {}
+  resolvecheese:
+    component: "System.SetVariable"
+    properties:
+      variable: "cheese"
+      value: "${iResult.value.entityMatches['CheeseType'][0]}"
+    transitions: {}
+  size:
+    component: "System.List"
+    properties:
+      options: "${size.type.enumValues}"
+      prompt: "What size Pasta bowl do you want?"
+      variable: "size"
+    transitions: {}
+  cooking:
+    component: "System.List"
+    properties:
+      options: "${cooking.type.enumValues}"
+      prompt: "What cooking do you want for your Pasta?"
+      variable: "cooking"
+    transitions: {}
+  type:
+    component: "System.Text"
+    properties:
+      prompt: "What Pasta Sauce do you want?"
+      variable: "type"
+    transitions: {}
+  cheese:
+    component: "System.List"
+    properties: 
+      prompt: "What kind of cheese do you want?"
+      options: "${cheese.type.enumValues}"
+      variable: "cheese"
+      nlpResultVariable:       
+      translate:
+    transitions: {}
+  done:
+    component: "System.Output"
+    properties:
+      text: "Your ${size.value}, ${type.value} pasta bowl cooked ${cooking.value} with ${cheese.value} cheese is on its way."
+    transitions:
+      return: "done"
+  underage:
+    component: "System.Output"
+    properties:
+      text: "You are too young to order a pasta"
+    transitions:
+      return: "underage"
+  cancelorder:
+    component: "System.Output"
+    properties:
+      text: "Your order is cancelled"
+    transitions:
+      return: "cancelOrder"
+  unresolved:
+    component: "System.Output"
+    properties:
+      text: "I don't understand. What do you want to do?"
+    transitions:
+      return: "unresolved"
+  translationApology:
+    component: "System.Output"
+    properties:
+      text: "${translatedApology}"
+    transitions: {}
