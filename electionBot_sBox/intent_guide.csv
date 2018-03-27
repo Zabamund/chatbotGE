@@ -1,0 +1,114 @@
+Election,Intention,"Exemple de phrase (FR)
+(en jaune les entités)","Variables
+(* = obligatoire)",Si variable obligatoire absente ?,"Exemple de réponse
+(en jaune contenu dynamique)",Choix rapides (1),Priorité (Moscow),Source,"Algorithme pour calculer la réponse
+TODO"
+Toutes,Résultats de l'élection,"Quels sont les résultats
+Résultats
+Résultats de l'élection du conseil d'état CE
+
+Répartition des sièges
+Répartition des suffrages
+Résultat du grand-conseil GC
+Quelles sont les listes qui ont des candidats élus ?",Type élection,Demander pour quelle élection,"CE_1T :
+Les 7 candidats pressentis pour le second tour sont :
+Christopher Lora, Gilles Barpéaimu, Pierre Midi, Robert Letitbe, Olivier Lesombre, Eric Brave, Agnès Cuèlli
+
+GC :
+La répartition des sièges est la suivante :
+Liste des courses : x sièges
+Liste de prevert : y sièges
+…
+Liste et chopin : aucun siège",,MUST,Flow discussion Telono (2ème phase),"CE
+https://www.ge.ch/elections/20180415/CE/datas/noLot/CE_Resultats_Canton.json
+
+--> candidat[0 à 6].id --> https://www.ge.ch/elections/20180415/CE/datas/noLOt/CE_infosCandidat.js --> nom + sexe
+--> candidat[0 à 6].suffrages
+--> candidat[0 à 6].elu --> vérifier l'état si on est en définitif
+
+GC
+https://www.ge.ch/elections/20180415/GC/datas/noLot/GC_Resultats_Canton.json
+repartitionDesSieges[n].liste.id --> récupérer le nom (le nom complet peut être très long)
+repartitionDesSieges[n].nbSieges
+repartitionDesSieges[n].ecartSieges"
+Toutes,Résultat d'un candidat,"Quels sont les résultats pour Pierre Midi ?
+Combien de votes/suffrages a obtenu Pierre Midi ?
+Gilles Barpéaimu est-il élu ?
+Est-ce qu'il est élu ?","Type élection *
+
+Nom du candidat CE *","Demander pour quelle élection
+
+Demander le nom du candidat","CE_1T : Pierre Midi a obtenu 1000 suffrages.
+GC : GC : Gilles Barpéaimu n'a pas été élu. Il a obtenu uniquement 1000 suffrages.
+GC : Gilles Barpéaimu a été élu avec 3000 suffrages.
+
+On ne parle jamais en % de suffrages, car on ne peut pas calculer un tel pourcentage. Contrairement à la France où on élit 1 candidat, à Genève on élit soit 7 soit 100 candidats",Idem pour l'autre élection,MUST,Flow discussion Telono (2ème phase),"CE idem que pour les 7 candidats
+
+GC
+https://www.ge.ch/elections/20180415/GC/datas/noLot/GC_Resultats_Canton.json
+resultatsNominatifs[n].candidat
+.id
+resultatsNominatifs[n].suffrages
+
+ou https://www.ge.ch/elections/20180415/GC/datas/noLot/GC_Resultats_Candidat_10486.json
+resultatsCandidatCanton ou resultatsCandidatParCommune pour une commune
+
+Dans les 2 cas il faut récupérer les données du candidat dans le flux https://www.ge.ch/elections/20180415/GC/datas/noLOt/GC_infosCandidat.json"
+GC,Résultat d'une liste,"Combien de siège ont obtenu la liste des courses ?
+Quels sont les résultats de la liste des courses à Chêne Bougeries ?","Nom de la liste *
+
+Nom local",Demander le nom de la liste,"Si pas de local indiqué :
+La liste des courses a obtenu 34 sièges sur 100.
+Si local :
+La liste des courses a obtenu 17% des voix à Chêne Bougeries.","Proposer de donner la liste des candidats élus pour cette liste
+
+Idem non élus de la liste",MUST,Flow discussion Telono (2ème phase),"Idem que pour le canton
+
+Pour le local
+https://www.ge.ch/elections/20180415/GC/datas/noLot/GC_Resultats_Commune_1000.json
+repartitionDesSuffrages[n].suffragePourcent"
+GC,Qui est élu dans une liste,Qui est élus chez les courses ?,Nom de la liste *,Demander le nom de la liste,"Si résultats anticipés :
+Cette information n'est pas encore disponible tant que les résultats sont anticipés.
+
+Si résultats définitifs :
+Sont élus dans la liste des courses :
+Gilles Barpéaimu avec 47 suffrages (réélection), le terme consacré est ""sortant""
+…
+Agnès Cuèlli avec 7 suffrages (nouveau)
+
+NB : paginer la réponse","Proposer de donner les résultats pour cette liste
+
+Proposer de savoir qui n'a pas été élu",MUST,Brainstorm Olivier - Robert - Christopher,"Cette information est disponible que si les résultats sont définitifs, avant il faut prendre les N premiers ou N est égal au nombre de sièges de la liste et dire ""seraient élus"""
+GC,Qui n'a pas été élu dans une liste,Qui n'est pas élu chez les courses ?,Nom de la liste *,Demander le nom de la liste,"Ne sont pas élus dans la liste des courses :
+Gilles Barpéaimu avec 1% des voix
+…
+Agnès Cuèlli avec 0.5% des voix
+
+NB : paginer la réponse","Proposer de donner les résultats pour cette liste
+
+Proposer de savoir qui a été élu",SHOULD,Brainstorm Olivier - Robert - Christopher,"On devra faire de très longues listes, jusqu'à 100 noms
+Je n'ai pas l'info"
+GC,Combien de fois un candidat a été biffé,Combien de fois Gilles Barpéaimu a-t-il été biffé ?,Nom candidat GC *,Demander le nom du candidat,Il a été biffé 347'890'253'290 fois.,Résultats du candidat,SHOULD,,"https://www.ge.ch/elections/20180415/GC/datas/noLot/GC_Resultats_Candidat_10486.json
+resultatsCandidatCanton.canton.biffes"
+Toutes,Taux de participation,"Quel est le taux de participation ?
+Combien de personnes ont voté ?",Type élection *,Demander pour quelle élection,Le taux participation est de 35%. 3'456 personnes ont voté.,Idem pour l'autre élection,MUST,Flow discussion Telono (2ème phase),"https://www.ge.ch/elections/20180415/GC/datas/noLot/GC_Resultats_Canton.json
+informationsGenerales.participation
++ cartesRecues
+Ces chiffres sont identiques en CE et GC"
+Toutes,Taux de participation par local,Quel est le taux de participation pour Chêne Bougeries ?,Type élection *,Demander pour quelle élection,Le taux participation à Chêne Bougerie est de 35%.,Idem pour l'autre élection,SHOULD,Flow discussion Telono (2ème phase),"https://www.ge.ch/elections/20180415/GC/datas/noLOt/GC_Resultats_Commune_4400.json
+informationsGenerales.participation
++ cartesRecues
+Ces chiffres sont identiques en CE et GC"
+GC,Candidat le plus vieux,Qui est le candidat le plus vieux ?,,,Le candidat le plus vieux est sans conteste Gilles Péaimu.,,WOULD,JL Favre,"Nous n'avons pas l'information, et nous évitons de la donner"
+GC,Candidat le plus jeune,Qui est le candidat le plus jeune?,,,Le candidat le plus jeune est sans conteste Christopher Lora.,,WOULD,JL Favre,
+GC,Listes qui n'atteignent pas le quorum,Quelles sont les listes qui n'ont pas le quorum ?,,,Les listes des courses et de prevert n'atteignent pas le quorum avec respectivement 3% et 7% des voix.,,COULD,Brainstorm Olivier - Robert - Christopher,Toutes les listes qui ont moins de 7% des suffrages
+GC,Listes qui se sont présentées,Quelles sont les listes qui se sont présentées ?,,,Les listes suivantes se sont présentées : (liste des listes),,COULD,Brainstorm Olivier - Robert - Christopher,
+CE_T1,Seuil pour la majorité absolue,Quel est le seuil pour la majorité absolue ?,,,Le seuil est de 51%. (message d'information),,SHOULD,Brainstorm Olivier - Robert - Christopher,"https://www.ge.ch/elections/20180415/CE/datas/noLot/CE_Resultats_Canton.json
+informationsGenerales
+.majoriteAbsolue (que pour le premier tour, au second tour on prend les n meilleures)"
+Toutes,Nombre de bulletins blancs ou nuls,"Quel est le nombre de bulletins nuls ?
+Quel est le nombre de bulletins blancs ?",Type élection *,Demander pour quelle élection,"Il y a eu 345'890'123 bulletins blancs pour l'élection au conseil d'Etat, et 3 bulletins nuls.",,SHOULD,Brainstorm Olivier - Robert - Christopher,"https://www.ge.ch/elections/20180415/CE/datas/noLot/CE_Resultats_Canton.json
+informationsGenerales
+.bulletinsBlancs
+
+Les nuls n'influences pas le résultat"
