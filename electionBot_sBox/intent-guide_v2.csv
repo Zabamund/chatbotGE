@@ -1,0 +1,164 @@
+Election - ENG,Intent - GoogleEnglish,Utterances - GoogleEnglish,Entities - GoogleEnglish,If `entity` missing - FR,Answer examples {dynamic content} - FR,Priority (MoSCoW),Algorithm to get response - ENG
+CE+GC,Results of the election,"What are the results
+Results
+Results of the election of the Council of State CE
+
+Distribution of seats
+Distribution of votes
+GC Outcome
+Which lists have elected candidates? ","THIS
+CE
+GC
+Councillor of state
+state counselor
+Conseiller_ere_d_Etat
+deputy
+MP
+Depute_e
+Type of election ",Demander pour quelle élection,"CE_1T :
+Les 7 candidats pressentis pour le second tour sont :
+{Christopher Lora, Gilles Barpéaimu, Pierre Midi, Robert Letitbe, Olivier Lesombre, Eric Brave, Agnès Cuèlli}
+
+GC :
+La répartition des sièges est la suivante :
+{Liste des courses : x sièges
+Liste de prevert : y sièges
+…
+Liste et chopin : aucun siège}",MUST,"CE
+https://www.ge.ch/elections/20180415/CE/datas/noLot/CE_Resultats_Canton.json
+
+--> candidat[0 à 6].id --> https://www.ge.ch/elections/20180415/CE/datas/noLOt/CE_infosCandidat.js --> name + sexe
+--> candidat[0 à 6].suffrages
+--> candidat[0 à 6].elu --> check if election state is final
+
+GC
+https://www.ge.ch/elections/20180415/GC/datas/noLot/GC_Resultats_Canton.json
+repartitionDesSieges[n].liste.id --> get name (full name can be very long)
+repartitionDesSieges[n].nbSieges
+repartitionDesSieges[n].ecartSieges"
+CE+GC,Result of a candidate,"What are the results for Pierre Midi?
+How many votes / votes got Pierre Midi?
+Is Gilles Barpéaimu elected?
+Is he elected? ","THIS
+CE
+GC
+Councillor of state
+state counselor
+Conseiller_ere_d_Etat
+deputy
+MP
+Depute_e
+Type of election
+Candidate Name
+Name of the candidate ","Demander pour quelle élection
+
+Demander le nom du candidat","CE_1T : {Pierre Midi} a obtenu {1000} suffrages.
+GC : GC : {Gilles Barpéaimu} {n'a pas été élu}. Il a obtenu {uniquement} {1000} suffrages.
+GC : {Gilles Barpéaimu} {a été élu} avec {3000} suffrages.
+
+Attention: On ne parle jamais en % de suffrages, car on ne peut pas calculer un tel pourcentage.
+Contrairement à la France où on élit 1 candidat, à Genève on élit soit 7 soit 100 candidats",MUST,"CE same as for 7 candidates
+
+GC
+https://www.ge.ch/elections/20180415/GC/datas/noLot/GC_Resultats_Canton.json
+resultatsNominatifs[n].candidat
+.id
+resultatsNominatifs[n].suffrages
+
+OR https://www.ge.ch/elections/20180415/GC/datas/noLot/GC_Resultats_Candidat_10486.json
+resultatsCandidatCanton OR resultatsCandidatParCommune for one commune
+
+In both cases get candidate info from https://www.ge.ch/elections/20180415/GC/datas/noLOt/GC_infosCandidat.json"
+GC,Result of a list,"How many seats have the list of races?
+What are the results of the shopping list at Chêne Bougeries? ","Listes_GC
+town
+town
+LocalDeVote
+local poll
+name of the list
+Name of the local
+Name of the municipality ",Demander le nom de la liste,"Si pas de local indiqué :
+{La liste des courses} a obtenu {34} sièges sur 100.
+Si local :
+{La liste des courses} a obtenu {17%} des voix à {Chêne Bougeries}.",MUST,"Same as for canton
+
+For local
+https://www.ge.ch/elections/20180415/GC/datas/noLot/GC_Resultats_Commune_1000.json
+repartitionDesSuffrages[n].suffragePourcent"
+GC,Who is elected in a list,Who is elected at the races?,"deputy
+MP
+Depute_e
+GC
+Listes_GC
+Name of the list",Demander le nom de la liste,"Si résultats anticipés :
+{Cette information n'est pas encore disponible tant que les résultats sont anticipés.}
+
+Si résultats définitifs :
+{Sont élus dans la liste des courses :}
+{Gilles Barpéaimu} avec {47} suffrages (réélection), le terme consacré est ""sortant""
+…
+{Agnès Cuèlli} avec {7} suffrages (nouveau)
+
+NB : paginer la réponse",MUST,"This information is available only if the results are final.
+Before, take the first N or N is equal to the number of seats on the list and say ""would be elected""."
+GC,Who was not elected in a list,Who is not elected at the races?,"deputy
+MP
+Depute_e
+GC
+Listes_GC
+Name of the list",Demander le nom de la liste,"Ne sont pas élus dans la liste des courses :
+{Gilles Barpéaimu avec 1% des voix
+…
+Agnès Cuèlli avec 0.5% des voix}
+
+NB : paginer la réponse",SHOULD,"We'll have to make very long lists, up to 100 names.
+I don't have the info."
+GC,How many times has a candidate been crossed out,How many times has Gilles Barpéaimu been struck out?,"deputy
+MP
+Depute_e
+GC
+Listes_GC
+Candidate Name
+Name of the candidate ",Demander le nom du candidat,Il a été biffé {347'890'253'290} fois.,SHOULD,"https://www.ge.ch/elections/20180415/GC/datas/noLot/GC_Resultats_Candidat_10486.json
+resultatsCandidatCanton.canton.biffes"
+CE+GC,Rate of participation,"What is the participation rate?
+How many people voted? ","Canton
+Participation
+Type of election ",Demander pour quelle élection,Le taux participation est de {35%}. {3'456} personnes ont voté.,MUST,"https://www.ge.ch/elections/20180415/GC/datas/noLot/GC_Resultats_Canton.json
+informationsGenerales.participation
++ cartesRecues
+These values are the same in CE and GC"
+CE+GC,Rate of participation,What is the turnout for Chêne Bougeries?,"Common
+Participation
+Type of election ",Demander pour quelle élection,Le taux participation à {Chêne Bougerie} est de {35%}.,SHOULD,"https://www.ge.ch/elections/20180415/GC/datas/noLOt/GC_Resultats_Commune_4400.json
+informationsGenerales.participation
++ cartesRecues
+These values are the same in CE and GC"
+GC,Oldest candidate,Who is the oldest candidate?,"deputy
+MP
+Depute_e
+GC
+Listes_GC ",,Le candidat le plus vieux est sans conteste {Gilles Péaimu}.,WOULD,"We don't have the information, and we avoid giving it away."
+GC,The youngest candidate,Who is the youngest candidate?,"deputy
+MP
+Depute_e
+GC
+Listes_GC ",,Le candidat le plus jeune est sans conteste {Christopher Lora}.,WOULD,"We don't have the information, and we avoid giving it away."
+GC,Lists that do not reach quorum,Which lists do not have a quorum?,"GC
+Listes_GC ",,Les {listes des courses} et {de prevert} n'atteignent pas le quorum avec respectivement {3%} et {7%} des voix.,COULD,All lists that have less than 7% of the vote
+GC,Lists that showed up,Which lists have appeared?,"GC
+Listes_GC ",,Les listes suivantes se sont présentées : {(liste des listes)},COULD,
+CE_T1,Threshold for the absolute majority,What is the threshold for the absolute majority?,"Canton
+Absolute majority threshold ",,Le seuil est de 51%. (message d'information),SHOULD,"https://www.ge.ch/elections/20180415/CE/datas/noLot/CE_Resultats_Canton.json
+informationsGenerales
+.majoriteAbsolue (only the first round, in the second round the n best are selected)"
+CE+GC,Number of blank or invalid ballots,"What is the number of invalid ballots?
+What is the number of white ballots? ","White Bulletins
+Bulletins void
+Type of elections
+Blank ballots
+Invalid ballots",Demander pour quelle élection,"Il y a eu {345'890'123} bulletins blancs pour l'élection au conseil d'Etat, et {3} bulletins nuls.",SHOULD,"https://www.ge.ch/elections/20180415/CE/datas/noLot/CE_Resultats_Canton.json
+informationsGenerales
+.bulletinsBlancs
+
+Invalid ballots do not influence the result"
