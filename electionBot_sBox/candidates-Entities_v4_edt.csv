@@ -1,0 +1,655 @@
+entity,value,synonyms
+Depute_e,PAGANI Rémy,Rémy:PAGANI:Remy:PAGANI
+Depute_e,WENGER Saliha,Saliha:WENGER:Salika:Saliha:WENGER:Salika
+Depute_e,ZAUGG Christian,Christian:ZAUGG:ZAUG:ZOG:ZOGG:Christian:ZAUGG:ZAUG:ZOG:ZOGG
+Depute_e,HALLER Jocelyne,Jocelyne:HALLER:HALER:Jocelyne:HALLER:HALER
+Depute_e,ENILINE Alexander,Alexander:ENILINE:Alexander:ENILINE
+Depute_e,CRUCHON Pablo,Pablo:CRUCHON:Pablo:CRUCHON
+Depute_e,VALENTINO Stéphanie,Stéphanie:VALENTINO:Stephanie:VALENTINO
+Depute_e,BURGERMEISTER Jean,Jean:BURGERMEISTER:John:BURGERMEISTER
+Depute_e,ECUYER Hélène,Hélène:ECUYER:Helena:ECUYER
+Depute_e,ISSOM David-Zacharie,David:Zacharie:ISSOM:ISOM:David:Zechariah:ISSOM:ISOM
+Depute_e,OSSMANN Sekna,Sekna:OSSMANN:OSMANN:OSSMAN:Sekna:Ossmann:Osmann:Ossman
+Depute_e,NYFFELER BATOU Françoise,Françoise:NYFFELER:BATOU:NIFFELER:NYFELLER:Françoise:NYFFELER:Batou:Niffeler:NYFELLER
+Depute_e,JANUZI Bashkim,Bashkim:JANUZI:Baskim:JANUZZI:Bashkim:Januzi:Baskim:Januzzi
+Depute_e,ECUYER Sébastien,Sébastien:ECUYER:Sebastian:ECUYER
+Depute_e,OVETT BONDI Davinia,Davinia:OVETT:BONDI:OVET:Davinia:OVETT:BONDI:OVET
+Depute_e,JIMENEZ Jean-Daniel,Jean:Daniel:JIMENEZ:Jean:Daniel:JIMENEZ
+Depute_e,ECUYER Annick,Annick:ECUYER:Annick:ECUYER
+Depute_e,PERADOTTO Julie,Julie:PERADOTTO:PERADOTO:PERRADOTO:PERADOTTO:Julie:Peradotto:PERADOTO:PERRADOTO:Peradotto
+Depute_e,MANRÍQUEZ Matías,Matías:MANRÍQUEZ:Matías:Manriquez
+Depute_e,ZEHFUS Yves,Yves:ZEHFUS:ZHEFUS:ZEHFUSS:ZHEFUSS:Yves:Zehfus:ZHEFUS:ZEHFUSS:ZHEFUSS
+Depute_e,ZAUGG Daniel,Daniel:ZAUGG:ZAUG:ZOG:ZOGG:Daniel:ZAUGG:ZAUG:ZOG:ZOGG
+Depute_e,PEREZ Maria,Maria:PEREZ:Lou:Maria:Perez:Lou
+Depute_e,SCHNEBLI Tobias,Tobias:SCHNEBLI:Tobia:SHNEBLI:TOBIAS:Schnebli:Tobia:SHNEBLI
+Depute_e,MISSOH DZIKUNOO Massan,Massan:MISSOH:DZIKUNOO:DZIKOUNO:MISSO:MISHO:Massan:MISSOH:DZIKUNOO:DZIKOUNO:MISSO:Misho
+Depute_e,MARTENOT Aude,Aude:MARTENOT:Aude:MARTENOT
+Depute_e,VANEK Pierre,Pierre:VANEK:VANECK:Peter:VANEK:vaneck
+Depute_e,CLEMENT Patrice,Patrice:CLEMENT:Patrice:CLEMENT
+Depute_e,PREZIOSO BATOU Stefania,Stefania:PREZIOSO:BATOU:PRESIOSO:Stefania:PREZIOSO:Batou:PRESIOSO
+Depute_e,ESAKI KABEYA Elisabeth,Elisabeth:ESAKI:KABEYA:Elisabeth:Esaki:KABEYA
+Depute_e,LANGFORD Pia,Pia:LANGFORD:Pia:LANGFORD
+Depute_e,VINCENT Michel,Michel:VINCENT:Michel:VINCENT
+Depute_e,RUMPCZYK Delphine,Delphine:RUMPCZYK:RUMPTCHIK:RUMPTCHYK:RUMPZYK:Delphine:RUMPCZYK:RUMPTCHIK:RUMPTCHYK:RUMPZYK
+Depute_e,SALM DARBOE Karijn,Karijn:SALM:DARBOE:Karijn:SALM:Darboe
+Depute_e,ANDENMATTEN David,David:ANDENMATTEN:ANDENMATEN:David:ANDENMATTEN:ANDENMATEN
+Depute_e,SCHMID Audrey,Audrey:SCHMID:SCHMIT:SCHMITT:Audrey:SCHMID:SCHMIT:SCHMITT
+Depute_e,GUEVARA Francisco,Francisco:GUEVARA:Francisco:GUEVARA
+Depute_e,BATOU Jean,Jean:BATOU:John:Batou
+Depute_e,STEBLER GUENAT Henriette,Henriette:STEBLER:GUENAT:GUENAZ:GUENAD:Henriette:STEBLER:GUENAT:GUENAZ:GUENAD
+Depute_e,EDJEOU Corinne,Corinne:EDJEOU:BUNTSCHU:BUNTCHU:Corinne:EDJEOU:BUNTSCHU:BUNTCHU
+Depute_e,ZAUGG Cecilia,Cecilia:ZAUGG;ZAUG:ZOG:ZOGG:Cecilia:ZAUGG;:ZAUG:ZOG:ZOGG
+Depute_e,BAUD Olivier,Olivier:BAUD:BEAUD:BEAU:Olivier:Baud:BEAUD:BEAU
+Depute_e,ZBINDEN Livia,Livia:ZBINDEN:Livia:ZBINDEN
+Depute_e,ROSSEL Pascal,Pascal:ROSSEL:ROSEL:ROSSELL:Pascal:ROSSEL:ROSEL:ROSSELL
+Depute_e,BAYENET Pierre,Pierre:BAYENET:BAIENET:Peter:Bayenet:BAIENET
+Depute_e,BAILAT Ariane,Ariane:BAILAT:BAILLAT:Ariane:Bailat:BAILLAT
+Depute_e,MAILLEFER Denise,Denise:MAILLEFER:MAILEFER:Denise:MAILLEFER:MAILEFER
+Depute_e,MEIERHOFER MANYAGOUA BOUMTCHÉ Charlotte,Charlotte:MEIERHOFER:MANYAGOUA:BOUMTCHÉ:MEIERHOFFER:MANIAGOUA:Charlotte:MEIERHOFER:MANYAGOUA:BOUMTCHÉ:MEIERHOFFER:MANIAGOUA
+Depute_e,BLANCHET Marjo,Marjo:BLANCHET:Marjo:Blanchet
+Depute_e,MARTI Werner,Werner:MARTI:MARTY:Werner:MARTI:MARTY
+Depute_e,KHAOUCHI Corinne,Corinne:KHAOUCHI:KAOUCHI:KAHOUCHI:Corinne:KHAOUCHI:KAOUCHI:KAHOUCHI
+Depute_e,BOLAY ROBIN Stéphanie,Stéphanie:BOLAY:ROBIN:Stephanie:BOLAY:ROBIN
+Depute_e,BLANCO Luis,Luis:BLANCO:Luis:BLANCO
+Depute_e,MAMIN François,François:MAMIN:Francis:MAMIN
+Depute_e,DE MELO MARCELINO Amélia,Amélia:DE:MELO:MARCELINO:Amelia:DE:MELO:MARCELINO
+Depute_e,BOUZID Mohamed,Mohamed:BOUZID:Mohamed:Bouzid
+Depute_e,BOUJEMAA Sanae,Sanae:BOUJEMAA:BOUJEMA:Sanae:BOUJEMAA:Boujema
+Depute_e,GALLAND Eduardo,Eduardo:GALLAND:GALLANT:Eduardo:Galland:GALLANT
+Depute_e,JELK Andrée,Andrée:JELK:JELK:PEILA:JELCK:PELA:Andree:JELK:JELK:PEILA:JELCK:PELA
+Depute_e,CASTRO Gloria,Gloria:CASTRO:Gloria:CASTRO
+Depute_e,CAMELO Alfredo,Alfredo:CAMELO:Alfredo:CAMELO
+Depute_e,NOETZLIN Simon,Simon:NOETZLIN:Simon:NOETZLIN
+Depute_e,DURAKU Fitore,Fitore:DURAKU:Fitore:Duraku
+Depute_e,DURAKU Edon,Edon:DURAKU:Edon:Duraku
+Depute_e,FERREIRA Elisabeth,Elisabeth:FERREIRA:FEREIRAI:FERRERA:Elisabeth:FERREIRA:FEREIRAI:FERRERA
+Depute_e,CHRISTINAT Jean-David,Jean:David:CHRISTINAT:CHRISTINA:John:David:CHRISTINAT:CHRISTINA
+Depute_e,GERARDO FÉLIZ GRUBI Ynes,Ynes:GERARDO:FÉLIZ:GRUBI:FELIX:Ynes:GERARDO:Feliz:Grubi:FELIX
+Depute_e,CARLO Xavier,Xavier:CARLO:Xavier:CARLO
+Depute_e,SAHIN Gazi,Gazi:SAHIN:Gazi:SAHIN
+Depute_e,HODGERS Antonio,Antonio:HODGERS:Antonio:Hodgers
+Depute_e,DE CHASTONAY Marjorie,Marjorie:DE:CHASTONAY:DECHASTONAY:DE:CHASTONNAY:DE:CHASTONAIT:Marjorie:FROM:CHASTONAY:DECHASTONAY:FROM:CHASTONNAY:FROM:CHASTONAIT
+Depute_e,ROCHAT Yvan,Yvan:ROCHAT:Yvan:ROCHAT
+Depute_e,PERLER Frédérique,Frédérique:PERLER:Frédérique:PERLER
+Depute_e,BUSCHBECK Mathias,Mathias:BUSCHBECK:BUCHBECK:BUSHBECK:BUSCHBEK:Mathias:Buschbeck:BUCHBECK:BUSHBECK:BUSCHBEK
+Depute_e,LEFORT François,François:LEFORT:François:LEFORT
+Depute_e,LEONELLI Katia,Katia:LEONELLI:LEONNELLI:LEONELI:Katia:LEONELLI:LEONNELLI:LEONELI
+Depute_e,MACCHIAVELLI Marta,Marta:MACCHIAVELLI:Marta:Julia:MACHIAVELLI:MACCHIAVELI:Marta:MACCHIAVELLI:Marta:Julia:Machiavelli:MACCHIAVELI
+Depute_e,MAKOSSO William,William:MAKOSSO:MAKOSO:MACKOSSO:William:Makosso:MAKOSO:Mackosso
+Depute_e,MARTIN David,David:MARTIN:David:MARTIN
+Depute_e,MÜLLER SONTAG Corinne,Corinne:MÜLLER:SONTAG:Corinne:Müller:SONTAG
+Depute_e,NICOLET-DIT-FELIX Julien,Julien:NICOLET:DIT:FELIX:Julien:Nicolet:DIT:FELIX
+Depute_e,NOËL Philippe,Philippe:NOËL:Philip:CHRISTMAS
+Depute_e,ORIOLO Alessandra,Alessandra:ORIOLO:ORIOLLO:Alessandra:ORIOLO:ORIOLLO
+Depute_e,OZTÜRK Dilara,Dilara:OZTÜRK:Dilara:Ozturk
+Depute_e,PASQUIER Isabelle,Isabelle:PASQUIER:PASQUIER:EICHENBERGER:Isabelle:Pasquier:Pasquier:EICHENBERGER
+Depute_e,POGET Philippe,Philippe:POGET:Philip:POGET
+Depute_e,QUIJANO GARCIA Maria,Maria:QUIJANO:GARCIA:Maria:José:Maria:QUIJANO:GARCIA:Maria:Jose
+Depute_e,RODRIGUEZ Mario,Mario:RODRIGUEZ:RODRIGUES:Mario:RODRIGUEZ:RODRIGUES
+Depute_e,ROGG Catharina,Catharina:ROGG:Olowine:ROG:Catharina:ROGG:Olowine:ROG
+Depute_e,ROSSIAUD Jean,Jean:ROSSIAUD:ROSSIAUT:John:ROSSIAUD:ROSSIAUT
+Depute_e,SAA BAUD Yubitza,Yubitza:SAA:BAUD:Youbitza:BEAUD:Yubitza:SAA:Baud:Youbitza:BEAUD
+Depute_e,SCHALK Antoine,Antoine:SCHALK:Antoine:SCHALK
+Depute_e,SCHAUFELBERGER Esther,Esther:SCHAUFELBERGER:Esther:SCHAUFELBERGER
+Depute_e,SORDET Adrienne,Adrienne:SORDET:Adrienne:SORDET
+Depute_e,TALEGHANI Majid,Majid:TALEGHANI:TALEGANI:TALEGANNI:Majid:Taleghani:TALEGANI:TALEGANNI
+Depute_e,TCHAMKERTEN Jolanka,Jolanka:TCHAMKERTEN:Jolanka:Tchamkerten
+Depute_e,TIGUEMOUNINE Sabine,Sabine:TIGUEMOUNINE:Sabine:TIGUEMOUNINE
+Depute_e,TINGUELY Dominique,Dominique:TINGUELY:Dominica:TINGUELY
+Depute_e,TSCHUDI Paloma,Paloma:TSCHUDI:TCHUDI:Paloma:TSCHUDI:TCHUDI
+Depute_e,VAN WOERDEN Wendy,Wendy:VAN:WOERDEN:Wendy:VAN:WOERDEN
+Depute_e,VEIGA ARIAS Damian,Damian:VEIGA:ARIAS:VEIGA:LÖFFEL:Damian:VEIGA:ARIAS:VEIGA:LÖFFEL
+Depute_e,WISARD PRADO Leyma,Leyma:WISARD:PRADO:WIZARD:WISART:Leyma:WISARD:PRADO:WIZARD:Wisart
+Depute_e,YUNUS EBENER Mariam,Mariam:YUNUS:EBENER:Maryam:Mariam:YUNUS:EBENER:Maryam
+Depute_e,AMATO Maurice,Maurice:AMATO:AMSELEM:OSSIPOV:Mauritius:AMATO:AMSELEM:Osipov
+Depute_e,AMSELLEM Benedicte,Benedicte:AMSELLEM:AMSELLEM:OSSIPOW:AMSELEM:OSSIPOV:Benedicte:AMSELLEM:AMSELLEM:Ossipow:AMSELEM:Osipov
+Depute_e,ARDIZZONE Ivan,Ivan:ARDIZZONE:Ivan:ARDIZZONE
+Depute_e,AZZABI Omar,Omar:AZZABI:AZABBI:Omar:AZZABI:AZABBI
+Depute_e,BÄNZIGER Ruth,Ruth:BÄNZIGER:Ruth:BANZIGER
+Depute_e,BARCIELA VILLAR Ana,Ana:BARCIELA:VILLAR:Ana:Barciela:VILLAR
+Depute_e,BAVAREL Christian,Christian:BAVAREL:Christian:Bavarel
+Depute_e,BOCCARD Damien,Damien:BOCCARD:Damien:Baptiste:BOCARD:Damien:Boccard:Damien:Baptist:BOCARD
+Depute_e,BONNY Didier,Didier:BONNY:Didier:BONNY
+Depute_e,BONVIN BONFANTI Anne,Anne:BONVIN:BONFANTI:Anne:BONVIN:BONFANTI
+Depute_e,BUCHER Denis,Denis:BUCHER:Denis:Bucher
+Depute_e,BUENZOD Christian,Christian:BUENZOD:Christian:Buenzod
+Depute_e,BUI Aurore,Aurore:BUI:BUY:Aurora:BUI:BUY
+Depute_e,CABITZA Marina,Marina:CABITZA:Marina:Cabitza
+Depute_e,CALAME Boris,Boris:CALAME:Boris:CALAME
+Depute_e,CALAME Fabrice,Fabrice:CALAME:Fabrizio:CALAME
+Depute_e,CHAUDIEU Anne,Anne:CHAUDIEU:Anne:Chaudieu
+Depute_e,CONCHA Celtia,Celtia:CONCHA:Celtia:CONCHA
+Depute_e,CORPATAUX Laurence,Laurence:CORPATAUX:CORPATAUX:Laurence:CORPATAUX:CORPATAUX
+Depute_e,DALPHIN Marc,Marc:DALPHIN:DALFIN:Marc:dalphin:DALFIN
+Depute_e,DE FELICE Nicolas,Nicolas:DE:FELICE:Nicolas:DE:FELICE
+Depute_e,DE MAIO Sara,Sara:DE:MAIO:Sara:DE:MAIO
+Depute_e,DE MATTEIS Yves,Yves:DE:MATTEIS:DE:MATEIS:Yves:DE:MATTEIS:BY:MATEIS
+Depute_e,DE ROUGEMONT Philippe,Philippe:DE:ROUGEMONT:Philippe:DE:ROUGEMONT
+Depute_e,DESBIOLLES Sophie,Sophie:DESBIOLLES:Sophie:DESBIOLLES
+Depute_e,DESCOMBES Isabelle,Isabelle:DESCOMBES:DECOMBES:Isabelle:DESCOMBES:DECOMBES
+Depute_e,DUJOUX Valentin,Valentin:DUJOUX:Valentin:DUJOUX
+Depute_e,DUPUIS Renaud,Renaud:DUPUIS:Renaud:DUPUIS
+Depute_e,EBENER Christophe,Christophe:EBENER:Christophe:EBENER
+Depute_e,ECKERT Pierre,Pierre:ECKERT:EKERT:Peter:ECKERT:EKERT
+Depute_e,FISCHER Fabienne,Fabienne:FISCHER:Fabienne:FISCHER
+Depute_e,FREYMOND Pascal,Pascal:FREYMOND:FREYMONT:Pascal:FREYMOND:FREYMONT
+Depute_e,GEOFFROY Elias,Elias:GEOFFROY:GEOFROY:Elias:Geoffroy:Geofroy
+Depute_e,GOMEZ Alfonso,Alfonso:GOMEZ:Alfonso:Gomez
+Depute_e,HAAS François,François:HAAS:HAS:François:HAAS:HAS
+Depute_e,HARTMANN Esther,Esther:HARTMANN:HARTMAN:Esther:HARTMANN:HARTMAN
+Depute_e,HEBERLEIN SIMONETT Claudia,Claudia:HEBERLEIN:SIMONETT:SIMONET:Claudia:HEBERLEIN:SIMONETT:SIMONET
+Depute_e,HERREN Yves,Yves:HERREN:Yves:HERREN
+Depute_e,KHAMIS VANNINI Uzma,Uzma:KHAMIS:VANNINI:KAMIS:Uzma:KHAMIS:VANNINI:KAMIS
+Depute_e,KLOPFENSTEIN BROGGINI Delphine,Delphine:KLOPFENSTEIN:BROGGINI:BOGINI:Delphine:KLOPFENSTEIN:BROGGINI:BOGINI
+Depute_e,KÜNDIG Ralph,Ralph:KÜNDIG:Ralph:KÜNDIG
+Depute_e,LATOUR Sabine,Sabine:LATOUR:Sabine:LATOUR
+Depute_e,EMERY-TORRACINTA Anne,Anne:EMERY:TORRACINTA:TORACINTA:Anne:EMERY:TORRACINTA:TORACINTA
+Depute_e,APOTHÉLOZ Thierry,Thierry:APOTHÉLOZ:Thierry:APOTHELOZ
+Depute_e,SALERNO Sandrine,Sandrine:SALERNO:Sandrine:SALERNO
+Depute_e,DE SAINTE-MARIE Romain,Romain:DE:SAINTE:MARIE:Romain:DE:SAINTE:MARIE
+Depute_e,KAST Carole-Anne,Carole:Anne:KAST:Carole:Anne:KAST
+Depute_e,WENGER Thomas,Thomas:WENGER:Thomas:WENGER
+Depute_e,MARTI Caroline,Caroline:MARTI:MARTY:Caroline:MARTI:MARTY
+Depute_e,BANDLER Marko,Marko:BANDLER:Marko:Bandler
+Depute_e,MOYARD MIZRAHI Salima,Salima:MOYARD:MIZRAHI:Salima:MOYARD:MIZRAHI
+Depute_e,DANDRÈS Christian,Christian:DANDRÈS:Christian:Dandres
+Depute_e,VERISSIMO DE FREITAS Helena,Helena:VERISSIMO:DE:FREITAS:Helena:VERISSIMO:DE:FREITAS
+Depute_e,CARASSO Grégoire,Grégoire:CARASSO:Gregory:CARASSO
+Depute_e,SOBANEK Marion,Marion:SOBANEK:SOBANECK:Marion:SOBANEK:SOBANECK
+Depute_e,THÉVOZ Sylvain,Sylvain:THÉVOZ:Sylvain:Thévoz
+Depute_e,CONTI Jennifer,Jennifer:CONTI:Jennifer:CONTI
+Depute_e,STAUB Martin,Martin:STAUB:GRECUCIO:Martin:STAUB:GRECUCIO
+Depute_e,VALIQUER GRECUCCIO Nicole,Nicole:VALIQUER:GRECUCCIO:Nicole:VALIQUER:Grecuccio
+Depute_e,RIELLE Jean Charles,Jean:Charles:RIELLE:Jean:Charles:RIELLE
+Depute_e,GAVILANES Amanda,Amanda:GAVILANES:Amanda:GAVILANES
+Depute_e,MIZRAHI Cyril,Cyril:MIZRAHI:Cyril:MIZRAHI
+Depute_e,CASARES Maria Jesus,Maria:Jesus:CASARES:Maria:Jesus:CASARES
+Depute_e,POMATTO Michel,Michel:POMATTO:Michel:Pomatto
+Depute_e,STRASSER Léna,Léna:STRASSER:Lena:Strasser
+Depute_e,KOKOT Guilhem,Guilhem:KOKOT:Guilhem:KOKOT
+Depute_e,ROMANO Maria,Maria:ROMANO:Maria:Vittoria:Maria:ROMANO:Maria:Vittoria
+Depute_e,MUSSA Ahmed,Ahmed:MUSSA:Youniss:Ahmed:Mussa:Youniss
+Depute_e,OSMANI Xhevrie,Xhevrie:OSMANI:Xhevrie:OSMANI
+Depute_e,ESTEBAN Diego,Diego:ESTEBAN:Diego:ESTEBAN
+Depute_e,BAILLON Glenna,Glenna:BAILLON:Glenna:BAILLON
+Depute_e,EYA NCHAMA Cruz Melchor,Cruz:Melchor:EYA:NCHAMA:Cruz:Melchor:EYA:NCHAMA
+Depute_e,BRANDRUP Gladys,Gladys:BRANDRUP:ACOSTA:BRANDRUP:Gladys:BRANDRUP:ACOSTA:BRANDRUP
+Depute_e,CHIARADONNA Denis,Denis:CHIARADONNA:CHIARADONA:Denis:CHIARADONNA:CHIARADONA
+Depute_e,LÜTHI Badia,Badia:LÜTHI:LUTHY:Badia:LÜTHI:LUTHY
+Depute_e,CLEMENCE Nicolas,Nicolas:CLEMENCE:Nicolas:CLEMENCE
+Depute_e,VATRE Patricia,Patricia:VATRE:Patricia:Vatre
+Depute_e,ZIMMERMANN Michel,Michel:ZIMMERMANN:ZIMERMANN:ZIMMERMAN:Michel:ZIMMERMANN:Zimermann:ZIMMERMAN
+Depute_e,VIRET Dora,Dora:VIRET:Cécilia:Dora:VIRET:Cecilia
+Depute_e,VELASCO Alberto,Alberto:VELASCO:FAVRE:Alberto:VELASCO:FAVRE
+Depute_e,FABRE Michel,Michel:FABRE:Michel:Fabre
+Depute_e,DE BATTISTA Regis,Regis:DE:BATTISTA:DE:BATISTA:Regis:FROM:BATTISTA:FROM:BATISTA
+Depute_e,DEONNA Emmanuel,Emmanuel:DEONNA:DEONA:Emmanuel:DEONNA:Deona
+Depute_e,TOMBOLA Jean-Pierre,Jean:Pierre:TOMBOLA:Jean:Pierre:RAFFLE
+Depute_e,KEEL Theo,Theo:KEEL:Theo:KEEL
+Depute_e,LAPALUD Patrick,Patrick:LAPALUD:Patrick:LAPALUD
+Depute_e,BARRY Thierno,Thierno:BARRY:Thierno:BARRY
+Depute_e,HALIMI Hysri,Hysri:HALIMI:Hysri:HALIMI
+Depute_e,GAJARDO MUNOZ Jorge,Jorge:GAJARDO:MUNOZ:Jorge:GAJARDO:MUNOZ
+Depute_e,ALONSO UNICA Manuel,Manuel:ALONSO:UNICA:Manual:ALONSO:UNICA
+Depute_e,BALDINI Frédéric,Frédéric:BALDINI:Frederick:BALDINI
+Depute_e,BRUCHEZ Thomas,Thomas:BRUCHEZ:Thomas:BRUCHEZ
+Depute_e,BENDA Benjamin,Benjamin:BENDA:Benjamin:Benda
+Depute_e,BURKHARD Roland,Roland:BURKHARD:BURKHART:BURKARDT:Roland:BURKHARD:BURKHART:BURKARDT
+Depute_e,BOSSHARD Pierre Yves,Pierre:Yves:BOSSHARD:BOSSHART:BOSSARDT:Pierre:Yves:BOSSHARD:BOSSHART:Bossardt
+Depute_e,KURTESHI Ismet,Ismet:KURTESHI:KURTECHI:Ismet:KURTESHI:KURTECHI
+Depute_e,MAUDET Pierre,Pierre:MAUDET:Peter:MAUDET
+Depute_e,FONTANET Nathalie,Nathalie:FONTANET:Nathalie:FONTANET
+Depute_e,DE SENARCLENS Alexandre,Alexandre:DE:SENARCLENS:Alexander:DE:SENARCLENS
+Depute_e,DE MONTMOLLIN Simone,Simone:DE:MONTMOLLIN:MONTMOLIN:Simone:DE:MONTMOLLIN:MONTMOLIN
+Depute_e,MOREL Philippe,Philippe:MOREL:Philippe:MOREL
+Depute_e,PUTALLAZ Jean,Jean:PUTALLAZ:Jean:ROMAIN:PUTALAZ:John:Putallaz:Jean:ROMAN:PUTALAZ
+Depute_e,SAUDAN Patrick,Patrick:SAUDAN:Patrick:SAUDAN
+Depute_e,SELLEGER Charles,Charles:SELLEGER:Charles:Selleger
+Depute_e,UEHLINGER Pascal,Pascal:UEHLINGER:UELINGER:Pascal:Uehlinger:UELINGER
+Depute_e,VUILLOD Georges,Georges:VUILLOD:VUILLOT:Georges:VUILLOD:VUILLOT
+Depute_e,WICKY Raymond,Raymond:WICKY:WICKI:Raymond:WICKY:WICKI
+Depute_e,ZUBER Céline,Céline:ZUBER:ROY:Celine:ZUBER:ROY
+Depute_e,ZWEIFEL Yvan,Yvan:ZWEIFEL:ZWEIFFEL:Yvan:ZWEIFEL:Zweiffel
+Depute_e,AELLEN Cyril,Cyril:AELLEN:AELEN:Cyril:AELLEN:Aelen
+Depute_e,ALDER Murat Julian,Murat:Julian:ALDER:Murat:Julian:ALDER
+Depute_e,BARBEY Alexis,Alexis:BARBEY:BARBET:Alexis:BARBEY:BARBET
+Depute_e,BARDE Antoine,Antoine:BARDE:Antoine:BARD
+Depute_e,BÉNÉ Jacques,Jacques:BÉNÉ:Jacques:Bene
+Depute_e,DE CANDOLLE Beatriz,Beatriz:DE:CANDOLLE:CANDOLE:Beatriz:DE:CANDOLLE:Candole
+Depute_e,CONNE Pierre,Pierre:CONNE:Peter:CONNE
+Depute_e,CUENDET Edouard,Edouard:CUENDET:Edward:CUENDET
+Depute_e,HARDYN Nathalie,Nathalie:HARDYN:HARDIN:Nathalie:Hardyn:HARDIN
+Depute_e,HILTPOLD Serge,Serge:HILTPOLD:HITPOLD:Serge:Hiltpold:HITPOLD
+Depute_e,MALEK-ASGHAR Patrick,Patrick:MALEK:ASGHAR:MALECK:AGSHAR:Patrick:MALEK:ASGHAR:Malek:AGSHAR
+Depute_e,MONBARON Fabienne,Fabienne:MONBARON:MONBARON:STRESS:STRES:Fabienne:MONBARON:MONBARON:STRESS:STRES
+Depute_e,MORAND Louise,Louise:MORAND:MORANT:Louise:MORAND:MORANT
+Depute_e,NICOLLIER Pierre,Pierre:NICOLLIER:NICOLIER:Peter:NICOLLIER:NICOLIER
+Depute_e,OPPLIGER Danielle,Danielle:OPPLIGER:OPLIGER:OPPLIGGER:Danielle:OPPLIGER:OPLIGER:OPPLIGGER
+Depute_e,ORSINI Antoine,Antoine:ORSINI:Antoine:ORSINI
+Depute_e,PASQUIER Jean-Pierre,Jean:Pierre:PASQUIER:Jean:Pierre:Pasquier
+Depute_e,PATEK Serge,Serge:PATEK:Serge:PATEK
+Depute_e,DE PLANTA Francine,Francine:DE:PLANTA:Francine:DE:PLANTA
+Depute_e,RANA ZOLANA Ginior,Ginior:RANA:ZOLANA:Ginior:RANA:zolana
+Depute_e,RIGOTTI Maria,Maria:RIGOTTI:Helena:RIGOTI:Maria:RIGOTTI:Helena:RIGOTI
+Depute_e,ROULLET Michèle,Michèle:ROULLET:Michele:ROULLET
+Depute_e,SCHALLER Vincent,Vincent:SCHALLER:SCHALER:Vincent:SCHALLER:Schäler
+Depute_e,SCHNEEBELI Roland-Daniel,Roland:Daniel:SCHNEEBELI:SCHEBELI:SCHEEBBELI:Roland:Daniel:SCHNEEBELI:SCHEBELI:SCHEEBBELI
+Depute_e,SENGLET Christophe,Christophe:SENGLET:Christophe:Senglet
+Depute_e,SERRANO Philippe,Philippe:SERRANO:SERANO:Philippe:SERRANO:SERANO
+Depute_e,SOMMER Monika,Monika:SOMMER:SOMER:SOMERE:Monika:SOMMER:Somer:Somere
+Depute_e,STEINER Matthieu,Matthieu:STEINER:Matthew:STEINER
+Depute_e,SUBILIA Vincent,Vincent:SUBILIA:Vincent:SUBILIA
+Depute_e,TABOADA Francisco,Francisco:TABOADA:Francisco:TABOADA
+Depute_e,TSCHOPP Laurent,Laurent:TSCHOPP:TCHOPP:TSHOPP:Laurent:Tschopp:TCHOPP:TSHOPP
+Depute_e,WAVRE Rolin,Rolin:WAVRE:Rolin:WAVRE
+Depute_e,WICKI Guy,Guy:WICKI:WICKY:WYCKI:Guy:WICKI:WICKY:WYCKI
+Depute_e,WOLFISBERG François,François:WOLFISBERG:Francis:wolfisberg
+Depute_e,AGRAMUNT Gian-Reto,Gian:Reto:AGRAMUNT:Gian:Reto:AGRAMUNT
+Depute_e,APOTHÉLOZ Jacques,Jacques:APOTHÉLOZ:Jacques:APOTHELOZ
+Depute_e,AUBERT Nicolas,Nicolas:AUBERT:Nicolas:AUBERT
+Depute_e,BARBIER-MUELLER Diane,Diane:BARBIER:MUELLER:Diane:BARBER:MUELLER
+Depute_e,BELLINGERI Stefano Vito,Stefano:Vito:BELLINGERI:BELINGERI:Stefano:Vito:Bellingeri:BELINGERI
+Depute_e,BERSIER Julie,Julie:BERSIER:Julie:BERSIER
+Depute_e,BLANCH Richard-Pascal,Richard:Pascal:BLANCH:Pascal:Richard:Pascal:BLANCH:Pascal
+Depute_e,BÖHLER Frances,Frances:BÖHLER:Elizabeth:BÖHLER:GOODSHIP:BÖLLER:Frances:BÖHLER:Elizabeth:BÖHLER:Goodship:Boller
+Depute_e,BOUVIER Christine,Christine:BOUVIER:Christine:Bouvier
+Depute_e,BRANDT Simon,Simon:BRANDT:BRAND:BRANT:Simon:BRANDT:BRAND:BRANT
+Depute_e,BRON Gilles-Olivier,Gilles:Olivier:BRON:Gilles:Olivier:BRON
+Depute_e,BRUNEL Mayori,Mayori:BRUNEL:BRUNELL:BRUNNEL:Mayori:Brunel:Brunell:Brunnel
+Depute_e,BURRI Rémy,Rémy:BURRI:Remy:BURRI
+Depute_e,CORNU Renate,Renate:CORNU:Renate:CORNU
+Depute_e,CREFFIELD Conrad,Conrad:CREFFIELD:Conrad:Creffield
+Depute_e,DAHER Vincent,Vincent:DAHER:Vincent:DAHER
+Depute_e,DÉROBERT Thierry,Thierry:DÉROBERT:Thierry:Dérobert
+Depute_e,DESFAYES Natacha,Natacha:DESFAYES:BUFFET:DESFAYES:Natacha:DESFAYES:BUFFET:DESFAYES
+Depute_e,DOUZALS Jacques,Jacques:DOUZALS:Jacques:DOUZALS
+Depute_e,FISS Joëlle,Joëlle:FISS:Joëlle:HSIF
+Depute_e,GENECAND Adrien,Adrien:GENECAND:Adrien:Genecand
+Depute_e,GIACOBINO Donata,Donata:GIACOBINO:Nadia:GIACOBINO:FROIDEVAUX:Donata:Giacobino:Nadia:Giacobino:FROIDEVAUX
+Depute_e,GRAND Eric,Eric:GRAND:Eric:GRAND
+Depute_e,GROGNUZ Fabien,Fabien:GROGNUZ:Fabien:Grognuz
+Depute_e,JAY Sylvie,Sylvie:JAY:Sylvie:JAY
+Depute_e,JUD Philippe,Philippe:JUD:Philip:JUD
+Depute_e,KÄMPFEN Véronique,Véronique:KÄMPFEN:Veronica:Kämpfen
+Depute_e,LÄMMEL Valérie,Valérie:LÄMMEL:LAEMMEL:JUILLARD:Valerie:Researcher:LAEMMEL:JUILLARD
+Depute_e,LEISER Jean-Marc,Jean:Marc:LEISER:Jean:Marc:LEISER
+Depute_e,LOCHER Jean,Jean:LOCHER:John:Locher
+Depute_e,LUZZATTO Christine,Christine:LUZZATTO:LUZATO:LUZZATO:LUZATTO:Christine:Luzzatto:LUZATO:Luzzatto:Luzatto
+Depute_e,MESSERLI Marie-Claire,Marie:Claire:MESSERLI:Marie:Claire:MESSERLI
+Depute_e,MEYER Philippe,Philippe:MEYER:MEIER:Philip:MEYER:MEIER
+Depute_e,BARTHASSAT Luc,Luc:BARTHASSAT:BARTASSAT:Luke:Barthassat:BARTASSAT
+Depute_e,DAL BUSCO Serge,Serge:DAL:BUSCO:Serge:DAL:BUSCO
+Depute_e,BUCHS Bertrand,Bertrand:BUCHS:Bertrand:BUCHS
+Depute_e,AEBI Benjamin,Benjamin:AEBI:Benjamin:AEBI
+Depute_e,ANGELOZZI Philippe,Philippe:ANGELOZZI:Philip:ANGELOZZI
+Depute_e,VON ARX-VERNON Anne-Marie,Anne:Marie:VON:ARX:VERNON:Anne:Marie:VON:ARX:VERNON
+Depute_e,BACHMANN Delphine,Delphine:BACHMANN:BACHMAN:Delphine:BACHMANN:BACHMAN
+Depute_e,BIDAUX Patricia,Patricia:BIDAUX:BIDAUX:RODRIGUEZ:RODRIGUES:Patricia:BIDAUX:BIDAUX:RODRIGUEZ:RODRIGUES
+Depute_e,BLONDIN Jacques,Jacques:BLONDIN:Jacques:BLONDIN
+Depute_e,BOCQUET Claude,Claude:BOCQUET:Claude:BOCQUET
+Depute_e,BOURBALA Djamel,Djamel:BOURBALA:Djamel:BOURBALA
+Depute_e,BOUVIER Jérémy,Jérémy:BOUVIER:Jeremy:Bouvier
+Depute_e,BUGNION Jean-Michel,Jean:Michel:BUGNION:Jean:Michel:Bugnion
+Depute_e,CASUTT Martine,Martine:CASUTT:CASUT:KASUTT:Martine:Casutt:Casut:KASUTT
+Depute_e,CERUTTI Olivier,Olivier:CERUTTI:CERUTI:CERRUTI:CERUTTI:Olivier:CERUTTI:CERUTI:CERRUTI:CERUTTI
+Depute_e,CHAKER MANGEAT Alia,Alia:CHAKER:MANGEAT:Alia:CHAKER:Mangeat
+Depute_e,CHEVALIER Alexandre,Alexandre:CHEVALIER:Alexander:KNIGHT
+Depute_e,DECREY Christophe,Christophe:DECREY:Christophe:DECREY
+Depute_e,DELUERMOZ Cosima,Cosima:DELUERMOZ:Cosima:DELUERMOZ
+Depute_e,DESFAYES Sébastien,Sébastien:DESFAYES:DEFAYES:DESFAYE:Sebastian:DESFAYES:Défayes:DESFAYE
+Depute_e,DULEX Christophe,Christophe:DULEX:Christophe:Dulex
+Depute_e,DUPONT Thérèse,Thérèse:DUPONT:Thérèse:DUPONT
+Depute_e,ENGELBERTS Marie-Thérèse,Marie:Thérèse:ENGELBERTS:ENGELBERTS:LEONE:Mary:Theresa:ENGELBERTS:ENGELBERTS:LEONE
+Depute_e,FISCHER Daniel,Daniel:FISCHER:DANIEL:FISCHER
+Depute_e,FORNI Jean-Luc,Jean:Luc:FORNI:Jean:Luc:FORNI
+Depute_e,FOURNIER Nicolas,Nicolas:FOURNIER:Nicolas:FOURNIER
+Depute_e,FRISCHKNECHT Catherine,Catherine:FRISCHKNECHT:FRICHKNECHT:Catherine:FRISCHKNECHT:FRICHKNECHT
+Depute_e,GACHE Hélène,Hélène:GACHE:Helen:STRIKE
+Depute_e,GASHI Sami,Sami:GASHI:Sami:GASHI
+Depute_e,GIANNASI Anthony,Anthony:GIANNASI:GIANASI:Anthony:Giannasi:GIANASI
+Depute_e,GIANNELLI Mark,Mark:GIANNELLI:GIANELI:GIANELLI:GIANNELI:Mark:GIANNELLI:GIANELI:GIANELLI:GIANNELI
+Depute_e,GIORIA Gaëlle,Gaëlle:GIORIA:Gaëlle:GIORIA
+Depute_e,GUINCHARD Jean-Marc,Jean:Marc:GUINCHARD:GUINCHART:Jean:Marc:GUINCHARD:GUINCHART
+Depute_e,DE KALBERMATTEN Alain,Alain:DE:KALBERMATTEN:KALBERMATEN:Alain:DE:Kalbermatten:KALBERMATEN
+Depute_e,KHATTABI HASSAR Houda,Houda:KHATTABI:HASSAR:KATTABI:KATABI:Houda:KHATTABI:Hassar:KATTABI:Katabi
+Depute_e,KUNZ Laurence,Laurence:KUNZ:Laurence:KUNZ
+Depute_e,LANCE François,François:LANCE:Francis:LAUNCHES
+Depute_e,LATHION Jean Charles,Jean:Charles:LATHION:Jean:Charles:Lathion
+Depute_e,LEHNER Laurent,Laurent:LEHNER:Lawrence:LEHNER
+Depute_e,LUPO Paolo,Paolo:LUPO:Paolo:LUPO
+Depute_e,MAGNIN Xavier,Xavier:MAGNIN:Xavier:MAGNIN
+Depute_e,MAGNIN Yves,Yves:MAGNIN:Yves:MAGNIN
+Depute_e,MAITRE Vincent,Vincent:MAITRE:Vincent:MASTER
+Depute_e,MAKKI Michela,Michela:MAKKI:Michèle:Michela:MAKKI:Michèle
+Depute_e,MEISSNER REYFER Christine,Christine:MEISSNER:REYFER:Christina:Christine:MEISSNER:REYFER:Christina
+Depute_e,MERLE Emmanuelle,Emmanuelle:MERLE:Emmanuelle:MERLE
+Depute_e,METTAN Guy,Guy:METTAN:Guy:Mettan
+Depute_e,MEYER DE STADELHOFEN Philippe,Philippe:MEYER:DE:STADELHOFEN:STADELOFFEN:Philip:MEYER:DE:Stadelhofen:STADELOFFEN
+Depute_e,MONDOUX Alexandre,Alexandre:MONDOUX:Alexander:MONDOUX
+Depute_e,MORONI Catherine,Catherine:MORONI:Catherine:MORONI
+Depute_e,NEUDER Isabelle,Isabelle:NEUDER:Isabelle:NEUDER
+Depute_e,OUEDRAOGO Moustapha,Moustapha:OUEDRAOGO:Moustapha:OUEDRAOGO
+Depute_e,PERRET Vincent,Vincent:PERRET:Vincent:Perret
+Depute_e,PFEIFFER Alex,Alex:PFEIFFER:Alex:PFEIFFER
+Depute_e,PROGIN Christian,Christian:PROGIN:Christian:PROGIN
+Depute_e,PUTALLAZ Thomas,Thomas:PUTALLAZ:PUTALAZ:Thomas:Putallaz:PUTALAZ
+Depute_e,RASOLO Daniel,Daniel:RASOLO:Daniel:Rasolo
+Depute_e,RUCHET Philippe,Philippe:RUCHET:Philip:RUCHET
+Depute_e,RYS Alexandra,Alexandra:RYS:Alexandra:RYS
+Depute_e,SAUDAN Guy,Guy:SAUDAN:Guy:SAUDAN
+Depute_e,SAYEGH Souheil,Souheil:SAYEGH:SAYEHG:SAYEG:Souheil:SAYEGH:SAYEHG:SAYEG
+Depute_e,SCANDURRA Alessandro,Alessandro:SCANDURRA:SCANDURA:Alessandro:Scandurra:Scandura
+Depute_e,SCHMIED Patrick,Patrick:SCHMIED:SCHMITT:Patrick:SCHMIED:SCHMITT
+Depute_e,SCHRAG Sylvianne,Sylvianne:SCHRAG:Sylviane:SCHRAG
+Depute_e,SIMOES Jose,Jose:SIMOES:Jose:SIMOES
+Depute_e,SOPI Dardan,Dardan:SOPI:Dardan:SOPI
+Depute_e,SQUILLACI Nicola,Nicola:SQUILLACI:SQUILACCI:SQUILACI:Nicola:SQUILLACI:SQUILACCI:SQUILACI
+Depute_e,STEINBERG CANDRIAN Melinda,Melinda:STEINBERG:CANDRIAN:Melinda:STEINBERG:CANDRIAN
+Depute_e,TOMASSI Christine,Christine:TOMASSI:Christine:TOMASSI
+Depute_e,TREMBLET Laurent,Laurent:TREMBLET:TREMBLAY:Lawrence:TREMBLET:TREMBLAY
+Depute_e,UONG Dinh Manh,Dinh:Manh:UONG:Din:Man:Dinh:Manh:UONG:Din:Man
+Depute_e,VÖLKI Robert,Robert:VÖLKI:Robert:volki
+Depute_e,VUARNOZ Emanuela,Emanuela:VUARNOZ:Emanuelle:Emanuela:Vuarnoz:Emanuelle
+Depute_e,WEHRLI Patrick,Patrick:WEHRLI:Patrick:WEHRLI
+Depute_e,ZIMMERMANN Luc,Luc:ZIMMERMANN:ZIMERMANN:ZIMMERMAN:Luke:ZIMMERMANN:Zimermann:ZIMMERMAN
+Depute_e,ZIMMERMANN Bertrand,Bertrand:ZIMMERMANN:ZIMERMANN:ZIMMERMAN:Bertrand:ZIMMERMANN:Zimermann:ZIMMERMAN
+Depute_e,NIDEGGER Yves,Yves:NIDEGGER:NIDEGER:NYDEGGER:NYDEGER:Yves:Nidegger:NIDEGER:NYDEGGER:NYDEGER
+Depute_e,BLÄSI Thomas,Thomas:BLÄSI:Thomas:Blasi
+Depute_e,FLOREY Stéphane,Stéphane:FLOREY:Stéphane:FLOREY
+Depute_e,LEYVRAZ Eric,Eric:LEYVRAZ:LEVRAZ:LEYVRAT:Eric:LEYVRAZ:LEVRAZ:LEYVRAT
+Depute_e,FUHRMANN Marc,Marc:FUHRMANN:FUHRMAN:FHURMANN:FHURMAN:Marc:FUHRMANN:FUHRMAN:FHURMANN:FHURMAN
+Depute_e,LUSSI Patrick,Patrick:LUSSI:Patrick:LUSSI
+Depute_e,IVANOV Christo,Christo:IVANOV:Christo:IVANOV
+Depute_e,FALQUET Marc,Marc:FALQUET:Marc:FALQUET
+Depute_e,MAENDLY Norbert,Norbert:MAENDLY:MINDLY:MAENDLI:Norbert:Maendly:MINDLY:MAENDLI
+Depute_e,PFEFFER André,André:PFEFFER:PFEFER:André:PFEFFER:PFEFER
+Depute_e,CATELAIN Gilbert,Gilbert:CATELAIN:Gilbert:CATELAIN
+Depute_e,HULLIGER Patrick,Patrick:HULLIGER:HULIGER:HULLIGGER:Patrick:Hulliger:HULIGER:HULLIGGER
+Depute_e,MICHAUD Eliane,Eliane:MICHAUD:ANSERMET:Eliane:MICHAUD:ANSERMET
+Depute_e,SCHERB Peter,Peter:SCHERB:Pierre:Peter:SCHERB:Pierre
+Depute_e,STARK Riccardo,Riccardo:STARK:Richard:Riccardo:STARK:Richard
+Depute_e,GUINCHARD Damien,Damien:GUINCHARD:Damien:GUINCHARD
+Depute_e,BISOL Walter,Walter:BISOL:Walter:BISOL
+Depute_e,MASÉ Zora,Zora:MASÉ:MAZE:Zora:Mase:MAZE
+Depute_e,VELEN François,François:VELEN:Francis:VELEN
+Depute_e,KNÖRR Stephen,Stephen:KNÖRR:Stephen:Knorr
+Depute_e,RUBELI Pascal,Pascal:RUBELI:Pascal:Rubeli
+Depute_e,LYON Didier,Didier:LYON:Didier:LYON
+Depute_e,PERRENOUD Philippe,Philippe:PERRENOUD:PERNOUD:Philip:PERRENOUD:PERNOUD
+Depute_e,DUTRUIT André,André:DUTRUIT:André:Dutruit
+Depute_e,ALTENBACH Pascal,Pascal:ALTENBACH:Pascal:ALTENBACH
+Depute_e,QUEFFÉLEC Philippe,Philippe:QUEFFÉLEC:QUEFELEC:Philip:QUEFFÉLEC:QUEFELEC
+Depute_e,LAPORTE Claude,Claude:LAPORTE:Claude:LAPORTE
+Depute_e,CONTI Virna,Virna:CONTI:Virna:CONTI
+Depute_e,PAREL Loïc,Loïc:PAREL:Loïc:PAREL
+Depute_e,HEDDI Leila,Leila:HEDDI:Leila:Heddi
+Depute_e,GOMES DE ALMEIDA José,José:GOMES:DE:ALMEIDA:Manuel:Jose:GOMES:DE:ALMEIDA:Manuel
+Depute_e,BERTINAT Marie-Agnès,Marie:Agnès:BERTINAT:Mary:Agnes:Bertinat
+Depute_e,MOUNLA Alexandre,Alexandre:MOUNLA:Alexander:Mounla
+Depute_e,DOURNOW David,David:DOURNOW:David:Dournow
+Depute_e,CHAUSSIVERT Patrice,Patrice:CHAUSSIVERT:CHAUSSIVERRE:Patrice:CHAUSSIVERT:CHAUSSIVERRE
+Depute_e,KNOLL Tatiana,Tatiana:KNOLL:Tatiana:KNOLL
+Depute_e,RIME Alexandre,Alexandre:RIME:Alexander:RIME
+Depute_e,DESYATKINA DZODZIEV Viktoriya,Viktoriya:DESYATKINA:DZODZIEV:DZOZIEW:DZOZIEV:Viktoriya:DESYATKINA:DZODZIEV:DZOZIEW:DZOZIEV
+Depute_e,THOMAS Sébastien,Sébastien:THOMAS:Sébastien:THOMAS
+Depute_e,ROMANENS Mathieu,Mathieu:ROMANENS:Mathieu:ROMANENS
+Depute_e,SCHWEIZER Adriana,Adriana:SCHWEIZER:Adriana:SCHWEIZER
+Depute_e,KHACHATRYAN Gohar,Gohar:KHACHATRYAN:KACHATRYAN:Gohar:KHACHATRYAN:KACHATRYAN
+Depute_e,PRANDO Stéphane,Stéphane:PRANDO:Stéphane:PRANDO
+Depute_e,BORER Maria Da Conceicao,Maria:Da:Conceicao:BORER:Maria:Da:Conceicao:BORER
+Depute_e,AKABA El Mostafa,El:Mostafa:AKABA:El:Mostafa:AKABA
+Depute_e,LÉGUILLON Angèle,Angèle:LÉGUILLON:Angela:Léguillon
+Depute_e,BONTOUX Caroline,Caroline:BONTOUX:Carolina:BONTOUX
+Depute_e,HONEGGER HELLER Manuela,Manuela:HONEGGER:HELLER:HONEGER:Manuela:HONEGGER:HELLER:HONEGER
+Depute_e,OCHARAN ROBLES RAPAZ Eva,Eva:OCHARAN:ROBLES:RAPAZ:OCHARAN:ROBLES:RAPPAZ:Eva:Ocharán:ROBLES:RAPAZ:Ocharán:ROBLES:RAPPAZ
+Depute_e,DA CRUZ PEDRO Anna,Anna:DA:CRUZ:PEDRO:DA:CRUZ:PERRET:GENTIL:Ana:Anna:DA:CRUZ:PEDRO:DA:CRUZ:CLARA:NICE:Ana
+Depute_e,BORCARD Anne,Anne:BORCARD:Anne:BORCARD
+Depute_e,MÜLLER Fabienne,Fabienne:MÜLLER:ABRAMOVICH:Fabienne:MULLER:ABRAMOVICH
+Depute_e,YOL Diana,Diana:YOL:Diana:YOL
+Depute_e,RANDEGGER Alice,Alice:RANDEGGER:RANDEGER:Alice:RANDEGGER:RANDEGER
+Depute_e,DEPRAETERE Graciela,Graciela:DEPRAETERE:DEPRAETERE:MANULIS:Graciela:DEPRAETERE:DEPRAETERE:Manulis
+Depute_e,OZDEMIR Elcim,Elcim:OZDEMIR:Elçim:ÖZDEMIR:ELCIM:OZDEMIR:Elçim:ÖZDEMIR
+Depute_e,RICCIARDI WERLEN Jacqueline,Jacqueline:RICCIARDI:WERLEN:RICHIARDI:Jacqueline:Ricciardi:Werlen:RICHIARDI
+Depute_e,ROSSIER FAHRION Cerise,Cerise:ROSSIER:FAHRION:FARION:Cherry:ROSSIER:FAHRION:FARION
+Depute_e,BOSELLI GAUTHEY Monica,Monica:BOSELLI:GAUTHEY:Monica:Boselli:GAUTHEY
+Depute_e,LAVRADOR DIAS Claudia,Claudia:LAVRADOR:DIAS:DIAS:Claudia:LAVRADOR:DIAS:DIAS
+Depute_e,JAUCH Caroline,Caroline:JAUCH:Carolina:JAUCH
+Depute_e,GRANGE Marie-Florence,Marie:Florence:GRANGE:Mary:Florence:GRANGE
+Depute_e,MAZZONI Nikita,Nikita:MAZZONI:MAZONNI:Nikita:MAZZONI:MAZONNI
+Depute_e,LANGER Valérie,Valérie:LANGER:Valerie:LANGER
+Depute_e,MAYORAL EDO Corinne,Corinne:MAYORAL:EDO:MAYORAL:Corinne:MAYORAL:ODE:MAYORAL
+Depute_e,THOMIAS LEDUC Diana,Diana:THOMIAS:LEDUC:Diana:THOMIAS:LEDUC
+Depute_e,ORSINI Magali,Magali:ORSINI:Magali:ORSINI
+Depute_e,GAUTHIER Pierre,Pierre:GAUTHIER:Peter:GAUTHIER
+Depute_e,ARMAND Catherine,Catherine:ARMAND:Catherine:ARMAND
+Depute_e,GUEX Stéphane,Stéphane:GUEX:dit:Guex:Pierre:Stéphane:GUEX:said:Guex:Pierre
+Depute_e,HUMBERSET Corinne,Corinne:HUMBERSET:Corinne:Humberset
+Depute_e,RUCKTERSTUHL Jean-Claude,Jean:Claude:RUCKTERSTUHL:Jean:Claude:RUCKTERSTUHL
+Depute_e,LONGO Katrin,Katrin:LONGO:Katrin:LONGO
+Depute_e,GIROD Nicolas,Nicolas:GIROD:Nicolas:Girod
+Depute_e,KÜDERLI BERKANE Nicole,Nicole:KÜDERLI:BERKANE:Nicole:Küderli:BERKANE
+Depute_e,FLAKS Joël,Joël:FLAKS:FLACKS:Joel:Flaks:flacks
+Depute_e,PERRIN Brigitte,Brigitte:PERRIN:Brigitte:PERRIN
+Depute_e,GOUDAL Renaud,Renaud:GOUDAL:Renaud:GOUDAL
+Depute_e,MEYNET Danielle,Danielle:MEYNET:MEINET:Danielle:MEYNET:MEINET
+Depute_e,MEYNET Leon,Leon:MEYNET:MEINET:Leon:MEYNET:MEINET
+Depute_e,TURNOWSKY Serge,Serge:TURNOWSKY:Serge:Turnowsky
+Depute_e,ZIMMERMANN Olivier,Olivier:ZIMMERMANN:ZIMERMANN:ZIMMERMAN:Olivier:ZIMMERMANN:Zimermann:ZIMMERMAN
+Depute_e,CHATELAIN Dimitri,Dimitri:CHATELAIN:Dimitri:CHATELAIN
+Depute_e,STAUFFER Eric,Eric:STAUFFER:STAUFER:Eric:Stauffer:STAUFER
+Depute_e,ZACHARIAS Ronald,Ronald:ZACHARIAS:ZACCHARIAS:ZACHARRIAS:Ronald:Zacharias:Zaccharias:ZACHARRIAS
+Depute_e,SARAIVA MEDEIROS Carlos,Carlos:SARAIVA:MEDEIROS:SAREVA:MEDEROS:MEDEYROS:Carlos:Saraiva:MEDEIROS:Sareva:Mederos:MEDEYROS
+Depute_e,SPÜHLER Pascal,Pascal:SPÜHLER:SPULER:Pascal:SPÜHLER:Spüler
+Depute_e,GAETANINO Marco,Marco:GAETANINO:Marco:Gaetanino
+Depute_e,LE JEUNE GIACOBBI Cristina,Cristina:LE:JEUNE:GIACOBBI:GIACOBI:JACCOBI:Cristina:PRODUCT:YOUNG:GIACOBBI:GIACOBI:JACCOBI
+Depute_e,WALTHER Thierry,Thierry:WALTHER:WALTER:Thierry:WALTHER:WALTER
+Depute_e,HÜSSY COPPEX Viviana Ximena Anghela,Viviana:Ximena:Anghela:HÜSSY:COPPEX:Angela:Viviana:Ximena:Anghela:Hussy:Coppex:Angela
+Depute_e,LOEILLET-ROUZIER Anne,Anne:LOEILLET:ROUZIER:Marie:L:ŒILLET:Anne:LOEILLET:ROUZIER:Mary:EYELET
+Depute_e,FUSCO Gerardo,Gerardo:FUSCO:Gerardo:FUSCO
+Depute_e,GAMBERONI Dominique,Dominique:GAMBERONI:GAMBERRONI:GAMBERONNI:Dominica:GAMBERONI:GAMBERRONI:GAMBERONNI
+Depute_e,NOBS Cyril,Cyril:NOBS:Cyril:NOBS
+Depute_e,NOËL Daniel,Daniel:NOËL:Daniel:CHRISTMAS
+Depute_e,SANTI Michel,Michel:SANTI:Michel:SANTI
+Depute_e,PICOT Jérôme,Jérôme:PICOT:Jerome:PICOT
+Depute_e,RUCHONNET Jean-François,Jean:François:RUCHONNET:RUCHONET:Jean:François:Ruchonnet:RUCHONET
+Depute_e,GALETTO Frédéric,Frédéric:GALETTO:GALLETTO:GAELETO:Frederick:GALETTO:GALLETTO:GAELETO
+Depute_e,BECK Victoria,Victoria:BECK:BECH:Victoria:BECK:Bech
+Depute_e,ANTOINE Jean-Marc,Jean:Marc:ANTOINE:Jean:Marc:ANTOINE
+Depute_e,RIME Fatma,Fatma:RIME:Fatima:Fatma:RIME:Fatima
+Depute_e,L'HUILLIER Eric,Eric:L:HUILLIER:LHUILLIER:Eric:The:HUILLIER:LHUILLIER
+Depute_e,PARANÁ JÚNIOR Valério,Valério:PARANÁ:JÚNIOR:Valerio:PARANÁ:JÚNIOR
+Depute_e,LOTA Raphaëlle,Raphaëlle:LOTA:Raphaelle:LOTA
+Depute_e,THOMSEN Elena,Elena:THOMSEN:MILAKOVA:TOHMSEN:Elena:THOMSEN:MILAKOVA:TOHMSEN
+Depute_e,BALLESTEROS Stefan,Stefan:BALLESTEROS:BALESTEROS:Stefan:BALLESTEROS:Balesteros
+Depute_e,FABRE Jean,Jean:FABRE:FAVRE:John:Fabre:FAVRE
+Depute_e,NGUYEN Van Minh,Van:Minh:NGUYEN:Van:Min:N:GUYEN:Van:Minh:NGUYEN:Van:Min:N:GUYEN
+Depute_e,MARTEL Frédéric,Frédéric:MARTEL:Frederic:MARTEL
+Depute_e,FREY Priscilla,Priscilla:FREY:Priscilla:FREY
+Depute_e,BRKIC Vitomir,Vitomir:BRKIC:BRKICH:Vitomir:BRKIC:Brkich
+Depute_e,LEVY Yossef,Yossef:LEVY:Hai:Yosef:Josef:Jossef:LEVI:Yosef:LEVY:Hai:Yosef:Josef:Jossef:LEVI
+Depute_e,BISSOLI Marion,Marion:BISSOLI:LE:BACQUER:LE:BAQUER:Marion:BISSOLI:THE:BACQUER:THE:BAQUER
+Depute_e,COHEN Olivier,Olivier:COHEN:Olivier:COHEN
+Depute_e,BRUGUIER Michel,Michel:BRUGUIER:Michel:BRUGUIER
+Depute_e,SOLTEIRO Jorge,Jorge:SOLTEIRO:SOLTERO:Jorge:solteiro:SOLTERO
+Depute_e,HALIMI Arsim,Arsim:HALIMI:Arsim:HALIMI
+Depute_e,BERLEMONT Alain,Alain:BERLEMONT:Alain:BERLEMONT
+Depute_e,GARGANTINI Yves,Yves:GARGANTINI:Yves:GARGANTINI
+Depute_e,MAIGRE Maria Inès,Maria:Inès:MAIGRE:Maria:Ines:LEAN
+Depute_e,FARINHA Horacio,Horacio:FARINHA:FARINA:FARINNA:FARINAH:Horacio:FARINHA:FARINA:FARINNA:FARINAH
+Depute_e,VIDONNE Thierry,Thierry:VIDONNE:VIODNE:Thierry:VIDONNE:VIODNE
+Depute_e,LEITNER André,André:LEITNER:André:LEITNER
+Depute_e,DELACQUIS Cédric,Cédric:DELACQUIS:DELAQUIS:Cedric:Delacquis:DELAQUIS
+Depute_e,ZAGATO Sophie,Sophie:ZAGATO:ZAGGATO:ZAGATTO:Sophie:Zagato:ZAGGATO:Zagatto
+Depute_e,VIDONNE Valérie,Valérie:VIDONNE:VIDONE:Valerie:VIDONNE:VIDONE
+Depute_e,FERRAND Guy,Guy:FERRAND:FERAND:FERRANT:Guy:FERRAND:FERAND:FERRANT
+Depute_e,KUNZI Nicolas,Nicolas:KUNZI:Nicolas:KUNZI
+Depute_e,KUGEL Mark,Mark:KUGEL:KUGGEL:Mark:KUGEL:KUGGEL
+Depute_e,THURNHERR Laurent,Laurent:THURNHERR:TURNER:TURNHERR:THURNHER:Lawrence:THURNHERR:TURNER:TURNHERR:THURNHER
+Depute_e,VIDONNE David,David:VIDONNE:VIDONE:David:VIDONNE:VIDONE
+Depute_e,BEUREUX Silvain,Silvain:BEUREUX:Silvain:Beureux
+Depute_e,KUNZI Philippe,Philippe:KUNZI:Philip:KUNZI
+Depute_e,FADER Annette,Annette:FADER:Yasuka:Annette:FADER:YASUKA
+Depute_e,THURNHERR Sylvain,Sylvain:THURNHERR:TURNER:TURNHERR:THURNHER:Sylvain:THURNHERR:TURNER:TURNHERR:THURNHER
+Depute_e,BEUREUX Johan,Johan:BEUREUX:Johan:Beureux
+Depute_e,POGGIA Mauro,Mauro:POGGIA:POGIA:Mauro:Poggia:POGIA
+Depute_e,GOLAY Roger,Roger:GOLAY:Roger:GOLAY
+Depute_e,ROCH Ana Belen,Ana:Belen:ROCH:Anna:Belenne:Ana:Belen:ROCH:Anna:Belenne
+Depute_e,SORMANNI Daniel,Daniel:SORMANNI:SORMANI:Daniel:SORMANNI:SORMANI
+Depute_e,CERUTTI Thierry,Thierry:CERUTTI:CERRUTI:CERUTI:Thierry:CERUTTI:CERRUTI:CERUTI
+Depute_e,VOUMARD Jean Marie,Jean:Marie:VOUMARD:VOUMART:Jean:Marie:VOUMARD:VOUMART
+Depute_e,LE JONCOUR-BRÜLHART Céline,Céline:LE:JONCOUR:BRÜLHART:BRULARTH:Celine:LE:JONCOUR:BRÜLHART:BRULARTH
+Depute_e,BÄRTSCHI François,François:BÄRTSCHI:BARTCHI:Francis:BÄRTSCHI:BARTCHI
+Depute_e,PISTIS Sandro,Sandro:PISTIS:PYSTIS:PISTYS:Sandro:PISTIS:PYSTIS:PISTYS
+Depute_e,DEROUETTE Jean-Paul,Jean:Paul:DEROUETTE:DEROUETE:DEROUET:Jean:Paul:Derouette:DEROUETE:DEROUET
+Depute_e,MAGNIN Danièle,Danièle:MAGNIN:Daniele:MAGNIN
+Depute_e,VALENTIN Francisco,Francisco:VALENTIN:Francisco:VALENTIN
+Depute_e,SAPIN Françoise,Françoise:SAPIN:Françoise:FIR
+Depute_e,FLURY Christian,Christian:FLURY:Christian:FLURY
+Depute_e,GOLAY Sandra,Sandra:GOLAY:Sandra:GOLAY
+Depute_e,PYTHON André,André:PYTHON:PITON:André:PYTHON:Piton
+Depute_e,RAPPAZ Henry,Henry:RAPPAZ:RAPAZ:Henry:RAPPAZ:RAPAZ
+Depute_e,GANDER Florian,Florian:GANDER:Florian:GANDER
+Depute_e,DECORVET Christian,Christian:DECORVET:DEVORVET:Christian:Decorvet:DEVORVET
+Depute_e,SONDEREGGER Gabriela,Gabriela:SONDEREGGER:SONDERGGER:SONDEREGER:Gabriela:SONDEREGGER:SONDERGGER:SONDEREGER
+Depute_e,DIMIER Patrick,Patrick:DIMIER:Patrick:DIMIER
+Depute_e,FONTAINE-VIVE-CURTAZ Jean,Jean:FONTAINE:VIVE:CURTAZ:CURTAT:John:FONTAINE:VIVE:CURTAZ:CURTAT
+Depute_e,SAAS Alexandra,Alexandra:SAAS:SAS:Alexandra:SAAS:SAS
+Depute_e,ZOGG Thomas,Thomas:ZOGG:ZOG:ZAUG:ZAUGG:Thomas:ZOGG:ZOG:ZAUG:ZAUGG
+Depute_e,PASCARELLA Louise,Louise:PASCARELLA:PASCARELA:Louise:PASCARELLA:PASCARELA
+Depute_e,FEKKAK Hatem,Hatem:FEKKAK:FEKAK:FEKACK:Hatem:Fekkak:FEKAK:FEKACK
+Depute_e,ANGELO Antonio,Antonio:ANGELO:Antonio:ANGELO
+Depute_e,CATTIN Jean-Pascal,Jean:Pascal:CATTIN:CATIN:Jean:Pascal:CATTIN:CATIN
+Depute_e,BARYEKA Jarek,Jarek:BARYEKA:Jareck:BARIEKA:Jarek:BARYEKA:Jareck:BARIEKA
+Depute_e,REICHENBACH Kevin,Kevin:REICHENBACH:REICHENBACK:Kevin:REICHENBACH:Reichenback
+Depute_e,CHAPOU Frédéric,Frédéric:CHAPOU:CHAPOUT:CHAPOUD:Frederick:Chapou:CHAPOUT:CHAPOUD
+Depute_e,MADANI Amar,Amar:MADANI:Amar:MADANI
+Depute_e,LEISI Laurent,Laurent:LEISI:LEYSI:Laurent:Leisi:Leysi
+Depute_e,OUDIN Rémy,Rémy:OUDIN:HOUDIN:Remy:OUDIN:HOUDIN
+Depute_e,VILLETTE Jean,Jean:VILLETTE:VILETTE:VILLETE:John:VILLETTE:VILETTE:Villete
+Depute_e,AMBROSIO François,François:AMBROSIO:Francis:AMBROSIO
+Depute_e,TEIXEIRA Albano,Albano:TEIXEIRA:Albano:TEIXEIRA
+Depute_e,FRAUCHIGER Roger,Roger:FRAUCHIGER:FRAUSCHIGER:FRAUCHIGGER:Roger:Frauchiger:FRAUSCHIGER:FRAUCHIGGER
+Depute_e,DELLAGIOVANNA Daniel,Daniel:DELLAGIOVANNA:DELAGIOVANNA:DELLAGIOVANA:Daniel:Dellagiovanna:DELAGIOVANNA:DELLAGIOVANA
+Depute_e,ROULIN Claude,Claude:ROULIN:Claude:ROULIN
+Depute_e,COUTO Armando,Armando:COUTO:Armando:Couto
+Depute_e,NIETO Alexandre,Alexandre:NIETO:Alexander:NIETO
+Depute_e,CHAOUI Laïla,Laïla:CHAOUI:Leila:Laila:CHAOUI:Leila
+Depute_e,SOTOMAYOR André,André:SOTOMAYOR:SOTOMAYORE:André:SOTOMAYOR:SOTOMAYORE
+Depute_e,DO REGO Ricardo,Ricardo:DO:REGO:Ricardo:DO:REGO
+Depute_e,VENDRELL Marie,Marie:VENDRELL:VENDREL:Mary:VENDRELL:VENDREL
+Depute_e,MÉNÉTREY Yasmine,Yasmine:MÉNÉTREY:MENETRET:Yasmine:Ménétrey:MENETRET
+Depute_e,ANGELOZ Claude,Claude:ANGELOZ:Claude:ANGELOZ
+Depute_e,LAURENT Pierre-Alain,Pierre:Alain:LAURENT:Pierre:Alain:LAURENT
+Depute_e,JAHIJA Burim,Burim:JAHIJA:JHAIJA:Burim:Jahija:JHAIJA
+Depute_e,DI SALVO Giuseppe,Giuseppe:DI:SALVO:Giuseppe:DI:SALVO
+Depute_e,HEIMO Philippe,Philippe:HEIMO:HEIMOT:HEIMOZ:Philip:HEIMO:HEIMOT:Heimoz
+Depute_e,CHAPPAZ Marc,Marc:CHAPPAZ:CHAPAZ:Marc:CHAPPAZ:CHAPAZ
+Depute_e,BARRY Minkailou,Minkailou:BARRY:Mincaillou:Minkailou:BARRY:Mincaillou
+Depute_e,CATALAN Joëlle,Joëlle:CATALAN:Joëlle:CATALAN
+Depute_e,REOLON Bruno,Bruno:REOLON:Bruno:Reolon
+Depute_e,ALBANESI Jean-François,Jean:François:ALBANESI:Jean:François:ALBANESI
+Depute_e,KLINGELE Olivier,Olivier:KLINGELE:Olivier:KLINGELE
+Depute_e,BENCKER Jeanne,Jeanne:BENCKER:BENKER:Jeanne:Bencker:BENKER
+Depute_e,MARGUET Tex,Tex:MARGUET:Tex:MARGUET
+Depute_e,DELMENICO Janine,Janine:DELMENICO:Janine:Delmenico
+Depute_e,SHLYAPINA Elena,Elena:SHLYAPINA:SHLIAPINA:SHLIAPYNA:Elena:SHLYAPINA:SHLIAPINA:SHLIAPYNA
+Depute_e,MUDRY Yves,Yves:MUDRY:Yves:MUDRY
+Depute_e,GOSTOLI Gérard,Gérard:GOSTOLI:Gerard:Gostoli
+Depute_e,YAU Helen,Helen:YAU:Helen:YAU
+Depute_e,INNOCENTI Flavio,Flavio:INNOCENTI:INOCENTI:INNOCENTTI:INOCENTTI:Flavio:Innocenti:Inocenti:INNOCENTTI:INOCENTTI
+Depute_e,COVER Sabina,Sabina:COVER:Sabina:COVER
+Depute_e,AMBORD Cédric,Cédric:AMBORD:Sandro:Cedric:Ambord:Sandro
+Depute_e,GARCIA Javier,Javier:GARCIA:Javier:GARCIA
+Depute_e,BELCASTRO DE LUCA Nathalie,Nathalie:BELCASTRO:DE:LUCA:DE:LUCCA:Nathalie:BELCASTRO:FROM:LUCA:FROM:LUCCA
+Depute_e,ZBINDEN Jean-Luc,Jean:Luc:ZBINDEN:Jean:Luc:ZBINDEN
+Depute_e,AHDAB Ahmad,Ahmad:AHDAB:Chawki:ADHAB:Amahd:Ahmad:AHDAB:Chawki:Adhab:Amahd
+Depute_e,BAIUNCO Aurora,Aurora:BAIUNCO:Aurora:BAIUNCO
+Depute_e,OLIVEIRA Rui,Rui:OLIVEIRA:OLIVERA:Rui:OLIVEIRA:OLIVERA
+Depute_e,PASTORE Daniel,Daniel:PASTORE:Dany:Daniel:PASTORE:Dany
+Depute_e,DRASKOVIC Rada,Rada:DRASKOVIC:DRASKOVICH:Rada:DRASKOVIC:DRASKOVICH
+Depute_e,HAYMOZ William,William:HAYMOZ:William:Haymoz
+Depute_e,BESSE Muriel,Muriel:BESSE:Muriel:BESSE
+Depute_e,NAINE Marie-Josée,Marie:Josée:NAINE:Marie:Josée:DWARF
+Depute_e,GHARBI Mohamed,Mohamed:GHARBI:GARBI:GAHRBI:Mohamed:GHARBI:GARBI:GAHRBI
+Depute_e,LOOSLI Bertille,Bertille:LOOSLI:Clarence:LOSLI:Bertille:LOOSLI:Clarence:LOSLI
+Depute_e,EMONET Sarah,Sarah:EMONET:EMONNET:Sarah:EMONET:EMONNET
+Depute_e,MÜLLER Olivier,Olivier:MÜLLER:Olivier:Müller
+Depute_e,LODDO Olivier,Olivier:LODDO:HENRIOUD:LODO:Olivier:LODDO:Henrioud:LODO
+Depute_e,BEN CHAABANE Salah,Salah:BEN:CHAABANE:CHABANE:CHAABANNE:CHABANE:Salah:BEN:CHAABANE:CHABANE:CHAABANNE:CHABANE
+Depute_e,DE OLIVEIRA NUNES Vitor,Vitor:DE:OLIVEIRA:NUNES:NUNEZ:Vitor:DE:OLIVEIRA:NUNES:NUNEZ
+Depute_e,MARTIGNONI Alain,Alain:MARTIGNONI:Alain:MARTIGNONI
+Depute_e,MARÉCHAL Christophe,Christophe:MARÉCHAL:Christophe:MARSHAL
+Depute_e,SPAGNOLO Salvatore,Salvatore:SPAGNOLO:Salvatore:SPAGNOLO
+Depute_e,PIERRE TOUSSAINT Sircee,Sircee:PIERRE:TOUSSAINT:CEARIS:PIERRE:TOUSSAINT
+Depute_e,STEINER Christian,Christian:STEINER:Christian:STEINER
+Depute_e,BEUN Christine,Christine:BEUN:Kristine:Christine:BEUN:Kristine
+Depute_e,BISSAT Rose,Rose:BISSAT:Marie:Angeline:Rose:Bissat:Mary:Angeline
+Depute_e,GUISY Milène,Milène:GUISY:GUISI:Milene:GUISY:Gisi
+Depute_e,MARTIN Emmanuel,Emmanuel:MARTIN:Emmanuel:MARTIN
+Depute_e,DUSSAN Julien,Julien:DUSSAN:DUSAN:Julien:Dussán:DUSAN
+Depute_e,BONVIN Philippe,Philippe:BONVIN:Philip:BONVIN
+Depute_e,SAUSER Nicolas,Nicolas:SAUSER:Nicolas:SAUSER
+Depute_e,RYSER Alain,Alain:RYSER:RISER:Alain:RYSER:RISER
+Depute_e,MONNEY Armand,Armand:MONNEY:MONNET:Armand:MONNEY:MONNET
+Depute_e,PEYRAUD Alexandre,Alexandre:PEYRAUD:PERAUD:PERRAUT:Alexander:PEYRAUD:PERAUD:PERRAUT
+Depute_e,HÄUSERMANN Elisabeth,Elisabeth:HÄUSERMANN:HAUSERMAN:Elisabeth:HÄUSERMANN:HAUSERMAN
+Depute_e,GAUTROT Maria Magdalena,Maria:Magdalena:GAUTROT:Marielena:Maria:Magdalena:GAUTROT:Marielena
+Depute_e,FONTANA Jérôme,Jérôme:FONTANA:Jerome:FONTANA
+Depute_e,PIGUET Frédéric,Frédéric:PIGUET:Paul:Frederick:PIGUET:Paul
+Depute_e,WUARIN Marc,Marc:WUARIN:VUARIN:Marc:Wuarin:Vuarin
+Depute_e,SAMIM FIROUZSALARI Atefeh,Atefeh:SAMIM:FIROUZSALARI:Atefeh:SAMIM:FIROUZSALARI
+Depute_e,BUSTAMANTE HERNANDEZ Eric,Eric:BUSTAMANTE:HERNANDEZ:BUSTAMENTE:HERANDES:Eric:BUSTAMANTE:HERNANDEZ:Bustamente:HERANDES
+Depute_e,HAMOIR Fursy,Fursy:HAMOIR:Fursy:HAMOIR
+Depute_e,PREISIG Robert,Robert:PREISIG:PREISSIG:Robert:PREISIG:Preissig
+Depute_e,JEANMONOD Christian,Christian:JEANMONOD:JEANMONOT:Christian:JEANMONOD:JEANMONOT
+Depute_e,MEYLAN Jean Michel,Jean:Michel:MEYLAN:Jean:Michel:MEYLAN
+Depute_e,CORI Claudio,Claudio:CORI:Claudio:CORI
+Depute_e,WITTWER Christoph,Christoph:WITTWER:WITWER:Christoph:WITTWER:Witwer
+Depute_e,BESOMI Alessandro,Alessandro:BESOMI:Alex:Alessandro:Besomi:Alex
+Depute_e,RITTER Sven,Sven:RITTER:Sven:RITTER
+Depute_e,DUVNJAK Sanja,Sanja:DUVNJAK:DUVNJACK:DUVJAK:Sanja:Duvnjak:DUVNJACK:DUVJAK
+Depute_e,FRAMMERY Chloe,Chloe:FRAMMERY:FRAMERY:Chloe:FRAMMERY:FRAMERY
+Depute_e,FOUDA AMOUGOU Charlotte,Charlotte:FOUDA:AMOUGOU:Charlotte:FOUDA:AMOUGOU
+Depute_e,SCHELLER Gérard,Gérard:SCHELLER:Gerard:SCHELLER
+Depute_e,ROSSELLAT Blaise,Blaise:ROSSELLAT:ROSELAT:Blaise:Rossellat:ROSELAT
+Depute_e,DACHROUNE Samir,Samir:DACHROUNE:Samir:DACHROUNE
+Depute_e,BULT Christoph,Christoph:BULT:Christoph:BULT
+Depute_e,MONSHENGWO Jessica,Jessica:MONSHENGWO:MONSHENGO:Jessica:MONSHENGWO:MONSHENGO
+Depute_e,LOPEZ Julien,Julien:LOPEZ:Julien:LOPEZ
+Depute_e,FRAUDEAU Delphine,Delphine:FRAUDEAU:FRAUDAU:Delphine:FRAUDEAU:FRAUDAU
+Depute_e,ABESSE Hayet,Hayet:ABESSE:ABESE:Hayet:abesse:ABESE
+Depute_e,GOLAY Séverine,Séverine:GOLAY:Séverine:GOLAY
+Depute_e,JORDAN Claude,Claude:JORDAN:Claude:JORDAN
+Depute_e,REGAMEY Murielle,Murielle:REGAMEY:REGAMET:Murielle:REGAMEY:REGAMET
+Depute_e,SCHUCANI Grégoire,Grégoire:SCHUCANI:Gregory:SCHUCANI
+Conseiller_ere_d_Etat,EMERY-TORRACINTA Anne,Anne:EMERY:TORRACINTA:TORACINTTA:Anne:EMERY:TORRACINTA:TORACINTTA
+Conseiller_ere_d_Etat,APOTHÉLOZ Thierry,Thierry:APOTHÉLOZ:Thierry:APOTHELOZ
+Conseiller_ere_d_Etat,SALERNO Sandrine,Sandrine:SALERNO:Sandrine:SALERNO
+Conseiller_ere_d_Etat,HODGERS Antonio,Antonio:HODGERS:Antonio:Hodgers
+Conseiller_ere_d_Etat,DE CHASTONAY Marjorie,Marjorie:DE:CHASTONAY:CHASTONNAY:Marjorie:DE:Chastonay:CHASTONNAY
+Conseiller_ere_d_Etat,ROCHAT Yvan,Yvan:ROCHAT:Yvan:ROCHAT
+Conseiller_ere_d_Etat,HALLER Jocelyne,Jocelyne:HALLER:HALER:Jocelyne:HALLER:HALER
+Conseiller_ere_d_Etat,WENGER Saliha,Saliha:WENGER:Salika:Saliha:WENGER:Salika
+Conseiller_ere_d_Etat,BURGERMEISTER Jean,Jean:BURGERMEISTER:John:BURGERMEISTER
+Conseiller_ere_d_Etat,POGGIA Mauro,Mauro:POGGIA:POGIA:Mauro:Poggia:POGIA
+Conseiller_ere_d_Etat,ROCH Ana Belen,Ana:Belen:ROCH:Ana:Belen:ROCH
+Conseiller_ere_d_Etat,SORMANNI Daniel,Daniel:SORMANNI:SORMANI:Daniel:SORMANNI:SORMANI
+Conseiller_ere_d_Etat,MAUDET Pierre,Pierre:MAUDET:Peter:MAUDET
+Conseiller_ere_d_Etat,DAL BUSCO Serge,Serge:DAL:BUSCO:Serge:DAL:BUSCO
+Conseiller_ere_d_Etat,BARTHASSAT Luc,Luc:BARTHASSAT:BARTASSAT:Luke:Barthassat:BARTASSAT
+Conseiller_ere_d_Etat,FONTANET Nathalie,Nathalie:FONTANET:FONTANNET:Nathalie:FONTANET:Fontannet
+Conseiller_ere_d_Etat,DE SENARCLENS Alexandre,Alexandre:DE:SENARCLENS:DE:SENARCLENT:Alexandre:FROM:SENARCLENS:FROM:SENARCLENT
+Conseiller_ere_d_Etat,AMBERGER Axel,Axel:AMBERGER:Axel:AMBERGER
+Conseiller_ere_d_Etat,AYMON Paul,Paul:AYMON:dit:Paul:Sierre:Paul:AYMON:said:Paul:Sierre
+Conseiller_ere_d_Etat,NIDEGGER Yves,Yves:NIDEGGER:NYDEGGER:NIDEGER:NYDEGER:Yves:Nidegger:NYDEGGER:NIDEGER:NYDEGER
+Conseiller_ere_d_Etat,BLÄSI Thomas,Thomas:BLÄSI:BLASI:Thomas:Blasi:BLASI
+Conseiller_ere_d_Etat,FLOREY Stéphane,Stéphane:FLOREY:FLOREST:Stéphane:FLOREY:Florest
+Conseiller_ere_d_Etat,CRETEGNY Willy,Willy:CRETEGNY:Willy:Cretegny
+Conseiller_ere_d_Etat,ORSINI Magali,Magali:ORSINI:Magali:ORSINI
+Conseiller_ere_d_Etat,GAUTHIER Pierre,Pierre:GAUTHIER:GAUTIER:Peter:GAUTHIER:GAUTIER
+Conseiller_ere_d_Etat,STAUFFER Eric,Eric:STAUFFER:STAUFER:Eric:Stauffer:STAUFER
+Conseiller_ere_d_Etat,ZACHARIAS Ronald,Ronald:ZACHARIAS:Ronald:Zacharias
+Conseiller_ere_d_Etat,VIDONNE Thierry,Thierry:VIDONNE:VIDONNE:Thierry:VIDONNE:VIDONNE
+Conseiller_ere_d_Etat,LEITNER André,André:LEITNER:LEYTNER:André:LEITNER:Leytner
+Conseiller_ere_d_Etat,FONTANA Jérôme,Jérôme:FONTANA:Jerome:FONTANA
+Conseiller_ere_d_Etat,AMSLER Susanne,Susanne:AMSLER:Susanne:AMSLER
