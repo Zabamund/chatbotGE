@@ -1,0 +1,578 @@
+[
+    {
+      "responses": [
+        {
+          "messagePayload": {
+            "text": "Hello and welcome to electionBot",
+            "type": "text",
+            "channelExtensions": {
+              "debugInfo": {
+                "variables": {
+                  "profile.updatedOn": "2018-04-03T08:40:15.345Z",
+                  "profile.languageTag": "en",
+                  "currencyType": null,
+                  "profile.lastName": "Chatbot",
+                  "greeting": null,
+                  "iResult": {
+                    "timeStamp": 1522744815556,
+                    "intentMatches": {
+                      "summary": [
+                        {
+                          "score": 0.9938,
+                          "intent": "Admin_WelcomeGreeting"
+                        },
+                        {
+                          "score": 0.0027,
+                          "intent": "ResultsLocal"
+                        },
+                        {
+                          "score": 0.0017,
+                          "intent": "Admin_ErrorHandling"
+                        },
+                        {
+                          "score": 0.0013,
+                          "intent": "Admin_UserChoice"
+                        },
+                        {
+                          "score": 0.0003,
+                          "intent": "Admin_HelpUser"
+                        },
+                        {
+                          "score": 0.0001,
+                          "intent": "CE_CALC_BestCommune"
+                        },
+                        {
+                          "score": 0,
+                          "intent": "ResultElections"
+                        },
+                        {
+                          "score": 0,
+                          "intent": "ResultCandidate"
+                        },
+                        {
+                          "score": 0,
+                          "intent": "ResultCommune"
+                        },
+                        {
+                          "score": 0,
+                          "intent": "ResultParticipation"
+                        }
+                      ],
+                      "detail": {
+                        "final_norm": [
+                          {
+                            "sentence": [],
+                            "score": 0.9938,
+                            "intent": "Admin_WelcomeGreeting"
+                          },
+                          {
+                            "sentence": [],
+                            "score": 0.0027,
+                            "intent": "ResultsLocal"
+                          },
+                          {
+                            "sentence": [],
+                            "score": 0.0017,
+                            "intent": "Admin_ErrorHandling"
+                          },
+                          {
+                            "sentence": [],
+                            "score": 0.0013,
+                            "intent": "Admin_UserChoice"
+                          },
+                          {
+                            "sentence": [],
+                            "score": 0.0003,
+                            "intent": "Admin_HelpUser"
+                          },
+                          {
+                            "sentence": [],
+                            "score": 0.0001,
+                            "intent": "CE_CALC_BestCommune"
+                          },
+                          {
+                            "sentence": [],
+                            "score": 0,
+                            "intent": "ResultElections"
+                          },
+                          {
+                            "sentence": [],
+                            "score": 0,
+                            "intent": "ResultCandidate"
+                          },
+                          {
+                            "sentence": [],
+                            "score": 0,
+                            "intent": "ResultCommune"
+                          },
+                          {
+                            "sentence": [],
+                            "score": 0,
+                            "intent": "ResultParticipation"
+                          }
+                        ]
+                      }
+                    },
+                    "trainingDataUnit": null,
+                    "botName": "electionBot_sbox",
+                    "appId": "4551E6A0-CCC2-45E8-BFB3-47021C0965C5",
+                    "query": "hi",
+                    "entityMatches": {}
+                  },
+                  "translated": "hi",
+                  "profile.locale": "en-GB",
+                  "rb": null,
+                  "profile.timezoneOffset": -7200000,
+                  "secondCandidateName": null,
+                  "candidateName": null,
+                  "firstCandidateName": null,
+                  "profile.firstName": "Admin",
+                  "baseExchangeRate": null,
+                  "resultType": null,
+                  "autoTranslate": true
+                },
+                "currentDialogState": "Admin_WelcomeGreeting",
+                "executedStates": [
+                  "Admin_WelcomeGreeting",
+                  "Admin_Onboarding",
+                  "Admin_HelpUser"
+                ]
+              }
+            }
+          },
+          "userId": "8442465"
+        },
+        {
+          "messagePayload": {
+            "text": "I am here to give you the results of the Cantonal Elections of 15 April 2018",
+            "type": "text",
+            "channelExtensions": {
+              "debugInfo": {
+                "variables": {
+                  "profile.updatedOn": "2018-04-03T08:40:15.345Z",
+                  "profile.languageTag": "en",
+                  "currencyType": null,
+                  "profile.lastName": "Chatbot",
+                  "greeting": null,
+                  "iResult": {
+                    "timeStamp": 1522744815556,
+                    "intentMatches": {
+                      "summary": [
+                        {
+                          "score": 0.9938,
+                          "intent": "Admin_WelcomeGreeting"
+                        },
+                        {
+                          "score": 0.0027,
+                          "intent": "ResultsLocal"
+                        },
+                        {
+                          "score": 0.0017,
+                          "intent": "Admin_ErrorHandling"
+                        },
+                        {
+                          "score": 0.0013,
+                          "intent": "Admin_UserChoice"
+                        },
+                        {
+                          "score": 0.0003,
+                          "intent": "Admin_HelpUser"
+                        },
+                        {
+                          "score": 0.0001,
+                          "intent": "CE_CALC_BestCommune"
+                        },
+                        {
+                          "score": 0,
+                          "intent": "ResultElections"
+                        },
+                        {
+                          "score": 0,
+                          "intent": "ResultCandidate"
+                        },
+                        {
+                          "score": 0,
+                          "intent": "ResultCommune"
+                        },
+                        {
+                          "score": 0,
+                          "intent": "ResultParticipation"
+                        }
+                      ],
+                      "detail": {
+                        "final_norm": [
+                          {
+                            "sentence": [],
+                            "score": 0.9938,
+                            "intent": "Admin_WelcomeGreeting"
+                          },
+                          {
+                            "sentence": [],
+                            "score": 0.0027,
+                            "intent": "ResultsLocal"
+                          },
+                          {
+                            "sentence": [],
+                            "score": 0.0017,
+                            "intent": "Admin_ErrorHandling"
+                          },
+                          {
+                            "sentence": [],
+                            "score": 0.0013,
+                            "intent": "Admin_UserChoice"
+                          },
+                          {
+                            "sentence": [],
+                            "score": 0.0003,
+                            "intent": "Admin_HelpUser"
+                          },
+                          {
+                            "sentence": [],
+                            "score": 0.0001,
+                            "intent": "CE_CALC_BestCommune"
+                          },
+                          {
+                            "sentence": [],
+                            "score": 0,
+                            "intent": "ResultElections"
+                          },
+                          {
+                            "sentence": [],
+                            "score": 0,
+                            "intent": "ResultCandidate"
+                          },
+                          {
+                            "sentence": [],
+                            "score": 0,
+                            "intent": "ResultCommune"
+                          },
+                          {
+                            "sentence": [],
+                            "score": 0,
+                            "intent": "ResultParticipation"
+                          }
+                        ]
+                      }
+                    },
+                    "trainingDataUnit": null,
+                    "botName": "electionBot_sbox",
+                    "appId": "4551E6A0-CCC2-45E8-BFB3-47021C0965C5",
+                    "query": "hi",
+                    "entityMatches": {}
+                  },
+                  "translated": "hi",
+                  "profile.locale": "en-GB",
+                  "rb": null,
+                  "profile.timezoneOffset": -7200000,
+                  "secondCandidateName": null,
+                  "candidateName": null,
+                  "firstCandidateName": null,
+                  "profile.firstName": "Admin",
+                  "baseExchangeRate": null,
+                  "resultType": null,
+                  "autoTranslate": true
+                },
+                "currentDialogState": "Admin_Onboarding",
+                "executedStates": [
+                  "Admin_WelcomeGreeting",
+                  "Admin_Onboarding",
+                  "Admin_HelpUser"
+                ]
+              }
+            }
+          },
+          "userId": "8442465"
+        },
+        {
+          "messagePayload": {
+            "text": "You can choose from a list by typing: results \nYou can also ask like this: what score did Joe Bloggs make in Carouge?",
+            "type": "text",
+            "channelExtensions": {
+              "debugInfo": {
+                "variables": {
+                  "profile.updatedOn": "2018-04-03T08:40:15.345Z",
+                  "profile.languageTag": "en",
+                  "currencyType": null,
+                  "profile.lastName": "Chatbot",
+                  "greeting": null,
+                  "iResult": {
+                    "timeStamp": 1522744815556,
+                    "intentMatches": {
+                      "summary": [
+                        {
+                          "score": 0.9938,
+                          "intent": "Admin_WelcomeGreeting"
+                        },
+                        {
+                          "score": 0.0027,
+                          "intent": "ResultsLocal"
+                        },
+                        {
+                          "score": 0.0017,
+                          "intent": "Admin_ErrorHandling"
+                        },
+                        {
+                          "score": 0.0013,
+                          "intent": "Admin_UserChoice"
+                        },
+                        {
+                          "score": 0.0003,
+                          "intent": "Admin_HelpUser"
+                        },
+                        {
+                          "score": 0.0001,
+                          "intent": "CE_CALC_BestCommune"
+                        },
+                        {
+                          "score": 0,
+                          "intent": "ResultElections"
+                        },
+                        {
+                          "score": 0,
+                          "intent": "ResultCandidate"
+                        },
+                        {
+                          "score": 0,
+                          "intent": "ResultCommune"
+                        },
+                        {
+                          "score": 0,
+                          "intent": "ResultParticipation"
+                        }
+                      ],
+                      "detail": {
+                        "final_norm": [
+                          {
+                            "sentence": [],
+                            "score": 0.9938,
+                            "intent": "Admin_WelcomeGreeting"
+                          },
+                          {
+                            "sentence": [],
+                            "score": 0.0027,
+                            "intent": "ResultsLocal"
+                          },
+                          {
+                            "sentence": [],
+                            "score": 0.0017,
+                            "intent": "Admin_ErrorHandling"
+                          },
+                          {
+                            "sentence": [],
+                            "score": 0.0013,
+                            "intent": "Admin_UserChoice"
+                          },
+                          {
+                            "sentence": [],
+                            "score": 0.0003,
+                            "intent": "Admin_HelpUser"
+                          },
+                          {
+                            "sentence": [],
+                            "score": 0.0001,
+                            "intent": "CE_CALC_BestCommune"
+                          },
+                          {
+                            "sentence": [],
+                            "score": 0,
+                            "intent": "ResultElections"
+                          },
+                          {
+                            "sentence": [],
+                            "score": 0,
+                            "intent": "ResultCandidate"
+                          },
+                          {
+                            "sentence": [],
+                            "score": 0,
+                            "intent": "ResultCommune"
+                          },
+                          {
+                            "sentence": [],
+                            "score": 0,
+                            "intent": "ResultParticipation"
+                          }
+                        ]
+                      }
+                    },
+                    "trainingDataUnit": null,
+                    "botName": "electionBot_sbox",
+                    "appId": "4551E6A0-CCC2-45E8-BFB3-47021C0965C5",
+                    "query": "hi",
+                    "entityMatches": {}
+                  },
+                  "translated": "hi",
+                  "profile.locale": "en-GB",
+                  "rb": null,
+                  "profile.timezoneOffset": -7200000,
+                  "secondCandidateName": null,
+                  "candidateName": null,
+                  "firstCandidateName": null,
+                  "profile.firstName": "Admin",
+                  "baseExchangeRate": null,
+                  "resultType": null,
+                  "autoTranslate": true
+                },
+                "currentDialogState": "Admin_HelpUser",
+                "executedStates": [
+                  "Admin_WelcomeGreeting",
+                  "Admin_Onboarding",
+                  "Admin_HelpUser"
+                ]
+              }
+            }
+          },
+          "userId": "8442465"
+        }
+      ]
+    },
+    {
+      "responses": [
+        {
+          "messagePayload": {
+            "text": "candidateName is ${candidateName.value} and resultType is ${resultType.value}",
+            "type": "text",
+            "channelExtensions": {
+              "debugInfo": {
+                "variables": {
+                  "profile.updatedOn": "2018-04-03T08:40:17.854Z",
+                  "profile.languageTag": "en",
+                  "currencyType": null,
+                  "profile.lastName": "Chatbot",
+                  "greeting": null,
+                  "iResult": {
+                    "timeStamp": 1522744815556,
+                    "intentMatches": {
+                      "summary": [
+                        {
+                          "score": 0.9938,
+                          "intent": "Admin_WelcomeGreeting"
+                        },
+                        {
+                          "score": 0.0027,
+                          "intent": "ResultsLocal"
+                        },
+                        {
+                          "score": 0.0017,
+                          "intent": "Admin_ErrorHandling"
+                        },
+                        {
+                          "score": 0.0013,
+                          "intent": "Admin_UserChoice"
+                        },
+                        {
+                          "score": 0.0003,
+                          "intent": "Admin_HelpUser"
+                        },
+                        {
+                          "score": 0.0001,
+                          "intent": "CE_CALC_BestCommune"
+                        },
+                        {
+                          "score": 0,
+                          "intent": "ResultElections"
+                        },
+                        {
+                          "score": 0,
+                          "intent": "ResultCandidate"
+                        },
+                        {
+                          "score": 0,
+                          "intent": "ResultCommune"
+                        },
+                        {
+                          "score": 0,
+                          "intent": "ResultParticipation"
+                        }
+                      ],
+                      "detail": {
+                        "final_norm": [
+                          {
+                            "sentence": [],
+                            "score": 0.9938,
+                            "intent": "Admin_WelcomeGreeting"
+                          },
+                          {
+                            "sentence": [],
+                            "score": 0.0027,
+                            "intent": "ResultsLocal"
+                          },
+                          {
+                            "sentence": [],
+                            "score": 0.0017,
+                            "intent": "Admin_ErrorHandling"
+                          },
+                          {
+                            "sentence": [],
+                            "score": 0.0013,
+                            "intent": "Admin_UserChoice"
+                          },
+                          {
+                            "sentence": [],
+                            "score": 0.0003,
+                            "intent": "Admin_HelpUser"
+                          },
+                          {
+                            "sentence": [],
+                            "score": 0.0001,
+                            "intent": "CE_CALC_BestCommune"
+                          },
+                          {
+                            "sentence": [],
+                            "score": 0,
+                            "intent": "ResultElections"
+                          },
+                          {
+                            "sentence": [],
+                            "score": 0,
+                            "intent": "ResultCandidate"
+                          },
+                          {
+                            "sentence": [],
+                            "score": 0,
+                            "intent": "ResultCommune"
+                          },
+                          {
+                            "sentence": [],
+                            "score": 0,
+                            "intent": "ResultParticipation"
+                          }
+                        ]
+                      }
+                    },
+                    "trainingDataUnit": null,
+                    "botName": "electionBot_sbox",
+                    "appId": "4551E6A0-CCC2-45E8-BFB3-47021C0965C5",
+                    "query": "hi",
+                    "entityMatches": {}
+                  },
+                  "translated": "hi",
+                  "profile.locale": "en-GB",
+                  "rb": null,
+                  "profile.timezoneOffset": -7200000,
+                  "secondCandidateName": null,
+                  "candidateName": null,
+                  "firstCandidateName": null,
+                  "profile.firstName": "Admin",
+                  "baseExchangeRate": null,
+                  "resultType": "CE",
+                  "autoTranslate": true
+                },
+                "currentDialogState": "consoleLog",
+                "executedStates": [
+                  "resolve_GC_candidate",
+                  "conditionExists_GC_candidate",
+                  "resolveResultTypesFor_GC_Candidate",
+                  "resolveResultTypesFor_CE_Candidate",
+                  "resolveResultTypesFor_CE_or_GC_Candidate",
+                  "conditionExists_TEST",
+                  "consoleLog"
+                ]
+              }
+            }
+          },
+          "userId": "8442465"
+        }
+      ]
+    }
+  ]

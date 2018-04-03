@@ -1,0 +1,826 @@
+entity,value,synonyms
+Commune,aire la ville,aire:la:ville:1:area:the:city:1
+Commune,anieres,anieres:1:anieres:1
+Commune,avully,avully:1:avully:1
+Commune,avusy,avusy:1:Avusy:1
+Commune,bardonnex,bardonnex:1:bardonnex:1
+Commune,bellevue,bellevue:1:Bellevue:1
+Commune,bernex,bernex:1:bernex:1
+Commune,carouge,carouge:1:carouge:1
+Commune,cartigny,cartigny:1:cartigny:1
+Commune,celigny,celigny:1:celigny:1
+Commune,chancy,chancy:1:chancy:1
+Commune,chene bougeries centre,chene:bougeries:centre:1:oak:bougeries:Center:1
+Commune,conches,conches:2:conches:2
+Commune,chene bourg,chene:bourg:1:Oak:Town:1
+Commune,choulex,choulex:1:Choulex:1
+Commune,collex bossy,collex:bossy:1:Collex:bossy:1
+Commune,collonge bellerive,collonge:bellerive:1:collonge:bellerive:1
+Commune,cologny,cologny:1:cologny:1
+Commune,confignon,confignon:1:confignon:1
+Commune,corsier,corsier:1:corsier:1
+Commune,dardagny,dardagny:1:Dardagny:1
+Commune,cite rive,cite:rive:1:quote:bank:1
+Commune,paquis,paquis:2:paquis:2
+Commune,saint gervais,saint:gervais:3:saint:Gervais:3
+Commune,prairie delices,prairie:delices:4:Prairie:delices:4
+Commune,eaux vives lac,eaux:vives:lac:5:Water:vivid:Lake:5
+Commune,eaux vives frontenex,eaux:vives:frontenex:6:Water:vivid:frontenex:6
+Commune,florissant malagnou,florissant:malagnou:7:flourishing:Malagnou:7
+Commune,cluse roseraie,cluse:roseraie:8:cluse:rose:8
+Commune,acacias,acacias:9:acacias:9
+Commune,mail jonction,mail:jonction:mail:junction
+Commune,servette grand pre,servette:grand:pre:11:servette:big:pre:11
+Commune,prieure secheron,prieure:secheron:12:prioress:Secheron:12
+Commune,saint jean,saint:jean:13:saint:jean:13
+Commune,les crets,les:crets:14:the:crets:14
+Commune,cropettes vidollet,cropettes:vidollet:15:Cropettes:Vidollet:15
+Commune,vieusseux,vieusseux:16:Vieusseux:16
+Commune,champel,champel:17:champel:17
+Commune,genthod,genthod:1:genthod:1
+Commune,grand saconnex,grand:saconnex:1:big:saconnex:1
+Commune,gy,gy:1:gy:1
+Commune,hermance,hermance:1:hermance:1
+Commune,jussy,jussy:1:jussy:1
+Commune,laconnex,laconnex:1:Laconnex:1
+Commune,grand lancy,grand:lancy:1:big:Lancy:1
+Commune,petit lancy,petit:lancy:2:Small:Lancy:2
+Commune,meinier,meinier:1:Meinier:1
+Commune,meyrin,meyrin:1:meyrin:1
+Commune,onex,onex:1:onex:1
+Commune,perly certoux,perly:certoux:1:perly:Certoux:1
+Commune,plan les ouates,plan:les:ouates:1:map:the:wadding:1
+Commune,pregny chambesy,pregny:chambesy:1:Pregny:Chambesy:1
+Commune,presinge,presinge:1:Presinge:1
+Commune,puplinge,puplinge:1:Puplinge:1
+Commune,russin,russin:1:russin:1
+Commune,satigny,satigny:1:satigny:1
+Commune,soral,soral:1:Soral:1
+Commune,thonex,thonex:1:thonex:1
+Commune,troinex,troinex:1:Troinex:1
+Commune,vandoeuvres,vandoeuvres:1:Vandoeuvres:1
+Commune,vernier village,vernier:village:1:vernier:Village:1
+Commune,chatelaine,chatelaine:2:chatelaine:2
+Commune,aire le lignon,aire:le:lignon:3:area:on:lignon:3
+Commune,les avanchets,les:avanchets:4:them:avanchets:4
+Commune,versoix,versoix:1:versoix:1
+Commune,veyrier,veyrier:1:veyrier:1
+Commune,suisses de l'etranger,suisses:de:l:etranger:1:Swiss:of:abroad:1
+Commune,total canton,total:canton:total:Township
+LocalDeVote,aire la ville,aire:la:ville:1:area:the:city:1
+LocalDeVote,anieres,anieres:1:anieres:1
+LocalDeVote,avully,avully:1:avully:1
+LocalDeVote,avusy,avusy:1:Avusy:1
+LocalDeVote,bardonnex,bardonnex:1:bardonnex:1
+LocalDeVote,bellevue,bellevue:1:Bellevue:1
+LocalDeVote,bernex,bernex:1:bernex:1
+LocalDeVote,carouge,carouge:1:carouge:1
+LocalDeVote,cartigny,cartigny:1:cartigny:1
+LocalDeVote,celigny,celigny:1:celigny:1
+LocalDeVote,chancy,chancy:1:chancy:1
+LocalDeVote,chene bougeries centre,chene:bougeries:centre:1:oak:bougeries:Center:1
+LocalDeVote,conches,conches:2:conches:2
+LocalDeVote,chene bourg,chene:bourg:1:Oak:Town:1
+LocalDeVote,choulex,choulex:1:Choulex:1
+LocalDeVote,collex bossy,collex:bossy:1:Collex:bossy:1
+LocalDeVote,collonge bellerive,collonge:bellerive:1:collonge:bellerive:1
+LocalDeVote,cologny,cologny:1:cologny:1
+LocalDeVote,confignon,confignon:1:confignon:1
+LocalDeVote,corsier,corsier:1:corsier:1
+LocalDeVote,dardagny,dardagny:1:Dardagny:1
+LocalDeVote,cite rive,cite:rive:1:quote:bank:1
+LocalDeVote,paquis,paquis:2:paquis:2
+LocalDeVote,saint gervais,saint:gervais:3:saint:Gervais:3
+LocalDeVote,prairie delices,prairie:delices:4:Prairie:delices:4
+LocalDeVote,eaux vives lac,eaux:vives:lac:5:Water:vivid:Lake:5
+LocalDeVote,eaux vives frontenex,eaux:vives:frontenex:6:Water:vivid:frontenex:6
+LocalDeVote,florissant malagnou,florissant:malagnou:7:flourishing:Malagnou:7
+LocalDeVote,cluse roseraie,cluse:roseraie:8:cluse:rose:8
+LocalDeVote,acacias,acacias:9:acacias:9
+LocalDeVote,mail jonction,mail:jonction:mail:junction
+LocalDeVote,servette grand pre,servette:grand:pre:11:servette:big:pre:11
+LocalDeVote,prieure secheron,prieure:secheron:12:prioress:Secheron:12
+LocalDeVote,saint jean,saint:jean:13:saint:jean:13
+LocalDeVote,les crets,les:crets:14:the:crets:14
+LocalDeVote,cropettes vidollet,cropettes:vidollet:15:Cropettes:Vidollet:15
+LocalDeVote,vieusseux,vieusseux:16:Vieusseux:16
+LocalDeVote,champel,champel:17:champel:17
+LocalDeVote,genthod,genthod:1:genthod:1
+LocalDeVote,grand saconnex,grand:saconnex:1:big:saconnex:1
+LocalDeVote,gy,gy:1:gy:1
+LocalDeVote,hermance,hermance:1:hermance:1
+LocalDeVote,jussy,jussy:1:jussy:1
+LocalDeVote,laconnex,laconnex:1:Laconnex:1
+LocalDeVote,grand lancy,grand:lancy:1:big:Lancy:1
+LocalDeVote,petit lancy,petit:lancy:2:Small:Lancy:2
+LocalDeVote,meinier,meinier:1:Meinier:1
+LocalDeVote,meyrin,meyrin:1:meyrin:1
+LocalDeVote,onex,onex:1:onex:1
+LocalDeVote,perly certoux,perly:certoux:1:perly:Certoux:1
+LocalDeVote,plan les ouates,plan:les:ouates:1:map:the:wadding:1
+LocalDeVote,pregny chambesy,pregny:chambesy:1:Pregny:Chambesy:1
+LocalDeVote,presinge,presinge:1:Presinge:1
+LocalDeVote,puplinge,puplinge:1:Puplinge:1
+LocalDeVote,russin,russin:1:russin:1
+LocalDeVote,satigny,satigny:1:satigny:1
+LocalDeVote,soral,soral:1:Soral:1
+LocalDeVote,thonex,thonex:1:thonex:1
+LocalDeVote,troinex,troinex:1:Troinex:1
+LocalDeVote,vandoeuvres,vandoeuvres:1:Vandoeuvres:1
+LocalDeVote,vernier village,vernier:village:1:vernier:Village:1
+LocalDeVote,chatelaine,chatelaine:2:chatelaine:2
+LocalDeVote,aire le lignon,aire:le:lignon:3:area:on:lignon:3
+LocalDeVote,les avanchets,les:avanchets:4:them:avanchets:4
+LocalDeVote,versoix,versoix:1:versoix:1
+LocalDeVote,veyrier,veyrier:1:veyrier:1
+LocalDeVote,suisses de l'etranger,suisses:de:l:etranger:1:Swiss:of:abroad:1
+LocalDeVote,total canton,total:canton:total:Township
+Candidat_CE_GC,WENGER Saliha,saliha:wenger:salika:saliha:wenger:Salika
+Candidat_CE_GC,HALLER Jocelyne,jocelyne:haller:haler:Jocelyne:haller:haul
+Candidat_CE_GC,BURGERMEISTER Jean,jean:burgermeister:jean:burgermeister
+Candidat_CE_GC,HODGERS Antonio,antonio:hodgers:antonio:Hodgers
+Candidat_CE_GC,DE CHASTONAY Marjorie,marjorie:de:chastonay:dechastonay:de:chastonnay:de:chastonait:marjorie:from:chastonay:dechastonay:from:chastonnay:from:chastonait
+Candidat_CE_GC,ROCHAT Yvan,yvan:rochat:yvan:rochat
+Candidat_CE_GC,EMERY-TORRACINTA Anne,anne:emery:torracinta:toracinta:anne:emery:Torracinta:toracinta
+Candidat_CE_GC,APOTHÉLOZ Thierry,thierry:apothéloz:thierry:Apothéloz
+Candidat_CE_GC,SALERNO Sandrine,sandrine:salerno:Sandrine:salerno
+Candidat_CE_GC,MAUDET Pierre,pierre:maudet:Stone:Maudet
+Candidat_CE_GC,FONTANET Nathalie,nathalie:fontanet:Nathalie:fontanet
+Candidat_CE_GC,DE SENARCLENS Alexandre,alexandre:de:senarclens:alexander:from:senarclens
+Candidat_CE_GC,BARTHASSAT Luc,luc:barthassat:bartassat:luke:Barthassat:bartassat
+Candidat_CE_GC,DAL BUSCO Serge,serge:dal:busco:serge:dal:Busco
+Candidat_CE_GC,NIDEGGER Yves,yves:nidegger:nideger:nydegger:nydeger:Yves:Nidegger:nideger:Nydegger:nydeger
+Candidat_CE_GC,BLÄSI Thomas,thomas:bläsi:thomas:Bläsi
+Candidat_CE_GC,FLOREY Stéphane,stéphane:florey:Stephane:florey
+Candidat_CE_GC,ORSINI Magali,magali:orsini:Magali:orsini
+Candidat_CE_GC,GAUTHIER Pierre,pierre:gauthier:Stone:Gauthier
+Candidat_CE_GC,STAUFFER Eric,eric:stauffer:staufer:eric:stauffer:Staufer
+Candidat_CE_GC,ZACHARIAS Ronald,ronald:zacharias:zaccharias:zacharrias:ronald:zacharias:Zaccharias:zacharrias
+Candidat_CE_GC,VIDONNE Thierry,thierry:vidonne:viodne:thierry:Vidonne:viodne
+Candidat_CE_GC,LEITNER André,andré:leitner:andre:leitner
+Candidat_CE_GC,POGGIA Mauro,mauro:poggia:pogia:Mauro:Poggia:pogia
+Candidat_CE_GC,ROCH Ana Belen,ana:belen:roch:anna:belenne:ana:belen:Rosh:anna:belenne
+Candidat_CE_GC,SORMANNI Daniel,daniel:sormanni:sormani:daniel:sormanni:sormani
+Candidat_CE_GC,FONTANA Jérôme,jérôme:fontana:Jerome:Fontana
+Candidat_CE_GC,EMERY-TORRACINTA Anne,anne:emery:torracinta:toracintta:anne:emery:Torracinta:toracintta
+Candidat_CE_GC,APOTHÉLOZ Thierry,thierry:apothéloz:thierry:Apothéloz
+Candidat_CE_GC,SALERNO Sandrine,sandrine:salerno:Sandrine:salerno
+Candidat_CE_GC,HODGERS Antonio,antonio:hodgers:antonio:Hodgers
+Candidat_CE_GC,DE CHASTONAY Marjorie,marjorie:de:chastonay:chastonnay:Marjorie:from:Chastonay:chastonnay
+Candidat_CE_GC,ROCHAT Yvan,yvan:rochat:yvan:rochat
+Candidat_CE_GC,HALLER Jocelyne,jocelyne:haller:haler:Jocelyne:haller:haul
+Candidat_CE_GC,WENGER Saliha,saliha:wenger:salika:saliha:wenger:Salika
+Candidat_CE_GC,BURGERMEISTER Jean,jean:burgermeister:jean:burgermeister
+Candidat_CE_GC,POGGIA Mauro,mauro:poggia:pogia:Mauro:Poggia:pogia
+Candidat_CE_GC,ROCH Ana Belen,ana:belen:roch:ana:belen:Roch
+Candidat_CE_GC,SORMANNI Daniel,daniel:sormanni:sormani:daniel:sormanni:sormani
+Candidat_CE_GC,MAUDET Pierre,pierre:maudet:Stone:Maudet
+Candidat_CE_GC,DAL BUSCO Serge,serge:dal:busco:serge:dal:Busco
+Candidat_CE_GC,BARTHASSAT Luc,luc:barthassat:bartassat:luke:Barthassat:bartassat
+Candidat_CE_GC,FONTANET Nathalie,nathalie:fontanet:fontannet:Nathalie:fontanet:Fontannet
+Candidat_CE_GC,DE SENARCLENS Alexandre,alexandre:de:senarclens:de:senarclent:alexandre:from:senarclens:from:senarclent
+Candidat_CE_GC,NIDEGGER Yves,yves:nidegger:nydegger:nideger:nydeger:Yves:Nidegger:Nydegger:nideger:nydeger
+Candidat_CE_GC,BLÄSI Thomas,thomas:bläsi:blasi:thomas:Bläsi:blasi
+Candidat_CE_GC,FLOREY Stéphane,stéphane:florey:florest:Stephane:florey:florest
+Candidat_CE_GC,ORSINI Magali,magali:orsini:Magali:orsini
+Candidat_CE_GC,GAUTHIER Pierre,pierre:gauthier:gautier:Stone:Gauthier:Gautier
+Candidat_CE_GC,STAUFFER Eric,eric:stauffer:staufer:eric:stauffer:Staufer
+Candidat_CE_GC,ZACHARIAS Ronald,ronald:zacharias:ronald:zacharias
+Candidat_CE_GC,VIDONNE Thierry,thierry:vidonne:vidonne:thierry:Vidonne:Vidonne
+Candidat_CE_GC,LEITNER André,andré:leitner:leytner:andre:leitner:Leytner
+Candidat_CE_GC,FONTANA Jérôme,jérôme:fontana:Jerome:Fontana
+Listes_CE,LES SOCIALISTES,les:socialistes:soc:1:them:Socialists:soc:1
+Listes_CE,LES VERTS,les:verts:vert:2:the:green:green:2
+Listes_CE,ENSEMBLE À GAUCHE,ensemble:a:gauche:eag:3:Overall:a:Left:eag:3
+Listes_CE,MCG,mcg:mouvement:citoyens:genevois:mcg:4:mcg:movement:Citizens:Geneva:mcg:4
+Listes_CE,PLR - PDC - ENTENTE,plr:pdc:entente:ent:5:PLR:CDP:Agreement:ent:5
+Listes_CE,RIEN PAS GRAND CHOSE,de:rien:pour:arriver:a:pas:grand:chose:rien:6:of:nothing:for:reach:a:not:tall:thing:nothing:6
+Listes_CE,SANTÉ,sante:san:7:Health:san:7
+Listes_CE,UDC,udc:udc:8:udc:udc:8
+Listes_CE,PROSPÉRITÉ MAÎTRISÉE,prosperite:maitrisee:prom:9:Prosperity:CONTROLLED:Prom:9
+Listes_CE,LA LISTE POUR GENÈVE,la:liste:pour:geneve:lpg:2:the:list:for:geneva:lpg:2
+Listes_CE,GENÈVE EN MARCHE,geneve:en:marche:gema:211:Geneva:to:start:gema:211
+Listes_CE,PBD GENÈVE,pbd:geneve:le:juste:milieu:pbd:212:pbd:geneva:the:right:medium:PBD:212
+Listes_CE,VERT'LIBÉRAUX,vert_liberaux:verl:213:vert_liberaux:verl:213
+Listes_GC,ENSEMBLE À GAUCHE,ensemble:a:gauche:eag:1:Overall:a:Left:eag:1
+Listes_GC,LES VERTS,les:verts:vert:2:the:green:green:2
+Listes_GC,LES SOCIALISTES,les:socialistes:soc:3:the:Socialist:soc:3
+Listes_GC,LIBÉRAUX-RADICAUX,plr:les:liberaux:radicaux:geneve:plr4:PLR:the:Liberals:radicals:Genève:plr4
+Listes_GC,DÉMOCRATE-CHRÉTIEN,parti:democrate:chretien:(pdc):pdc:5:Party:Democrat:Christian:(CDP):CDP:5
+Listes_GC,UDC,udc:udc:6:UDC:UDC:6
+Listes_GC,LALISTE-FEMMES 2018,laliste:femmes:18:au:grand:conseil:fem:7:laliste:Women:18:to:large:Board:fem:7
+Listes_GC,LA LISTE POUR GENÈVE,la:liste:pour:geneve:lpg:8:the:list:for:geneva:lpg:8
+Listes_GC,GENÈVE EN MARCHE,geneve:en:marche:gema:9:geneva:in:on:gem:9
+Listes_GC,PBD GENÈVE,pbd:geneve:le:juste:milieu:pbd:1:pbd:Genève:the:right:medium:pbd:1
+Listes_GC,MCG,mcg:mouvement:citoyens:genevois:mcg:111:mcg:movement:Citizens:Geneva:mcg:111
+Listes_GC,VERT'LIBÉRAUX,vert_liberaux:verl:112:vert_liberaux:verl:112
+Listes_GC,ÉGALITÉ ET ÉQUITÉ,liste:egalite:et:equite:lee:113:list:equality:and:equity:lee:113
+ResultTypes,Resultats des elections,election results:1st round results:results cantonal elections
+ResultTypes,Resultats Conseil Etat,results state council:Board of state:result state council:Councillor of state:state counselor:State Council results
+ResultTypes,Resultats Grand Conseil,Grand Council Results:great advice:results of the deputies
+ResultTypes,Niveau de participation,Level of participation:participation:rate of participation
+ResultTypes,Resultats par candidat,Result per candidate:results of the candidates:results of the candidate:result of the candidate:Results by candidate:Result by candidate:candidate results:candidates result:candidates results:candidate
+ResultTypes,Resultats par liste,Results by list:result of lists:results of the list:the lists
+ResultTypes,Resultats par local,Results by local:results of the premises:the locals:the residents:local:results of my local
+Candidat_CE,AMBERGER Axel,axel:amberger:axel:Amberger
+Candidat_CE,AYMON Paul,paul:aymon:dit:paul:sierre:paul:aymon:said:paul:sierre
+Candidat_CE,CRETEGNY Willy,willy:cretegny:willy:Cretegny
+Candidat_CE,AMSLER Susanne,susanne:amsler:susanne:amsler
+ElectionType,Conseil Etat,Conseil d'Etat:conseil etat:conseil état:conseil d'état:conseiletat:etat:état:CE:Le Conseil d'Etat:Board of state:State Council State Council:State Council:CouncilState:State:EC:The State Council:Board of State
+ElectionType,Grand Conseil,Grand Conseil:conseil:GC:le Grand Conseil:Great advice:Grand Council:Council
+Candidat_GC,PAGANI Rémy,rémy:pagani:Remy:pagani
+Candidat_GC,ZAUGG Christian,christian:zaugg:zaug:zog:zogg:christian:zaugg:Zaug:zog:Zogg
+Candidat_GC,ENILINE Alexander,alexander:eniline:alexander:eniline
+Candidat_GC,CRUCHON Pablo,pablo:cruchon:pablo:jug
+Candidat_GC,VALENTINO Stéphanie,stéphanie:valentino:stephanie:Valentino
+Candidat_GC,ECUYER Hélène,hélène:ecuyer:helen:Esquire
+Candidat_GC,ISSOM David-Zacharie,david:zacharie:issom:isom:david:zacharie:ISSOM:isomer
+Candidat_GC,OSSMANN Sekna,sekna:ossmann:osmann:ossman:sekna:Ossmann:Osmann:Ossman
+Candidat_GC,NYFFELER BATOU Françoise,françoise:nyffeler:batou:niffeler:nyfeller:Francoise:Nyffeler:batou:Niffeler:nyfeller
+Candidat_GC,JANUZI Bashkim,bashkim:januzi:baskim:januzzi:bashkim:Januzi:Baskim:Januzzi
+Candidat_GC,ECUYER Sébastien,sébastien:ecuyer:Sebastian:Esquire
+Candidat_GC,OVETT BONDI Davinia,davinia:ovett:bondi:ovet:davinia:Ovett:jumped:ovet
+Candidat_GC,JIMENEZ Jean-Daniel,jean:daniel:jimenez:jean:daniel:Jimenez
+Candidat_GC,ECUYER Annick,annick:ecuyer:Annick:Esquire
+Candidat_GC,PERADOTTO Julie,julie:peradotto:peradoto:perradoto:peradotto:julie:Peradotto:peradoto:perradoto:Peradotto
+Candidat_GC,MANRÍQUEZ Matías,matías:manríquez:matías:Manríquez
+Candidat_GC,ZEHFUS Yves,yves:zehfus:zhefus:zehfuss:zhefuss:Yves:Zehfus:zhefus:zehfuss:zhefuss
+Candidat_GC,ZAUGG Daniel,daniel:zaugg:zaug:zog:zogg:daniel:zaugg:Zaug:zog:Zogg
+Candidat_GC,PEREZ Maria,maria:perez:lou:maria:perez:lou
+Candidat_GC,SCHNEBLI Tobias,tobias:schnebli:tobia:shnebli:Tobias:Schnebli:tobia:shnebli
+Candidat_GC,MISSOH DZIKUNOO Massan,massan:missoh:dzikunoo:dzikouno:misso:misho:massan:missoh:dzikunoo:dzikouno:misso:misho
+Candidat_GC,MARTENOT Aude,aude:martenot:Aude:Martenot
+Candidat_GC,VANEK Pierre,pierre:vanek:vaneck:Stone:vanek:vaneck
+Candidat_GC,CLEMENT Patrice,patrice:clement:patrice:clement
+Candidat_GC,PREZIOSO BATOU Stefania,stefania:prezioso:batou:presioso:stefania:prezioso:batou:presioso
+Candidat_GC,ESAKI KABEYA Elisabeth,elisabeth:esaki:kabeya:elizabeth:Esaki:kabeya
+Candidat_GC,LANGFORD Pia,pia:langford:Pia:langford
+Candidat_GC,VINCENT Michel,michel:vincent:michel:vincent
+Candidat_GC,RUMPCZYK Delphine,delphine:rumpczyk:rumptchik:rumptchyk:rumpzyk:Delphine:rumpczyk:rumptchik:rumptchyk:rumpzyk
+Candidat_GC,SALM DARBOE Karijn,karijn:salm:darboe:Karijn:Salm:Darboe
+Candidat_GC,ANDENMATTEN David,david:andenmatten:andenmaten:david:Andenmatten:andenmaten
+Candidat_GC,SCHMID Audrey,audrey:schmid:schmit:schmitt:Audrey:schmid:schmit:schmitt
+Candidat_GC,GUEVARA Francisco,francisco:guevara:francisco:Guevara
+Candidat_GC,BATOU Jean,jean:batou:jean:batou
+Candidat_GC,STEBLER GUENAT Henriette,henriette:stebler:guenat:guenaz:guenad:Henriette:stebler:Guenat:guenaz:guenad
+Candidat_GC,EDJEOU Corinne,corinne:edjeou:buntschu:buntchu:Corinne:edjeou:Buntschu:buntchu
+Candidat_GC,ZAUGG Cecilia,cecilia:zaugg;zaug:zog:zogg:cecilia:zaugg;:Zaug:zog:Zogg
+Candidat_GC,BAUD Olivier,olivier:baud:beaud:beau:Olive:baud:beaud:beautiful
+Candidat_GC,ZBINDEN Livia,livia:zbinden:livia:zbinden
+Candidat_GC,ROSSEL Pascal,pascal:rossel:rosel:rossell:pascal:rossel:rosel:rossell
+Candidat_GC,BAYENET Pierre,pierre:bayenet:baienet:Stone:Bayenet:baienet
+Candidat_GC,BAILAT Ariane,ariane:bailat:baillat:Breadcrumb:Bailat:Baillat
+Candidat_GC,MAILLEFER Denise,denise:maillefer:mailefer:denise:maillefer:mailefer
+Candidat_GC,MEIERHOFER MANYAGOUA BOUMTCHÉ Charlotte,charlotte:meierhofer:manyagoua:boumtché:meierhoffer:maniagoua:charlotte:Meierhofer:manyagoua:boumtché:meierhoffer:maniagoua
+Candidat_GC,BLANCHET Marjo,marjo:blanchet:marjo:blanket
+Candidat_GC,MARTI Werner,werner:marti:marty:Werner:marti:marty
+Candidat_GC,KHAOUCHI Corinne,corinne:khaouchi:kaouchi:kahouchi:Corinne:khaouchi:kaouchi:kahouchi
+Candidat_GC,BOLAY ROBIN Stéphanie,stéphanie:bolay:robin:stephanie:Bolay:robin
+Candidat_GC,BLANCO Luis,luis:blanco:luis:blanco
+Candidat_GC,MAMIN François,françois:mamin:François:Mamin
+Candidat_GC,DE MELO MARCELINO Amélia,amélia:de:melo:marcelino:amélia:from:melo:marcelino
+Candidat_GC,BOUZID Mohamed,mohamed:bouzid:mohamed:Bouzid
+Candidat_GC,BOUJEMAA Sanae,sanae:boujemaa:boujema:Sanae:Boujemaa:Boujema
+Candidat_GC,GALLAND Eduardo,eduardo:galland:gallant:eduardo:galland:gallant
+Candidat_GC,JELK Andrée,andrée:jelk:jelk:peila:jelck:pela:andrée:Jelk:Jelk:Peila:jelck:pela
+Candidat_GC,CASTRO Gloria,gloria:castro:gloria:castro
+Candidat_GC,CAMELO Alfredo,alfredo:camelo:alfredo:camelo
+Candidat_GC,NOETZLIN Simon,simon:noetzlin:simon:noetzlin
+Candidat_GC,DURAKU Fitore,fitore:duraku:Fitore:Duraku
+Candidat_GC,DURAKU Edon,edon:duraku:edon:Duraku
+Candidat_GC,FERREIRA Elisabeth,elisabeth:ferreira:fereirai:ferrera:elizabeth:ferreira:fereirai:ferrera
+Candidat_GC,CHRISTINAT Jean-David,jean:david:christinat:christina:jean:david:Christinat:christina
+Candidat_GC,GERARDO FÉLIZ GRUBI Ynes,ynes:gerardo:féliz:grubi:felix:ynes:gerardo:Feliz:Grubi:felix
+Candidat_GC,CARLO Xavier,xavier:carlo:xavier:carlo
+Candidat_GC,SAHIN Gazi,gazi:sahin:Gazi:Sahin
+Candidat_GC,PERLER Frédérique,frédérique:perler:frédérique:beading
+Candidat_GC,BUSCHBECK Mathias,mathias:buschbeck:buchbeck:bushbeck:buschbek:Mathias:Buschbeck:buchbeck:bushbeck:buschbek
+Candidat_GC,LEFORT François,françois:lefort:François:lefort
+Candidat_GC,LEONELLI Katia,katia:leonelli:leonnelli:leoneli:Katia:Leonelli:leonnelli:leoneli
+Candidat_GC,MACCHIAVELLI Marta,marta:macchiavelli:marta:julia:machiavelli:macchiaveli:Marta:macchiavelli:marta:julia:machiavelli:macchiaveli
+Candidat_GC,MAKOSSO William,william:makosso:makoso:mackosso:william:Makosso:makoso:Mackosso
+Candidat_GC,MARTIN David,david:martin:david:martin
+Candidat_GC,MÜLLER SONTAG Corinne,corinne:müller:sontag:Corinne:müller:sontag
+Candidat_GC,NICOLET-DIT-FELIX Julien,julien:nicolet:dit:felix:Julian:nicolet:said:felix
+Candidat_GC,NOËL Philippe,philippe:noël:philippe:christmas
+Candidat_GC,ORIOLO Alessandra,alessandra:oriolo:oriollo:alessandra:oriolo:oriollo
+Candidat_GC,OZTÜRK Dilara,dilara:oztürk:dilara:Oztürk
+Candidat_GC,PASQUIER Isabelle,isabelle:pasquier:pasquier:eichenberger:Isabelle:pasquier:pasquier:eichenberger
+Candidat_GC,POGET Philippe,philippe:poget:philippe:poget
+Candidat_GC,QUIJANO GARCIA Maria,maria:quijano:garcia:maria:josé:maria:quijano:garcia:maria:jose
+Candidat_GC,RODRIGUEZ Mario,mario:rodriguez:rodrigues:Mario:rodriguez:Rodrigues
+Candidat_GC,ROGG Catharina,catharina:rogg:olowine:rog:catharina:rogg:olowine:rog
+Candidat_GC,ROSSIAUD Jean,jean:rossiaud:rossiaut:jean:Rossiaud:rossiaut
+Candidat_GC,SAA BAUD Yubitza,yubitza:saa:baud:youbitza:beaud:yubitza:saa:baud:youbitza:beaud
+Candidat_GC,SCHALK Antoine,antoine:schalk:Antoine:schalk
+Candidat_GC,SCHAUFELBERGER Esther,esther:schaufelberger:esther:schaufelberger
+Candidat_GC,SORDET Adrienne,adrienne:sordet:adrienne:sordet
+Candidat_GC,TALEGHANI Majid,majid:taleghani:talegani:taleganni:Majid:Taleghani:talegani:taleganni
+Candidat_GC,TCHAMKERTEN Jolanka,jolanka:tchamkerten:jolanka:Tchamkerten
+Candidat_GC,TIGUEMOUNINE Sabine,sabine:tiguemounine:Sabine:tiguemounine
+Candidat_GC,TINGUELY Dominique,dominique:tinguely:dominique:tinguely
+Candidat_GC,TSCHUDI Paloma,paloma:tschudi:tchudi:paloma:tschudi:tchudi
+Candidat_GC,VAN WOERDEN Wendy,wendy:van:woerden:wendy:van:woerden
+Candidat_GC,VEIGA ARIAS Damian,damian:veiga:arias:veiga:löffel:Damian:veiga:arias:veiga:löffel
+Candidat_GC,WISARD PRADO Leyma,leyma:wisard:prado:wizard:wisart:Leyma:wizard:will:Prado:wizard:WisArt
+Candidat_GC,YUNUS EBENER Mariam,mariam:yunus:ebener:maryam:mariam:Yunus:ebener:maryam
+Candidat_GC,AMATO Maurice,maurice:amato:amselem:ossipov:maurice:amato:Amselem:Osipov
+Candidat_GC,AMSELLEM Benedicte,benedicte:amsellem:amsellem:ossipow:amselem:ossipov:benedicte:amsellem:amsellem:Ossipow:Amselem:Osipov
+Candidat_GC,ARDIZZONE Ivan,ivan:ardizzone:ivan:ardizzone
+Candidat_GC,AZZABI Omar,omar:azzabi:azabbi:omar:azzabi:azabbi
+Candidat_GC,BÄNZIGER Ruth,ruth:bänziger:ruth:Bänziger
+Candidat_GC,BARCIELA VILLAR Ana,ana:barciela:villar:ana:Barciela:villar
+Candidat_GC,BAVAREL Christian,christian:bavarel:christian:Bavarel
+Candidat_GC,BOCCARD Damien,damien:boccard:damien:baptiste:bocard:Damien:Boccard:Damien:Baptist:bocard
+Candidat_GC,BONNY Didier,didier:bonny:Didier:bonny
+Candidat_GC,BONVIN BONFANTI Anne,anne:bonvin:bonfanti:anne:bonvin:bonfanti
+Candidat_GC,BUCHER Denis,denis:bucher:denis:woodshed
+Candidat_GC,BUENZOD Christian,christian:buenzod:christian:Buenzod
+Candidat_GC,BUI Aurore,aurore:bui:buy:Aurora:bui:buy
+Candidat_GC,CABITZA Marina,marina:cabitza:marina:Cabitza
+Candidat_GC,CALAME Boris,boris:calame:boris:calame
+Candidat_GC,CALAME Fabrice,fabrice:calame:Fabrice:calame
+Candidat_GC,CHAUDIEU Anne,anne:chaudieu:anne:Chaudieu
+Candidat_GC,CONCHA Celtia,celtia:concha:celtia:concha
+Candidat_GC,CORPATAUX Laurence,laurence:corpataux:corpataux:Laurence:Corpataux:Corpataux
+Candidat_GC,DALPHIN Marc,marc:dalphin:dalfin:marc:dalphin:Dalfin
+Candidat_GC,DE FELICE Nicolas,nicolas:de:felice:Nicolas:of:Felice
+Candidat_GC,DE MAIO Sara,sara:de:maio:sara:from:maio
+Candidat_GC,DE MATTEIS Yves,yves:de:matteis:de:mateis:yves:from:matteis:from:mateis
+Candidat_GC,DE ROUGEMONT Philippe,philippe:de:rougemont:philippe:from:rougemont
+Candidat_GC,DESBIOLLES Sophie,sophie:desbiolles:sophie:Desbiolles
+Candidat_GC,DESCOMBES Isabelle,isabelle:descombes:decombes:Isabelle:descombes:Decombes
+Candidat_GC,DUJOUX Valentin,valentin:dujoux:Valentine:dujoux
+Candidat_GC,DUPUIS Renaud,renaud:dupuis:renaud:Dupuis
+Candidat_GC,EBENER Christophe,christophe:ebener:christophe:ebener
+Candidat_GC,ECKERT Pierre,pierre:eckert:ekert:Stone:Eckert:Ekert
+Candidat_GC,FISCHER Fabienne,fabienne:fischer:Fabian:fischer
+Candidat_GC,FREYMOND Pascal,pascal:freymond:freymont:pascal:freymond:freymont
+Candidat_GC,GEOFFROY Elias,elias:geoffroy:geofroy:elias:geoffroy:Geofroy
+Candidat_GC,GOMEZ Alfonso,alfonso:gomez:alfonso:gomez
+Candidat_GC,HAAS François,françois:haas:has:François:haas:has
+Candidat_GC,HARTMANN Esther,esther:hartmann:hartman:esther:hartmann:Hartman
+Candidat_GC,HEBERLEIN SIMONETT Claudia,claudia:heberlein:simonett:simonet:claudia:Heberlein:Simonett:simonet
+Candidat_GC,HERREN Yves,yves:herren:Yves:herren
+Candidat_GC,KHAMIS VANNINI Uzma,uzma:khamis:vannini:kamis:uzma:Khamis:Vannini:kami
+Candidat_GC,KLOPFENSTEIN BROGGINI Delphine,delphine:klopfenstein:broggini:bogini:Delphine:Klopfenstein:Broggini:bogini
+Candidat_GC,KÜNDIG Ralph,ralph:kündig:ralph:Kündig
+Candidat_GC,LATOUR Sabine,sabine:latour:Sabine:Latour
+Candidat_GC,DE SAINTE-MARIE Romain,romain:de:sainte:marie:Roman:of:holy:marie
+Candidat_GC,KAST Carole-Anne,carole:anne:kast:Carole:anne:kast
+Candidat_GC,WENGER Thomas,thomas:wenger:thomas:wenger
+Candidat_GC,MARTI Caroline,caroline:marti:marty:caroline:marti:marty
+Candidat_GC,BANDLER Marko,marko:bandler:marko:bandler
+Candidat_GC,MOYARD MIZRAHI Salima,salima:moyard:mizrahi:salima:Moyard:Mizrahi
+Candidat_GC,DANDRÈS Christian,christian:dandrès:christian:Dandres
+Candidat_GC,VERISSIMO DE FREITAS Helena,helena:verissimo:de:freitas:Helena:verissimo:from:freitas
+Candidat_GC,CARASSO Grégoire,grégoire:carasso:gregory:carasso
+Candidat_GC,SOBANEK Marion,marion:sobanek:sobaneck:marion:sobanek:sobaneck
+Candidat_GC,THÉVOZ Sylvain,sylvain:thévoz:Sylvain:Thévoz
+Candidat_GC,CONTI Jennifer,jennifer:conti:jennifer:conti
+Candidat_GC,STAUB Martin,martin:staub:grecucio:martin:staub:grecucio
+Candidat_GC,VALIQUER GRECUCCIO Nicole,nicole:valiquer:grecuccio:nicole:valiquer:Grecuccio
+Candidat_GC,RIELLE Jean Charles,jean:charles:rielle:jean:charles:rial
+Candidat_GC,GAVILANES Amanda,amanda:gavilanes:amanda:gavilanes
+Candidat_GC,MIZRAHI Cyril,cyril:mizrahi:Cyril:Mizrahi
+Candidat_GC,CASARES Maria Jesus,maria:jesus:casares:maria:jesus:Casares
+Candidat_GC,POMATTO Michel,michel:pomatto:michel:Pomatto
+Candidat_GC,STRASSER Léna,léna:strasser:Jena:strasser
+Candidat_GC,KOKOT Guilhem,guilhem:kokot:Guilhem:Kokot
+Candidat_GC,ROMANO Maria,maria:romano:maria:vittoria:maria:Romano:maria:Vittoria
+Candidat_GC,MUSSA Ahmed,ahmed:mussa:youniss:ahmed:mussa:Youniss
+Candidat_GC,OSMANI Xhevrie,xhevrie:osmani:xhevrie:osmani
+Candidat_GC,ESTEBAN Diego,diego:esteban:diego:esteban
+Candidat_GC,BAILLON Glenna,glenna:baillon:glenna:gag
+Candidat_GC,EYA NCHAMA Cruz Melchor,cruz:melchor:eya:nchama:cruz:melchor:eya:Nchama
+Candidat_GC,BRANDRUP Gladys,gladys:brandrup:acosta:brandrup:gladys:Brandrup:acosta:Brandrup
+Candidat_GC,CHIARADONNA Denis,denis:chiaradonna:chiaradona:denis:chiaradonna:chiaradona
+Candidat_GC,LÜTHI Badia,badia:lüthi:luthy:Badia:lüthi:luthy
+Candidat_GC,CLEMENCE Nicolas,nicolas:clemence:Nicolas:clemency
+Candidat_GC,VATRE Patricia,patricia:vatre:patricia:Vatre
+Candidat_GC,ZIMMERMANN Michel,michel:zimmermann:zimermann:zimmerman:michel:zimmermann:Zimermann:zimmerman
+Candidat_GC,VIRET Dora,dora:viret:cécilia:Dora:viret:cécilia
+Candidat_GC,VELASCO Alberto,alberto:velasco:favre:alberto:velasco:favre
+Candidat_GC,FABRE Michel,michel:fabre:michel:Fabre
+Candidat_GC,DE BATTISTA Regis,regis:de:battista:de:batista:regis:of:battista:de:batista
+Candidat_GC,DEONNA Emmanuel,emmanuel:deonna:deona:Emmanuel:deonna:Deona
+Candidat_GC,TOMBOLA Jean-Pierre,jean:pierre:tombola:jean:pierre:Raffle
+Candidat_GC,KEEL Theo,theo:keel:theo:keel
+Candidat_GC,LAPALUD Patrick,patrick:lapalud:patrick:lapalud
+Candidat_GC,BARRY Thierno,thierno:barry:thierno:barry
+Candidat_GC,HALIMI Hysri,hysri:halimi:hysri:halimi
+Candidat_GC,GAJARDO MUNOZ Jorge,jorge:gajardo:munoz:jorge:Gajardo:munoz
+Candidat_GC,ALONSO UNICA Manuel,manuel:alonso:unica:Manual:alonso:unica
+Candidat_GC,BALDINI Frédéric,frédéric:baldini:Frederic:baldini
+Candidat_GC,BRUCHEZ Thomas,thomas:bruchez:thomas:bruchez
+Candidat_GC,BENDA Benjamin,benjamin:benda:Youngest:Benda
+Candidat_GC,BURKHARD Roland,roland:burkhard:burkhart:burkardt:roland:burkhard:Burkhart:Burkhardt
+Candidat_GC,BOSSHARD Pierre Yves,pierre:yves:bosshard:bosshart:bossardt:Stone:Yves:bosshard:Bosshart:Bossardt
+Candidat_GC,KURTESHI Ismet,ismet:kurteshi:kurtechi:Ismet:Kurteshi:kurtechi
+Candidat_GC,DE MONTMOLLIN Simone,simone:de:montmollin:montmolin:Simone:from:montmollin:montmolin
+Candidat_GC,MOREL Philippe,philippe:morel:philippe:morel
+Candidat_GC,PUTALLAZ Jean,jean:putallaz:jean:romain:putalaz:jean:Putallaz:jean:Roman:putalaz
+Candidat_GC,SAUDAN Patrick,patrick:saudan:patrick:Saudan
+Candidat_GC,SELLEGER Charles,charles:selleger:charles:Selleger
+Candidat_GC,UEHLINGER Pascal,pascal:uehlinger:uelinger:pascal:Uehlinger:uelinger
+Candidat_GC,VUILLOD Georges,georges:vuillod:vuillot:george:Vuillod:Vuillot
+Candidat_GC,WICKY Raymond,raymond:wicky:wicki:raymond:wicky:wicki
+Candidat_GC,ZUBER Céline,céline:zuber:roy:Celine:zuber:roy
+Candidat_GC,ZWEIFEL Yvan,yvan:zweifel:zweiffel:yvan:zweifel:Zweiffel
+Candidat_GC,AELLEN Cyril,cyril:aellen:aelen:Cyril:Aellen:Aelen
+Candidat_GC,ALDER Murat Julian,murat:julian:alder:Murat:julian:alder
+Candidat_GC,BARBEY Alexis,alexis:barbey:barbet:alexis:barbey:barbet
+Candidat_GC,BARDE Antoine,antoine:barde:Antoine:Bard
+Candidat_GC,BÉNÉ Jacques,jacques:béné:Jacques:bene
+Candidat_GC,DE CANDOLLE Beatriz,beatriz:de:candolle:candole:Beatriz:of:Candolle:Candole
+Candidat_GC,CONNE Pierre,pierre:conne:Stone:bitch
+Candidat_GC,CUENDET Edouard,edouard:cuendet:edward:cuendet
+Candidat_GC,HARDYN Nathalie,nathalie:hardyn:hardin:Nathalie:Hardyn:hardin
+Candidat_GC,HILTPOLD Serge,serge:hiltpold:hitpold:serge:Hiltpold:hitpold
+Candidat_GC,MALEK-ASGHAR Patrick,patrick:malek:asghar:maleck:agshar:patrick:Malek:asghar:Malek:agshar
+Candidat_GC,MONBARON Fabienne,fabienne:monbaron:monbaron:stress:stres:Fabian:Monbaron:Monbaron:Stress:stres
+Candidat_GC,MORAND Louise,louise:morand:morant:louise:morand:morant
+Candidat_GC,NICOLLIER Pierre,pierre:nicollier:nicolier:Stone:nicollier:Nicolier
+Candidat_GC,OPPLIGER Danielle,danielle:oppliger:opliger:oppligger:danielle:Oppliger:opliger:oppligger
+Candidat_GC,ORSINI Antoine,antoine:orsini:Antoine:orsini
+Candidat_GC,PASQUIER Jean-Pierre,jean:pierre:pasquier:jean:pierre:pasquier
+Candidat_GC,PATEK Serge,serge:patek:serge:Patek
+Candidat_GC,DE PLANTA Francine,francine:de:planta:francine:from:planta
+Candidat_GC,RANA ZOLANA Ginior,ginior:rana:zolana:ginior:rana:zolana
+Candidat_GC,RIGOTTI Maria,maria:rigotti:helena:rigoti:maria:Rigotti:Helena:rigoti
+Candidat_GC,ROULLET Michèle,michèle:roullet:michele:roullet
+Candidat_GC,SCHALLER Vincent,vincent:schaller:schaler:vincent:Schaller:Schaler
+Candidat_GC,SCHNEEBELI Roland-Daniel,roland:daniel:schneebeli:schebeli:scheebbeli:roland:daniel:Schneebeli:schebeli:scheebbeli
+Candidat_GC,SENGLET Christophe,christophe:senglet:christophe:Senglet
+Candidat_GC,SERRANO Philippe,philippe:serrano:serano:philippe:serrano:serano
+Candidat_GC,SOMMER Monika,monika:sommer:somer:somere:monika:sommer:somer:Somere
+Candidat_GC,STEINER Matthieu,matthieu:steiner:matthew:Steiner
+Candidat_GC,SUBILIA Vincent,vincent:subilia:vincent:Subilia
+Candidat_GC,TABOADA Francisco,francisco:taboada:francisco:taboada
+Candidat_GC,TSCHOPP Laurent,laurent:tschopp:tchopp:tshopp:laurent:tschopp:tchopp:tshopp
+Candidat_GC,WAVRE Rolin,rolin:wavre:rolin:Wavre
+Candidat_GC,WICKI Guy,guy:wicki:wicky:wycki:guy:wicki:wicky:wycki
+Candidat_GC,WOLFISBERG François,françois:wolfisberg:François:wolfisberg
+Candidat_GC,AGRAMUNT Gian-Reto,gian:reto:agramunt:gian:reto:agramunt
+Candidat_GC,APOTHÉLOZ Jacques,jacques:apothéloz:Jacques:Apothéloz
+Candidat_GC,AUBERT Nicolas,nicolas:aubert:Nicolas:Aubert
+Candidat_GC,BARBIER-MUELLER Diane,diane:barbier:mueller:diane:barber:Mueller
+Candidat_GC,BELLINGERI Stefano Vito,stefano:vito:bellingeri:belingeri:Stefano:Vito:Bellingeri:belingeri
+Candidat_GC,BERSIER Julie,julie:bersier:julie:Bersier
+Candidat_GC,BLANCH Richard-Pascal,richard:pascal:blanch:pascal:richard:pascal:blanch:pascal
+Candidat_GC,BÖHLER Frances,frances:böhler:elizabeth:böhler:goodship:böller:frances:Böhler:elizabeth:Böhler:Goodship:Böller
+Candidat_GC,BOUVIER Christine,christine:bouvier:christine:Cattle
+Candidat_GC,BRANDT Simon,simon:brandt:brand:brant:simon:brandt:brand:brant
+Candidat_GC,BRON Gilles-Olivier,gilles:olivier:bron:gilles:olivier:bron
+Candidat_GC,BRUNEL Mayori,mayori:brunel:brunell:brunnel:Mayori:Brunel:brunell:Brunnel
+Candidat_GC,BURRI Rémy,rémy:burri:Remy:burri
+Candidat_GC,CORNU Renate,renate:cornu:renate:horned
+Candidat_GC,CREFFIELD Conrad,conrad:creffield:conrad:Creffield
+Candidat_GC,DAHER Vincent,vincent:daher:vincent:daher
+Candidat_GC,DÉROBERT Thierry,thierry:dérobert:thierry:Dérobert
+Candidat_GC,DESFAYES Natacha,natacha:desfayes:buffet:desfayes:Natacha:Desfayes:buffet:Desfayes
+Candidat_GC,DOUZALS Jacques,jacques:douzals:Jacques:douzals
+Candidat_GC,FISS Joëlle,joëlle:fiss:Joëlle:Fiss
+Candidat_GC,GENECAND Adrien,adrien:genecand:adrien:Genecand
+Candidat_GC,GIACOBINO Donata,donata:giacobino:nadia:giacobino:froidevaux:donata:Giacobino:nadia:Giacobino:Froidevaux
+Candidat_GC,GRAND Eric,eric:grand:eric:large
+Candidat_GC,GROGNUZ Fabien,fabien:grognuz:Fabian:Grognuz
+Candidat_GC,JAY Sylvie,sylvie:jay:Sylvie:jay
+Candidat_GC,JUD Philippe,philippe:jud:philippe:jud
+Candidat_GC,KÄMPFEN Véronique,véronique:kämpfen:Veronica:kämpfen
+Candidat_GC,LÄMMEL Valérie,valérie:lämmel:laemmel:juillard:Valerie:Researcher:Laemmel:juillard
+Candidat_GC,LEISER Jean-Marc,jean:marc:leiser:jean:marc:leiser
+Candidat_GC,LOCHER Jean,jean:locher:jean:locher
+Candidat_GC,LUZZATTO Christine,christine:luzzatto:luzato:luzzato:luzatto:christine:Luzzatto:luzato:Luzzatto:Luzatto
+Candidat_GC,MESSERLI Marie-Claire,marie:claire:messerli:marie:claire:messerli
+Candidat_GC,MEYER Philippe,philippe:meyer:meier:philippe:meyer:Meier
+Candidat_GC,BUCHS Bertrand,bertrand:buchs:Bertrand:buchs
+Candidat_GC,AEBI Benjamin,benjamin:aebi:Youngest:aebi
+Candidat_GC,ANGELOZZI Philippe,philippe:angelozzi:philippe:Angelozzi
+Candidat_GC,VON ARX-VERNON Anne-Marie,anne:marie:von:arx:vernon:anne:marie:von:arx:vernon
+Candidat_GC,BACHMANN Delphine,delphine:bachmann:bachman:Delphine:bachmann:bachman
+Candidat_GC,BIDAUX Patricia,patricia:bidaux:bidaux:rodriguez:rodrigues:patricia:Bidaux:Bidaux:rodriguez:Rodrigues
+Candidat_GC,BLONDIN Jacques,jacques:blondin:Jacques:blondin
+Candidat_GC,BOCQUET Claude,claude:bocquet:claude:bocquet
+Candidat_GC,BOURBALA Djamel,djamel:bourbala:Jamel:bourbala
+Candidat_GC,BOUVIER Jérémy,jérémy:bouvier:jérémy:Cattle
+Candidat_GC,BUGNION Jean-Michel,jean:michel:bugnion:jean:michel:Bugnion
+Candidat_GC,CASUTT Martine,martine:casutt:casut:kasutt:Martine:Casutt:Casut:kasutt
+Candidat_GC,CERUTTI Olivier,olivier:cerutti:ceruti:cerruti:cerutti:Olive:cerutti:Ceruti:cerruti:cerutti
+Candidat_GC,CHAKER MANGEAT Alia,alia:chaker:mangeat:alia:chaker:Mangeat
+Candidat_GC,CHEVALIER Alexandre,alexandre:chevalier:alexander:knight
+Candidat_GC,DECREY Christophe,christophe:decrey:christophe:Decrey
+Candidat_GC,DELUERMOZ Cosima,cosima:deluermoz:cosima:Deluermoz
+Candidat_GC,DESFAYES Sébastien,sébastien:desfayes:defayes:desfaye:Sebastian:Desfayes:Defayes:desfaye
+Candidat_GC,DULEX Christophe,christophe:dulex:christophe:Dulex
+Candidat_GC,DUPONT Thérèse,thérèse:dupont:Thérèse:smith
+Candidat_GC,ENGELBERTS Marie-Thérèse,marie:thérèse:engelberts:engelberts:leone:marie:Thérèse:Engelberts:Engelberts:leone
+Candidat_GC,FISCHER Daniel,daniel:fischer:daniel:fischer
+Candidat_GC,FORNI Jean-Luc,jean:luc:forni:jean:luc:forni
+Candidat_GC,FOURNIER Nicolas,nicolas:fournier:Nicolas:Fournier
+Candidat_GC,FRISCHKNECHT Catherine,catherine:frischknecht:frichknecht:catherine:frischknecht:frichknecht
+Candidat_GC,GACHE Hélène,hélène:gache:helen:gache
+Candidat_GC,GASHI Sami,sami:gashi:Sami:gashi
+Candidat_GC,GIANNASI Anthony,anthony:giannasi:gianasi:anthony:Giannasi:gianasi
+Candidat_GC,GIANNELLI Mark,mark:giannelli:gianeli:gianelli:gianneli:Mark:giannelli:gianeli:Gianelli:gianneli
+Candidat_GC,GIORIA Gaëlle,gaëlle:gioria:gaëlle:Gioria
+Candidat_GC,GUINCHARD Jean-Marc,jean:marc:guinchard:guinchart:jean:marc:guinchard:guinchart
+Candidat_GC,DE KALBERMATTEN Alain,alain:de:kalbermatten:kalbermaten:Alain:from:Kalbermatten:kalbermaten
+Candidat_GC,KHATTABI HASSAR Houda,houda:khattabi:hassar:kattabi:katabi:Houda:khattabi:Hassar:kattabi:Katabi
+Candidat_GC,KUNZ Laurence,laurence:kunz:Laurence:kunz
+Candidat_GC,LANCE François,françois:lance:François:Launches
+Candidat_GC,LATHION Jean Charles,jean:charles:lathion:jean:charles:Lathion
+Candidat_GC,LEHNER Laurent,laurent:lehner:laurent:Lehner
+Candidat_GC,LUPO Paolo,paolo:lupo:Paolo:Lupo
+Candidat_GC,MAGNIN Xavier,xavier:magnin:xavier:magnin
+Candidat_GC,MAGNIN Yves,yves:magnin:Yves:magnin
+Candidat_GC,MAITRE Vincent,vincent:maitre:vincent:master
+Candidat_GC,MAKKI Michela,michela:makki:michèle:michela:makki:michele
+Candidat_GC,MEISSNER REYFER Christine,christine:meissner:reyfer:christina:christine:meissner:reyfer:christina
+Candidat_GC,MERLE Emmanuelle,emmanuelle:merle:Emmanuelle:robin
+Candidat_GC,METTAN Guy,guy:mettan:guy:Mettan
+Candidat_GC,MEYER DE STADELHOFEN Philippe,philippe:meyer:de:stadelhofen:stadeloffen:philippe:meyer:from:Stadelhofen:stadeloffen
+Candidat_GC,MONDOUX Alexandre,alexandre:mondoux:alexander:Mondoux
+Candidat_GC,MORONI Catherine,catherine:moroni:catherine:moroni
+Candidat_GC,NEUDER Isabelle,isabelle:neuder:Isabelle:neuder
+Candidat_GC,OUEDRAOGO Moustapha,moustapha:ouedraogo:Moustapha:ouedraogo
+Candidat_GC,PERRET Vincent,vincent:perret:vincent:perret
+Candidat_GC,PFEIFFER Alex,alex:pfeiffer:alex:Pfeiffer
+Candidat_GC,PROGIN Christian,christian:progin:christian:Progin
+Candidat_GC,PUTALLAZ Thomas,thomas:putallaz:putalaz:thomas:Putallaz:putalaz
+Candidat_GC,RASOLO Daniel,daniel:rasolo:daniel:Rasolo
+Candidat_GC,RUCHET Philippe,philippe:ruchet:philippe:ruchet
+Candidat_GC,RYS Alexandra,alexandra:rys:alexandra:rys
+Candidat_GC,SAUDAN Guy,guy:saudan:guy:Saudan
+Candidat_GC,SAYEGH Souheil,souheil:sayegh:sayehg:sayeg:souheil:sayegh:sayehg:Sayeg
+Candidat_GC,SCANDURRA Alessandro,alessandro:scandurra:scandura:Alessandro:Scandurra:Scandura
+Candidat_GC,SCHMIED Patrick,patrick:schmied:schmitt:patrick:schmied:schmitt
+Candidat_GC,SCHRAG Sylvianne,sylvianne:schrag:sylvianne:Schrag
+Candidat_GC,SIMOES Jose,jose:simoes:jose:simoes
+Candidat_GC,SOPI Dardan,dardan:sopi:dardan:Sopi
+Candidat_GC,SQUILLACI Nicola,nicola:squillaci:squilacci:squilaci:nicola:squillaci:squilacci:squilaci
+Candidat_GC,STEINBERG CANDRIAN Melinda,melinda:steinberg:candrian:Melinda:Steinberg:Candrian
+Candidat_GC,TOMASSI Christine,christine:tomassi:christine:tomassi
+Candidat_GC,TREMBLET Laurent,laurent:tremblet:tremblay:laurent:Tremblet:Tremblay
+Candidat_GC,UONG Dinh Manh,dinh:manh:uong:din:man:Dinh:manh:uong:Din:man
+Candidat_GC,VÖLKI Robert,robert:völki:robert:Völki
+Candidat_GC,VUARNOZ Emanuela,emanuela:vuarnoz:emanuelle:emanuela:Vuarnoz:emanuelle
+Candidat_GC,WEHRLI Patrick,patrick:wehrli:patrick:wehrli
+Candidat_GC,ZIMMERMANN Luc,luc:zimmermann:zimermann:zimmerman:luke:zimmermann:Zimermann:zimmerman
+Candidat_GC,ZIMMERMANN Bertrand,bertrand:zimmermann:zimermann:zimmerman:Bertrand:zimmermann:Zimermann:zimmerman
+Candidat_GC,LEYVRAZ Eric,eric:leyvraz:levraz:leyvrat:eric:Leyvraz:levraz:leyvrat
+Candidat_GC,FUHRMANN Marc,marc:fuhrmann:fuhrman:fhurmann:fhurman:marc:fuhrmann:fuhrman:fhurmann:fhurman
+Candidat_GC,LUSSI Patrick,patrick:lussi:patrick:lussi
+Candidat_GC,IVANOV Christo,christo:ivanov:Christo:ivanov
+Candidat_GC,FALQUET Marc,marc:falquet:marc:Falquet
+Candidat_GC,MAENDLY Norbert,norbert:maendly:mindly:maendli:Norbert:Maendly:mindly:maendli
+Candidat_GC,PFEFFER André,andré:pfeffer:pfefer:andre:pfeffer:pfefer
+Candidat_GC,CATELAIN Gilbert,gilbert:catelain:gilbert:Catelain
+Candidat_GC,HULLIGER Patrick,patrick:hulliger:huliger:hulligger:patrick:Hulliger:huliger:hulligger
+Candidat_GC,MICHAUD Eliane,eliane:michaud:ansermet:eliane:michaud:ansermet
+Candidat_GC,SCHERB Peter,peter:scherb:pierre:peter:Scherb:stone
+Candidat_GC,STARK Riccardo,riccardo:stark:richard:riccardo:stark:richard
+Candidat_GC,GUINCHARD Damien,damien:guinchard:Damien:guinchard
+Candidat_GC,BISOL Walter,walter:bisol:walter:BISOL
+Candidat_GC,MASÉ Zora,zora:masé:maze:Zora:Masé:maze
+Candidat_GC,VELEN François,françois:velen:François:velen
+Candidat_GC,KNÖRR Stephen,stephen:knörr:stephen:knörr
+Candidat_GC,RUBELI Pascal,pascal:rubeli:pascal:Rubeli
+Candidat_GC,LYON Didier,didier:lyon:Didier:lyon
+Candidat_GC,PERRENOUD Philippe,philippe:perrenoud:pernoud:philippe:perrenoud:pernoud
+Candidat_GC,DUTRUIT André,andré:dutruit:andre:Dutruit
+Candidat_GC,ALTENBACH Pascal,pascal:altenbach:pascal:altenbach
+Candidat_GC,QUEFFÉLEC Philippe,philippe:queffélec:quefelec:philippe:Queffélec:Quefelec
+Candidat_GC,LAPORTE Claude,claude:laporte:claude:laporte
+Candidat_GC,CONTI Virna,virna:conti:virna:conti
+Candidat_GC,PAREL Loïc,loïc:parel:loïc:parel
+Candidat_GC,HEDDI Leila,leila:heddi:Leila:Heddi
+Candidat_GC,GOMES DE ALMEIDA José,josé:gomes:de:almeida:manuel:jose:gomes:of:almeida:manual
+Candidat_GC,BERTINAT Marie-Agnès,marie:agnès:bertinat:marie:Agnès:Bertinat
+Candidat_GC,MOUNLA Alexandre,alexandre:mounla:alexander:Mounla
+Candidat_GC,DOURNOW David,david:dournow:david:Dournow
+Candidat_GC,CHAUSSIVERT Patrice,patrice:chaussivert:chaussiverre:Patrick:chaussivert:chaussiverre
+Candidat_GC,KNOLL Tatiana,tatiana:knoll:Tatiana:knoll
+Candidat_GC,RIME Alexandre,alexandre:rime:alexander:rhyme
+Candidat_GC,DESYATKINA DZODZIEV Viktoriya,viktoriya:desyatkina:dzodziev:dzoziew:dzoziev:viktoriya:desyatkina:dzodziev:dzoziew:dzoziev
+Candidat_GC,THOMAS Sébastien,sébastien:thomas:Sebastian:thomas
+Candidat_GC,ROMANENS Mathieu,mathieu:romanens:Mathieu:Romanens
+Candidat_GC,SCHWEIZER Adriana,adriana:schweizer:adriana:schweizer
+Candidat_GC,KHACHATRYAN Gohar,gohar:khachatryan:kachatryan:gohar:Khachatryan:kachatryan
+Candidat_GC,PRANDO Stéphane,stéphane:prando:Stephane:Prando
+Candidat_GC,BORER Maria Da Conceicao,maria:da:conceicao:borer:maria:da:conceicao:borer
+Candidat_GC,AKABA El Mostafa,el:mostafa:akaba:el:mostafa:akaba
+Candidat_GC,LÉGUILLON Angèle,angèle:léguillon:angeles:Léguillon
+Candidat_GC,BONTOUX Caroline,caroline:bontoux:caroline:Bontoux
+Candidat_GC,HONEGGER HELLER Manuela,manuela:honegger:heller:honeger:manuela:honegger:heller:honeger
+Candidat_GC,OCHARAN ROBLES RAPAZ Eva,eva:ocharan:robles:rapaz:ocharan:robles:rappaz:eva:Ocharan:Robles:rapaz:Ocharan:Robles:Rappaz
+Candidat_GC,DA CRUZ PEDRO Anna,anna:da:cruz:pedro:da:cruz:perret:gentil:ana:anna:da:cruz:pedro:da:cruz:Perret
+Candidat_GC,BORCARD Anne,anne:borcard:anne:Borcard
+Candidat_GC,MÜLLER Fabienne,fabienne:müller:abramovich:Fabian:müller:abramovich
+Candidat_GC,YOL Diana,diana:yol:diana:yol
+Candidat_GC,RANDEGGER Alice,alice:randegger:randeger:alice:Randegger:randeger
+Candidat_GC,DEPRAETERE Graciela,graciela:depraetere:depraetere:manulis:graciela:Depraetere:Depraetere:Manulis
+Candidat_GC,OZDEMIR Elcim,elcim:ozdemir:elçim:özdemir:ELCIM:ozdemir:Elçim:özdemir
+Candidat_GC,RICCIARDI WERLEN Jacqueline,jacqueline:ricciardi:werlen:richiardi:jacqueline:ricciardi:Werlen:Richiardi
+Candidat_GC,ROSSIER FAHRION Cerise,cerise:rossier:fahrion:farion:cherry:rossier:FAHRION:Farion
+Candidat_GC,BOSELLI GAUTHEY Monica,monica:boselli:gauthey:monica:boselli:gauthey
+Candidat_GC,LAVRADOR DIAS Claudia,claudia:lavrador:dias:dias:claudia:lavrador:dias:dias
+Candidat_GC,JAUCH Caroline,caroline:jauch:caroline:jauch
+Candidat_GC,GRANGE Marie-Florence,marie:florence:grange:marie:florence:barn
+Candidat_GC,MAZZONI Nikita,nikita:mazzoni:mazonni:Nikita:mazzoni:mazonni
+Candidat_GC,LANGER Valérie,valérie:langer:Valerie:Changing
+Candidat_GC,MAYORAL EDO Corinne,corinne:mayoral:edo:mayoral:Corinne:mayoral:Edo:mayoral
+Candidat_GC,THOMIAS LEDUC Diana,diana:thomias:leduc:diana:thomias:Leduc
+Candidat_GC,ARMAND Catherine,catherine:armand:catherine:Armand
+Candidat_GC,GUEX Stéphane,stéphane:guex:dit:guex:pierre:Stephane:guex:said:guex:stone
+Candidat_GC,HUMBERSET Corinne,corinne:humberset:Corinne:Humberset
+Candidat_GC,RUCKTERSTUHL Jean-Claude,jean:claude:ruckterstuhl:jean:claude:ruckterstuhl
+Candidat_GC,LONGO Katrin,katrin:longo:katrin:longo
+Candidat_GC,GIROD Nicolas,nicolas:girod:Nicolas:girod
+Candidat_GC,KÜDERLI BERKANE Nicole,nicole:küderli:berkane:nicole:Küderli:berkane
+Candidat_GC,FLAKS Joël,joël:flaks:flacks:joel:Flaks:flacks
+Candidat_GC,PERRIN Brigitte,brigitte:perrin:Brigitte:Perrin
+Candidat_GC,GOUDAL Renaud,renaud:goudal:renaud:GOUDAL
+Candidat_GC,MEYNET Danielle,danielle:meynet:meinet:danielle:meynet:meinet
+Candidat_GC,MEYNET Leon,leon:meynet:meinet:leon:meynet:meinet
+Candidat_GC,TURNOWSKY Serge,serge:turnowsky:serge:Turnowsky
+Candidat_GC,ZIMMERMANN Olivier,olivier:zimmermann:zimermann:zimmerman:Olive:zimmermann:Zimermann:zimmerman
+Candidat_GC,CHATELAIN Dimitri,dimitri:chatelain:Dimitri:Chatelain
+Candidat_GC,SARAIVA MEDEIROS Carlos,carlos:saraiva:medeiros:sareva:mederos:medeyros:carlos:saraiva:medeiros:Sareva:Mederos:medeyros
+Candidat_GC,SPÜHLER Pascal,pascal:spühler:spuler:pascal:Spühler:Spuler
+Candidat_GC,GAETANINO Marco,marco:gaetanino:marco:Gaetanino
+Candidat_GC,LE JEUNE GIACOBBI Cristina,cristina:le:jeune:giacobbi:giacobi:jaccobi:cristina:the:young:Giacobbi:GIACOBI:jaccobi
+Candidat_GC,WALTHER Thierry,thierry:walther:walter:thierry:walther:walter
+Candidat_GC,HÜSSY COPPEX Viviana Ximena Anghela,viviana:ximena:anghela:hüssy:coppex:angela:Viviana:ximena:Anghela:Hüssy:Coppex:angela
+Candidat_GC,LOEILLET-ROUZIER Anne,anne:loeillet:rouzier:marie:l:œillet:anne:loeillet:Rouzier:marie:Carnation
+Candidat_GC,FUSCO Gerardo,gerardo:fusco:Gerardo:fusco
+Candidat_GC,GAMBERONI Dominique,dominique:gamberoni:gamberroni:gamberonni:dominique:gamberoni:gamberroni:gamberonni
+Candidat_GC,NOBS Cyril,cyril:nobs:Cyril:nobs
+Candidat_GC,NOËL Daniel,daniel:noël:daniel:christmas
+Candidat_GC,SANTI Michel,michel:santi:michel:Santi
+Candidat_GC,PICOT Jérôme,jérôme:picot:Jerome:pin
+Candidat_GC,RUCHONNET Jean-François,jean:françois:ruchonnet:ruchonet:jean:françois:Ruchonnet:ruchonet
+Candidat_GC,GALETTO Frédéric,frédéric:galetto:galletto:gaeleto:Frederic:Galetto:galletto:gaeleto
+Candidat_GC,BECK Victoria,victoria:beck:bech:victoria:beck:bech
+Candidat_GC,ANTOINE Jean-Marc,jean:marc:antoine:jean:marc:antoine
+Candidat_GC,RIME Fatma,fatma:rime:fatima:Fatma:rhyme:Fatima
+Candidat_GC,L'HUILLIER Eric,eric:l:huillier:lhuillier:eric:the:huillier:lhuillier
+Candidat_GC,PARANÁ JÚNIOR Valério,valério:paraná:júnior:Valerio:Paraná:júnior
+Candidat_GC,LOTA Raphaëlle,raphaëlle:lota:raphaëlle:lota
+Candidat_GC,THOMSEN Elena,elena:thomsen:milakova:tohmsen:elena:thomsen:milakova:tohmsen
+Candidat_GC,BALLESTEROS Stefan,stefan:ballesteros:balesteros:stefan:ballesteros:Balesteros
+Candidat_GC,FABRE Jean,jean:fabre:favre:jean:Fabre:favre
+Candidat_GC,NGUYEN Van Minh,van:minh:nguyen:van:min:n:guyen:van:min:nguyen:van:min:n:guyen
+Candidat_GC,MARTEL Frédéric,frédéric:martel:Frederic:Martel
+Candidat_GC,FREY Priscilla,priscilla:frey:Priscilla:frey
+Candidat_GC,BRKIC Vitomir,vitomir:brkic:brkich:Vitomir:brkic:Brkich
+Candidat_GC,LEVY Yossef,yossef:levy:hai:yosef:josef:jossef:levi:yossef:levy:hai:yosef:Josef:Jossef:levi
+Candidat_GC,BISSOLI Marion,marion:bissoli:le:bacquer:le:baquer:marion:bissoli:the:bacquer:the:baquer
+Candidat_GC,COHEN Olivier,olivier:cohen:Olive:cohen
+Candidat_GC,BRUGUIER Michel,michel:bruguier:michel:Bruguier
+Candidat_GC,SOLTEIRO Jorge,jorge:solteiro:soltero:jorge:solteiro:soltero
+Candidat_GC,HALIMI Arsim,arsim:halimi:arsim:halimi
+Candidat_GC,BERLEMONT Alain,alain:berlemont:Alain:Berlemont
+Candidat_GC,GARGANTINI Yves,yves:gargantini:Yves:Gargantini
+Candidat_GC,MAIGRE Maria Inès,maria:inès:maigre:maria:inès:lean
+Candidat_GC,FARINHA Horacio,horacio:farinha:farina:farinna:farinah:horacio:farinha:farina:farinna:farinah
+Candidat_GC,DELACQUIS Cédric,cédric:delacquis:delaquis:cédric:Delacquis:Delaquis
+Candidat_GC,ZAGATO Sophie,sophie:zagato:zaggato:zagatto:sophie:zagato:zaggato:Zagatto
+Candidat_GC,VIDONNE Valérie,valérie:vidonne:vidone:Valerie:Vidonne:vidone
+Candidat_GC,FERRAND Guy,guy:ferrand:ferand:ferrant:guy:Ferrand:Ferand:smith
+Candidat_GC,KUNZI Nicolas,nicolas:kunzi:Nicolas:Kunzi
+Candidat_GC,KUGEL Mark,mark:kugel:kuggel:Mark:kugel:kuggel
+Candidat_GC,THURNHERR Laurent,laurent:thurnherr:turner:turnherr:thurnher:laurent:Thurnherr:turner:turnherr:Thurnher
+Candidat_GC,VIDONNE David,david:vidonne:vidone:david:Vidonne:vidone
+Candidat_GC,BEUREUX Silvain,silvain:beureux:silvain:Beureux
+Candidat_GC,KUNZI Philippe,philippe:kunzi:philippe:Kunzi
+Candidat_GC,FADER Annette,annette:fader:yasuka:annette:fader:YASUKA
+Candidat_GC,THURNHERR Sylvain,sylvain:thurnherr:turner:turnherr:thurnher:Sylvain:Thurnherr:turner:turnherr:Thurnher
+Candidat_GC,BEUREUX Johan,johan:beureux:Johan:Beureux
+Candidat_GC,GOLAY Roger,roger:golay:roger:golay
+Candidat_GC,CERUTTI Thierry,thierry:cerutti:cerruti:ceruti:thierry:cerutti:cerruti:Ceruti
+Candidat_GC,VOUMARD Jean Marie,jean:marie:voumard:voumart:jean:marie:Voumard:voumart
+Candidat_GC,LE JONCOUR-BRÜLHART Céline,céline:le:joncour:brülhart:brularth:Celine:the:joncour:Brülhart:brularth
+Candidat_GC,BÄRTSCHI François,françois:bärtschi:bartchi:François:bärtschi:bartchi
+Candidat_GC,PISTIS Sandro,sandro:pistis:pystis:pistys:sandro:pistis:pystis:pistys
+Candidat_GC,DEROUETTE Jean-Paul,jean:paul:derouette:derouete:derouet:jean:paul:Derouette:derouete:Derouet
+Candidat_GC,MAGNIN Danièle,danièle:magnin:danièle:magnin
+Candidat_GC,VALENTIN Francisco,francisco:valentin:francisco:Valentine
+Candidat_GC,SAPIN Françoise,françoise:sapin:françoise:fir
+Candidat_GC,FLURY Christian,christian:flury:christian:flury
+Candidat_GC,GOLAY Sandra,sandra:golay:sandra:golay
+Candidat_GC,PYTHON André,andré:python:piton:andre:python:peg
+Candidat_GC,RAPPAZ Henry,henry:rappaz:rapaz:henry:Rappaz:rapaz
+Candidat_GC,GANDER Florian,florian:gander:florian:gander
+Candidat_GC,DECORVET Christian,christian:decorvet:devorvet:christian:Decorvet:devorvet
+Candidat_GC,SONDEREGGER Gabriela,gabriela:sonderegger:sondergger:sondereger:Gabriela:Sonderegger:sondergger:sondereger
+Candidat_GC,DIMIER Patrick,patrick:dimier:patrick:Dimier
+Candidat_GC,FONTAINE-VIVE-CURTAZ Jean,jean:fontaine:vive:curtaz:curtat:jean:fountain:alert:Curtaz:Curtat
+Candidat_GC,SAAS Alexandra,alexandra:saas:sas:alexandra:saas:sas
+Candidat_GC,ZOGG Thomas,thomas:zogg:zog:zaug:zaugg:thomas:Zogg:zog:Zaug:zaugg
+Candidat_GC,PASCARELLA Louise,louise:pascarella:pascarela:louise:Pascarella:pascarela
+Candidat_GC,FEKKAK Hatem,hatem:fekkak:fekak:fekack:hatem:Fekkak:fekak:fekack
+Candidat_GC,ANGELO Antonio,antonio:angelo:antonio:angelo
+Candidat_GC,CATTIN Jean-Pascal,jean:pascal:cattin:catin:jean:pascal:cattin:whore
+Candidat_GC,BARYEKA Jarek,jarek:baryeka:jareck:barieka:jarek:baryeka:jareck:barieka
+Candidat_GC,REICHENBACH Kevin,kevin:reichenbach:reichenback:kevin:reichenbach:Reichenback
+Candidat_GC,CHAPOU Frédéric,frédéric:chapou:chapout:chapoud:Frederic:Chapou:chapout:chapoud
+Candidat_GC,MADANI Amar,amar:madani:amar:Madani
+Candidat_GC,LEISI Laurent,laurent:leisi:leysi:laurent:Leisi:Leysi
+Candidat_GC,OUDIN Rémy,rémy:oudin:houdin:Remy:oudin:Houdin
+Candidat_GC,VILLETTE Jean,jean:villette:vilette:villete:jean:Villette:vilette:Villete
+Candidat_GC,AMBROSIO François,françois:ambrosio:François:ambrosio
+Candidat_GC,TEIXEIRA Albano,albano:teixeira:Albanian:Teixeira
+Candidat_GC,FRAUCHIGER Roger,roger:frauchiger:frauschiger:frauchigger:roger:Frauchiger:frauschiger:frauchigger
+Candidat_GC,DELLAGIOVANNA Daniel,daniel:dellagiovanna:delagiovanna:dellagiovana:daniel:Dellagiovanna:delagiovanna:dellagiovana
+Candidat_GC,ROULIN Claude,claude:roulin:claude:roulin
+Candidat_GC,COUTO Armando,armando:couto:armando:couto
+Candidat_GC,NIETO Alexandre,alexandre:nieto:alexander:nieto
+Candidat_GC,CHAOUI Laïla,laïla:chaoui:leila:Yaila:chaoui:leila
+Candidat_GC,SOTOMAYOR André,andré:sotomayor:sotomayore:andre:Sotomayor:sotomayore
+Candidat_GC,DO REGO Ricardo,ricardo:do:rego:ricardo:do:rego
+Candidat_GC,VENDRELL Marie,marie:vendrell:vendrel:marie:Vendrell:vendrel
+Candidat_GC,MÉNÉTREY Yasmine,yasmine:ménétrey:menetret:Yasmine:Ménétrey:menetret
+Candidat_GC,ANGELOZ Claude,claude:angeloz:claude:angeloz
+Candidat_GC,LAURENT Pierre-Alain,pierre:alain:laurent:stone:alain:laurent
+Candidat_GC,JAHIJA Burim,burim:jahija:jhaija:burim:Jahija:jhaija
+Candidat_GC,DI SALVO Giuseppe,giuseppe:di:salvo:Giuseppe:di:salvo
+Candidat_GC,HEIMO Philippe,philippe:heimo:heimot:heimoz:philippe:heimo:heimot:Heimoz
+Candidat_GC,CHAPPAZ Marc,marc:chappaz:chapaz:marc:Chappaz:chapaz
+Candidat_GC,BARRY Minkailou,minkailou:barry:mincaillou:minkailou:barry:mincaillou
+Candidat_GC,CATALAN Joëlle,joëlle:catalan:Joëlle:Catalan
+Candidat_GC,REOLON Bruno,bruno:reolon:bruno:Reolon
+Candidat_GC,ALBANESI Jean-François,jean:françois:albanesi:jean:françois:albanesi
+Candidat_GC,KLINGELE Olivier,olivier:klingele:Olive:Klingele
+Candidat_GC,BENCKER Jeanne,jeanne:bencker:benker:jeanne:Bencker:Benker
+Candidat_GC,MARGUET Tex,tex:marguet:tex:marguet
+Candidat_GC,DELMENICO Janine,janine:delmenico:Janine:Delmenico
+Candidat_GC,SHLYAPINA Elena,elena:shlyapina:shliapina:shliapyna:elena:shlyapina:shliapina:shliapyna
+Candidat_GC,MUDRY Yves,yves:mudry:Yves:mudry
+Candidat_GC,GOSTOLI Gérard,gérard:gostoli:Gerard:Gostoli
+Candidat_GC,YAU Helen,helen:yau:helen:yau
+Candidat_GC,INNOCENTI Flavio,flavio:innocenti:inocenti:innocentti:inocentti:Flavio:innocenti:Inocenti:innocentti:inocentti
+Candidat_GC,COVER Sabina,sabina:cover:Sabina:cover
+Candidat_GC,AMBORD Cédric,cédric:ambord:sandro:cédric:Ambord:sandro
+Candidat_GC,GARCIA Javier,javier:garcia:Javier:Garcia
+Candidat_GC,BELCASTRO DE LUCA Nathalie,nathalie:belcastro:de:luca:de:lucca:nathalie:belcastro:from:luca:from:lucca
+Candidat_GC,ZBINDEN Jean-Luc,jean:luc:zbinden:jean:luc:zbinden
+Candidat_GC,AHDAB Ahmad,ahmad:ahdab:chawki:adhab:amahd:ahmad:Ahdab:chawki:Adhab:amahd
+Candidat_GC,BAIUNCO Aurora,aurora:baiunco:Aurora:baiunco
+Candidat_GC,OLIVEIRA Rui,rui:oliveira:olivera:rui:Oliveira:olivera
+Candidat_GC,PASTORE Daniel,daniel:pastore:dany:daniel:Pastore:dany
+Candidat_GC,DRASKOVIC Rada,rada:draskovic:draskovich:Rada:Draskovic:draskovich
+Candidat_GC,HAYMOZ William,william:haymoz:william:Haymoz
+Candidat_GC,BESSE Muriel,muriel:besse:Muriel:Besse
+Candidat_GC,NAINE Marie-Josée,marie:josée:naine:marie:Josée:dwarf
+Candidat_GC,GHARBI Mohamed,mohamed:gharbi:garbi:gahrbi:mohamed:gharbi:garbi:gahrbi
+Candidat_GC,LOOSLI Bertille,bertille:loosli:clarence:losli:bertille:loosli:clarence:losli
+Candidat_GC,EMONET Sarah,sarah:emonet:emonnet:sarah:Emonet:emonnet
+Candidat_GC,MÜLLER Olivier,olivier:müller:Olive:müller
+Candidat_GC,LODDO Olivier,olivier:loddo:henrioud:lodo:Olive:Loddo:Henrioud:lodo
+Candidat_GC,BEN CHAABANE Salah,salah:ben:chaabane:chabane:chaabanne:chabane:salah:ben:Sha:ban:chabane:chaabanne:chabane
+Candidat_GC,DE OLIVEIRA NUNES Vitor,vitor:de:oliveira:nunes:nunez:vitor:of:Oliveira:Nunes:Nunez
+Candidat_GC,MARTIGNONI Alain,alain:martignoni:Alain:Martignoni
+Candidat_GC,MARÉCHAL Christophe,christophe:maréchal:christophe:marshal
+Candidat_GC,SPAGNOLO Salvatore,salvatore:spagnolo:Salvatore:spagnolo
+Candidat_GC,PIERRE TOUSSAINT Sircee,sircee:pierre:toussaint:CEARIS:Stone:All:Saints
+Candidat_GC,STEINER Christian,christian:steiner:christian:Steiner
+Candidat_GC,BEUN Christine,christine:beun:kristine:christine:Beun:Kristine
+Candidat_GC,BISSAT Rose,rose:bissat:marie:angeline:Pink:Bissat:marie:angeline
+Candidat_GC,GUISY Milène,milène:guisy:guisi:Milene:guisy:Gisi
+Candidat_GC,MARTIN Emmanuel,emmanuel:martin:Emmanuel:martin
+Candidat_GC,DUSSAN Julien,julien:dussan:dusan:Julian:Dussan:dusan
+Candidat_GC,BONVIN Philippe,philippe:bonvin:philippe:bonvin
+Candidat_GC,SAUSER Nicolas,nicolas:sauser:Nicolas:sauser
+Candidat_GC,RYSER Alain,alain:ryser:riser:Alain:ryser:riser
+Candidat_GC,MONNEY Armand,armand:monney:monnet:Armand:monney:monnet
+Candidat_GC,PEYRAUD Alexandre,alexandre:peyraud:peraud:perraut:alexander:peyraud:Peraud:Perraut
+Candidat_GC,HÄUSERMANN Elisabeth,elisabeth:häusermann:hauserman:elizabeth:Häusermann:Hauserman
+Candidat_GC,GAUTROT Maria Magdalena,maria:magdalena:gautrot:marielena:maria:Magdalena:gautrot:marielena
+Candidat_GC,PIGUET Frédéric,frédéric:piguet:paul:Frederic:piguet:paul
+Candidat_GC,WUARIN Marc,marc:wuarin:vuarin:marc:Wuarin:Vuarin
+Candidat_GC,SAMIM FIROUZSALARI Atefeh,atefeh:samim:firouzsalari:Atefeh:samim:firouzsalari
+Candidat_GC,BUSTAMANTE HERNANDEZ Eric,eric:bustamante:herdez:bustamente:herandes:eric:bustamante:herdez:Bustamente:herandes
+Candidat_GC,HAMOIR Fursy,fursy:hamoir:Fursy:hamoir
+Candidat_GC,PREISIG Robert,robert:preisig:preissig:robert:preisig:Preissig
+Candidat_GC,JEANMONOD Christian,christian:jeanmonod:jeanmonot:christian:Jeanmonod:jeanmonot
+Candidat_GC,MEYLAN Jean Michel,jean:michel:meylan:jean:michel:meylan
+Candidat_GC,CORI Claudio,claudio:cori:Claudio:cori
+Candidat_GC,WITTWER Christoph,christoph:wittwer:witwer:christoph:wittwer:Witwer
+Candidat_GC,BESOMI Alessandro,alessandro:besomi:alex:Alessandro:Besomi:alex
+Candidat_GC,RITTER Sven,sven:ritter:sven:ritter
+Candidat_GC,DUVNJAK Sanja,sanja:duvnjak:duvnjack:duvjak:sanja:Duvnjak:duvnjack:duvjak
+Candidat_GC,FRAMMERY Chloe,chloe:frammery:framery:chloe:frammery:Framery
+Candidat_GC,FOUDA AMOUGOU Charlotte,charlotte:fouda:amougou:charlotte:fouda:Amougou
+Candidat_GC,SCHELLER Gérard,gérard:scheller:Gerard:Scheller
+Candidat_GC,ROSSELLAT Blaise,blaise:rossellat:roselat:Blaise:Rossellat:roselat
+Candidat_GC,DACHROUNE Samir,samir:dachroune:samir:dachroune
+Candidat_GC,BULT Christoph,christoph:bult:christoph:bult
+Candidat_GC,MONSHENGWO Jessica,jessica:monshengwo:monshengo:jessica:monshengwo:monshengo
+Candidat_GC,LOPEZ Julien,julien:lopez:Julian:lopez
+Candidat_GC,FRAUDEAU Delphine,delphine:fraudeau:fraudau:Delphine:Fraudeau:fraudau
+Candidat_GC,ABESSE Hayet,hayet:abesse:abese:hayet:abesse:abese
+Candidat_GC,GOLAY Séverine,séverine:golay:séverine:golay
+Candidat_GC,JORDAN Claude,claude:jordan:claude:jordan
+Candidat_GC,REGAMEY Murielle,murielle:regamey:regamet:murielle:Regamey:regamet
+Candidat_GC,SCHUCANI Grégoire,grégoire:schucani:gregory:schucani
