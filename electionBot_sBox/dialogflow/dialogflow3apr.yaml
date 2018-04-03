@@ -1,0 +1,306 @@
+#metadata: information about the flow
+#  platformVersion: the version of the bots platform that this flow was written to work with 
+metadata:
+  platformVersion: 1.0
+main: true
+name: electionBot_sbox
+
+# context: Define the variables which will used throughout the dialog flow
+context:
+  variables:
+    #variableName: "variableType/entityType"
+    resultType: "ResultTypes"
+    candidateName_CE: "Candidat_CE"
+    candidateName_CE_GC: "Candidat_CE_GC"
+    candidateName_GC: "Candidat_GC"
+    firstCandidateName: "string"
+    secondCandidateName: "string"
+    # test variables
+    currencyType: "string"
+    baseExchangeRate: "string"    
+    # system and translation variables
+    iResult: "nlpresult"
+    # resources bundle context variable for manual/hybrid translation
+    rb: "resourcebundle"
+    # autoTranslate required - for hybrid translation usage: hard coded from rb and autotranslate for other languages
+    autoTranslate: "boolean"
+    # variable holding the translated user input
+    translated: "string"
+
+# State nodes - usually starts with intents, here language is handled first
+states:
+  
+  #============TRANSLATION STATES============
+  # new state before intent - autotranslate
+  setAutoTranslate:
+    component: "System.SetVariable"
+    properties:
+      variable: "autoTranslate"
+      value: true
+    transitions: {}
+  # detect input language
+  detect:
+    component: "System.DetectLanguage"
+    properties: {}
+    transitions: {}
+  # translate user input to English for NLP, and store in variable
+  translate:
+    component: "System.TranslateInput"
+    properties:
+      variable: "translated"
+    transitions: {}
+        
+  #============INTENTS============
+  intent:
+    component: "System.Intent"
+    properties:
+      variable: "iResult"
+      sourceVariable: "translated"
+      confidenceThreshold: 0.4
+    transitions:
+      actions:
+        Admin_WelcomeGreeting: "Admin_WelcomeGreeting"
+        Admin_HelpUser: "Admin_HelpUser"
+        #Admin_UserChoice: "findResultType"
+        #Admin_ErrorHandling: "Admin_ErrorHandling"
+        ResultCandidate: "resolve_GC_candidate"
+        #ResultElections: "findResultTypes"
+        #ResultParticipation: "ResultParticipation"
+        #ResultList: "ResultList"
+        #ResultsLocal: "ResultsLocal"
+        #CE_CALC_BestCommune: "CE_CALC_BestCommune"
+        #CE_CALC_DeltaCandidateAvsB: "CE_CALC_DeltaCandidateAvsB"
+        
+  #============DIALOGFLOW STATES============
+
+  ## Admin welcome user
+  Admin_WelcomeGreeting:
+    component: "System.Output"
+    properties:
+      # output text from resource bundle and access profile information from user
+      text: "${rb.Admin_welcome}"
+      # with keepturn: True, Displays the next message directly and doesn't wait for user-input (this may not be desired, just remove keepTurn if so)
+      keepTurn: true
+      translate: true
+    transitions: {}
+      
+  ## Admin onboarding
+  Admin_Onboarding:
+    component: "System.Output"
+    properties:
+      text: "${rb.Admin_onboarding}"
+      keepTurn: true
+      translate: true
+    transitions: {}
+
+  #==========================================
+  ## Admin help user
+  Admin_HelpUser:
+    component: "System.Output"
+    properties:
+    # output text from resource bundle and access profile information from user
+      text: "${rb.Admin_helpUser_01} \n${rb.Admin_helpUser_02}"
+      keepTurn: false
+      translate: true
+    transitions: {}
+
+  #==========================================
+  ## Admin ask user choice
+  #findResultType:
+  #  component: "System.SetVariable"
+  #  properties:
+  #    variable: "resultType"
+  #    value: "${iResult.value.entityMatches['ResultTypes'][0]}"
+  #  transitions: {}
+  #
+  #resultType:
+  #  component: "System.List"
+  #  properties:
+  #    options: "${resultType.type.enumValues}"
+  #    prompt: "Which election results are you interested in?" #add to rb once bot migrated to final dev environment as rb not exported
+  #    variable: "resultType"
+  #    translate: true
+  #    maxPrompts: 2 # need to either set or ask differently, longer message to explain whast is poss/needd
+  #  transitions: {} # need switch to move to correct state as a function of the user response
+  
+  #==========================================
+  ## Find candidate in one of three groups
+  resolve_GC_candidate:
+    component: "System.SetVariable"
+    properties:
+      variable: "candidateName_GC"
+      value: "${iResult.value.entityMatches['Candidat_GC'][0]}"
+    transitions: {}
+  
+  conditionExists_GC_candidate:
+    component: "System.ConditionExists"
+    properties:
+      variable: "candidateName_GC"
+    transitions:
+      actions:
+        exists: "resolveResultTypesFor_GC_Candidate"
+        notexists: "resolve_CE_GC_candidate"
+      
+  resolve_CE_GC_candidate:
+    component: "System.SetVariable"
+    properties:
+      variable: "candidateName_CE_GC"
+      value: "${iResult.value.entityMatches['Candidat_CE_GC'][0]}"
+    transitions: {}
+      
+  conditionExists_CE_GC_candidate:
+    component: "System.ConditionExists"
+    properties:
+      variable: "candidateName_CE_GC"
+    transitions:
+      actions:
+        exists: "resolveResultTypesFor_CE_or_GC_Candidate"
+        notexists: "resolve_CE_candidate"
+      
+  resolve_CE_candidate:
+    component: "System.SetVariable"
+    properties:
+      variable: "candidateName_CE"
+      value: "${iResult.value.entityMatches['Candidat_CE'][0]}"
+      
+  candidateName:
+    component: "System.List"
+    properties:
+      options: "${candidateName_CE.type.enumValues}"
+      prompt: "which candidate do you want?"
+      variable: "candidateName"
+    transitions: {}
+
+  conditionExists_CE_candidate:
+    component: "System.ConditionExists"
+    properties:
+      variable: "candidateName_CE"
+    transitions:
+      actions:
+        exists: "resolveResultTypesFor_CE_Candidate"
+        notexists: "unresolved"
+
+  #==========================================
+  ## Find result Type
+  resolveResultTypesFor_GC_Candidate:
+    component: "System.SetVariable"
+    properties:
+      variable: "resultType"
+      value: "GC"
+    transitions:
+        next: "conditionExists_TEST"
+      
+  resolveResultTypesFor_CE_Candidate:
+    component: "System.SetVariable"
+    properties:
+      variable: "resultType"
+      value: "CE"
+    transitions:
+        next: "conditionExists_TEST"
+      
+  resolveResultTypesFor_CE_or_GC_Candidate:
+    component: "System.SetVariable"
+    properties:
+      variable: "resultType"
+      value: "${iResult.value.entityMatches['ResultTypes'][0]}"
+
+  #==========================================
+  conditionExists_TEST:
+    component: "System.ConditionExists"
+    properties:
+      variable: "candidateName"
+    transitions:
+      actions:
+        exists: "consoleLog"
+        notexists: "unresolved"
+
+  ## CONSOLE LOG
+  consoleLog:
+      component: "System.Output"
+      properties:
+        text: "candidateName is ${candidateName_CE.value} and resultType is ${resultType.value}"
+      transitions: {}
+
+  #==========================================
+  ## Ask user for election type CE or GC
+  #findResultTypes:
+  #  component: "System.SetVariable"
+  #  properties:
+  #    variable: "resultTypes"
+  #    value: "${iResult.value.entityMatches['ResultTypes'][0]}"
+  #  transitions: {}
+
+  #resultTypes:
+  #  component: "System.List"
+  #  properties: 
+  #    options: "${resultTypes.type.enumValues}" # French accents don't display correctly
+      # use the resource bundle to display hard-coded message, or autotranslate if not available
+  #    prompt: "${rb.findElectionType}"
+  #    variable: "resultTypes"
+  #    translate: true
+  #    maxPrompts: 2
+  #  transitions: {}
+   
+  #==========================================
+  #best candidate for commune
+  #askCandidateName:
+  #  component: "System.Text"
+  #  properties:
+  #   prompt: "Which candidate's results would you like to see?"
+  #   variable: "candidateName"
+  #bestComune:
+  #   component: "bestComune"
+  #   properties: 
+  #     candidateName: "${candidateName.value}"
+  #   transitions: {}
+     # return: "done"
+
+  #==========================================
+  #compare 2 candidates
+  askFirstCandidateName:
+    component: "System.Text"
+    properties:
+      prompt: "Which candidates would you like to compare? \nPlease enter the name of the first candidate"
+      variable: "firstCandidateName"
+    transitions: {}
+      #return: "askSecondCandidateName"
+  askSecondCandidateName:
+    component: "System.Text"
+    properties:
+      prompt: "Please enter the name of the second candidate"
+      variable: "secondCandidateName"
+  differenceBetweenTwoCandidates:
+    component: "compareTwoCandidates"
+    properties:
+      firstCandidateName: "${firstCandidateName.value}"
+      secondCandidateName: "${secondCandidateName.value}"
+
+  #==========================================
+  #externalApi calls
+  askForCurrency:
+      component: "System.Text"
+      properties:
+        prompt: "Give me currency"
+        variable: "currencyType"
+      transitions: {}
+  currencyResult: 
+      component: "electionsApi"
+      properties: 
+        currencyType: "${currencyType.value}"
+      transitions: {} 
+  printResult:
+      component: "System.Output"
+      properties:
+        text: "${baseExchangeRate}"
+      transitions: {}
+
+  #==========================================
+  # error handling
+  unresolved:
+    component: "System.Output"
+    properties:
+      text: "I don't understand. What do you want to do?"
+      translate: true
+    transitions:
+      return: "unresolved"    
+  
