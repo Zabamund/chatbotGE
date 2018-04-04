@@ -1,0 +1,122 @@
+query,topIntent
+how many more ballots did candidate A get than candidate B,CE_CALC_DeltaCandidateAvsB
+how many more votes did the candidate get,CE_CALC_DeltaCandidateAvsB
+how much better did candidate A do than candidate B,CE_CALC_DeltaCandidateAvsB
+what's the delta between two candidates,CE_CALC_DeltaCandidateAvsB
+what's the difference in votes between candidate A and candidate B,CE_CALC_DeltaCandidateAvsB
+in which commune did the candidate have the best results,CE_CALC_BestCommune
+where did the candidate do best,CE_CALC_BestCommune
+where did the candidate score best,CE_CALC_BestCommune
+where did the candidate have the best results,CE_CALC_BestCommune
+In which commune did candidate A do best,CE_CALC_BestCommune
+Is Gilles Barpéaimu elected?,ResultCandidate
+how many votes did this candidate get,ResultCandidate
+how many modified votes did this candidate get,ResultCandidate
+was this candidate elected,ResultCandidate
+who was not elected in this list,ResultCandidate
+what are the results for this candidate,ResultCandidate
+What are the results for Pierre Midi?,ResultCandidate
+How many votes / votes got Pierre Midi?,ResultCandidate
+Is he elected?,ResultCandidate
+Who is elected in the list,ResultList
+Who is not elected in this list,ResultList
+Who is not elected at the races?,ResultList
+did this list win,ResultList
+did this list loose,ResultList
+how well did this list do,ResultList
+how many votes did this list get,ResultList
+who was elected in this list,ResultList
+who was not elected in this list,ResultList
+How many seats have the list of races?,ResultList
+What are the results of the shopping list at Chêne Bougeries?,ResultList
+Who is elected at the races?,ResultList
+results by local,ResultsLocal
+results in this local,ResultsLocal
+which list did best in this local,ResultsLocal
+which party won in this local,ResultsLocal
+what were the results for this local,ResultsLocal
+who was elected in this local,ResultsLocal
+what was the participation rate,ResultParticipation
+what was the participation level,ResultParticipation
+What is the participation rate?,ResultParticipation
+How many people voted?,ResultParticipation
+how many people voted,ResultParticipation
+results state board,ResultElections
+Distribution of votes,ResultElections
+results of GC election,ResultElections
+list results for the GC election,ResultElections
+what are the results of the GC election,ResultElections
+Distribution of seats,ResultElections
+GC Outcome,ResultElections
+GC results,ResultElections
+big board results,ResultElections
+party results,ResultElections
+What are the results,ResultElections
+seat distribution,ResultElections
+Which lists have elected candidates?,ResultElections
+winners,ResultElections
+What are the results,ResultElections
+results of the CE election,ResultElections
+CE election,ResultElections
+CE election results,ResultElections
+CE winners,ResultElections
+CE elected,ResultElections
+Distribution of seats,ResultElections
+What are the results,ResultElections
+Distribution of votes,ResultElections
+Results of the election of the Council of State CE,ResultElections
+Which lists have elected candidates?,ResultElections
+what are the results at home,ResultCommune
+who is elected in my commune,ResultCommune
+who was elected in my commune,ResultCommune
+who was elected here,ResultCommune
+which are the elected in my commune,ResultCommune
+what are the results in my commune,ResultCommune
+can I have the results,Admin_UserChoice
+the results are ready,Admin_UserChoice
+how to get results,Admin_UserChoice
+where are the results,Admin_UserChoice
+how do I find the results,Admin_UserChoice
+the results are available,Admin_UserChoice
+results,Admin_UserChoice
+good afternoon,Admin_WelcomeGreeting
+ciao,Admin_WelcomeGreeting
+Good evening,Admin_WelcomeGreeting
+Hello,Admin_WelcomeGreeting
+howdy,Admin_WelcomeGreeting
+hola,Admin_WelcomeGreeting
+grüezi,Admin_WelcomeGreeting
+good morning,Admin_WelcomeGreeting
+Hello,Admin_WelcomeGreeting
+good tag,Admin_WelcomeGreeting
+Hello,Admin_WelcomeGreeting
+ola,Admin_WelcomeGreeting
+hi,Admin_WelcomeGreeting
+good evening,Admin_WelcomeGreeting
+salvo,Admin_WelcomeGreeting
+wazzup,Admin_WelcomeGreeting
+what's up,Admin_WelcomeGreeting
+hey,Admin_WelcomeGreeting
+what are you serving,Admin_HelpUser
+how does it work,Admin_HelpUser
+what are you,Admin_HelpUser
+how do you cause,Admin_HelpUser
+what do you use,Admin_HelpUser
+how are you talking,Admin_HelpUser
+how can I ask questions,Admin_HelpUser
+how can I have answers,Admin_HelpUser
+how it works,Admin_HelpUser
+how do you walk,Admin_HelpUser
+what are you using,Admin_HelpUser
+I do not understand,Admin_HelpUser
+help,Admin_HelpUser
+help me,Admin_HelpUser
+I need help,Admin_HelpUser
+what is this thing,Admin_ErrorHandling
+what are you using,Admin_ErrorHandling
+kesako,Admin_ErrorHandling
+it sucks this thing,Admin_ErrorHandling
+what's this,Admin_ErrorHandling
+what is that thing,Admin_ErrorHandling
+it's stupid this thing,Admin_ErrorHandling
+it does not work,Admin_ErrorHandling
