@@ -1,655 +1,628 @@
 entity,value,synonyms
-candidate,Pagani Rémy,Remy Pagani
-candidate,Wenger Saliha,Saliha Wenger:Salika Wenger
-candidate,Zaugg Christian,Christian Zaugg
-candidate,Haller Jocelyne,Jocelyne Haller
-candidate,Eniline Alexander,Alexander Eniline
-candidate,Cruchon Pablo,Pablo Cruchon
-candidate,Valentino Stéphanie,Stephanie Valentino
-candidate,Burgermeister Jean,Jean Burgermeister
-candidate,Ecuyer Hélène,Helene Ecuyer
-candidate,Issom David-Zacharie,David-Zacharie Issom
-candidate,Ossmann Sekna,Sekna Ossmann
-candidate,Nyffeler Batou Françoise,Françoise Nyffeler Batou
-candidate,Januzi Bashkim,Bashkim Januzi
-candidate,Ecuyer Sébastien,Sebastien Ecuyer
-candidate,Ovett Bondi Davinia,Davinia Ovett Bondi
-candidate,Jimenez Jean-Daniel,Jean-Daniel Jimenez
-candidate,Ecuyer Annick,Annick Ecuyer
-candidate,Peradotto Julie,Julie Peradotto
-candidate,Manríquez Matías,Matías Manríquez
-candidate,Zehfus Yves,Yves Zehfus
-candidate,Zaugg Daniel,Daniel Zaugg
-candidate,Perez Maria,Maria Perez:Lou Perez
-candidate,Schnebli Tobias,Tobias Schnebli:Tobia Schnebli
-candidate,Missoh Dzikunoo Massan,Massan Missoh Dzikunoo
-candidate,Martenot Aude,Aude Martenot
-candidate,Vanek Pierre,Pierre Vanek
-candidate,Clement Patrice,Patrice Clement
-candidate,Prezioso Batou Stefania,Stefania Prezioso Batou
-candidate,Esaki Kabeya Elisabeth,Elisabeth Esaki Kabeya
-candidate,Langford Pia,Pia Langford
-candidate,Vincent Michel,Michel Vincent
-candidate,Rumpczyk Delphine,Delphine Rumpczyk
-candidate,Salm Darboe Karijn,Karijn Salm Darboe
-candidate,Andenmatten David,David Andenmatten
-candidate,Schmid Audrey,Audrey Schmid
-candidate,Guevara Francisco,Francisco Guevara
-candidate,Batou Jean,Jean Batou
-candidate,Stebler Guenat Henriette,Henriette Stebler Guenat
-candidate,Edjeou Corinne,Corinne Edjeou:Corinne Buntschu
-candidate,Zaugg Cecilia,Cecilia Zaugg
-candidate,Baud Olivier,Olivier Baud
-candidate,Zbinden Livia,Livia Zbinden
-candidate,Rossel Pascal,Pascal Rossel
-candidate,Bayenet Pierre,Pierre Bayenet
-candidate,Bailat Ariane,Ariane Bailat
-candidate,Maillefer Denise,Denise Maillefer
-candidate,Meierhofer Manyagoua Boumtché Charlotte,Charlotte Meierhofer Manyagoua Boumtche
-candidate,Blanchet Marjo,Marjo Blanchet
-candidate,Marti Werner,Werner Marti
-candidate,Khaouchi Corinne,Corinne Khaouchi
-candidate,Bolay Robin Stéphanie,Stephanie Bolay Robin
-candidate,Blanco Luis,Luis Blanco
-candidate,Mamin François,François Mamin
-candidate,De Melo Marcelino Amélia,Amelia De Melo Marcelino
-candidate,Bouzid Mohamed,Mohamed Bouzid
-candidate,Boujemaa Sanae,Sanae Boujemaa
-candidate,Galland Eduardo,Eduardo Galland
-candidate,Jelk Andrée,Andree Jelk:Andree Jelk-Peila
-candidate,Castro Gloria,Gloria Castro
-candidate,Camelo Alfredo,Alfredo Camelo
-candidate,Noetzlin Simon,Simon Noetzlin
-candidate,Duraku Fitore,Fitore Duraku
-candidate,Duraku Edon,Edon Duraku
-candidate,Ferreira Elisabeth,Elisabeth Ferreira
-candidate,Christinat Jean-David,Jean-David Christinat
-candidate,Gerardo Féliz Grubi Ynes,Ynes Gerardo Feliz Grubi
-candidate,Carlo Xavier,Xavier Carlo
-candidate,Sahin Gazi,Gazi Sahin
-candidate,Hodgers Antonio,Antonio Hodgers
-candidate,De Chastonay Marjorie,Marjorie De Chastonay
-candidate,Rochat Yvan,Yvan Rochat
-candidate,Perler Frédérique,Frederique Perler
-candidate,Buschbeck Mathias,Mathias Buschbeck
-candidate,Lefort François,François Lefort
-candidate,Leonelli Katia,Katia Leonelli
-candidate,Macchiavelli Marta,Marta Macchiavelli:Marta Julia Macchiavelli
-candidate,Makosso William,William Makosso
-candidate,Martin David,David Martin
-candidate,Müller Sontag Corinne,Corinne Muller Sontag
-candidate,Nicolet-Dit-Felix Julien,Julien Nicolet-Dit-Felix
-candidate,Noël Philippe,Philippe Noel
-candidate,Oriolo Alessandra,Alessandra Oriolo
-candidate,Oztürk Dilara,Dilara Ozturk
-candidate,Pasquier Isabelle,Isabelle Pasquier:Isabelle Pasquier-Eichenberger
-candidate,Poget Philippe,Philippe Poget
-candidate,Quijano Garcia Maria,Maria Quijano Garcia:Maria Jose Quijano Garcia
-candidate,Rodriguez Mario,Mario Rodriguez
-candidate,Rogg Catharina,Catharina Rogg:Olowine Rogg
-candidate,Rossiaud Jean,Jean Rossiaud
-candidate,Saa Baud Yubitza,Yubitza Saa Baud
-candidate,Schalk Antoine,Antoine Schalk
-candidate,Schaufelberger Esther,Esther Schaufelberger
-candidate,Sordet Adrienne,Adrienne Sordet
-candidate,Taleghani Majid,Majid Taleghani
-candidate,Tchamkerten Jolanka,Jolanka Tchamkerten
-candidate,Tiguemounine Sabine,Sabine Tiguemounine
-candidate,Tinguely Dominique,Dominique Tinguely
-candidate,Tschudi Paloma,Paloma Tschudi
-candidate,Van Woerden Wendy,Wendy Van Woerden
-candidate,Veiga Arias Damian,Damian Veiga Arias:Damian Veiga Loffel
-candidate,Wisard Prado Leyma,Leyma Wisard Prado
-candidate,Yunus Ebener Mariam,Mariam Yunus Ebener:Maryam Yunus Ebener
-candidate,Amato Maurice,Maurice Amato
-candidate,Amsellem Benedicte,Benedicte Amsellem:Benedicte Amsellem-Ossipow
-candidate,Ardizzone Ivan,Ivan Ardizzone
-candidate,Azzabi Omar,Omar Azzabi
-candidate,Bänziger Ruth,Ruth Banziger
-candidate,Barciela Villar Ana,Ana Barciela Villar
-candidate,Bavarel Christian,Christian Bavarel
-candidate,Boccard Damien,Damien Boccard:Damien Baptiste Boccard
-candidate,Bonny Didier,Didier Bonny
-candidate,Bonvin Bonfanti Anne,Anne Bonvin Bonfanti
-candidate,Bucher Denis,Denis Bucher
-candidate,Buenzod Christian,Christian Buenzod
-candidate,Bui Aurore,Aurore Bui
-candidate,Cabitza Marina,Marina Cabitza
-candidate,Calame Boris,Boris Calame
-candidate,Calame Fabrice,Fabrice Calame
-candidate,Chaudieu Anne,Anne Chaudieu
-candidate,Concha Celtia,Celtia Concha
-candidate,Corpataux Laurence,Laurence Corpataux
-candidate,Dalphin Marc,Marc Dalphin
-candidate,De Felice Nicolas,Nicolas De Felice
-candidate,De Maio Sara,Sara De Maio
-candidate,De Matteis Yves,Yves De Matteis
-candidate,De Rougemont Philippe,Philippe De Rougemont
-candidate,Desbiolles Sophie,Sophie Desbiolles
-candidate,Descombes Isabelle,Isabelle Descombes
-candidate,Dujoux Valentin,Valentin Dujoux
-candidate,Dupuis Renaud,Renaud Dupuis
-candidate,Ebener Christophe,Christophe Ebener
-candidate,Eckert Pierre,Pierre Eckert
-candidate,Fischer Fabienne,Fabienne Fischer
-candidate,Freymond Pascal,Pascal Freymond
-candidate,Geoffroy Elias,Elias Geoffroy
-candidate,Gomez Alfonso,Alfonso Gomez
-candidate,Haas François,François Haas
-candidate,Hartmann Esther,Esther Hartmann
-candidate,Heberlein Simonett Claudia,Claudia Heberlein Simonett
-candidate,Herren Yves,Yves Herren
-candidate,Khamis Vannini Uzma,Uzma Khamis Vannini
-candidate,Klopfenstein Broggini Delphine,Delphine Klopfenstein Broggini
-candidate,Kündig Ralph,Ralph Kundig
-candidate,Latour Sabine,Sabine Latour
-candidate,Emery-Torracinta Anne,Anne Emery-Torracinta
-candidate,Apothéloz Thierry,Thierry Apotheloz
-candidate,Salerno Sandrine,Sandrine Salerno
-candidate,De Sainte-Marie Romain,Romain De Sainte-Marie
-candidate,Kast Carole-Anne,Carole-Anne Kast
-candidate,Wenger Thomas,Thomas Wenger
-candidate,Marti Caroline,Caroline Marti
-candidate,Bandler Marko,Marko Bandler
-candidate,Moyard Mizrahi Salima,Salima Moyard Mizrahi
-candidate,Dandrès Christian,Christian Dandres
-candidate,Verissimo De Freitas Helena,Helena Verissimo De Freitas
-candidate,Carasso Grégoire,Gregoire Carasso
-candidate,Sobanek Marion,Marion Sobanek
-candidate,Thévoz Sylvain,Sylvain Thevoz
-candidate,Conti Jennifer,Jennifer Conti
-candidate,Staub Martin,Martin Staub
-candidate,Valiquer Grecuccio Nicole,Nicole Valiquer Grecuccio
-candidate,Rielle Jean Charles,Jean Charles Rielle
-candidate,Gavilanes Amanda,Amanda Gavilanes
-candidate,Mizrahi Cyril,Cyril Mizrahi
-candidate,Casares Maria Jesus,Maria Jesus Casares
-candidate,Pomatto Michel,Michel Pomatto
-candidate,Strasser Léna,Lena Strasser
-candidate,Kokot Guilhem,Guilhem Kokot
-candidate,Romano Maria,Maria Romano:Maria Vittoria Romano
-candidate,Mussa Ahmed,Ahmed Mussa:Youniss Mussa
-candidate,Osmani Xhevrie,Xhevrie Osmani
-candidate,Esteban Diego,Diego Esteban
-candidate,Baillon Glenna,Glenna Baillon
-candidate,Eya Nchama Cruz Melchor,Cruz Melchor Eya Nchama
-candidate,Brandrup Gladys,Gladys Brandrup:Gladys Acosta Brandrup
-candidate,Chiaradonna Denis,Denis Chiaradonna
-candidate,Lüthi Badia,Badia Luthi
-candidate,Clemence Nicolas,Nicolas Clemence
-candidate,Vatre Patricia,Patricia Vatre
-candidate,Zimmermann Michel,Michel Zimmermann
-candidate,Viret Dora,Dora Viret:Cecilia Viret
-candidate,Velasco Alberto,Alberto Velasco
-candidate,Fabre Michel,Michel Fabre
-candidate,De Battista Regis,Regis De Battista
-candidate,Deonna Emmanuel,Emmanuel Deonna
-candidate,Tombola Jean-Pierre,Jean-Pierre Tombola
-candidate,Keel Theo,Theo Keel
-candidate,Lapalud Patrick,Patrick Lapalud
-candidate,Barry Thierno,Thierno Barry
-candidate,Halimi Hysri,Hysri Halimi
-candidate,Gajardo Munoz Jorge,Jorge Gajardo Munoz
-candidate,Alonso Unica Manuel,Manuel Alonso Unica
-candidate,Baldini Frédéric,Frederic Baldini
-candidate,Bruchez Thomas,Thomas Bruchez
-candidate,Benda Benjamin,Benjamin Benda
-candidate,Burkhard Roland,Roland Burkhard
-candidate,Bosshard Pierre Yves,Pierre Yves Bosshard
-candidate,Kurteshi Ismet,Ismet Kurteshi
-candidate,Maudet Pierre,Pierre Maudet
-candidate,Fontanet Nathalie,Nathalie Fontanet
-candidate,De Senarclens Alexandre,Alexandre De Senarclens
-candidate,De Montmollin Simone,Simone De Montmollin
-candidate,Morel Philippe,Philippe Morel
-candidate,Putallaz Jean,Jean Putallaz:Jean Jean Romain
-candidate,Saudan Patrick,Patrick Saudan
-candidate,Selleger Charles,Charles Selleger
-candidate,Uehlinger Pascal,Pascal Uehlinger
-candidate,Vuillod Georges,Georges Vuillod
-candidate,Wicky Raymond,Raymond Wicky
-candidate,Zuber Céline,Celine Zuber:Celine Roy
-candidate,Zweifel Yvan,Yvan Zweifel
-candidate,Aellen Cyril,Cyril Aellen
-candidate,Alder Murat Julian,Murat Julian Alder
-candidate,Barbey Alexis,Alexis Barbey
-candidate,Barde Antoine,Antoine Barde
-candidate,Béné Jacques,Jacques Bene
-candidate,De Candolle Beatriz,Beatriz De Candolle
-candidate,Conne Pierre,Pierre Conne
-candidate,Cuendet Edouard,Edouard Cuendet
-candidate,Hardyn Nathalie,Nathalie Hardyn
-candidate,Hiltpold Serge,Serge Hiltpold
-candidate,Malek-Asghar Patrick,Patrick Malek-Asghar
-candidate,Monbaron Fabienne,Fabienne Monbaron:Fabienne Monbaron-Stress
-candidate,Morand Louise,Louise Morand
-candidate,Nicollier Pierre,Pierre Nicollier
-candidate,Oppliger Danielle,Danielle Oppliger
-candidate,Orsini Antoine,Antoine Orsini
-candidate,Pasquier Jean-Pierre,Jean-Pierre Pasquier
-candidate,Patek Serge,Serge Patek
-candidate,De Planta Francine,Francine De Planta
-candidate,Rana Zolana Ginior,Ginior Rana Zolana
-candidate,Rigotti Maria,Maria Rigotti:Helena Rigotti
-candidate,Roullet Michèle,Michele Roullet
-candidate,Schaller Vincent,Vincent Schaller
-candidate,Schneebeli Roland-Daniel,Roland-Daniel Schneebeli
-candidate,Senglet Christophe,Christophe Senglet
-candidate,Serrano Philippe,Philippe Serrano
-candidate,Sommer Monika,Monika Sommer
-candidate,Steiner Matthieu,Matthieu Steiner
-candidate,Subilia Vincent,Vincent Subilia
-candidate,Taboada Francisco,Francisco Taboada
-candidate,Tschopp Laurent,Laurent Tschopp
-candidate,Wavre Rolin,Rolin Wavre
-candidate,Wicki Guy,Guy Wicki
-candidate,Wolfisberg François,François Wolfisberg
-candidate,Agramunt Gian-Reto,Gian-Reto Agramunt
-candidate,Apothéloz Jacques,Jacques Apotheloz
-candidate,Aubert Nicolas,Nicolas Aubert
-candidate,Barbier-Mueller Diane,Diane Barbier-Mueller
-candidate,Bellingeri Stefano Vito,Stefano Vito Bellingeri
-candidate,Bersier Julie,Julie Bersier
-candidate,Blanch Richard-Pascal,Richard-Pascal Blanch:Pascal Blanch
-candidate,Böhler Frances,Frances Bohler:Frances Bohler-GoodshipElizabeth BohlerElizabeth Bohler-Goodship
-candidate,Bouvier Christine,Christine Bouvier
-candidate,Brandt Simon,Simon Brandt
-candidate,Bron Gilles-Olivier,Gilles-Olivier Bron
-candidate,Brunel Mayori,Mayori Brunel
-candidate,Burri Rémy,Remy Burri
-candidate,Cornu Renate,Renate Cornu
-candidate,Creffield Conrad,Conrad Creffield
-candidate,Daher Vincent,Vincent Daher
-candidate,Dérobert Thierry,Thierry Derobert
-candidate,Desfayes Natacha,Natacha Desfayes:Natacha Buffet-Desfayes
-candidate,Douzals Jacques,Jacques Douzals
-candidate,Fiss Joëlle,Joelle Fiss
-candidate,Genecand Adrien,Adrien Genecand
-candidate,Giacobino Donata,Donata Giacobino:Donata Giacobino-FroidevauxNadia GiacobinoNadia Giacobino-Froidevaux
-candidate,Grand Eric,Eric Grand
-candidate,Grognuz Fabien,Fabien Grognuz
-candidate,Jay Sylvie,Sylvie Jay
-candidate,Jud Philippe,Philippe Jud
-candidate,Kämpfen Véronique,Veronique Kampfen
-candidate,Lämmel Valérie,Valerie Lammel:Valerie Laemmel-Juillard
-candidate,Leiser Jean-Marc,Jean-Marc Leiser
-candidate,Locher Jean,Jean Locher
-candidate,Luzzatto Christine,Christine Luzzatto
-candidate,Messerli Marie-Claire,Marie-Claire Messerli
-candidate,Meyer Philippe,Philippe Meyer
-candidate,Barthassat Luc,Luc Barthassat
-candidate,Dal Busco Serge,Serge Dal Busco
-candidate,Buchs Bertrand,Bertrand Buchs
-candidate,Aebi Benjamin,Benjamin Aebi
-candidate,Angelozzi Philippe,Philippe Angelozzi
-candidate,Von Arx-Vernon Anne-Marie,Anne-Marie Von Arx-Vernon
-candidate,Bachmann Delphine,Delphine Bachmann
-candidate,Bidaux Patricia,Patricia Bidaux:Patricia Bidaux-Rodriguez
-candidate,Blondin Jacques,Jacques Blondin
-candidate,Bocquet Claude,Claude Bocquet
-candidate,Bourbala Djamel,Djamel Bourbala
-candidate,Bouvier Jérémy,Jeremy Bouvier
-candidate,Bugnion Jean-Michel,Jean-Michel Bugnion
-candidate,Casutt Martine,Martine Casutt
-candidate,Cerutti Olivier,Olivier Cerutti
-candidate,Chaker Mangeat Alia,Alia Chaker Mangeat
-candidate,Chevalier Alexandre,Alexandre Chevalier
-candidate,Decrey Christophe,Christophe Decrey
-candidate,Deluermoz Cosima,Cosima Deluermoz
-candidate,Desfayes Sébastien,Sebastien Desfayes
-candidate,Dulex Christophe,Christophe Dulex
-candidate,Dupont Thérèse,Therese Dupont
-candidate,Engelberts Marie-Thérèse,Marie-Therese Engelberts:Marie-Therese Engelberts-Leone
-candidate,Fischer Daniel,Daniel Fischer
-candidate,Forni Jean-Luc,Jean-Luc Forni
-candidate,Fournier Nicolas,Nicolas Fournier
-candidate,Frischknecht Catherine,Catherine Frischknecht
-candidate,Gache Hélène,Helene Gache
-candidate,Gashi Sami,Sami Gashi
-candidate,Giannasi Anthony,Anthony Giannasi
-candidate,Giannelli Mark,Mark Giannelli
-candidate,Gioria Gaëlle,Gaelle Gioria
-candidate,Guinchard Jean-Marc,Jean-Marc Guinchard
-candidate,De Kalbermatten Alain,Alain De Kalbermatten
-candidate,Khattabi Hassar Houda,Houda Khattabi Hassar
-candidate,Kunz Laurence,Laurence Kunz
-candidate,Lance François,François Lance
-candidate,Lathion Jean Charles,Jean Charles Lathion
-candidate,Lehner Laurent,Laurent Lehner
-candidate,Lupo Paolo,Paolo Lupo
-candidate,Magnin Xavier,Xavier Magnin
-candidate,Magnin Yves,Yves Magnin
-candidate,Maitre Vincent,Vincent Maitre
-candidate,Makki Michela,Michela Makki:Michele Makki
-candidate,Meissner Reyfer Christine,Christine Meissner Reyfer:Christina Meissner Reyfer
-candidate,Merle Emmanuelle,Emmanuelle Merle
-candidate,Mettan Guy,Guy Mettan
-candidate,Meyer De Stadelhofen Philippe,Philippe Meyer De Stadelhofen
-candidate,Mondoux Alexandre,Alexandre Mondoux
-candidate,Moroni Catherine,Catherine Moroni
-candidate,Neuder Isabelle,Isabelle Neuder
-candidate,Ouedraogo Moustapha,Moustapha Ouedraogo
-candidate,Perret Vincent,Vincent Perret
-candidate,Pfeiffer Alex,Alex Pfeiffer
-candidate,Progin Christian,Christian Progin
-candidate,Putallaz Thomas,Thomas Putallaz
-candidate,Rasolo Daniel,Daniel Rasolo
-candidate,Ruchet Philippe,Philippe Ruchet
-candidate,Rys Alexandra,Alexandra Rys
-candidate,Saudan Guy,Guy Saudan
-candidate,Sayegh Souheil,Souheil Sayegh
-candidate,Scandurra Alessandro,Alessandro Scandurra
-candidate,Schmied Patrick,Patrick Schmied
-candidate,Schrag Sylvianne,Sylvianne Schrag
-candidate,Simoes Jose,Jose Simoes
-candidate,Sopi Dardan,Dardan Sopi
-candidate,Squillaci Nicola,Nicola Squillaci
-candidate,Steinberg Candrian Melinda,Melinda Steinberg Candrian
-candidate,Tomassi Christine,Christine Tomassi
-candidate,Tremblet Laurent,Laurent Tremblet
-candidate,Uong Dinh Manh,Dinh Manh Uong
-candidate,Völki Robert,Robert Volki
-candidate,Vuarnoz Emanuela,Emanuela Vuarnoz:Emanuelle Vuarnoz
-candidate,Wehrli Patrick,Patrick Wehrli
-candidate,Zimmermann Luc,Luc Zimmermann
-candidate,Zimmermann Bertrand,Bertrand Zimmermann
-candidate,Nidegger Yves,Yves Nidegger
-candidate,Bläsi Thomas,Thomas Blasi
-candidate,Florey Stéphane,Stephane Florey
-candidate,Leyvraz Eric,Eric Leyvraz
-candidate,Fuhrmann Marc,Marc Fuhrmann
-candidate,Lussi Patrick,Patrick Lussi
-candidate,Ivanov Christo,Christo Ivanov
-candidate,Falquet Marc,Marc Falquet
-candidate,Maendly Norbert,Norbert Maendly
-candidate,Pfeffer André,Andre Pfeffer
-candidate,Catelain Gilbert,Gilbert Catelain
-candidate,Hulliger Patrick,Patrick Hulliger
-candidate,Michaud Eliane,Eliane Michaud:Eliane Ansermet
-candidate,Scherb Peter,Peter Scherb:Pierre Scherb
-candidate,Stark Riccardo,Riccardo Stark:Richard Stark
-candidate,Guinchard Damien,Damien Guinchard
-candidate,Bisol Walter,Walter Bisol
-candidate,Masé Zora,Zora Mase
-candidate,Velen François,François Velen
-candidate,Knörr Stephen,Stephen Knorr
-candidate,Rubeli Pascal,Pascal Rubeli
-candidate,Lyon Didier,Didier Lyon
-candidate,Perrenoud Philippe,Philippe Perrenoud
-candidate,Dutruit André,Andre Dutruit
-candidate,Altenbach Pascal,Pascal Altenbach
-candidate,Queffélec Philippe,Philippe Queffelec
-candidate,Laporte Claude,Claude Laporte
-candidate,Conti Virna,Virna Conti
-candidate,Parel Loïc,Loic Parel
-candidate,Heddi Leila,Leila Heddi
-candidate,Gomes De Almeida José,Jose Gomes De Almeida:Manuel Gomes De Almeida
-candidate,Bertinat Marie-Agnès,Marie-Agnes Bertinat
-candidate,Mounla Alexandre,Alexandre Mounla
-candidate,Dournow David,David Dournow
-candidate,Chaussivert Patrice,Patrice Chaussivert
-candidate,Knoll Tatiana,Tatiana Knoll
-candidate,Rime Alexandre,Alexandre Rime
-candidate,Desyatkina Dzodziev Viktoriya,Viktoriya Desyatkina Dzodziev
-candidate,Thomas Sébastien,Sebastien Thomas
-candidate,Romanens Mathieu,Mathieu Romanens
-candidate,Schweizer Adriana,Adriana Schweizer
-candidate,Khachatryan Gohar,Gohar Khachatryan
-candidate,Prando Stéphane,Stephane Prando
-candidate,Borer Maria Da Conceicao,Maria Da Conceicao Borer
-candidate,Akaba El Mostafa,El Mostafa Akaba
-candidate,Léguillon Angèle,Angele Leguillon
-candidate,Bontoux Caroline,Caroline Bontoux
-candidate,Honegger Heller Manuela,Manuela Honegger Heller
-candidate,Ocharan Robles Rapaz Eva,Eva Ocharan Robles Rapaz:Eva Ocharan Robles
-candidate,Da Cruz Pedro Anna,Anna Da Cruz Pedro:Anna Da Cruz Perret-Gentil
-candidate,Borcard Anne,Anne Borcard
-candidate,Müller Fabienne,Fabienne Muller:Fabienne Abramovich
-candidate,Yol Diana,Diana Yol
-candidate,Randegger Alice,Alice Randegger
-candidate,Depraetere Graciela,Graciela Depraetere:Graciela Depraetere-Manulis
-candidate,Ozdemir Elcim,Elcim Ozdemir:Elcim ÖzdemirElçim OzdemirElçim Özdemir
-candidate,Ricciardi Werlen Jacqueline,Jacqueline Ricciardi Werlen
-candidate,Rossier Fahrion Cerise,Cerise Rossier Fahrion
-candidate,Boselli Gauthey Monica,Monica Boselli Gauthey
-candidate,Lavrador Dias Claudia,Claudia Lavrador Dias:Claudia Dias
-candidate,Jauch Caroline,Caroline Jauch
-candidate,Grange Marie-Florence,Marie-Florence Grange
-candidate,Mazzoni Nikita,Nikita Mazzoni
-candidate,Langer Valérie,Valerie Langer
-candidate,Mayoral Edo Corinne,Corinne Mayoral Edo:Corinne Mayoral
-candidate,Thomias Leduc Diana,Diana Thomias Leduc
-candidate,Orsini Magali,Magali Orsini
-candidate,Gauthier Pierre,Pierre Gauthier
-candidate,Armand Catherine,Catherine Armand
-candidate,Guex Stéphane,Stephane Guex:dit Guex-Pierre Guex
-candidate,Humberset Corinne,Corinne Humberset
-candidate,Ruckterstuhl Jean-Claude,Jean-Claude Ruckterstuhl
-candidate,Longo Katrin,Katrin Longo
-candidate,Girod Nicolas,Nicolas Girod
-candidate,Küderli Berkane Nicole,Nicole Kuderli Berkane
-candidate,Flaks Joël,Joel Flaks
-candidate,Perrin Brigitte,Brigitte Perrin
-candidate,Goudal Renaud,Renaud Goudal
-candidate,Meynet Danielle,Danielle Meynet
-candidate,Meynet Leon,Leon Meynet
-candidate,Turnowsky Serge,Serge Turnowsky
-candidate,Zimmermann Olivier,Olivier Zimmermann
-candidate,Chatelain Dimitri,Dimitri Chatelain
-candidate,Stauffer Eric,Eric Stauffer
-candidate,Zacharias Ronald,Ronald Zacharias
-candidate,Saraiva Medeiros Carlos,Carlos Saraiva Medeiros
-candidate,Spühler Pascal,Pascal Spuhler
-candidate,Gaetanino Marco,Marco Gaetanino
-candidate,Le Jeune Giacobbi Cristina,Cristina Le Jeune Giacobbi
-candidate,Walther Thierry,Thierry Walther
-candidate,Hüssy Coppex Viviana Ximena Anghela,Viviana Ximena Anghela Hussy Coppex
-candidate,Loeillet-Rouzier Anne,Anne Loeillet-Rouzier:Marie Loeillet-Rouzier
-candidate,Fusco Gerardo,Gerardo Fusco
-candidate,Gamberoni Dominique,Dominique Gamberoni
-candidate,Nobs Cyril,Cyril Nobs
-candidate,Noël Daniel,Daniel Noel
-candidate,Santi Michel,Michel Santi
-candidate,Picot Jérôme,Jerome Picot
-candidate,Ruchonnet Jean-François,Jean-François Ruchonnet
-candidate,Galetto Frédéric,Frederic Galetto
-candidate,Beck Victoria,Victoria Beck
-candidate,Antoine Jean-Marc,Jean-Marc Antoine
-candidate,Rime Fatma,Fatma Rime:Fatima Rime
-candidate,L'Huillier Eric,Eric L'Huillier
-candidate,Paraná Júnior Valério,Valerio Paraná Júnior
-candidate,Lota Raphaëlle,Raphaelle Lota
-candidate,Thomsen Elena,Elena Thomsen:Elena Milakova
-candidate,Ballesteros Stefan,Stefan Ballesteros
-candidate,Fabre Jean,Jean Fabre
-candidate,Nguyen Van Minh,Van Minh Nguyen
-candidate,Martel Frédéric,Frederic Martel
-candidate,Frey Priscilla,Priscilla Frey
-candidate,Brkic Vitomir,Vitomir Brkic
-candidate,Levy Yossef,Yossef Levy:Hai Levy
-candidate,Bissoli Marion,Marion Bissoli:Marion Le Bacquer
-candidate,Cohen Olivier,Olivier Cohen
-candidate,Bruguier Michel,Michel Bruguier
-candidate,Solteiro Jorge,Jorge Solteiro
-candidate,Halimi Arsim,Arsim Halimi
-candidate,Berlemont Alain,Alain Berlemont
-candidate,Gargantini Yves,Yves Gargantini
-candidate,Maigre Maria Inès,Maria Ines Maigre
-candidate,Farinha Horacio,Horacio Farinha
-candidate,Vidonne Thierry,Thierry Vidonne
-candidate,Leitner André,Andre Leitner
-candidate,Delacquis Cédric,Cedric Delacquis
-candidate,Zagato Sophie,Sophie Zagato
-candidate,Vidonne Valérie,Valerie Vidonne
-candidate,Ferrand Guy,Guy Ferrand
-candidate,Kunzi Nicolas,Nicolas Kunzi
-candidate,Kugel Mark,Mark Kugel
-candidate,Thurnherr Laurent,Laurent Thurnherr
-candidate,Vidonne David,David Vidonne
-candidate,Beureux Silvain,Silvain Beureux
-candidate,Kunzi Philippe,Philippe Kunzi
-candidate,Fader Annette,Annette Fader:Yasuka Fader
-candidate,Thurnherr Sylvain,Sylvain Thurnherr
-candidate,Beureux Johan,Johan Beureux
-candidate,Poggia Mauro,Mauro Poggia
-candidate,Golay Roger,Roger Golay
-candidate,Roch Ana Belen,Ana Belen Roch
-candidate,Sormanni Daniel,Daniel Sormanni
-candidate,Cerutti Thierry,Thierry Cerutti
-candidate,Voumard Jean Marie,Jean Marie Voumard
-candidate,Le Joncour-Brülhart Céline,Celine Le Joncour-Brulhart
-candidate,Bärtschi François,François Bartschi
-candidate,Pistis Sandro,Sandro Pistis
-candidate,Derouette Jean-Paul,Jean-Paul Derouette
-candidate,Magnin Danièle,Daniele Magnin
-candidate,Valentin Francisco,Francisco Valentin
-candidate,Sapin Françoise,Françoise Sapin
-candidate,Flury Christian,Christian Flury
-candidate,Golay Sandra,Sandra Golay
-candidate,Python André,Andre Python
-candidate,Rappaz Henry,Henry Rappaz
-candidate,Gander Florian,Florian Gander
-candidate,Decorvet Christian,Christian Decorvet
-candidate,Sonderegger Gabriela,Gabriela Sonderegger
-candidate,Dimier Patrick,Patrick Dimier
-candidate,Fontaine-Vive-Curtaz Jean,Jean Fontaine-Vive-Curtaz
-candidate,Saas Alexandra,Alexandra Saas
-candidate,Zogg Thomas,Thomas Zogg
-candidate,Pascarella Louise,Louise Pascarella
-candidate,Fekkak Hatem,Hatem Fekkak
-candidate,Angelo Antonio,Antonio Angelo
-candidate,Cattin Jean-Pascal,Jean-Pascal Cattin
-candidate,Baryeka Jarek,Jarek Baryeka
-candidate,Reichenbach Kevin,Kevin Reichenbach
-candidate,Chapou Frédéric,Frederic Chapou
-candidate,Madani Amar,Amar Madani
-candidate,Leisi Laurent,Laurent Leisi
-candidate,Oudin Rémy,Remy Oudin
-candidate,Villette Jean,Jean Villette
-candidate,Ambrosio François,François Ambrosio
-candidate,Teixeira Albano,Albano Teixeira
-candidate,Frauchiger Roger,Roger Frauchiger
-candidate,Dellagiovanna Daniel,Daniel Dellagiovanna
-candidate,Roulin Claude,Claude Roulin
-candidate,Couto Armando,Armando Couto
-candidate,Nieto Alexandre,Alexandre Nieto
-candidate,Chaoui Laïla,Laila Chaoui
-candidate,Sotomayor André,Andre Sotomayor
-candidate,Do Rego Ricardo,Ricardo Do Rego
-candidate,Vendrell Marie,Marie Vendrell
-candidate,Ménétrey Yasmine,Yasmine Menetrey
-candidate,Angeloz Claude,Claude Angeloz
-candidate,Laurent Pierre-Alain,Pierre-Alain Laurent
-candidate,Jahija Burim,Burim Jahija
-candidate,Di Salvo Giuseppe,Giuseppe Di Salvo
-candidate,Heimo Philippe,Philippe Heimo
-candidate,Chappaz Marc,Marc Chappaz
-candidate,Barry Minkailou,Minkailou Barry
-candidate,Catalan Joëlle,Joelle Catalan
-candidate,Reolon Bruno,Bruno Reolon
-candidate,Albanesi Jean-François,Jean-François Albanesi
-candidate,Klingele Olivier,Olivier Klingele
-candidate,Bencker Jeanne,Jeanne Bencker
-candidate,Marguet Tex,Tex Marguet
-candidate,Delmenico Janine,Janine Delmenico
-candidate,Shlyapina Elena,Elena Shlyapina
-candidate,Mudry Yves,Yves Mudry
-candidate,Gostoli Gérard,Gerard Gostoli
-candidate,Yau Helen,Helen Yau
-candidate,Innocenti Flavio,Flavio Innocenti
-candidate,Cover Sabina,Sabina Cover
-candidate,Ambord Cédric,Cedric Ambord:Sandro Ambord
-candidate,Garcia Javier,Javier Garcia
-candidate,Belcastro De Luca Nathalie,Nathalie Belcastro De Luca
-candidate,Zbinden Jean-Luc,Jean-Luc Zbinden
-candidate,Ahdab Ahmad,Ahmad Ahdab:Chawki Ahdab
-candidate,Baiunco Aurora,Aurora Baiunco
-candidate,Oliveira Rui,Rui Oliveira
-candidate,Pastore Daniel,Daniel Pastore:Dany Pastore
-candidate,Draskovic Rada,Rada Draskovic
-candidate,Haymoz William,William Haymoz
-candidate,Besse Muriel,Muriel Besse
-candidate,Naine Marie-Josée,Marie-Josee Naine
-candidate,Gharbi Mohamed,Mohamed Gharbi
-candidate,Loosli Bertille,Bertille Loosli:Clarence Loosli
-candidate,Emonet Sarah,Sarah Emonet
-candidate,Müller Olivier,Olivier Muller
-candidate,Loddo Olivier,Olivier Loddo:Olivier Henrioud
-candidate,Ben Chaabane Salah,Salah Ben Chaabane
-candidate,De Oliveira Nunes Vitor,Vitor De Oliveira Nunes
-candidate,Martignoni Alain,Alain Martignoni
-candidate,Maréchal Christophe,Christophe Marechal
-candidate,Spagnolo Salvatore,Salvatore Spagnolo
-candidate,Pierre Toussaint Sircee,Sircee Pierre Toussaint
-candidate,Steiner Christian,Christian Steiner
-candidate,Beun Christine,Christine Beun:Kristine Beun
-candidate,Bissat Rose,Rose Bissat:Marie Angeline Bissat
-candidate,Guisy Milène,Milene Guisy
-candidate,Martin Emmanuel,Emmanuel Martin
-candidate,Dussan Julien,Julien Dussan
-candidate,Bonvin Philippe,Philippe Bonvin
-candidate,Sauser Nicolas,Nicolas Sauser
-candidate,Ryser Alain,Alain Ryser
-candidate,Monney Armand,Armand Monney
-candidate,Peyraud Alexandre,Alexandre Peyraud
-candidate,Häusermann Elisabeth,Elisabeth Hausermann
-candidate,Gautrot Maria Magdalena,Maria Magdalena Gautrot:Marielena Gautrot
-candidate,Fontana Jérôme,Jerome Fontana
-candidate,Piguet Frédéric,Frederic Piguet:Paul Piguet
-candidate,Wuarin Marc,Marc Wuarin
-candidate,Samim Firouzsalari Atefeh,Atefeh Samim Firouzsalari
-candidate,Bustamante Hernandez Eric,Eric Bustamante Hernandez
-candidate,Hamoir Fursy,Fursy Hamoir
-candidate,Preisig Robert,Robert Preisig
-candidate,Jeanmonod Christian,Christian Jeanmonod
-candidate,Meylan Jean Michel,Jean Michel Meylan
-candidate,Cori Claudio,Claudio Cori
-candidate,Wittwer Christoph,Christoph Wittwer
-candidate,Besomi Alessandro,Alessandro Besomi:Alex Besomi
-candidate,Ritter Sven,Sven Ritter
-candidate,Duvnjak Sanja,Sanja Duvnjak
-candidate,Frammery Chloe,Chloe Frammery
-candidate,Fouda Amougou Charlotte,Charlotte Fouda Amougou
-candidate,Scheller Gérard,Gerard Scheller
-candidate,Rossellat Blaise,Blaise Rossellat
-candidate,Dachroune Samir,Samir Dachroune
-candidate,Bult Christoph,Christoph Bult
-candidate,Monshengwo Jessica,Jessica Monshengwo
-candidate,Lopez Julien,Julien Lopez
-candidate,Fraudeau Delphine,Delphine Fraudeau
-candidate,Abesse Hayet,Hayet Abesse
-candidate,Golay Séverine,Severine Golay
-candidate,Jordan Claude,Claude Jordan
-candidate,Regamey Murielle,Murielle Regamey
-candidate,Schucani Grégoire,Gregoire Schucani
-candidate,Emery-Torracinta Anne,Anne Emery-Torracinta
-candidate,Apothéloz Thierry,Thierry Apotheloz
-candidate,Salerno Sandrine,Sandrine Salerno
-candidate,Hodgers Antonio,Antonio Hodgers
-candidate,De Chastonay Marjorie,Marjorie De Chastonay
-candidate,Rochat Yvan,Yvan Rochat
-candidate,Haller Jocelyne,Jocelyne Haller
-candidate,Wenger Saliha,Saliha Wenger:Salika Wenger
-candidate,Burgermeister Jean,Jean Burgermeister
-candidate,Poggia Mauro,Mauro Poggia
-candidate,Roch Ana Belen,Ana Belen Roch
-candidate,Sormanni Daniel,Daniel Sormanni
-candidate,Maudet Pierre,Pierre Maudet
-candidate,Dal Busco Serge,Serge Dal Busco
-candidate,Barthassat Luc,Luc Barthassat
-candidate,Fontanet Nathalie,Nathalie Fontanet
-candidate,De Senarclens Alexandre,Alexandre De Senarclens
-candidate,Amberger Axel,Axel Amberger
-candidate,Aymon Paul,Paul Aymon:dit Paul Sierre Aymon
-candidate,Nidegger Yves,Yves Nidegger
-candidate,Bläsi Thomas,Thomas Blasi
-candidate,Florey Stéphane,Stephane Florey
-candidate,Cretegny Willy,Willy Cretegny
-candidate,Orsini Magali,Magali Orsini
-candidate,Gauthier Pierre,Pierre Gauthier
-candidate,Stauffer Eric,Eric Stauffer
-candidate,Zacharias Ronald,Ronald Zacharias
-candidate,Vidonne Thierry,Thierry Vidonne
-candidate,Leitner André,Andre Leitner
-candidate,Fontana Jérôme,Jerome Fontana
-candidate,Amsler Susanne,Susanne Amsler
+Candidate,Pagani Rémy,Remy Pagani
+Candidate,Wenger Saliha,Saliha Wenger:Salika Wenger
+Candidate,Zaugg Christian,Christian Zaugg
+Candidate,Haller Jocelyne,Jocelyne Haller
+Candidate,Eniline Alexander,Alexander Eniline
+Candidate,Cruchon Pablo,Pablo Cruchon
+Candidate,Valentino Stéphanie,Stephanie Valentino
+Candidate,Burgermeister Jean,Jean Burgermeister
+Candidate,Ecuyer Hélène,Helene Ecuyer
+Candidate,Issom David-Zacharie,David-Zacharie Issom
+Candidate,Ossmann Sekna,Sekna Ossmann
+Candidate,Nyffeler Batou Françoise,Françoise Nyffeler Batou
+Candidate,Januzi Bashkim,Bashkim Januzi
+Candidate,Ecuyer Sébastien,Sebastien Ecuyer
+Candidate,Ovett Bondi Davinia,Davinia Ovett Bondi
+Candidate,Jimenez Jean-Daniel,Jean-Daniel Jimenez
+Candidate,Ecuyer Annick,Annick Ecuyer
+Candidate,Peradotto Julie,Julie Peradotto
+Candidate,Manríquez Matías,Matías Manríquez
+Candidate,Zehfus Yves,Yves Zehfus
+Candidate,Zaugg Daniel,Daniel Zaugg
+Candidate,Perez Maria,Maria Perez:Lou Perez
+Candidate,Schnebli Tobias,Tobias Schnebli:Tobia Schnebli
+Candidate,Missoh Dzikunoo Massan,Massan Missoh Dzikunoo
+Candidate,Martenot Aude,Aude Martenot
+Candidate,Vanek Pierre,Pierre Vanek
+Candidate,Clement Patrice,Patrice Clement
+Candidate,Prezioso Batou Stefania,Stefania Prezioso Batou
+Candidate,Esaki Kabeya Elisabeth,Elisabeth Esaki Kabeya
+Candidate,Langford Pia,Pia Langford
+Candidate,Vincent Michel,Michel Vincent
+Candidate,Rumpczyk Delphine,Delphine Rumpczyk
+Candidate,Salm Darboe Karijn,Karijn Salm Darboe
+Candidate,Andenmatten David,David Andenmatten
+Candidate,Schmid Audrey,Audrey Schmid
+Candidate,Guevara Francisco,Francisco Guevara
+Candidate,Batou Jean,Jean Batou
+Candidate,Stebler Guenat Henriette,Henriette Stebler Guenat
+Candidate,Edjeou Corinne,Corinne Edjeou:Corinne Buntschu
+Candidate,Zaugg Cecilia,Cecilia Zaugg
+Candidate,Baud Olivier,Olivier Baud
+Candidate,Zbinden Livia,Livia Zbinden
+Candidate,Rossel Pascal,Pascal Rossel
+Candidate,Bayenet Pierre,Pierre Bayenet
+Candidate,Bailat Ariane,Ariane Bailat
+Candidate,Maillefer Denise,Denise Maillefer
+Candidate,Meierhofer Manyagoua Boumtché Charlotte,Charlotte Meierhofer Manyagoua Boumtche
+Candidate,Blanchet Marjo,Marjo Blanchet
+Candidate,Marti Werner,Werner Marti
+Candidate,Khaouchi Corinne,Corinne Khaouchi
+Candidate,Bolay Robin Stéphanie,Stephanie Bolay Robin
+Candidate,Blanco Luis,Luis Blanco
+Candidate,Mamin François,François Mamin
+Candidate,De Melo Marcelino Amélia,Amelia De Melo Marcelino
+Candidate,Bouzid Mohamed,Mohamed Bouzid
+Candidate,Boujemaa Sanae,Sanae Boujemaa
+Candidate,Galland Eduardo,Eduardo Galland
+Candidate,Jelk Andrée,Andree Jelk:Andree Jelk-Peila
+Candidate,Castro Gloria,Gloria Castro
+Candidate,Camelo Alfredo,Alfredo Camelo
+Candidate,Noetzlin Simon,Simon Noetzlin
+Candidate,Duraku Fitore,Fitore Duraku
+Candidate,Duraku Edon,Edon Duraku
+Candidate,Ferreira Elisabeth,Elisabeth Ferreira
+Candidate,Christinat Jean-David,Jean-David Christinat
+Candidate,Gerardo Féliz Grubi Ynes,Ynes Gerardo Feliz Grubi
+Candidate,Carlo Xavier,Xavier Carlo
+Candidate,Sahin Gazi,Gazi Sahin
+Candidate,Hodgers Antonio,Antonio Hodgers
+Candidate,De Chastonay Marjorie,Marjorie De Chastonay
+Candidate,Rochat Yvan,Yvan Rochat
+Candidate,Perler Frédérique,Frederique Perler
+Candidate,Buschbeck Mathias,Mathias Buschbeck
+Candidate,Lefort François,François Lefort
+Candidate,Leonelli Katia,Katia Leonelli
+Candidate,Macchiavelli Marta,Marta Macchiavelli:Marta Julia Macchiavelli
+Candidate,Makosso William,William Makosso
+Candidate,Martin David,David Martin
+Candidate,Müller Sontag Corinne,Corinne Muller Sontag
+Candidate,Nicolet-Dit-Felix Julien,Julien Nicolet-Dit-Felix
+Candidate,Noël Philippe,Philippe Noel
+Candidate,Oriolo Alessandra,Alessandra Oriolo
+Candidate,Oztürk Dilara,Dilara Ozturk
+Candidate,Pasquier Isabelle,Isabelle Pasquier:Isabelle Pasquier-Eichenberger
+Candidate,Poget Philippe,Philippe Poget
+Candidate,Quijano Garcia Maria,Maria Quijano Garcia:Maria Jose Quijano Garcia
+Candidate,Rodriguez Mario,Mario Rodriguez
+Candidate,Rogg Catharina,Catharina Rogg:Olowine Rogg
+Candidate,Rossiaud Jean,Jean Rossiaud
+Candidate,Saa Baud Yubitza,Yubitza Saa Baud
+Candidate,Schalk Antoine,Antoine Schalk
+Candidate,Schaufelberger Esther,Esther Schaufelberger
+Candidate,Sordet Adrienne,Adrienne Sordet
+Candidate,Taleghani Majid,Majid Taleghani
+Candidate,Tchamkerten Jolanka,Jolanka Tchamkerten
+Candidate,Tiguemounine Sabine,Sabine Tiguemounine
+Candidate,Tinguely Dominique,Dominique Tinguely
+Candidate,Tschudi Paloma,Paloma Tschudi
+Candidate,Van Woerden Wendy,Wendy Van Woerden
+Candidate,Veiga Arias Damian,Damian Veiga Arias:Damian Veiga Loffel
+Candidate,Wisard Prado Leyma,Leyma Wisard Prado
+Candidate,Yunus Ebener Mariam,Mariam Yunus Ebener:Maryam Yunus Ebener
+Candidate,Amato Maurice,Maurice Amato
+Candidate,Amsellem Benedicte,Benedicte Amsellem:Benedicte Amsellem-Ossipow
+Candidate,Ardizzone Ivan,Ivan Ardizzone
+Candidate,Azzabi Omar,Omar Azzabi
+Candidate,Bänziger Ruth,Ruth Banziger
+Candidate,Barciela Villar Ana,Ana Barciela Villar
+Candidate,Bavarel Christian,Christian Bavarel
+Candidate,Boccard Damien,Damien Boccard:Damien Baptiste Boccard
+Candidate,Bonny Didier,Didier Bonny
+Candidate,Bonvin Bonfanti Anne,Anne Bonvin Bonfanti
+Candidate,Bucher Denis,Denis Bucher
+Candidate,Buenzod Christian,Christian Buenzod
+Candidate,Bui Aurore,Aurore Bui
+Candidate,Cabitza Marina,Marina Cabitza
+Candidate,Calame Boris,Boris Calame
+Candidate,Calame Fabrice,Fabrice Calame
+Candidate,Chaudieu Anne,Anne Chaudieu
+Candidate,Concha Celtia,Celtia Concha
+Candidate,Corpataux Laurence,Laurence Corpataux
+Candidate,Dalphin Marc,Marc Dalphin
+Candidate,De Felice Nicolas,Nicolas De Felice
+Candidate,De Maio Sara,Sara De Maio
+Candidate,De Matteis Yves,Yves De Matteis
+Candidate,De Rougemont Philippe,Philippe De Rougemont
+Candidate,Desbiolles Sophie,Sophie Desbiolles
+Candidate,Descombes Isabelle,Isabelle Descombes
+Candidate,Dujoux Valentin,Valentin Dujoux
+Candidate,Dupuis Renaud,Renaud Dupuis
+Candidate,Ebener Christophe,Christophe Ebener
+Candidate,Eckert Pierre,Pierre Eckert
+Candidate,Fischer Fabienne,Fabienne Fischer
+Candidate,Freymond Pascal,Pascal Freymond
+Candidate,Geoffroy Elias,Elias Geoffroy
+Candidate,Gomez Alfonso,Alfonso Gomez
+Candidate,Haas François,François Haas
+Candidate,Hartmann Esther,Esther Hartmann
+Candidate,Heberlein Simonett Claudia,Claudia Heberlein Simonett
+Candidate,Herren Yves,Yves Herren
+Candidate,Khamis Vannini Uzma,Uzma Khamis Vannini
+Candidate,Klopfenstein Broggini Delphine,Delphine Klopfenstein Broggini
+Candidate,Kündig Ralph,Ralph Kundig
+Candidate,Latour Sabine,Sabine Latour
+Candidate,Emery-Torracinta Anne,Anne Emery-Torracinta
+Candidate,Apothéloz Thierry,Thierry Apotheloz
+Candidate,Salerno Sandrine,Sandrine Salerno
+Candidate,De Sainte-Marie Romain,Romain De Sainte-Marie
+Candidate,Kast Carole-Anne,Carole-Anne Kast
+Candidate,Wenger Thomas,Thomas Wenger
+Candidate,Marti Caroline,Caroline Marti
+Candidate,Bandler Marko,Marko Bandler
+Candidate,Moyard Mizrahi Salima,Salima Moyard Mizrahi
+Candidate,Dandrès Christian,Christian Dandres
+Candidate,Verissimo De Freitas Helena,Helena Verissimo De Freitas
+Candidate,Carasso Grégoire,Gregoire Carasso
+Candidate,Sobanek Marion,Marion Sobanek
+Candidate,Thévoz Sylvain,Sylvain Thevoz
+Candidate,Conti Jennifer,Jennifer Conti
+Candidate,Staub Martin,Martin Staub
+Candidate,Valiquer Grecuccio Nicole,Nicole Valiquer Grecuccio
+Candidate,Rielle Jean Charles,Jean Charles Rielle
+Candidate,Gavilanes Amanda,Amanda Gavilanes
+Candidate,Mizrahi Cyril,Cyril Mizrahi
+Candidate,Casares Maria Jesus,Maria Jesus Casares
+Candidate,Pomatto Michel,Michel Pomatto
+Candidate,Strasser Léna,Lena Strasser
+Candidate,Kokot Guilhem,Guilhem Kokot
+Candidate,Romano Maria,Maria Romano:Maria Vittoria Romano
+Candidate,Mussa Ahmed,Ahmed Mussa:Youniss Mussa
+Candidate,Osmani Xhevrie,Xhevrie Osmani
+Candidate,Esteban Diego,Diego Esteban
+Candidate,Baillon Glenna,Glenna Baillon
+Candidate,Eya Nchama Cruz Melchor,Cruz Melchor Eya Nchama
+Candidate,Brandrup Gladys,Gladys Brandrup:Gladys Acosta Brandrup
+Candidate,Chiaradonna Denis,Denis Chiaradonna
+Candidate,Lüthi Badia,Badia Luthi
+Candidate,Clemence Nicolas,Nicolas Clemence
+Candidate,Vatre Patricia,Patricia Vatre
+Candidate,Zimmermann Michel,Michel Zimmermann
+Candidate,Viret Dora,Dora Viret:Cecilia Viret
+Candidate,Velasco Alberto,Alberto Velasco
+Candidate,Fabre Michel,Michel Fabre
+Candidate,De Battista Regis,Regis De Battista
+Candidate,Deonna Emmanuel,Emmanuel Deonna
+Candidate,Tombola Jean-Pierre,Jean-Pierre Tombola
+Candidate,Keel Theo,Theo Keel
+Candidate,Lapalud Patrick,Patrick Lapalud
+Candidate,Barry Thierno,Thierno Barry
+Candidate,Halimi Hysri,Hysri Halimi
+Candidate,Gajardo Munoz Jorge,Jorge Gajardo Munoz
+Candidate,Alonso Unica Manuel,Manuel Alonso Unica
+Candidate,Baldini Frédéric,Frederic Baldini
+Candidate,Bruchez Thomas,Thomas Bruchez
+Candidate,Benda Benjamin,Benjamin Benda
+Candidate,Burkhard Roland,Roland Burkhard
+Candidate,Bosshard Pierre Yves,Pierre Yves Bosshard
+Candidate,Kurteshi Ismet,Ismet Kurteshi
+Candidate,Maudet Pierre,Pierre Maudet
+Candidate,Fontanet Nathalie,Nathalie Fontanet
+Candidate,De Senarclens Alexandre,Alexandre De Senarclens
+Candidate,De Montmollin Simone,Simone De Montmollin
+Candidate,Morel Philippe,Philippe Morel
+Candidate,Putallaz Jean,Jean Putallaz:Jean Jean Romain
+Candidate,Saudan Patrick,Patrick Saudan
+Candidate,Selleger Charles,Charles Selleger
+Candidate,Uehlinger Pascal,Pascal Uehlinger
+Candidate,Vuillod Georges,Georges Vuillod
+Candidate,Wicky Raymond,Raymond Wicky
+Candidate,Zuber Céline,Celine Zuber:Celine Roy
+Candidate,Zweifel Yvan,Yvan Zweifel
+Candidate,Aellen Cyril,Cyril Aellen
+Candidate,Alder Murat Julian,Murat Julian Alder
+Candidate,Barbey Alexis,Alexis Barbey
+Candidate,Barde Antoine,Antoine Barde
+Candidate,Béné Jacques,Jacques Bene
+Candidate,De Candolle Beatriz,Beatriz De Candolle
+Candidate,Conne Pierre,Pierre Conne
+Candidate,Cuendet Edouard,Edouard Cuendet
+Candidate,Hardyn Nathalie,Nathalie Hardyn
+Candidate,Hiltpold Serge,Serge Hiltpold
+Candidate,Malek-Asghar Patrick,Patrick Malek-Asghar
+Candidate,Monbaron Fabienne,Fabienne Monbaron:Fabienne Monbaron-Stress
+Candidate,Morand Louise,Louise Morand
+Candidate,Nicollier Pierre,Pierre Nicollier
+Candidate,Oppliger Danielle,Danielle Oppliger
+Candidate,Orsini Antoine,Antoine Orsini
+Candidate,Pasquier Jean-Pierre,Jean-Pierre Pasquier
+Candidate,Patek Serge,Serge Patek
+Candidate,De Planta Francine,Francine De Planta
+Candidate,Rana Zolana Ginior,Ginior Rana Zolana
+Candidate,Rigotti Maria,Maria Rigotti:Helena Rigotti
+Candidate,Roullet Michèle,Michele Roullet
+Candidate,Schaller Vincent,Vincent Schaller
+Candidate,Schneebeli Roland-Daniel,Roland-Daniel Schneebeli
+Candidate,Senglet Christophe,Christophe Senglet
+Candidate,Serrano Philippe,Philippe Serrano
+Candidate,Sommer Monika,Monika Sommer
+Candidate,Steiner Matthieu,Matthieu Steiner
+Candidate,Subilia Vincent,Vincent Subilia
+Candidate,Taboada Francisco,Francisco Taboada
+Candidate,Tschopp Laurent,Laurent Tschopp
+Candidate,Wavre Rolin,Rolin Wavre
+Candidate,Wicki Guy,Guy Wicki
+Candidate,Wolfisberg François,François Wolfisberg
+Candidate,Agramunt Gian-Reto,Gian-Reto Agramunt
+Candidate,Apothéloz Jacques,Jacques Apotheloz
+Candidate,Aubert Nicolas,Nicolas Aubert
+Candidate,Barbier-Mueller Diane,Diane Barbier-Mueller
+Candidate,Bellingeri Stefano Vito,Stefano Vito Bellingeri
+Candidate,Bersier Julie,Julie Bersier
+Candidate,Blanch Richard-Pascal,Richard-Pascal Blanch:Pascal Blanch
+Candidate,Böhler Frances,Frances Bohler:Frances Bohler-GoodshipElizabeth BohlerElizabeth Bohler-Goodship
+Candidate,Bouvier Christine,Christine Bouvier
+Candidate,Brandt Simon,Simon Brandt
+Candidate,Bron Gilles-Olivier,Gilles-Olivier Bron
+Candidate,Brunel Mayori,Mayori Brunel
+Candidate,Burri Rémy,Remy Burri
+Candidate,Cornu Renate,Renate Cornu
+Candidate,Creffield Conrad,Conrad Creffield
+Candidate,Daher Vincent,Vincent Daher
+Candidate,Dérobert Thierry,Thierry Derobert
+Candidate,Desfayes Natacha,Natacha Desfayes:Natacha Buffet-Desfayes
+Candidate,Douzals Jacques,Jacques Douzals
+Candidate,Fiss Joëlle,Joelle Fiss
+Candidate,Genecand Adrien,Adrien Genecand
+Candidate,Giacobino Donata,Donata Giacobino:Donata Giacobino-FroidevauxNadia GiacobinoNadia Giacobino-Froidevaux
+Candidate,Grand Eric,Eric Grand
+Candidate,Grognuz Fabien,Fabien Grognuz
+Candidate,Jay Sylvie,Sylvie Jay
+Candidate,Jud Philippe,Philippe Jud
+Candidate,Kämpfen Véronique,Veronique Kampfen
+Candidate,Lämmel Valérie,Valerie Lammel:Valerie Laemmel-Juillard
+Candidate,Leiser Jean-Marc,Jean-Marc Leiser
+Candidate,Locher Jean,Jean Locher
+Candidate,Luzzatto Christine,Christine Luzzatto
+Candidate,Messerli Marie-Claire,Marie-Claire Messerli
+Candidate,Meyer Philippe,Philippe Meyer
+Candidate,Barthassat Luc,Luc Barthassat
+Candidate,Dal Busco Serge,Serge Dal Busco
+Candidate,Buchs Bertrand,Bertrand Buchs
+Candidate,Aebi Benjamin,Benjamin Aebi
+Candidate,Angelozzi Philippe,Philippe Angelozzi
+Candidate,Von Arx-Vernon Anne-Marie,Anne-Marie Von Arx-Vernon
+Candidate,Bachmann Delphine,Delphine Bachmann
+Candidate,Bidaux Patricia,Patricia Bidaux:Patricia Bidaux-Rodriguez
+Candidate,Blondin Jacques,Jacques Blondin
+Candidate,Bocquet Claude,Claude Bocquet
+Candidate,Bourbala Djamel,Djamel Bourbala
+Candidate,Bouvier Jérémy,Jeremy Bouvier
+Candidate,Bugnion Jean-Michel,Jean-Michel Bugnion
+Candidate,Casutt Martine,Martine Casutt
+Candidate,Cerutti Olivier,Olivier Cerutti
+Candidate,Chaker Mangeat Alia,Alia Chaker Mangeat
+Candidate,Chevalier Alexandre,Alexandre Chevalier
+Candidate,Decrey Christophe,Christophe Decrey
+Candidate,Deluermoz Cosima,Cosima Deluermoz
+Candidate,Desfayes Sébastien,Sebastien Desfayes
+Candidate,Dulex Christophe,Christophe Dulex
+Candidate,Dupont Thérèse,Therese Dupont
+Candidate,Engelberts Marie-Thérèse,Marie-Therese Engelberts:Marie-Therese Engelberts-Leone
+Candidate,Fischer Daniel,Daniel Fischer
+Candidate,Forni Jean-Luc,Jean-Luc Forni
+Candidate,Fournier Nicolas,Nicolas Fournier
+Candidate,Frischknecht Catherine,Catherine Frischknecht
+Candidate,Gache Hélène,Helene Gache
+Candidate,Gashi Sami,Sami Gashi
+Candidate,Giannasi Anthony,Anthony Giannasi
+Candidate,Giannelli Mark,Mark Giannelli
+Candidate,Gioria Gaëlle,Gaelle Gioria
+Candidate,Guinchard Jean-Marc,Jean-Marc Guinchard
+Candidate,De Kalbermatten Alain,Alain De Kalbermatten
+Candidate,Khattabi Hassar Houda,Houda Khattabi Hassar
+Candidate,Kunz Laurence,Laurence Kunz
+Candidate,Lance François,François Lance
+Candidate,Lathion Jean Charles,Jean Charles Lathion
+Candidate,Lehner Laurent,Laurent Lehner
+Candidate,Lupo Paolo,Paolo Lupo
+Candidate,Magnin Xavier,Xavier Magnin
+Candidate,Magnin Yves,Yves Magnin
+Candidate,Maitre Vincent,Vincent Maitre
+Candidate,Makki Michela,Michela Makki:Michele Makki
+Candidate,Meissner Reyfer Christine,Christine Meissner Reyfer:Christina Meissner Reyfer
+Candidate,Merle Emmanuelle,Emmanuelle Merle
+Candidate,Mettan Guy,Guy Mettan
+Candidate,Meyer De Stadelhofen Philippe,Philippe Meyer De Stadelhofen
+Candidate,Mondoux Alexandre,Alexandre Mondoux
+Candidate,Moroni Catherine,Catherine Moroni
+Candidate,Neuder Isabelle,Isabelle Neuder
+Candidate,Ouedraogo Moustapha,Moustapha Ouedraogo
+Candidate,Perret Vincent,Vincent Perret
+Candidate,Pfeiffer Alex,Alex Pfeiffer
+Candidate,Progin Christian,Christian Progin
+Candidate,Putallaz Thomas,Thomas Putallaz
+Candidate,Rasolo Daniel,Daniel Rasolo
+Candidate,Ruchet Philippe,Philippe Ruchet
+Candidate,Rys Alexandra,Alexandra Rys
+Candidate,Saudan Guy,Guy Saudan
+Candidate,Sayegh Souheil,Souheil Sayegh
+Candidate,Scandurra Alessandro,Alessandro Scandurra
+Candidate,Schmied Patrick,Patrick Schmied
+Candidate,Schrag Sylvianne,Sylvianne Schrag
+Candidate,Simoes Jose,Jose Simoes
+Candidate,Sopi Dardan,Dardan Sopi
+Candidate,Squillaci Nicola,Nicola Squillaci
+Candidate,Steinberg Candrian Melinda,Melinda Steinberg Candrian
+Candidate,Tomassi Christine,Christine Tomassi
+Candidate,Tremblet Laurent,Laurent Tremblet
+Candidate,Uong Dinh Manh,Dinh Manh Uong
+Candidate,Völki Robert,Robert Volki
+Candidate,Vuarnoz Emanuela,Emanuela Vuarnoz:Emanuelle Vuarnoz
+Candidate,Wehrli Patrick,Patrick Wehrli
+Candidate,Zimmermann Luc,Luc Zimmermann
+Candidate,Zimmermann Bertrand,Bertrand Zimmermann
+Candidate,Nidegger Yves,Yves Nidegger
+Candidate,Bläsi Thomas,Thomas Blasi
+Candidate,Florey Stéphane,Stephane Florey
+Candidate,Leyvraz Eric,Eric Leyvraz
+Candidate,Fuhrmann Marc,Marc Fuhrmann
+Candidate,Lussi Patrick,Patrick Lussi
+Candidate,Ivanov Christo,Christo Ivanov
+Candidate,Falquet Marc,Marc Falquet
+Candidate,Maendly Norbert,Norbert Maendly
+Candidate,Pfeffer André,Andre Pfeffer
+Candidate,Catelain Gilbert,Gilbert Catelain
+Candidate,Hulliger Patrick,Patrick Hulliger
+Candidate,Michaud Eliane,Eliane Michaud:Eliane Ansermet
+Candidate,Scherb Peter,Peter Scherb:Pierre Scherb
+Candidate,Stark Riccardo,Riccardo Stark:Richard Stark
+Candidate,Guinchard Damien,Damien Guinchard
+Candidate,Bisol Walter,Walter Bisol
+Candidate,Masé Zora,Zora Mase
+Candidate,Velen François,François Velen
+Candidate,Knörr Stephen,Stephen Knorr
+Candidate,Rubeli Pascal,Pascal Rubeli
+Candidate,Lyon Didier,Didier Lyon
+Candidate,Perrenoud Philippe,Philippe Perrenoud
+Candidate,Dutruit André,Andre Dutruit
+Candidate,Altenbach Pascal,Pascal Altenbach
+Candidate,Queffélec Philippe,Philippe Queffelec
+Candidate,Laporte Claude,Claude Laporte
+Candidate,Conti Virna,Virna Conti
+Candidate,Parel Loïc,Loic Parel
+Candidate,Heddi Leila,Leila Heddi
+Candidate,Gomes De Almeida José,Jose Gomes De Almeida:Manuel Gomes De Almeida
+Candidate,Bertinat Marie-Agnès,Marie-Agnes Bertinat
+Candidate,Mounla Alexandre,Alexandre Mounla
+Candidate,Dournow David,David Dournow
+Candidate,Chaussivert Patrice,Patrice Chaussivert
+Candidate,Knoll Tatiana,Tatiana Knoll
+Candidate,Rime Alexandre,Alexandre Rime
+Candidate,Desyatkina Dzodziev Viktoriya,Viktoriya Desyatkina Dzodziev
+Candidate,Thomas Sébastien,Sebastien Thomas
+Candidate,Romanens Mathieu,Mathieu Romanens
+Candidate,Schweizer Adriana,Adriana Schweizer
+Candidate,Khachatryan Gohar,Gohar Khachatryan
+Candidate,Prando Stéphane,Stephane Prando
+Candidate,Borer Maria Da Conceicao,Maria Da Conceicao Borer
+Candidate,Akaba El Mostafa,El Mostafa Akaba
+Candidate,Léguillon Angèle,Angele Leguillon
+Candidate,Bontoux Caroline,Caroline Bontoux
+Candidate,Honegger Heller Manuela,Manuela Honegger Heller
+Candidate,Ocharan Robles Rapaz Eva,Eva Ocharan Robles Rapaz:Eva Ocharan Robles
+Candidate,Da Cruz Pedro Anna,Anna Da Cruz Pedro:Anna Da Cruz Perret-Gentil
+Candidate,Borcard Anne,Anne Borcard
+Candidate,Müller Fabienne,Fabienne Muller:Fabienne Abramovich
+Candidate,Yol Diana,Diana Yol
+Candidate,Randegger Alice,Alice Randegger
+Candidate,Depraetere Graciela,Graciela Depraetere:Graciela Depraetere-Manulis
+Candidate,Ozdemir Elcim,Elcim Ozdemir:Elcim ÖzdemirElçim OzdemirElçim Özdemir
+Candidate,Ricciardi Werlen Jacqueline,Jacqueline Ricciardi Werlen
+Candidate,Rossier Fahrion Cerise,Cerise Rossier Fahrion
+Candidate,Boselli Gauthey Monica,Monica Boselli Gauthey
+Candidate,Lavrador Dias Claudia,Claudia Lavrador Dias:Claudia Dias
+Candidate,Jauch Caroline,Caroline Jauch
+Candidate,Grange Marie-Florence,Marie-Florence Grange
+Candidate,Mazzoni Nikita,Nikita Mazzoni
+Candidate,Langer Valérie,Valerie Langer
+Candidate,Mayoral Edo Corinne,Corinne Mayoral Edo:Corinne Mayoral
+Candidate,Thomias Leduc Diana,Diana Thomias Leduc
+Candidate,Orsini Magali,Magali Orsini
+Candidate,Gauthier Pierre,Pierre Gauthier
+Candidate,Armand Catherine,Catherine Armand
+Candidate,Guex Stéphane,Stephane Guex:dit Guex-Pierre Guex
+Candidate,Humberset Corinne,Corinne Humberset
+Candidate,Ruckterstuhl Jean-Claude,Jean-Claude Ruckterstuhl
+Candidate,Longo Katrin,Katrin Longo
+Candidate,Girod Nicolas,Nicolas Girod
+Candidate,Küderli Berkane Nicole,Nicole Kuderli Berkane
+Candidate,Flaks Joël,Joel Flaks
+Candidate,Perrin Brigitte,Brigitte Perrin
+Candidate,Goudal Renaud,Renaud Goudal
+Candidate,Meynet Danielle,Danielle Meynet
+Candidate,Meynet Leon,Leon Meynet
+Candidate,Turnowsky Serge,Serge Turnowsky
+Candidate,Zimmermann Olivier,Olivier Zimmermann
+Candidate,Chatelain Dimitri,Dimitri Chatelain
+Candidate,Stauffer Eric,Eric Stauffer
+Candidate,Zacharias Ronald,Ronald Zacharias
+Candidate,Saraiva Medeiros Carlos,Carlos Saraiva Medeiros
+Candidate,Spühler Pascal,Pascal Spuhler
+Candidate,Gaetanino Marco,Marco Gaetanino
+Candidate,Le Jeune Giacobbi Cristina,Cristina Le Jeune Giacobbi
+Candidate,Walther Thierry,Thierry Walther
+Candidate,Hüssy Coppex Viviana Ximena Anghela,Viviana Ximena Anghela Hussy Coppex
+Candidate,Loeillet-Rouzier Anne,Anne Loeillet-Rouzier:Marie Loeillet-Rouzier
+Candidate,Fusco Gerardo,Gerardo Fusco
+Candidate,Gamberoni Dominique,Dominique Gamberoni
+Candidate,Nobs Cyril,Cyril Nobs
+Candidate,Noël Daniel,Daniel Noel
+Candidate,Santi Michel,Michel Santi
+Candidate,Picot Jérôme,Jerome Picot
+Candidate,Ruchonnet Jean-François,Jean-François Ruchonnet
+Candidate,Galetto Frédéric,Frederic Galetto
+Candidate,Beck Victoria,Victoria Beck
+Candidate,Antoine Jean-Marc,Jean-Marc Antoine
+Candidate,Rime Fatma,Fatma Rime:Fatima Rime
+Candidate,L'Huillier Eric,Eric L'Huillier
+Candidate,Paraná Júnior Valério,Valerio Paraná Júnior
+Candidate,Lota Raphaëlle,Raphaelle Lota
+Candidate,Thomsen Elena,Elena Thomsen:Elena Milakova
+Candidate,Ballesteros Stefan,Stefan Ballesteros
+Candidate,Fabre Jean,Jean Fabre
+Candidate,Nguyen Van Minh,Van Minh Nguyen
+Candidate,Martel Frédéric,Frederic Martel
+Candidate,Frey Priscilla,Priscilla Frey
+Candidate,Brkic Vitomir,Vitomir Brkic
+Candidate,Levy Yossef,Yossef Levy:Hai Levy
+Candidate,Bissoli Marion,Marion Bissoli:Marion Le Bacquer
+Candidate,Cohen Olivier,Olivier Cohen
+Candidate,Bruguier Michel,Michel Bruguier
+Candidate,Solteiro Jorge,Jorge Solteiro
+Candidate,Halimi Arsim,Arsim Halimi
+Candidate,Berlemont Alain,Alain Berlemont
+Candidate,Gargantini Yves,Yves Gargantini
+Candidate,Maigre Maria Inès,Maria Ines Maigre
+Candidate,Farinha Horacio,Horacio Farinha
+Candidate,Vidonne Thierry,Thierry Vidonne
+Candidate,Leitner André,Andre Leitner
+Candidate,Delacquis Cédric,Cedric Delacquis
+Candidate,Zagato Sophie,Sophie Zagato
+Candidate,Vidonne Valérie,Valerie Vidonne
+Candidate,Ferrand Guy,Guy Ferrand
+Candidate,Kunzi Nicolas,Nicolas Kunzi
+Candidate,Kugel Mark,Mark Kugel
+Candidate,Thurnherr Laurent,Laurent Thurnherr
+Candidate,Vidonne David,David Vidonne
+Candidate,Beureux Silvain,Silvain Beureux
+Candidate,Kunzi Philippe,Philippe Kunzi
+Candidate,Fader Annette,Annette Fader:Yasuka Fader
+Candidate,Thurnherr Sylvain,Sylvain Thurnherr
+Candidate,Beureux Johan,Johan Beureux
+Candidate,Poggia Mauro,Mauro Poggia
+Candidate,Golay Roger,Roger Golay
+Candidate,Roch Ana Belen,Ana Belen Roch
+Candidate,Sormanni Daniel,Daniel Sormanni
+Candidate,Cerutti Thierry,Thierry Cerutti
+Candidate,Voumard Jean Marie,Jean Marie Voumard
+Candidate,Le Joncour-Brülhart Céline,Celine Le Joncour-Brulhart
+Candidate,Bärtschi François,François Bartschi
+Candidate,Pistis Sandro,Sandro Pistis
+Candidate,Derouette Jean-Paul,Jean-Paul Derouette
+Candidate,Magnin Danièle,Daniele Magnin
+Candidate,Valentin Francisco,Francisco Valentin
+Candidate,Sapin Françoise,Françoise Sapin
+Candidate,Flury Christian,Christian Flury
+Candidate,Golay Sandra,Sandra Golay
+Candidate,Python André,Andre Python
+Candidate,Rappaz Henry,Henry Rappaz
+Candidate,Gander Florian,Florian Gander
+Candidate,Decorvet Christian,Christian Decorvet
+Candidate,Sonderegger Gabriela,Gabriela Sonderegger
+Candidate,Dimier Patrick,Patrick Dimier
+Candidate,Fontaine-Vive-Curtaz Jean,Jean Fontaine-Vive-Curtaz
+Candidate,Saas Alexandra,Alexandra Saas
+Candidate,Zogg Thomas,Thomas Zogg
+Candidate,Pascarella Louise,Louise Pascarella
+Candidate,Fekkak Hatem,Hatem Fekkak
+Candidate,Angelo Antonio,Antonio Angelo
+Candidate,Cattin Jean-Pascal,Jean-Pascal Cattin
+Candidate,Baryeka Jarek,Jarek Baryeka
+Candidate,Reichenbach Kevin,Kevin Reichenbach
+Candidate,Chapou Frédéric,Frederic Chapou
+Candidate,Madani Amar,Amar Madani
+Candidate,Leisi Laurent,Laurent Leisi
+Candidate,Oudin Rémy,Remy Oudin
+Candidate,Villette Jean,Jean Villette
+Candidate,Ambrosio François,François Ambrosio
+Candidate,Teixeira Albano,Albano Teixeira
+Candidate,Frauchiger Roger,Roger Frauchiger
+Candidate,Dellagiovanna Daniel,Daniel Dellagiovanna
+Candidate,Roulin Claude,Claude Roulin
+Candidate,Couto Armando,Armando Couto
+Candidate,Nieto Alexandre,Alexandre Nieto
+Candidate,Chaoui Laïla,Laila Chaoui
+Candidate,Sotomayor André,Andre Sotomayor
+Candidate,Do Rego Ricardo,Ricardo Do Rego
+Candidate,Vendrell Marie,Marie Vendrell
+Candidate,Ménétrey Yasmine,Yasmine Menetrey
+Candidate,Angeloz Claude,Claude Angeloz
+Candidate,Laurent Pierre-Alain,Pierre-Alain Laurent
+Candidate,Jahija Burim,Burim Jahija
+Candidate,Di Salvo Giuseppe,Giuseppe Di Salvo
+Candidate,Heimo Philippe,Philippe Heimo
+Candidate,Chappaz Marc,Marc Chappaz
+Candidate,Barry Minkailou,Minkailou Barry
+Candidate,Catalan Joëlle,Joelle Catalan
+Candidate,Reolon Bruno,Bruno Reolon
+Candidate,Albanesi Jean-François,Jean-François Albanesi
+Candidate,Klingele Olivier,Olivier Klingele
+Candidate,Bencker Jeanne,Jeanne Bencker
+Candidate,Marguet Tex,Tex Marguet
+Candidate,Delmenico Janine,Janine Delmenico
+Candidate,Shlyapina Elena,Elena Shlyapina
+Candidate,Mudry Yves,Yves Mudry
+Candidate,Gostoli Gérard,Gerard Gostoli
+Candidate,Yau Helen,Helen Yau
+Candidate,Innocenti Flavio,Flavio Innocenti
+Candidate,Cover Sabina,Sabina Cover
+Candidate,Ambord Cédric,Cedric Ambord:Sandro Ambord
+Candidate,Garcia Javier,Javier Garcia
+Candidate,Belcastro De Luca Nathalie,Nathalie Belcastro De Luca
+Candidate,Zbinden Jean-Luc,Jean-Luc Zbinden
+Candidate,Ahdab Ahmad,Ahmad Ahdab:Chawki Ahdab
+Candidate,Baiunco Aurora,Aurora Baiunco
+Candidate,Oliveira Rui,Rui Oliveira
+Candidate,Pastore Daniel,Daniel Pastore:Dany Pastore
+Candidate,Draskovic Rada,Rada Draskovic
+Candidate,Haymoz William,William Haymoz
+Candidate,Besse Muriel,Muriel Besse
+Candidate,Naine Marie-Josée,Marie-Josee Naine
+Candidate,Gharbi Mohamed,Mohamed Gharbi
+Candidate,Loosli Bertille,Bertille Loosli:Clarence Loosli
+Candidate,Emonet Sarah,Sarah Emonet
+Candidate,Müller Olivier,Olivier Muller
+Candidate,Loddo Olivier,Olivier Loddo:Olivier Henrioud
+Candidate,Ben Chaabane Salah,Salah Ben Chaabane
+Candidate,De Oliveira Nunes Vitor,Vitor De Oliveira Nunes
+Candidate,Martignoni Alain,Alain Martignoni
+Candidate,Maréchal Christophe,Christophe Marechal
+Candidate,Spagnolo Salvatore,Salvatore Spagnolo
+Candidate,Pierre Toussaint Sircee,Sircee Pierre Toussaint
+Candidate,Steiner Christian,Christian Steiner
+Candidate,Beun Christine,Christine Beun:Kristine Beun
+Candidate,Bissat Rose,Rose Bissat:Marie Angeline Bissat
+Candidate,Guisy Milène,Milene Guisy
+Candidate,Martin Emmanuel,Emmanuel Martin
+Candidate,Dussan Julien,Julien Dussan
+Candidate,Bonvin Philippe,Philippe Bonvin
+Candidate,Sauser Nicolas,Nicolas Sauser
+Candidate,Ryser Alain,Alain Ryser
+Candidate,Monney Armand,Armand Monney
+Candidate,Peyraud Alexandre,Alexandre Peyraud
+Candidate,Häusermann Elisabeth,Elisabeth Hausermann
+Candidate,Gautrot Maria Magdalena,Maria Magdalena Gautrot:Marielena Gautrot
+Candidate,Fontana Jérôme,Jerome Fontana
+Candidate,Piguet Frédéric,Frederic Piguet:Paul Piguet
+Candidate,Wuarin Marc,Marc Wuarin
+Candidate,Samim Firouzsalari Atefeh,Atefeh Samim Firouzsalari
+Candidate,Bustamante Hernandez Eric,Eric Bustamante Hernandez
+Candidate,Hamoir Fursy,Fursy Hamoir
+Candidate,Preisig Robert,Robert Preisig
+Candidate,Jeanmonod Christian,Christian Jeanmonod
+Candidate,Meylan Jean Michel,Jean Michel Meylan
+Candidate,Cori Claudio,Claudio Cori
+Candidate,Wittwer Christoph,Christoph Wittwer
+Candidate,Besomi Alessandro,Alessandro Besomi:Alex Besomi
+Candidate,Ritter Sven,Sven Ritter
+Candidate,Duvnjak Sanja,Sanja Duvnjak
+Candidate,Frammery Chloe,Chloe Frammery
+Candidate,Fouda Amougou Charlotte,Charlotte Fouda Amougou
+Candidate,Scheller Gérard,Gerard Scheller
+Candidate,Rossellat Blaise,Blaise Rossellat
+Candidate,Dachroune Samir,Samir Dachroune
+Candidate,Bult Christoph,Christoph Bult
+Candidate,Monshengwo Jessica,Jessica Monshengwo
+Candidate,Lopez Julien,Julien Lopez
+Candidate,Fraudeau Delphine,Delphine Fraudeau
+Candidate,Abesse Hayet,Hayet Abesse
+Candidate,Golay Séverine,Severine Golay
+Candidate,Jordan Claude,Claude Jordan
+Candidate,Regamey Murielle,Murielle Regamey
+Candidate,Schucani Grégoire,Gregoire Schucani
+Candidate,Amberger Axel,Axel Amberger
+Candidate,Aymon Paul,Paul Aymon:dit Paul Sierre Aymon
+Candidate,Cretegny Willy,Willy Cretegny
+Candidate,Amsler Susanne,Susanne Amsler
