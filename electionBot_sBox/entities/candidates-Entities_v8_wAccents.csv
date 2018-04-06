@@ -1,0 +1,655 @@
+entity,value,synonyms
+GC,Pagani Rémy,Rémy Pagani
+GC,Wenger Saliha,Saliha Wenger:Salika Wenger
+GC,Zaugg Christian,Christian Zaugg
+GC,Haller Jocelyne,Jocelyne Haller
+GC,Eniline Alexander,Alexander Eniline
+GC,Cruchon Pablo,Pablo Cruchon
+GC,Valentino Stéphanie,Stéphanie Valentino
+GC,Burgermeister Jean,Jean Burgermeister
+GC,Ecuyer Hélène,Hélène Ecuyer
+GC,Issom David-Zacharie,David-Zacharie Issom
+GC,Ossmann Sekna,Sekna Ossmann
+GC,Nyffeler Batou Françoise,Françoise Nyffeler Batou
+GC,Januzi Bashkim,Bashkim Januzi
+GC,Ecuyer Sébastien,Sébastien Ecuyer
+GC,Ovett Bondi Davinia,Davinia Ovett Bondi
+GC,Jimenez Jean-Daniel,Jean-Daniel Jimenez
+GC,Ecuyer Annick,Annick Ecuyer
+GC,Peradotto Julie,Julie Peradotto
+GC,Manríquez Matías,Matías Manríquez
+GC,Zehfus Yves,Yves Zehfus
+GC,Zaugg Daniel,Daniel Zaugg
+GC,Perez Maria,Maria Perez:Lou Perez
+GC,Schnebli Tobias,Tobias Schnebli:Tobia Schnebli
+GC,Missoh Dzikunoo Massan,Massan Missoh Dzikunoo
+GC,Martenot Aude,Aude Martenot
+GC,Vanek Pierre,Pierre Vanek
+GC,Clement Patrice,Patrice Clement
+GC,Prezioso Batou Stefania,Stefania Prezioso Batou
+GC,Esaki Kabeya Elisabeth,Elisabeth Esaki Kabeya
+GC,Langford Pia,Pia Langford
+GC,Vincent Michel,Michel Vincent
+GC,Rumpczyk Delphine,Delphine Rumpczyk
+GC,Salm Darboe Karijn,Karijn Salm Darboe
+GC,Andenmatten David,David Andenmatten
+GC,Schmid Audrey,Audrey Schmid
+GC,Guevara Francisco,Francisco Guevara
+GC,Batou Jean,Jean Batou
+GC,Stebler Guenat Henriette,Henriette Stebler Guenat
+GC,Edjeou Corinne,Corinne Edjeou:Corinne Buntschu
+GC,Zaugg Cecilia,Cecilia Zaugg
+GC,Baud Olivier,Olivier Baud
+GC,Zbinden Livia,Livia Zbinden
+GC,Rossel Pascal,Pascal Rossel
+GC,Bayenet Pierre,Pierre Bayenet
+GC,Bailat Ariane,Ariane Bailat
+GC,Maillefer Denise,Denise Maillefer
+GC,Meierhofer Manyagoua Boumtché Charlotte,Charlotte Meierhofer Manyagoua Boumtché
+GC,Blanchet Marjo,Marjo Blanchet
+GC,Marti Werner,Werner Marti
+GC,Khaouchi Corinne,Corinne Khaouchi
+GC,Bolay Robin Stéphanie,Stéphanie Bolay Robin
+GC,Blanco Luis,Luis Blanco
+GC,Mamin François,François Mamin
+GC,De Melo Marcelino Amélia,Amélia De Melo Marcelino
+GC,Bouzid Mohamed,Mohamed Bouzid
+GC,Boujemaa Sanae,Sanae Boujemaa
+GC,Galland Eduardo,Eduardo Galland
+GC,Jelk Andrée,Andrée Jelk:Andrée Jelk-Peila
+GC,Castro Gloria,Gloria Castro
+GC,Camelo Alfredo,Alfredo Camelo
+GC,Noetzlin Simon,Simon Noetzlin
+GC,Duraku Fitore,Fitore Duraku
+GC,Duraku Edon,Edon Duraku
+GC,Ferreira Elisabeth,Elisabeth Ferreira
+GC,Christinat Jean-David,Jean-David Christinat
+GC,Gerardo Féliz Grubi Ynes,Ynes Gerardo Féliz Grubi
+GC,Carlo Xavier,Xavier Carlo
+GC,Sahin Gazi,Gazi Sahin
+GC,Hodgers Antonio,Antonio Hodgers
+GC,De Chastonay Marjorie,Marjorie De Chastonay
+GC,Rochat Yvan,Yvan Rochat
+GC,Perler Frédérique,Frédérique Perler
+GC,Buschbeck Mathias,Mathias Buschbeck
+GC,Lefort François,François Lefort
+GC,Leonelli Katia,Katia Leonelli
+GC,Macchiavelli Marta,Marta Macchiavelli:Marta Julia Macchiavelli
+GC,Makosso William,William Makosso
+GC,Martin David,David Martin
+GC,Müller Sontag Corinne,Corinne Müller Sontag
+GC,Nicolet-Dit-Felix Julien,Julien Nicolet-Dit-Felix
+GC,Noël Philippe,Philippe Noël
+GC,Oriolo Alessandra,Alessandra Oriolo
+GC,Oztürk Dilara,Dilara Oztürk
+GC,Pasquier Isabelle,Isabelle Pasquier:Isabelle Pasquier-Eichenberger
+GC,Poget Philippe,Philippe Poget
+GC,Quijano Garcia Maria,Maria Quijano Garcia:Maria José Quijano Garcia
+GC,Rodriguez Mario,Mario Rodriguez
+GC,Rogg Catharina,Catharina Rogg:Olowine Rogg
+GC,Rossiaud Jean,Jean Rossiaud
+GC,Saa Baud Yubitza,Yubitza Saa Baud
+GC,Schalk Antoine,Antoine Schalk
+GC,Schaufelberger Esther,Esther Schaufelberger
+GC,Sordet Adrienne,Adrienne Sordet
+GC,Taleghani Majid,Majid Taleghani
+GC,Tchamkerten Jolanka,Jolanka Tchamkerten
+GC,Tiguemounine Sabine,Sabine Tiguemounine
+GC,Tinguely Dominique,Dominique Tinguely
+GC,Tschudi Paloma,Paloma Tschudi
+GC,Van Woerden Wendy,Wendy Van Woerden
+GC,Veiga Arias Damian,Damian Veiga Arias:Damian Veiga Löffel
+GC,Wisard Prado Leyma,Leyma Wisard Prado
+GC,Yunus Ebener Mariam,Mariam Yunus Ebener:Maryam Yunus Ebener
+GC,Amato Maurice,Maurice Amato
+GC,Amsellem Benedicte,Benedicte Amsellem:Benedicte Amsellem-Ossipow
+GC,Ardizzone Ivan,Ivan Ardizzone
+GC,Azzabi Omar,Omar Azzabi
+GC,Bänziger Ruth,Ruth Bänziger
+GC,Barciela Villar Ana,Ana Barciela Villar
+GC,Bavarel Christian,Christian Bavarel
+GC,Boccard Damien,Damien Boccard:Damien Baptiste Boccard
+GC,Bonny Didier,Didier Bonny
+GC,Bonvin Bonfanti Anne,Anne Bonvin Bonfanti
+GC,Bucher Denis,Denis Bucher
+GC,Buenzod Christian,Christian Buenzod
+GC,Bui Aurore,Aurore Bui
+GC,Cabitza Marina,Marina Cabitza
+GC,Calame Boris,Boris Calame
+GC,Calame Fabrice,Fabrice Calame
+GC,Chaudieu Anne,Anne Chaudieu
+GC,Concha Celtia,Celtia Concha
+GC,Corpataux Laurence,Laurence Corpataux
+GC,Dalphin Marc,Marc Dalphin
+GC,De Felice Nicolas,Nicolas De Felice
+GC,De Maio Sara,Sara De Maio
+GC,De Matteis Yves,Yves De Matteis
+GC,De Rougemont Philippe,Philippe De Rougemont
+GC,Desbiolles Sophie,Sophie Desbiolles
+GC,Descombes Isabelle,Isabelle Descombes
+GC,Dujoux Valentin,Valentin Dujoux
+GC,Dupuis Renaud,Renaud Dupuis
+GC,Ebener Christophe,Christophe Ebener
+GC,Eckert Pierre,Pierre Eckert
+GC,Fischer Fabienne,Fabienne Fischer
+GC,Freymond Pascal,Pascal Freymond
+GC,Geoffroy Elias,Elias Geoffroy
+GC,Gomez Alfonso,Alfonso Gomez
+GC,Haas François,François Haas
+GC,Hartmann Esther,Esther Hartmann
+GC,Heberlein Simonett Claudia,Claudia Heberlein Simonett
+GC,Herren Yves,Yves Herren
+GC,Khamis Vannini Uzma,Uzma Khamis Vannini
+GC,Klopfenstein Broggini Delphine,Delphine Klopfenstein Broggini
+GC,Kündig Ralph,Ralph Kündig
+GC,Latour Sabine,Sabine Latour
+GC,Emery-Torracinta Anne,Anne Emery-Torracinta
+GC,Apothéloz Thierry,Thierry Apothéloz
+GC,Salerno Sandrine,Sandrine Salerno
+GC,De Sainte-Marie Romain,Romain De Sainte-Marie
+GC,Kast Carole-Anne,Carole-Anne Kast
+GC,Wenger Thomas,Thomas Wenger
+GC,Marti Caroline,Caroline Marti
+GC,Bandler Marko,Marko Bandler
+GC,Moyard Mizrahi Salima,Salima Moyard Mizrahi
+GC,Dandrès Christian,Christian Dandrès
+GC,Verissimo De Freitas Helena,Helena Verissimo De Freitas
+GC,Carasso Grégoire,Grégoire Carasso
+GC,Sobanek Marion,Marion Sobanek
+GC,Thévoz Sylvain,Sylvain Thévoz
+GC,Conti Jennifer,Jennifer Conti
+GC,Staub Martin,Martin Staub
+GC,Valiquer Grecuccio Nicole,Nicole Valiquer Grecuccio
+GC,Rielle Jean Charles,Jean Charles Rielle
+GC,Gavilanes Amanda,Amanda Gavilanes
+GC,Mizrahi Cyril,Cyril Mizrahi
+GC,Casares Maria Jesus,Maria Jesus Casares
+GC,Pomatto Michel,Michel Pomatto
+GC,Strasser Léna,Léna Strasser
+GC,Kokot Guilhem,Guilhem Kokot
+GC,Romano Maria,Maria Romano:Maria Vittoria Romano
+GC,Mussa Ahmed,Ahmed Mussa:Youniss Mussa
+GC,Osmani Xhevrie,Xhevrie Osmani
+GC,Esteban Diego,Diego Esteban
+GC,Baillon Glenna,Glenna Baillon
+GC,Eya Nchama Cruz Melchor,Cruz Melchor Eya Nchama
+GC,Brandrup Gladys,Gladys Brandrup:Gladys Acosta Brandrup
+GC,Chiaradonna Denis,Denis Chiaradonna
+GC,Lüthi Badia,Badia Lüthi
+GC,Clemence Nicolas,Nicolas Clemence
+GC,Vatre Patricia,Patricia Vatre
+GC,Zimmermann Michel,Michel Zimmermann
+GC,Viret Dora,Dora Viret:Cécilia Viret
+GC,Velasco Alberto,Alberto Velasco
+GC,Fabre Michel,Michel Fabre
+GC,De Battista Regis,Regis De Battista
+GC,Deonna Emmanuel,Emmanuel Deonna
+GC,Tombola Jean-Pierre,Jean-Pierre Tombola
+GC,Keel Theo,Theo Keel
+GC,Lapalud Patrick,Patrick Lapalud
+GC,Barry Thierno,Thierno Barry
+GC,Halimi Hysri,Hysri Halimi
+GC,Gajardo Munoz Jorge,Jorge Gajardo Munoz
+GC,Alonso Unica Manuel,Manuel Alonso Unica
+GC,Baldini Frédéric,Frédéric Baldini
+GC,Bruchez Thomas,Thomas Bruchez
+GC,Benda Benjamin,Benjamin Benda
+GC,Burkhard Roland,Roland Burkhard
+GC,Bosshard Pierre Yves,Pierre Yves Bosshard
+GC,Kurteshi Ismet,Ismet Kurteshi
+GC,Maudet Pierre,Pierre Maudet
+GC,Fontanet Nathalie,Nathalie Fontanet
+GC,De Senarclens Alexandre,Alexandre De Senarclens
+GC,De Montmollin Simone,Simone De Montmollin
+GC,Morel Philippe,Philippe Morel
+GC,Putallaz Jean,Jean Putallaz:Jean Jean Romain
+GC,Saudan Patrick,Patrick Saudan
+GC,Selleger Charles,Charles Selleger
+GC,Uehlinger Pascal,Pascal Uehlinger
+GC,Vuillod Georges,Georges Vuillod
+GC,Wicky Raymond,Raymond Wicky
+GC,Zuber Céline,Céline Zuber:Céline Roy
+GC,Zweifel Yvan,Yvan Zweifel
+GC,Aellen Cyril,Cyril Aellen
+GC,Alder Murat Julian,Murat Julian Alder
+GC,Barbey Alexis,Alexis Barbey
+GC,Barde Antoine,Antoine Barde
+GC,Béné Jacques,Jacques Béné
+GC,De Candolle Beatriz,Beatriz De Candolle
+GC,Conne Pierre,Pierre Conne
+GC,Cuendet Edouard,Edouard Cuendet
+GC,Hardyn Nathalie,Nathalie Hardyn
+GC,Hiltpold Serge,Serge Hiltpold
+GC,Malek-Asghar Patrick,Patrick Malek-Asghar
+GC,Monbaron Fabienne,Fabienne Monbaron:Fabienne Monbaron-Stress
+GC,Morand Louise,Louise Morand
+GC,Nicollier Pierre,Pierre Nicollier
+GC,Oppliger Danielle,Danielle Oppliger
+GC,Orsini Antoine,Antoine Orsini
+GC,Pasquier Jean-Pierre,Jean-Pierre Pasquier
+GC,Patek Serge,Serge Patek
+GC,De Planta Francine,Francine De Planta
+GC,Rana Zolana Ginior,Ginior Rana Zolana
+GC,Rigotti Maria,Maria Rigotti:Helena Rigotti
+GC,Roullet Michèle,Michèle Roullet
+GC,Schaller Vincent,Vincent Schaller
+GC,Schneebeli Roland-Daniel,Roland-Daniel Schneebeli
+GC,Senglet Christophe,Christophe Senglet
+GC,Serrano Philippe,Philippe Serrano
+GC,Sommer Monika,Monika Sommer
+GC,Steiner Matthieu,Matthieu Steiner
+GC,Subilia Vincent,Vincent Subilia
+GC,Taboada Francisco,Francisco Taboada
+GC,Tschopp Laurent,Laurent Tschopp
+GC,Wavre Rolin,Rolin Wavre
+GC,Wicki Guy,Guy Wicki
+GC,Wolfisberg François,François Wolfisberg
+GC,Agramunt Gian-Reto,Gian-Reto Agramunt
+GC,Apothéloz Jacques,Jacques Apothéloz
+GC,Aubert Nicolas,Nicolas Aubert
+GC,Barbier-Mueller Diane,Diane Barbier-Mueller
+GC,Bellingeri Stefano Vito,Stefano Vito Bellingeri
+GC,Bersier Julie,Julie Bersier
+GC,Blanch Richard-Pascal,Richard-Pascal Blanch:Pascal Blanch
+GC,Böhler Frances,Frances Böhler:Frances Böhler-GoodshipElizabeth BöhlerElizabeth Böhler-Goodship
+GC,Bouvier Christine,Christine Bouvier
+GC,Brandt Simon,Simon Brandt
+GC,Bron Gilles-Olivier,Gilles-Olivier Bron
+GC,Brunel Mayori,Mayori Brunel
+GC,Burri Rémy,Rémy Burri
+GC,Cornu Renate,Renate Cornu
+GC,Creffield Conrad,Conrad Creffield
+GC,Daher Vincent,Vincent Daher
+GC,Dérobert Thierry,Thierry Dérobert
+GC,Desfayes Natacha,Natacha Desfayes:Natacha Buffet-Desfayes
+GC,Douzals Jacques,Jacques Douzals
+GC,Fiss Joëlle,Joëlle Fiss
+GC,Genecand Adrien,Adrien Genecand
+GC,Giacobino Donata,Donata Giacobino:Donata Giacobino-FroidevauxNadia GiacobinoNadia Giacobino-Froidevaux
+GC,Grand Eric,Eric Grand
+GC,Grognuz Fabien,Fabien Grognuz
+GC,Jay Sylvie,Sylvie Jay
+GC,Jud Philippe,Philippe Jud
+GC,Kämpfen Véronique,Véronique Kämpfen
+GC,Lämmel Valérie,Valérie Lämmel:Valérie Laemmel-Juillard
+GC,Leiser Jean-Marc,Jean-Marc Leiser
+GC,Locher Jean,Jean Locher
+GC,Luzzatto Christine,Christine Luzzatto
+GC,Messerli Marie-Claire,Marie-Claire Messerli
+GC,Meyer Philippe,Philippe Meyer
+GC,Barthassat Luc,Luc Barthassat
+GC,Dal Busco Serge,Serge Dal Busco
+GC,Buchs Bertrand,Bertrand Buchs
+GC,Aebi Benjamin,Benjamin Aebi
+GC,Angelozzi Philippe,Philippe Angelozzi
+GC,Von Arx-Vernon Anne-Marie,Anne-Marie Von Arx-Vernon
+GC,Bachmann Delphine,Delphine Bachmann
+GC,Bidaux Patricia,Patricia Bidaux:Patricia Bidaux-Rodriguez
+GC,Blondin Jacques,Jacques Blondin
+GC,Bocquet Claude,Claude Bocquet
+GC,Bourbala Djamel,Djamel Bourbala
+GC,Bouvier Jérémy,Jérémy Bouvier
+GC,Bugnion Jean-Michel,Jean-Michel Bugnion
+GC,Casutt Martine,Martine Casutt
+GC,Cerutti Olivier,Olivier Cerutti
+GC,Chaker Mangeat Alia,Alia Chaker Mangeat
+GC,Chevalier Alexandre,Alexandre Chevalier
+GC,Decrey Christophe,Christophe Decrey
+GC,Deluermoz Cosima,Cosima Deluermoz
+GC,Desfayes Sébastien,Sébastien Desfayes
+GC,Dulex Christophe,Christophe Dulex
+GC,Dupont Thérèse,Thérèse Dupont
+GC,Engelberts Marie-Thérèse,Marie-Thérèse Engelberts:Marie-Thérèse Engelberts-Leone
+GC,Fischer Daniel,Daniel Fischer
+GC,Forni Jean-Luc,Jean-Luc Forni
+GC,Fournier Nicolas,Nicolas Fournier
+GC,Frischknecht Catherine,Catherine Frischknecht
+GC,Gache Hélène,Hélène Gache
+GC,Gashi Sami,Sami Gashi
+GC,Giannasi Anthony,Anthony Giannasi
+GC,Giannelli Mark,Mark Giannelli
+GC,Gioria Gaëlle,Gaëlle Gioria
+GC,Guinchard Jean-Marc,Jean-Marc Guinchard
+GC,De Kalbermatten Alain,Alain De Kalbermatten
+GC,Khattabi Hassar Houda,Houda Khattabi Hassar
+GC,Kunz Laurence,Laurence Kunz
+GC,Lance François,François Lance
+GC,Lathion Jean Charles,Jean Charles Lathion
+GC,Lehner Laurent,Laurent Lehner
+GC,Lupo Paolo,Paolo Lupo
+GC,Magnin Xavier,Xavier Magnin
+GC,Magnin Yves,Yves Magnin
+GC,Maitre Vincent,Vincent Maitre
+GC,Makki Michela,Michela Makki:Michèle Makki
+GC,Meissner Reyfer Christine,Christine Meissner Reyfer:Christina Meissner Reyfer
+GC,Merle Emmanuelle,Emmanuelle Merle
+GC,Mettan Guy,Guy Mettan
+GC,Meyer De Stadelhofen Philippe,Philippe Meyer De Stadelhofen
+GC,Mondoux Alexandre,Alexandre Mondoux
+GC,Moroni Catherine,Catherine Moroni
+GC,Neuder Isabelle,Isabelle Neuder
+GC,Ouedraogo Moustapha,Moustapha Ouedraogo
+GC,Perret Vincent,Vincent Perret
+GC,Pfeiffer Alex,Alex Pfeiffer
+GC,Progin Christian,Christian Progin
+GC,Putallaz Thomas,Thomas Putallaz
+GC,Rasolo Daniel,Daniel Rasolo
+GC,Ruchet Philippe,Philippe Ruchet
+GC,Rys Alexandra,Alexandra Rys
+GC,Saudan Guy,Guy Saudan
+GC,Sayegh Souheil,Souheil Sayegh
+GC,Scandurra Alessandro,Alessandro Scandurra
+GC,Schmied Patrick,Patrick Schmied
+GC,Schrag Sylvianne,Sylvianne Schrag
+GC,Simoes Jose,Jose Simoes
+GC,Sopi Dardan,Dardan Sopi
+GC,Squillaci Nicola,Nicola Squillaci
+GC,Steinberg Candrian Melinda,Melinda Steinberg Candrian
+GC,Tomassi Christine,Christine Tomassi
+GC,Tremblet Laurent,Laurent Tremblet
+GC,Uong Dinh Manh,Dinh Manh Uong
+GC,Völki Robert,Robert Völki
+GC,Vuarnoz Emanuela,Emanuela Vuarnoz:Emanuelle Vuarnoz
+GC,Wehrli Patrick,Patrick Wehrli
+GC,Zimmermann Luc,Luc Zimmermann
+GC,Zimmermann Bertrand,Bertrand Zimmermann
+GC,Nidegger Yves,Yves Nidegger
+GC,Bläsi Thomas,Thomas Bläsi
+GC,Florey Stéphane,Stéphane Florey
+GC,Leyvraz Eric,Eric Leyvraz
+GC,Fuhrmann Marc,Marc Fuhrmann
+GC,Lussi Patrick,Patrick Lussi
+GC,Ivanov Christo,Christo Ivanov
+GC,Falquet Marc,Marc Falquet
+GC,Maendly Norbert,Norbert Maendly
+GC,Pfeffer André,André Pfeffer
+GC,Catelain Gilbert,Gilbert Catelain
+GC,Hulliger Patrick,Patrick Hulliger
+GC,Michaud Eliane,Eliane Michaud:Eliane Ansermet
+GC,Scherb Peter,Peter Scherb:Pierre Scherb
+GC,Stark Riccardo,Riccardo Stark:Richard Stark
+GC,Guinchard Damien,Damien Guinchard
+GC,Bisol Walter,Walter Bisol
+GC,Masé Zora,Zora Masé
+GC,Velen François,François Velen
+GC,Knörr Stephen,Stephen Knörr
+GC,Rubeli Pascal,Pascal Rubeli
+GC,Lyon Didier,Didier Lyon
+GC,Perrenoud Philippe,Philippe Perrenoud
+GC,Dutruit André,André Dutruit
+GC,Altenbach Pascal,Pascal Altenbach
+GC,Queffélec Philippe,Philippe Queffélec
+GC,Laporte Claude,Claude Laporte
+GC,Conti Virna,Virna Conti
+GC,Parel Loïc,Loïc Parel
+GC,Heddi Leila,Leila Heddi
+GC,Gomes De Almeida José,José Gomes De Almeida:Manuel Gomes De Almeida
+GC,Bertinat Marie-Agnès,Marie-Agnès Bertinat
+GC,Mounla Alexandre,Alexandre Mounla
+GC,Dournow David,David Dournow
+GC,Chaussivert Patrice,Patrice Chaussivert
+GC,Knoll Tatiana,Tatiana Knoll
+GC,Rime Alexandre,Alexandre Rime
+GC,Desyatkina Dzodziev Viktoriya,Viktoriya Desyatkina Dzodziev
+GC,Thomas Sébastien,Sébastien Thomas
+GC,Romanens Mathieu,Mathieu Romanens
+GC,Schweizer Adriana,Adriana Schweizer
+GC,Khachatryan Gohar,Gohar Khachatryan
+GC,Prando Stéphane,Stéphane Prando
+GC,Borer Maria Da Conceicao,Maria Da Conceicao Borer
+GC,Akaba El Mostafa,El Mostafa Akaba
+GC,Léguillon Angèle,Angèle Léguillon
+GC,Bontoux Caroline,Caroline Bontoux
+GC,Honegger Heller Manuela,Manuela Honegger Heller
+GC,Ocharan Robles Rapaz Eva,Eva Ocharan Robles Rapaz:Eva Ocharan Robles
+GC,Da Cruz Pedro Anna,Anna Da Cruz Pedro:Anna Da Cruz Perret-Gentil
+GC,Borcard Anne,Anne Borcard
+GC,Müller Fabienne,Fabienne Müller:Fabienne Abramovich
+GC,Yol Diana,Diana Yol
+GC,Randegger Alice,Alice Randegger
+GC,Depraetere Graciela,Graciela Depraetere:Graciela Depraetere-Manulis
+GC,Ozdemir Elcim,Elcim Ozdemir:Elcim ÖzdemirElçim OzdemirElçim Özdemir
+GC,Ricciardi Werlen Jacqueline,Jacqueline Ricciardi Werlen
+GC,Rossier Fahrion Cerise,Cerise Rossier Fahrion
+GC,Boselli Gauthey Monica,Monica Boselli Gauthey
+GC,Lavrador Dias Claudia,Claudia Lavrador Dias:Claudia Dias
+GC,Jauch Caroline,Caroline Jauch
+GC,Grange Marie-Florence,Marie-Florence Grange
+GC,Mazzoni Nikita,Nikita Mazzoni
+GC,Langer Valérie,Valérie Langer
+GC,Mayoral Edo Corinne,Corinne Mayoral Edo:Corinne Mayoral
+GC,Thomias Leduc Diana,Diana Thomias Leduc
+GC,Orsini Magali,Magali Orsini
+GC,Gauthier Pierre,Pierre Gauthier
+GC,Armand Catherine,Catherine Armand
+GC,Guex Stéphane,Stéphane Guex:dit Guex-Pierre Guex
+GC,Humberset Corinne,Corinne Humberset
+GC,Ruckterstuhl Jean-Claude,Jean-Claude Ruckterstuhl
+GC,Longo Katrin,Katrin Longo
+GC,Girod Nicolas,Nicolas Girod
+GC,Küderli Berkane Nicole,Nicole Küderli Berkane
+GC,Flaks Joël,Joël Flaks
+GC,Perrin Brigitte,Brigitte Perrin
+GC,Goudal Renaud,Renaud Goudal
+GC,Meynet Danielle,Danielle Meynet
+GC,Meynet Leon,Leon Meynet
+GC,Turnowsky Serge,Serge Turnowsky
+GC,Zimmermann Olivier,Olivier Zimmermann
+GC,Chatelain Dimitri,Dimitri Chatelain
+GC,Stauffer Eric,Eric Stauffer
+GC,Zacharias Ronald,Ronald Zacharias
+GC,Saraiva Medeiros Carlos,Carlos Saraiva Medeiros
+GC,Spühler Pascal,Pascal Spühler
+GC,Gaetanino Marco,Marco Gaetanino
+GC,Le Jeune Giacobbi Cristina,Cristina Le Jeune Giacobbi
+GC,Walther Thierry,Thierry Walther
+GC,Hüssy Coppex Viviana Ximena Anghela,Viviana Ximena Anghela Hüssy Coppex
+GC,Loeillet-Rouzier Anne,Anne Loeillet-Rouzier:Marie Loeillet-Rouzier
+GC,Fusco Gerardo,Gerardo Fusco
+GC,Gamberoni Dominique,Dominique Gamberoni
+GC,Nobs Cyril,Cyril Nobs
+GC,Noël Daniel,Daniel Noël
+GC,Santi Michel,Michel Santi
+GC,Picot Jérôme,Jérôme Picot
+GC,Ruchonnet Jean-François,Jean-François Ruchonnet
+GC,Galetto Frédéric,Frédéric Galetto
+GC,Beck Victoria,Victoria Beck
+GC,Antoine Jean-Marc,Jean-Marc Antoine
+GC,Rime Fatma,Fatma Rime:Fatima Rime
+GC,L'Huillier Eric,Eric L'Huillier
+GC,Paraná Júnior Valério,Valério Paraná Júnior
+GC,Lota Raphaëlle,Raphaëlle Lota
+GC,Thomsen Elena,Elena Thomsen:Elena Milakova
+GC,Ballesteros Stefan,Stefan Ballesteros
+GC,Fabre Jean,Jean Fabre
+GC,Nguyen Van Minh,Van Minh Nguyen
+GC,Martel Frédéric,Frédéric Martel
+GC,Frey Priscilla,Priscilla Frey
+GC,Brkic Vitomir,Vitomir Brkic
+GC,Levy Yossef,Yossef Levy:Hai Levy
+GC,Bissoli Marion,Marion Bissoli:Marion Le Bacquer
+GC,Cohen Olivier,Olivier Cohen
+GC,Bruguier Michel,Michel Bruguier
+GC,Solteiro Jorge,Jorge Solteiro
+GC,Halimi Arsim,Arsim Halimi
+GC,Berlemont Alain,Alain Berlemont
+GC,Gargantini Yves,Yves Gargantini
+GC,Maigre Maria Inès,Maria Inès Maigre
+GC,Farinha Horacio,Horacio Farinha
+GC,Vidonne Thierry,Thierry Vidonne
+GC,Leitner André,André Leitner
+GC,Delacquis Cédric,Cédric Delacquis
+GC,Zagato Sophie,Sophie Zagato
+GC,Vidonne Valérie,Valérie Vidonne
+GC,Ferrand Guy,Guy Ferrand
+GC,Kunzi Nicolas,Nicolas Kunzi
+GC,Kugel Mark,Mark Kugel
+GC,Thurnherr Laurent,Laurent Thurnherr
+GC,Vidonne David,David Vidonne
+GC,Beureux Silvain,Silvain Beureux
+GC,Kunzi Philippe,Philippe Kunzi
+GC,Fader Annette,Annette Fader:Yasuka Fader
+GC,Thurnherr Sylvain,Sylvain Thurnherr
+GC,Beureux Johan,Johan Beureux
+GC,Poggia Mauro,Mauro Poggia
+GC,Golay Roger,Roger Golay
+GC,Roch Ana Belen,Ana Belen Roch
+GC,Sormanni Daniel,Daniel Sormanni
+GC,Cerutti Thierry,Thierry Cerutti
+GC,Voumard Jean Marie,Jean Marie Voumard
+GC,Le Joncour-Brülhart Céline,Céline Le Joncour-Brülhart
+GC,Bärtschi François,François Bärtschi
+GC,Pistis Sandro,Sandro Pistis
+GC,Derouette Jean-Paul,Jean-Paul Derouette
+GC,Magnin Danièle,Danièle Magnin
+GC,Valentin Francisco,Francisco Valentin
+GC,Sapin Françoise,Françoise Sapin
+GC,Flury Christian,Christian Flury
+GC,Golay Sandra,Sandra Golay
+GC,Python André,André Python
+GC,Rappaz Henry,Henry Rappaz
+GC,Gander Florian,Florian Gander
+GC,Decorvet Christian,Christian Decorvet
+GC,Sonderegger Gabriela,Gabriela Sonderegger
+GC,Dimier Patrick,Patrick Dimier
+GC,Fontaine-Vive-Curtaz Jean,Jean Fontaine-Vive-Curtaz
+GC,Saas Alexandra,Alexandra Saas
+GC,Zogg Thomas,Thomas Zogg
+GC,Pascarella Louise,Louise Pascarella
+GC,Fekkak Hatem,Hatem Fekkak
+GC,Angelo Antonio,Antonio Angelo
+GC,Cattin Jean-Pascal,Jean-Pascal Cattin
+GC,Baryeka Jarek,Jarek Baryeka
+GC,Reichenbach Kevin,Kevin Reichenbach
+GC,Chapou Frédéric,Frédéric Chapou
+GC,Madani Amar,Amar Madani
+GC,Leisi Laurent,Laurent Leisi
+GC,Oudin Rémy,Rémy Oudin
+GC,Villette Jean,Jean Villette
+GC,Ambrosio François,François Ambrosio
+GC,Teixeira Albano,Albano Teixeira
+GC,Frauchiger Roger,Roger Frauchiger
+GC,Dellagiovanna Daniel,Daniel Dellagiovanna
+GC,Roulin Claude,Claude Roulin
+GC,Couto Armando,Armando Couto
+GC,Nieto Alexandre,Alexandre Nieto
+GC,Chaoui Laïla,Laïla Chaoui
+GC,Sotomayor André,André Sotomayor
+GC,Do Rego Ricardo,Ricardo Do Rego
+GC,Vendrell Marie,Marie Vendrell
+GC,Ménétrey Yasmine,Yasmine Ménétrey
+GC,Angeloz Claude,Claude Angeloz
+GC,Laurent Pierre-Alain,Pierre-Alain Laurent
+GC,Jahija Burim,Burim Jahija
+GC,Di Salvo Giuseppe,Giuseppe Di Salvo
+GC,Heimo Philippe,Philippe Heimo
+GC,Chappaz Marc,Marc Chappaz
+GC,Barry Minkailou,Minkailou Barry
+GC,Catalan Joëlle,Joëlle Catalan
+GC,Reolon Bruno,Bruno Reolon
+GC,Albanesi Jean-François,Jean-François Albanesi
+GC,Klingele Olivier,Olivier Klingele
+GC,Bencker Jeanne,Jeanne Bencker
+GC,Marguet Tex,Tex Marguet
+GC,Delmenico Janine,Janine Delmenico
+GC,Shlyapina Elena,Elena Shlyapina
+GC,Mudry Yves,Yves Mudry
+GC,Gostoli Gérard,Gérard Gostoli
+GC,Yau Helen,Helen Yau
+GC,Innocenti Flavio,Flavio Innocenti
+GC,Cover Sabina,Sabina Cover
+GC,Ambord Cédric,Cédric Ambord:Sandro Ambord
+GC,Garcia Javier,Javier Garcia
+GC,Belcastro De Luca Nathalie,Nathalie Belcastro De Luca
+GC,Zbinden Jean-Luc,Jean-Luc Zbinden
+GC,Ahdab Ahmad,Ahmad Ahdab:Chawki Ahdab
+GC,Baiunco Aurora,Aurora Baiunco
+GC,Oliveira Rui,Rui Oliveira
+GC,Pastore Daniel,Daniel Pastore:Dany Pastore
+GC,Draskovic Rada,Rada Draskovic
+GC,Haymoz William,William Haymoz
+GC,Besse Muriel,Muriel Besse
+GC,Naine Marie-Josée,Marie-Josée Naine
+GC,Gharbi Mohamed,Mohamed Gharbi
+GC,Loosli Bertille,Bertille Loosli:Clarence Loosli
+GC,Emonet Sarah,Sarah Emonet
+GC,Müller Olivier,Olivier Müller
+GC,Loddo Olivier,Olivier Loddo:Olivier Henrioud
+GC,Ben Chaabane Salah,Salah Ben Chaabane
+GC,De Oliveira Nunes Vitor,Vitor De Oliveira Nunes
+GC,Martignoni Alain,Alain Martignoni
+GC,Maréchal Christophe,Christophe Maréchal
+GC,Spagnolo Salvatore,Salvatore Spagnolo
+GC,Pierre Toussaint Sircee,Sircee Pierre Toussaint
+GC,Steiner Christian,Christian Steiner
+GC,Beun Christine,Christine Beun:Kristine Beun
+GC,Bissat Rose,Rose Bissat:Marie Angeline Bissat
+GC,Guisy Milène,Milène Guisy
+GC,Martin Emmanuel,Emmanuel Martin
+GC,Dussan Julien,Julien Dussan
+GC,Bonvin Philippe,Philippe Bonvin
+GC,Sauser Nicolas,Nicolas Sauser
+GC,Ryser Alain,Alain Ryser
+GC,Monney Armand,Armand Monney
+GC,Peyraud Alexandre,Alexandre Peyraud
+GC,Häusermann Elisabeth,Elisabeth Häusermann
+GC,Gautrot Maria Magdalena,Maria Magdalena Gautrot:Marielena Gautrot
+GC,Fontana Jérôme,Jérôme Fontana
+GC,Piguet Frédéric,Frédéric Piguet:Paul Piguet
+GC,Wuarin Marc,Marc Wuarin
+GC,Samim Firouzsalari Atefeh,Atefeh Samim Firouzsalari
+GC,Bustamante Hernandez Eric,Eric Bustamante Hernandez
+GC,Hamoir Fursy,Fursy Hamoir
+GC,Preisig Robert,Robert Preisig
+GC,Jeanmonod Christian,Christian Jeanmonod
+GC,Meylan Jean Michel,Jean Michel Meylan
+GC,Cori Claudio,Claudio Cori
+GC,Wittwer Christoph,Christoph Wittwer
+GC,Besomi Alessandro,Alessandro Besomi:Alex Besomi
+GC,Ritter Sven,Sven Ritter
+GC,Duvnjak Sanja,Sanja Duvnjak
+GC,Frammery Chloe,Chloe Frammery
+GC,Fouda Amougou Charlotte,Charlotte Fouda Amougou
+GC,Scheller Gérard,Gérard Scheller
+GC,Rossellat Blaise,Blaise Rossellat
+GC,Dachroune Samir,Samir Dachroune
+GC,Bult Christoph,Christoph Bult
+GC,Monshengwo Jessica,Jessica Monshengwo
+GC,Lopez Julien,Julien Lopez
+GC,Fraudeau Delphine,Delphine Fraudeau
+GC,Abesse Hayet,Hayet Abesse
+GC,Golay Séverine,Séverine Golay
+GC,Jordan Claude,Claude Jordan
+GC,Regamey Murielle,Murielle Regamey
+GC,Schucani Grégoire,Grégoire Schucani
+CE,Emery-Torracinta Anne,Anne Emery-Torracinta
+CE,Apothéloz Thierry,Thierry Apothéloz
+CE,Salerno Sandrine,Sandrine Salerno
+CE,Hodgers Antonio,Antonio Hodgers
+CE,De Chastonay Marjorie,Marjorie De Chastonay
+CE,Rochat Yvan,Yvan Rochat
+CE,Haller Jocelyne,Jocelyne Haller
+CE,Wenger Saliha,Saliha Wenger:Salika Wenger
+CE,Burgermeister Jean,Jean Burgermeister
+CE,Poggia Mauro,Mauro Poggia
+CE,Roch Ana Belen,Ana Belen Roch
+CE,Sormanni Daniel,Daniel Sormanni
+CE,Maudet Pierre,Pierre Maudet
+CE,Dal Busco Serge,Serge Dal Busco
+CE,Barthassat Luc,Luc Barthassat
+CE,Fontanet Nathalie,Nathalie Fontanet
+CE,De Senarclens Alexandre,Alexandre De Senarclens
+CE,Amberger Axel,Axel Amberger
+CE,Aymon Paul,Paul Aymon:dit Paul Sierre Aymon
+CE,Nidegger Yves,Yves Nidegger
+CE,Bläsi Thomas,Thomas Bläsi
+CE,Florey Stéphane,Stéphane Florey
+CE,Cretegny Willy,Willy Cretegny
+CE,Orsini Magali,Magali Orsini
+CE,Gauthier Pierre,Pierre Gauthier
+CE,Stauffer Eric,Eric Stauffer
+CE,Zacharias Ronald,Ronald Zacharias
+CE,Vidonne Thierry,Thierry Vidonne
+CE,Leitner André,André Leitner
+CE,Fontana Jérôme,Jérôme Fontana
+CE,Amsler Susanne,Susanne Amsler
