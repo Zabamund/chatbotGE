@@ -1,0 +1,242 @@
+#metadata: information about the flow
+#  platformVersion: the version of the bots platform that this flow was written to work with 
+metadata:
+  platformVersion: 1.0
+main: true
+name: electionBot_sbox
+
+# context: Define the variables which will used throughout the dialog flow
+context:
+  variables:
+    resultType: "ResultTypes"
+    candidateName: "string"  
+    #communeName: "Commune"
+    electionType: "string" #custom component var #return from backend
+    comuneName: "string" #da vidia niama li entity
+    resultParty: "string" #tazi variable vrushtam na bota
+    resultLocal: "string" #comes from the backend resultLocal
+    resultPartecipation: "string" #var that comes from backen resultPartecipation
+    listName: "string"
+    # system variables
+    iResult: "nlpresult"
+    rb: "resourcebundle"
+    #autoTranslate: "boolean"
+    #translated: "string"
+
+states:
+  #============INTENTS============
+  intent:
+    component: "System.Intent"
+    properties:
+      variable: "iResult"
+      confidenceThreshold: 0.4
+    transitions:
+      actions:
+        ResultCandidate: "resolveCandidate"
+        ResultElections: "setResultType"  #new
+        ResultCommune: "setComuneName"  #new
+        ResultList: "setListName"   #new
+        unresolvedIntent: "unresolved"
+
+  #============DIALOGFLOW STATES============
+
+  resolveCandidate:
+    component: "System.Text"
+    properties:
+      prompt: "For which candidate would you like to see results ?"
+      variable: "candidateName"
+     # nlpResultVariable: "iResult"
+    transitions: {}
+    
+    
+  resultTypeToExtractFromCustomComponent:
+    component: "returnElectionType"
+    properties:
+      candidateName: "${candidateName.value}"
+    transitions: {}
+  printResult:
+      component: "System.Output"
+      properties:
+        text: "${electionType}"
+      transitions: {} 
+  #end custom component
+
+  output:
+    component: "System.Output"
+    properties:
+      text: "${candidateName.value}  ${electionType.value}"
+      keepTurn: false
+      translate: false
+
+   #todays
+   #---------result type-------
+  setResultType:
+    component: "System.SetVariable"
+    properties:
+      variable: "resultType"
+      value: "${iResult.value.entityMatches['ResultType'][0]}"
+    transitions: {}  
+  askResultType: 
+    component: "System.Text"
+    properties: 
+      prompt: "For which result type you want to know more"
+      variable: "resultType"
+    transitions:
+      actions:
+        cancel: "intent"
+       #---------comune name-------
+  setComuneName:
+     component: "System.SetVariable"
+     properties:
+       variable: "comuneName"
+       value: "${comuneName.value}"
+     transitions: {}  
+  askComuneName:
+     component: "System.Text"
+     properties:
+       prompt: "Please, specify comune name"
+       variable: "comuneName"
+     transitions:
+       actions:
+        cancel: "intent"  
+
+    #---------list(party) name-------   
+  setListName: 
+    component: "System.SetVariable"
+    properties:
+      variable: "setListName"
+      value:  "${listName.value}"
+    transitions: {}   
+  askListName:
+    component: "System.Text"
+    properties:
+      prompt: "For what party do you want to know more"
+      variable: "setListName"
+    transitions:
+      actions:
+        cancel: "intent"   
+      #---------extracting the party info from custom components
+  getPartyResults:
+    component: "resultParty" 
+    properties:
+       listName: "${listName.value}"
+       comuneName: "${comuneName.value}"
+       resultType: "${resultType.value}"
+    transitions: {}
+
+  rintPartyResults:
+    component: "System.Output"
+    properties:
+       text: "The results for ${listName.value} in comune: ${comuneName.value} and election type: ${resultType.value} are votes: ${resultParty.votes}, percentage ${resultParty.percentagesVotes} etat: ${resultParty.etat} time: ${resultParty.timeStamp} "
+    transitions: {}
+               
+      #------------extract local/comune info from custom components
+  getResultLocal:
+     component: "resultLocal"
+     properties:
+       comuneName: "${comuneName.value}"  #podavame mu vars
+       resultType: "${resultType.value}"
+     transitions: {}
+
+  printResultsLocal:
+      component: "System.Output"
+      properties:
+        text: "Elections ${resultType.value} for ${comuneName.value} are: electionsInscritas: ${resultLocal.electeursInscrits}  cartesRecues: ${resultLocal.cartesRecues} bulletin Rentres: ${resultLocal.bulletinRentres} null buletin: ${resultLocal.buletinNull} bulletin blancs ${resultLocal.bulletinsBlancs} bulletins Valables ${resultLocal.bulletinsValables} etat: ${resultLocal.etat} timeStamp ${resultLocal.timeStamp}"
+      #----------------extract partecipation------------
+  getPartecipation:
+     component: "resultPartecipation"  
+     properties:
+        comuneName: "${comuneName.value}"  #podavame mu vars
+        resultType: "${resultType.value}"
+     transitions: {} 
+      
+  printPartecipation:
+      component: "System.Output"  
+      properties:
+        text: "Percent partecipation for comune/local ${comuneName.value} in elections type ${resultType.value} is: ${resultPartecipation.partecipation} etat: ${resultPartecipation.etat} time: ${resultPartecipation.timeStamp} " 
+
+
+
+
+  #==========================================
+  ## Ask user for election type CE or GC
+  #findResultTypes:
+  #  component: "System.SetVariable"
+  #  properties:
+  #    variable: "resultTypes"
+  #    value: "${iResult.value.entityMatches['ResultTypes'][0]}"
+  #  transitions: {}
+
+  #resultTypes:
+  #  component: "System.List"
+  #  properties: 
+  #    options: "${resultTypes.type.enumValues}" # French accents don't display correctly
+      # use the resource bundle to display hard-coded message, or autotranslate if not available
+  #    prompt: "${rb.findElectionType}"
+  #    variable: "resultTypes"
+  #    translate: true
+  #    maxPrompts: 2
+  #  transitions: {}
+   
+  #==========================================
+  #best candidate for commune
+  #askCandidateName:
+  #  component: "System.Text"
+  #  properties:
+  #   prompt: "Which candidate's results would you like to see?"
+  #   variable: "candidateName"
+  #bestComune:
+  #   component: "bestComune"
+  #   properties: 
+  #     candidateName: "${candidateName.value}"
+  #   transitions: {}
+     # return: "done"
+
+  #==========================================
+  #compare 2 candidates
+  #askFirstCandidateName:
+    #component: "System.Text"
+    #properties:
+      #prompt: "Which candidates would you like to compare? \nPlease enter the name of the first candidate"
+      #variable: "firstCandidateName"
+    #transitions: {}
+      #return: "askSecondCandidateName"
+  #askSecondCandidateName:
+    #component: "System.Text"
+    #properties:
+      #prompt: "Please enter the name of the second candidate"
+      #variable: "secondCandidateName"
+  #differenceBetweenTwoCandidates:
+    #component: "compareTwoCandidates"
+    #properties:
+      #firstCandidateName: "${firstCandidateName.value}"
+      #secondCandidateName: "${secondCandidateName.value}"
+
+  #==========================================
+  #externalApi calls
+  #askForCurrency:
+      #component: "System.Text"
+      #properties:
+        #prompt: "Give me currency"
+        #variable: "currencyType"
+      #transitions: {}
+  #currencyResult:
+      #component: "electionsApi"
+      #properties:
+        #currencyType: "${currencyType.value}"
+      #transitions: {}
+  #printResult:
+      #component: "System.Output"
+      #properties:
+        #text: "${baseExchangeRate}"
+      #transitions: {}
+
+  #==========================================
+  # error handling
+  unresolved:
+    component: "System.Output"
+    properties:
+      text: "I don't understand. What do you want to do?"
+      translate: false
+    transitions:
+      return: "unresolved"
