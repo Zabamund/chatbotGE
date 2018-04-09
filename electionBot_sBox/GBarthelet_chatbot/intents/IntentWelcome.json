@@ -1,0 +1,19 @@
+{
+  "name" : "IntentWelcome",
+  "description" : "the user welcomes the bot",
+  "type" : "NLPIntent",
+  "intentParameters" : [ ],
+  "exampleData" : [ {
+    "sentence" : "hello",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "hi",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "salut",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "bonjour",
+    "exampleEntities" : [ ]
+  } ]
+}

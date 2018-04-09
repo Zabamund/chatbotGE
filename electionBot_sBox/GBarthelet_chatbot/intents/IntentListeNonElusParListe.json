@@ -1,0 +1,19 @@
+{
+  "name" : "IntentListeNonElusParListe",
+  "type" : "NLPIntent",
+  "intentParameters" : [ {
+    "name" : "ListeElectoraleTous les noms des listes électorales\n",
+    "required" : true,
+    "entity" : "ListeElectorale"
+  } ],
+  "exampleData" : [ {
+    "sentence" : "Qui n'a pas été élu chez les verts ?",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "Qui n'a pas été élu ?",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "liste non élus pour la liste les verts",
+    "exampleEntities" : [ ]
+  } ]
+}

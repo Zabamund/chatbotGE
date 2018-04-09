@@ -1,0 +1,8 @@
+{
+  "name" : "WebTestChannel",
+  "description" : "Channel pour tester depuis le web",
+  "enabled" : true,
+  "config" : {
+    "type" : "web"
+  }
+}

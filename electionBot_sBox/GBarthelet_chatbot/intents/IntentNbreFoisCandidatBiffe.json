@@ -1,0 +1,19 @@
+{
+  "name" : "IntentNbreFoisCandidatBiffe",
+  "description" : "demande à savoir le nombre de fois qu'un candidat a été biffé",
+  "type" : "NLPIntent",
+  "intentParameters" : [ ],
+  "exampleData" : [ {
+    "sentence" : "combien de fois pierre maudet a été biffé ?",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "nombre de fois ou pierre maudet a été biffé ?",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "combien de fois il a été biffé ?",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "biffé combien de fois ?",
+    "exampleEntities" : [ ]
+  } ]
+}

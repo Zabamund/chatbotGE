@@ -1,0 +1,44 @@
+{
+  "name" : "IntentResultatsGCParListe",
+  "type" : "NLPIntent",
+  "intentParameters" : [ {
+    "name" : "ListeElectoraleTous les noms des listes électorales\n",
+    "required" : true,
+    "entity" : "ListeElectorale"
+  }, {
+    "name" : "TypeElection",
+    "required" : true,
+    "entity" : "TypeElection"
+  } ],
+  "exampleData" : [ {
+    "sentence" : "Combien de sièges a obtenu la liste pbd ?",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "sièges liste pbd",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "résultats liste pbd",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "quels sont les résultats de la liste pbd ?",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "quels sont les résultats du mcg",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "quels sont les résultats des libéraux radicaux",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "quels sont les résultats de ensemble à gauche",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "quels sont les résultats des socialistes",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "résultats de la liste démocrates chrétiens",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "résultats liste femmes 2018",
+    "exampleEntities" : [ ]
+  } ]
+}

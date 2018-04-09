@@ -1,0 +1,12 @@
+{
+  "name" : "TypeElection",
+  "type" : "ENUMVALUES",
+  "enumValues" : [ {
+    "canonicalName" : "CE",
+    "synonyms" : [ "conseil etat", "conseil état", "conseil d'état", "du conseil d'état", "le conseil d'état", "le conseil état", "conseiller d'état", "conseillers d'état" ]
+  }, {
+    "canonicalName" : "GC",
+    "synonyms" : [ "le Grand Conseil", "Grand Conseil", "GC", "du grand conseil", "du parlement", "des députés", "l'élection des députés", "députés", "les députés" ]
+  } ],
+  "namedEntityRuleParams" : [ ]
+}

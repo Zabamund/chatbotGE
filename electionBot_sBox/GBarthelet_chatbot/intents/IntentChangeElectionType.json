@@ -1,0 +1,41 @@
+{
+  "name" : "IntentChangeElectionType",
+  "description" : "Changer de type d'élection",
+  "type" : "NLPIntent",
+  "intentParameters" : [ {
+    "name" : "TypeElection",
+    "required" : true,
+    "entity" : "TypeElection"
+  } ],
+  "exampleData" : [ {
+    "sentence" : "autre élection",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "conseil d'état",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "grand conseil",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "et pour le grand conseil ? ",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "pour le grand conseil ?",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "et pour le conseil d'état ?",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "conseil d'état ?",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "pour le conseil d'état ?",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "pour l'autre élection ?",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "change",
+    "exampleEntities" : [ ]
+  } ]
+}

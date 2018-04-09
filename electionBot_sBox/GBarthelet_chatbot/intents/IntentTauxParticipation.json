@@ -1,0 +1,21 @@
+{
+  "name" : "IntentTauxParticipation",
+  "type" : "NLPIntent",
+  "intentParameters" : [ ],
+  "exampleData" : [ {
+    "sentence" : "Quel est le taux de participation ?",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "taux de participation",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "participation",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "Combien de personnes ont voté ?",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "combien de votants ?",
+    "exampleEntities" : [ ]
+  } ]
+}

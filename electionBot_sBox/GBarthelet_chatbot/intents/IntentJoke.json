@@ -1,0 +1,15 @@
+{
+  "name" : "IntentJoke",
+  "type" : "NLPIntent",
+  "intentParameters" : [ ],
+  "exampleData" : [ {
+    "sentence" : "Tu connais une blague ? ",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "Raconte moi une blague",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "fais moi rigoler",
+    "exampleEntities" : [ ]
+  } ]
+}

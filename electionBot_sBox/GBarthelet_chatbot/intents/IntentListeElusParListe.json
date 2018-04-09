@@ -1,0 +1,19 @@
+{
+  "name" : "IntentListeElusParListe",
+  "type" : "NLPIntent",
+  "intentParameters" : [ {
+    "name" : "ListeElectoraleTous les noms des listes électorales\n",
+    "required" : true,
+    "entity" : "ListeElectorale"
+  } ],
+  "exampleData" : [ {
+    "sentence" : "liste des élus pour la liste ",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "Qui a été élu pour la liste les verts ?",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "Qui a été élu chez les verts ?",
+    "exampleEntities" : [ ]
+  } ]
+}

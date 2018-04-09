@@ -1,0 +1,46 @@
+{
+  "name" : "ListeElectorale",
+  "description" : "Tous les noms des listes électorales\n",
+  "type" : "ENUMVALUES",
+  "enumValues" : [ {
+    "canonicalName" : "1",
+    "synonyms" : [ "ensemble à gauche" ]
+  }, {
+    "canonicalName" : "2",
+    "synonyms" : [ "les verts" ]
+  }, {
+    "canonicalName" : "3",
+    "synonyms" : [ "les socialistes" ]
+  }, {
+    "canonicalName" : "4",
+    "synonyms" : [ "libéraux radicaux", "libéraux-radicaux" ]
+  }, {
+    "canonicalName" : "5",
+    "synonyms" : [ "démocrate-chrétien", "démocrate chrétien", "democrate chretien" ]
+  }, {
+    "canonicalName" : "6",
+    "synonyms" : [ "udc" ]
+  }, {
+    "canonicalName" : "7",
+    "synonyms" : [ "laliste-femmes 2018", "2018", "la liste femmes", "femmes" ]
+  }, {
+    "canonicalName" : "8",
+    "synonyms" : [ "la liste pour genève", "la liste pour geneve", "la liste geneve", "liste geneve" ]
+  }, {
+    "canonicalName" : "9",
+    "synonyms" : [ "genève en marche", "geneve en marche", "en marche" ]
+  }, {
+    "canonicalName" : "10",
+    "synonyms" : [ "pbd genève", "pbd geneve", "parti des bourgeois", "parti des bourgeois genève" ]
+  }, {
+    "canonicalName" : "11",
+    "synonyms" : [ "mcg", "mouvement des citoyens genevois" ]
+  }, {
+    "canonicalName" : "12",
+    "synonyms" : [ "verts libéraux", "vert libéraux", "vert liberaux" ]
+  }, {
+    "canonicalName" : "13",
+    "synonyms" : [ "égalité et équité", "egalite et equite", "equite et egalite" ]
+  } ],
+  "namedEntityRuleParams" : [ ]
+}

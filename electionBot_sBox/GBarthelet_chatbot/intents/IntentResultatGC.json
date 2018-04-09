@@ -1,0 +1,31 @@
+{
+  "name" : "IntentResultatGC",
+  "description" : "Phrases qui montrent clairement une intention pour le résultat des élections au grand conseil",
+  "type" : "NLPIntent",
+  "intentParameters" : [ ],
+  "exampleData" : [ {
+    "sentence" : "sièges",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "Quelle est la répartition des sièges ?",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "répartition des sièges",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "Quelle est la répartition des suffrages ?",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "répartition des suffrages",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "suffrages",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "Quel est le résultat de l'élection au Grand Conseil ?",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "Quelles sont les listes qui ont des candidats élus ?",
+    "exampleEntities" : [ ]
+  } ]
+}

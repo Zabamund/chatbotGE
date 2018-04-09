@@ -1,0 +1,18 @@
+{
+  "name" : "IntentThank",
+  "type" : "NLPIntent",
+  "intentParameters" : [ ],
+  "exampleData" : [ {
+    "sentence" : "super",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "génial !",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "merci",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "cool",
+    "exampleEntities" : [ ]
+  } ]
+}

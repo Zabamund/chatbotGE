@@ -1,0 +1,41 @@
+{
+  "name" : "IntentResultatParCandidat",
+  "type" : "NLPIntent",
+  "intentParameters" : [ {
+    "name" : "Candidat_CELite des candidats CE",
+    "required" : true,
+    "entity" : "Candidat"
+  }, {
+    "name" : "TypeElection",
+    "required" : true,
+    "entity" : "TypeElection"
+  } ],
+  "exampleData" : [ {
+    "sentence" : "pierre maudet est-il élu ?",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "résultats pour axel amberger",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "résultats pour axel amberger",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "quels sont les résultats de Pierre maudet à l'élection du grand conseil ?",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "quel score a fait Pierre Maudet",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "Pierre Maudet",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "et pour Pierre Maudet",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "quel sont les résultats de maudet",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "et pour Axel amberger ?",
+    "exampleEntities" : [ ]
+  } ]
+}

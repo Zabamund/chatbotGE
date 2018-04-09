@@ -1,0 +1,46 @@
+{
+  "name" : "IntentResultatElections",
+  "type" : "NLPIntent",
+  "intentParameters" : [ {
+    "name" : "TypeElection",
+    "required" : true,
+    "entity" : "TypeElection"
+  } ],
+  "exampleData" : [ {
+    "sentence" : "Résultat des élections",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "Résultat",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "Résutats",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "Donne moi le résultat des élections",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "quels conseillers d'état sont élus ?",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "c'est quoi les résultats ?",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "je veux les résutats",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "quels députés ont été élus ?",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "Résultats de l'élection du conseil d'état",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "résultats grand conseil",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "résultats conseil d'état",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "quels sont les résultats du mcg",
+    "exampleEntities" : [ ]
+  } ]
+}

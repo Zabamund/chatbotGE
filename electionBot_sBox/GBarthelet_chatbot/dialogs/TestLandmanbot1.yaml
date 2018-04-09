@@ -1,0 +1,440 @@
+#metadata: information about the flow
+#  platformVersion: the version of the bots platform that this flow was written to work with 
+metadata:
+  platformVersion: 1.0
+main: true
+name: TestLandmanbot1
+#context: Define the variables which will used throughout the dialog flow here.
+context:
+  variables:
+#The syntax for defining the variables is variablename: "variableType".
+# The "variableType" can be defined as a primitive type ("int", "string", "boolean"), "list", or an entity name. A variable can also hold the results returned by the Intent Engine. For these variables, the "variableType" must be "nlpresult" (for example, iResult: "nlpresult").
+    s_electionType: "TypeElection"
+    s_candidatName: "Candidat"
+    s_listName: "ListeElectorale"
+    s_localDeVote: "LocalDeVote"
+    iResult: "nlpresult"
+#states is where you can define the various states within your flow.
+# The syntax for defining a state is
+# statename:
+#   component:Specify the component you want to use. This can be either a Built-In or custom component.
+#   properties:
+#     property1: "value" (These are the properties to the specified component
+#   transitions: You can specify one of the following four
+#     next: Specify the state you want to execute next after this state. By default it will execute the state specified after this
+#     error: Specify the state you want to execute in case the component encounters any error in execution.
+#     actions: You can handle various actions returned by the components here the syntax is actionName: "statename"
+#        action1: state1
+#     return: "done" You can exit the flow using the return statement
+
+states:
+
+  checkIntent:
+    component: "System.Intent"
+    properties:
+      variable:  "iResult"
+      confidenceThreshold: 0.4
+      # botName (optional) refers to the name of the bot that resolves the intent. Use this property when you have a reusable bot that holds all of the intent and entity definitions. To support multiple languages, define this property with a variable expression that evaluates to a bot name based on the current language.
+      # botName: 
+      # sourceVariable (optional) refers to a user or context variable. If a value is set for this property, then this value is used for intent matching instead of the text from the user’s previous message.
+      # sourceVariable: 
+      # translate (optional) allows you to override the global autoTranslate variable. If set to true, then both the bot’s and the  user’s messages are auto-translated from English to the user’s language and vice versa. 
+      # translate: 
+    transitions:
+      actions:
+        IntentWelcome: "greet"
+        IntentJoke: "tellAJoke"
+        IntentDebug: "tellDebug"
+        IntentResultatElections: "resultsStart"
+        IntentResultatGC: "resultatGCStart"
+        IntentChangeElectionType: "changeElectionTypeStart"
+        IntentResultatParCandidat: "resultsByCandidateStart"
+        IntentNbreFoisCandidatBiffe: "nombreFoisCandidatBiffeStart"
+        IntentTauxParticipation: "participationRateStart"
+        IntentTauxParticipationParLocal: "participationRateByLocalStart"
+        IntentResultatsGCParListe: "resultsByListStart"
+        IntentListeElusParListe: "whoIsElectedForAListStart"
+        IntentListeNonElusParListe: "whoIsNotElectedForAListStart"
+        unresolvedIntent: "didNotUnderstand"
+# welcome        
+  greet:
+    component: "System.Output"
+    properties:
+     text: "Bonjour et bienvenue\nJ'ai été développé par quelques passionnés, pour vous aider à voter (aide), ainsi que pour vous envoyer les résultats des votations et élections (résultats).\nMes informations sont principalement destinées aux citoyennes et citoyens genevois"
+     keepTurn: true
+    transitions:
+      next: "greet2"
+  greet2:
+    component: "System.Output"
+    properties:
+     text: "Comment je peux vous aider ?"
+    transitions:
+      next: "checkIntent"
+
+# smalltalk
+  tellAJoke:
+    component: "System.Output"
+    properties:
+     text: "Je suis un robot et tous mes boulons n'ont pas encore été serrés! [:]"
+    transitions:
+      next: "checkIntent"
+      
+# gestion incompréhension
+  didNotUnderstand:
+    component: "System.Output"
+    properties:
+      text: "Désolé mais je n'ai pas tout compris ... je débute seulement."
+      keepTurn: true
+    transitions:
+      next: "didNotUnderstand2"
+  didNotUnderstand2:
+    component: "System.Output"
+    properties:
+     text: "Pourriez-vous reformuler ? \n Si vous avez besoin d'aide, dites-le moi simplement."
+    transitions:
+      next: "checkIntent"
+      
+# Résultats généraux
+# Il se peut que le type d'élection n'aie pas été précisé - le composant "System.List" le demande dans ce cas        
+  resultsStart:
+    component: "System.SetVariable"
+    properties:
+      variable: "s_electionType"
+      value: "${iResult.value.entityMatches['TypeElection'][0]}"
+  resultsAskForMissinElectionType:
+    component: "System.List"
+    properties: 
+      prompt: "Pour quelle élection vous voulez les résultats ?"
+      options: 
+      - label: "Conseil Etat"
+        value: "CE" 
+      - label: "Grand Conseil"
+        value: "GC" 
+      maxPrompts: 1
+      variable: "s_electionType"
+      nlpResultVariable: "iResult"
+    transitions: {}
+
+  resultsSwitchToRelevantAction:
+    component: "System.Switch"
+    properties:
+      variable: "s_electionType"
+      values:
+      - null
+      - "CE"
+      - "GC"
+    transitions:
+      actions:
+        null: "resultsStart"
+        CE: "resultatCEStart"
+        GC: "resultatGCStart"
+        NONE: "resultsStart"
+
+# Changement du type d'élection
+# 1) on reset la préférence de l'utilisateur
+# 2) on regarde si il l'a donné dans l'intention (entityMatches)
+# 3) on demande si elle manque (System.List)
+# 4) on redirige vers la bonne action en fonction de la valeur choisie
+  changeElectionTypeStart:
+    component: "System.ResetVariables"
+    properties:
+      variableList: "s_electionType"
+  changeElectionTypeMatchEntity:
+    component: "System.SetVariable"
+    properties:
+      variable: "s_electionType"
+      value: "${iResult.value.entityMatches['TypeElection'][0]}"
+  changeElectionTypeAskForMissingNewType:
+    component: "System.List"
+    properties: 
+      prompt: "Pour quelle election vous voulez les résultats ?"
+      options: 
+      - label: "Conseil Etat"
+        value: "CE" 
+      - label: "Grand Conseil"
+        value: "GC" 
+      maxPrompts: 1
+      variable: "s_electionType"
+      nlpResultVariable: "iResult"
+    transitions: {}
+  changeElectionTypeAskForNextAction:
+    component: "System.List"
+    properties: 
+      prompt: "Qu'est-ce qui vous intéresse ?"
+      options: 
+      - label: "Les résultats"
+        value: "Results"
+      - label: "Le taux de participation"
+        value: "TauxParticipation"
+      - label: "Autres informations"
+        value: "Other" 
+      maxPrompts: 1
+      #translate:
+    transitions:
+      actions:
+        Results: "resultsStart"
+        TauxParticipation: "participationRateStart"
+        Other: "helpForAskOtherStart"
+        cancel: "checkIntent"
+
+# Changement du type d'élection
+# 1) on reset la préférence de l'utilisateur en termes de nom de candidat
+# 2) on regarde si il l'a donné dans l'intention (entityMatches)
+# 3) on demande si elle manque (System.List)
+# 4) on redirige vers la bonne action en fonction de la valeur choisie
+  resultsByCandidateStart:
+    component: "System.ResetVariables"
+    properties:
+      variableList: "s_candidatName"
+  resultsByCandidateAskForMissingCandidateName:
+    component: "System.Text"
+    properties:
+      prompt: "Merci de me donner le nom du candidat ?"
+      variable: "s_candidatName"
+      nlpResultVariable: "iResult"
+    transitions: {}
+  resultsByCandidateAskForMissingElectionType:
+    component: "System.List"
+    properties: 
+      prompt: "Vous ne m'avez pas dit pour quelle élection vous voulez ses résultats ?"
+      options: 
+      - label: "Conseil Etat"
+        value: "CE" 
+      - label: "Grand Conseil"
+        value: "GC" 
+      variable: "s_electionType"
+      nlpResultVariable: "iResult"
+    transitions: {}
+  resultsByCandidateOutput:
+    component: "System.Output"
+    properties:
+      text: "Les résultats de ${s_candidatName.value!\"null\"} à l'élection du ${s_electionType.value!\"null\"} sont les suivants : [Appel BackOffice]"
+    transitions:
+      next: "checkIntent"
+
+# Nombre de fois qu'un candidat a été biffé
+# On doit seulement savoir son nom
+# 1) match du nom du candidat dans l'intention
+# 2) on demande le nom si on le trouve pas
+# 3) on set élection type = GC (même si on peut biffer pour le conseil d'état)
+# 4) on donne le résultat
+  nombreFoisCandidatBiffeStart:
+    component: "System.SetVariable"
+    properties:
+      variable: "s_candidatName"
+      value: "${iResult.value.entityMatches['Candidat'][0]}"
+  nombreFoisCandidatBiffeAskForMissingCandidateName:
+    component: "System.Text"
+    properties: 
+      prompt: "Nom du candidat ?"
+      variable: "s_candidatName"
+      nlpResultVariable: "iResult"
+    transitions: {}
+  nombreFoisCandidatBiffeSetElectionType:
+    component: "System.SetVariable"
+    properties:
+      variable: "s_electionType"
+      value: "GC"  
+  nombreFoisCandidatBiffeOutput:
+    component: "System.Output"
+    properties:
+      text: "Le candidat ${s_candidatName.value!\"null\"} a été biffé 1'243 fois.\n [Appel BackOffice]"
+    transitions:
+      next: "checkIntent"
+      
+# Résultats par liste
+# 1) on regarde si la personne a donné le nom de la liste dans l'intention
+# 2) System.Text permet de redemander le nom de la liste si pas compris
+# 3) On force le s_electionType à "GC" (les résultats par liste ne sont que pour le GC)
+# 4) on donne le résultat
+  resultsByListStart:
+    component: "System.SetVariable"
+    properties:
+      variable: "s_listName"
+      value: "${iResult.value.entityMatches['ListeElectorale'][0]}"
+  resultsByListAskForMissingListName:
+    component: "System.Text"
+    properties: 
+      prompt: "Pour quelle liste vous voulez les résultats ?"
+      variable: "s_listName"
+      nlpResultVariable: "iResult"
+    transitions: {}
+  resultsByListSetElectionType:
+    component: "System.SetVariable"
+    properties:
+      variable: "s_electionType"
+      value: "GC"
+  resultsByListOutput:
+    component: "System.Output"
+    properties:
+      text: "La liste ${s_listName.value!\"null\"} a obtenu 34 sièges sur 100 pour l'élection du ${s_electionType.value! \"null\"}.\n [Appel BackOffice]"
+    transitions:
+      next: "checkIntent"
+
+# Qui est élu pour une liste ?
+# 1) on regarde si la personne a donné le nom de la liste dans l'intention
+# 2) System.Text permet de redemander le nom de la liste si pas compris
+# 3) On force le s_electionType à "GC" (les résultats par liste ne sont que pour le GC)
+# 4) on donne le résultat
+  whoIsElectedForAListStart:
+    component: "System.SetVariable"
+    properties:
+      variable: "s_listName"
+      value: "${iResult.value.entityMatches['ListeElectorale'][0]}"
+  whoIsElectedForAListAskForMissingListName:
+    component: "System.Text"
+    properties: 
+      prompt: "Pour quelle liste voulez-vous avoir la liste des personnes élues ?"
+      variable: "s_listName"
+      nlpResultVariable: "iResult"
+    transitions: {}
+  whoIsElectedForAListMatchElectionType:
+    component: "System.SetVariable"
+    properties:
+      variable: "s_electionType"
+      value: "GC"
+  whoIsElectedForAListOutput:
+    component: "System.Output"
+    properties:
+      text: "Pour la liste ${s_listName.value!\"null\"} sont élus : \n Gilles Barpéaimu avec 47 suffrages \n ... \n Agnès Cuèlli avec 7 suffrages  (nouveau)\n [Appel BackOffice]"
+    transitions:
+      next: "checkIntent"
+      
+# Qui est PAS élu pour une liste ?
+# 1) on regarde si la personne a donné le nom de la liste dans l'intention
+# 2) System.Text permet de redemander le nom de la liste si pas compris
+# 3) On force le s_electionType à "GC" (les résultats par liste ne sont que pour le GC)
+# 4) on donne le résultat
+  whoIsNotElectedForAListStart:
+    component: "System.SetVariable"
+    properties:
+      variable: "s_listName"
+      value: "${iResult.value.entityMatches['ListeElectorale'][0]}"
+  whoIsNotElectedForAListAskForMissingListName:
+    component: "System.Text"
+    properties: 
+      prompt: "Pour quelle liste voulez-vous avoir la liste des personnes qui n'ont pas été élues ?"
+      variable: "s_listName"
+      nlpResultVariable: "iResult"
+    transitions: {}
+  whoIsNotElectedForAListMatchElectionType:
+    component: "System.SetVariable"
+    properties:
+      variable: "s_electionType"
+      value: "GC"
+  whoINotsElectedForAListOutput:
+    component: "System.Output"
+    properties:
+      text: "Pour la liste ${s_listName.value!\"null\"} ne sont pas élus : \n Gilles Barpéaimu avec 1% des voix \n ... \n Agnès Cuèlli avec 0.5% des voix\n [Appel BackOffice]"
+    transitions:
+      next: "checkIntent"
+      
+# Résultats CE :
+# On fixe le type d'élection à CE (pour être sûr) + on donne les résultats
+  resultatCEStart:
+    component: "System.SetVariable"
+    properties:
+      variable: "s_electionType"
+      value: "CE"
+
+  resultatCEOutput:
+    component: "System.Output"
+    properties:
+      text: "Résultat de l'élection du Conseil d'Etat : \n Les 7 candidats pressentis pour le second tour sont  : \n Christopher Lora, Gilles Barpéaimu, Pierre Midi, Robert Letitbe, Olivier Lesombre, Eric Brave, Agnès Cuèlli }  [Appel BackOffice]"
+    transitions:
+      next: "checkIntent"
+
+# Résultats GC :
+# On fixe le type d'élection à GC (pour être sûr) + on donne les résultats
+  resultatGCStart:
+    component: "System.SetVariable"
+    properties:
+      variable: "s_electionType"
+      value: "GC"
+    
+  resultatGCOutput:
+    component: "System.Output"
+    properties:
+      text: "Résultats à l'élection du Grand Conseil : \n La répartition des sièges est la suivante :  \n Liste des courses : x sièges \n  Liste de prevert : y sièges  \n … \n Liste et chopin : aucun siège ${s_electionType.value!\"null\"}  [Appel BackOffice]"
+    transitions:
+      next: "checkIntent"
+
+# Taux de participation
+# 1) on demande type élection si absent (System.Liste)
+# 2) appel backoffice donne le taux de participation
+  participationRateStart:
+    component: "System.List"
+    properties: 
+      prompt: "Vous ne m'avez pas dit pour quelle élection vous voulez le taux de participation ?"
+      options: 
+      - label: "Conseil Etat"
+        value: "CE" 
+      - label: "Grand Conseil"
+        value: "GC" 
+      variable: "s_electionType"
+      nlpResultVariable: "iResult"
+    transitions: {}
+  participationRateOutput:
+    component: "System.Output"
+    properties:
+      text: "Le taux  participation l'élection du ${s_electionType.value!\"null\"} est de 35%. 3'456 personnes ont voté. [Appel BackOffice]"
+    transitions:
+      next: "checkIntent"
+
+# Taux de participation par local
+# 1) on regarde si match localDeVote  
+# 2) on demande le local si pas compris
+# 3) on regarde si match election type
+# 4) on demande type élection si absent (System.Liste)
+# 5) appel backoffice donne le taux de participation
+  participationRateByLocalStart:
+    component: "System.SetVariable"
+    properties:
+      variable: "s_localDeVote"
+      value: "${iResult.value.entityMatches['LocalDeVote'][0]}"
+  participationRateByLocalAskForMissingLocalName:
+    component: "System.Text"
+    properties:
+      prompt: "Pour quel local de vote ?"
+      variable: "s_localDeVote"
+      nlpResultVariable: "iResult"
+    transitions: {}
+  participationRateByLocalMatchElectionType:
+    component: "System.SetVariable"
+    properties:
+      variable: "s_electionType"
+      value: "${iResult.value.entityMatches['TypeElection'][0]}"
+  participationRateByLocalAskForMissingElectionType:
+    component: "System.List"
+    properties: 
+      prompt: "Vous ne m'avez pas dit pour quelle élection ?"
+      options: 
+      - label: "Conseil Etat"
+        value: "CE" 
+      - label: "Grand Conseil"
+        value: "GC" 
+      variable: "s_electionType"
+      nlpResultVariable: "iResult"
+    transitions: {}
+  participationRateByLocalOutput:
+    component: "System.Output"
+    properties:
+      text: "Le taux  participation dans le local ${s_localDeVote.value!\"null\"} à l'élection du ${s_electionType.value!\"null\"} est de 35%. \n [Appel BackOffice]"
+    transitions:
+      next: "checkIntent"
+
+# TODO aide pour avoir d'autres résultats/informations que les résultats globaux de l'élection
+  helpForAskOtherStart:
+    component: "System.Output"
+    properties:
+      text: "TODO Bientôt je t'aiderai à choisir d'autres résultats si tu veux pour le type d'élection ${s_electionType.value!\"null\"} que tu as choisi."
+    transitions:
+      next: "checkIntent"
+
+# debug
+  tellDebug:
+    component: "System.Output"
+    properties:
+      text: "(debug) Valeur des variables : \n s_electionType = ${s_electionType.value!\"null\"} \n s_candidatName = ${s_candidatName.value!\"null\"}"
+    transitions:
+      next: "checkIntent"

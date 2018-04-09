@@ -1,0 +1,28 @@
+{
+  "name" : "Candidat",
+  "description" : "Lite des candidats pour toutes les élections",
+  "type" : "ENUMVALUES",
+  "enumValues" : [ {
+    "canonicalName" : "AMBERGER Axel",
+    "synonyms" : [ "axel", "amberger" ]
+  }, {
+    "canonicalName" : "AYMON Paul",
+    "synonyms" : [ "paul", "aymon" ]
+  }, {
+    "canonicalName" : "CRETEGNY Willy",
+    "synonyms" : [ "willy", "cretegny" ]
+  }, {
+    "canonicalName" : "AMSLER Susanne",
+    "synonyms" : [ "suzanne", "susane", "amsler" ]
+  }, {
+    "canonicalName" : "MAUDET Pierre",
+    "synonyms" : [ "Pierre", "pierre", "piere", "maudet", "maude" ]
+  } ],
+  "parentEntity" : "TypeElection",
+  "namedEntityRuleParams" : [ {
+    "value" : null,
+    "rule" : {
+      "name" : "FOLLOWINGPHRASE"
+    }
+  } ]
+}

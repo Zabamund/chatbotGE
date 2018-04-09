@@ -1,0 +1,207 @@
+{
+  "name" : "LocalDeVote",
+  "type" : "ENUMVALUES",
+  "enumValues" : [ {
+    "canonicalName" : "1-1",
+    "synonyms" : [ "1-1", "Aire-la-Ville", "Aire-la-Ville", "Aire la Ville", "Aire la Ville" ]
+  }, {
+    "canonicalName" : "2-1",
+    "synonyms" : [ "2-1", "Anières", "Anieres", "Anières", "Anieres" ]
+  }, {
+    "canonicalName" : "3-1",
+    "synonyms" : [ "3-1", "Avully", "Avully", "Avully", "Avully" ]
+  }, {
+    "canonicalName" : "4-1",
+    "synonyms" : [ "4-1", "Avusy", "Avusy", "Avusy", "Avusy" ]
+  }, {
+    "canonicalName" : "5-1",
+    "synonyms" : [ "5-1", "Bardonnex", "Bardonnex", "Bardonnex", "Bardonnex" ]
+  }, {
+    "canonicalName" : "6-1",
+    "synonyms" : [ "6-1", "Bellevue", "Bellevue", "Bellevue", "Bellevue" ]
+  }, {
+    "canonicalName" : "7-1",
+    "synonyms" : [ "7-1", "Bernex", "Bernex", "Bernex", "Bernex" ]
+  }, {
+    "canonicalName" : "8-1",
+    "synonyms" : [ "8-1", "Carouge", "Carouge", "Carouge", "Carouge" ]
+  }, {
+    "canonicalName" : "9-1",
+    "synonyms" : [ "9-1", "Cartigny", "Cartigny", "Cartigny", "Cartigny" ]
+  }, {
+    "canonicalName" : "10-1",
+    "synonyms" : [ "10-1", "Céligny", "Celigny", "Céligny", "Celigny" ]
+  }, {
+    "canonicalName" : "11-1",
+    "synonyms" : [ "11-1", "Chancy", "Chancy", "Chancy", "Chancy" ]
+  }, {
+    "canonicalName" : "12-1",
+    "synonyms" : [ "12-1", "Chêne-Bougeries-Centre", "Chene-Bougeries-Centre", "Chêne Bougeries Centre", "Chene Bougeries Centre" ]
+  }, {
+    "canonicalName" : "12-2",
+    "synonyms" : [ "12-2", "Conches", "Conches", "Conches", "Conches" ]
+  }, {
+    "canonicalName" : "13-1",
+    "synonyms" : [ "13-1", "Chêne-Bourg", "Chene-Bourg", "Chêne Bourg", "Chene Bourg" ]
+  }, {
+    "canonicalName" : "14-1",
+    "synonyms" : [ "14-1", "Choulex", "Choulex", "Choulex", "Choulex" ]
+  }, {
+    "canonicalName" : "15-1",
+    "synonyms" : [ "15-1", "Collex-Bossy", "Collex-Bossy", "Collex Bossy", "Collex Bossy" ]
+  }, {
+    "canonicalName" : "16-1",
+    "synonyms" : [ "16-1", "Collonge-Bellerive", "Collonge-Bellerive", "Collonge Bellerive", "Collonge Bellerive" ]
+  }, {
+    "canonicalName" : "17-1",
+    "synonyms" : [ "17-1", "Cologny", "Cologny", "Cologny", "Cologny" ]
+  }, {
+    "canonicalName" : "18-1",
+    "synonyms" : [ "18-1", "Confignon", "Confignon", "Confignon", "Confignon" ]
+  }, {
+    "canonicalName" : "19-1",
+    "synonyms" : [ "19-1", "Corsier", "Corsier", "Corsier", "Corsier" ]
+  }, {
+    "canonicalName" : "20-1",
+    "synonyms" : [ "20-1", "Dardagny", "Dardagny", "Dardagny", "Dardagny" ]
+  }, {
+    "canonicalName" : "21-1",
+    "synonyms" : [ "21-1", "Cité - Rive", "Cite - Rive", "Cité   Rive", "Cite   Rive" ]
+  }, {
+    "canonicalName" : "21-2",
+    "synonyms" : [ "21-2", "Pâquis", "Paquis", "Pâquis", "Paquis" ]
+  }, {
+    "canonicalName" : "21-3",
+    "synonyms" : [ "21-3", "Saint-Gervais", "Saint-Gervais", "Saint Gervais", "Saint Gervais" ]
+  }, {
+    "canonicalName" : "21-4",
+    "synonyms" : [ "21-4", "Prairie-Délices", "Prairie-Delices", "Prairie Délices", "Prairie Delices" ]
+  }, {
+    "canonicalName" : "21-5",
+    "synonyms" : [ "21-5", "Eaux-Vives - Lac", "Eaux-Vives - Lac", "Eaux Vives   Lac", "Eaux Vives   Lac" ]
+  }, {
+    "canonicalName" : "21-6",
+    "synonyms" : [ "21-6", "Eaux-Vives - Frontenex", "Eaux-Vives - Frontenex", "Eaux Vives   Frontenex", "Eaux Vives   Frontenex" ]
+  }, {
+    "canonicalName" : "21-7",
+    "synonyms" : [ "21-7", "Florissant - Malagnou", "Florissant - Malagnou", "Florissant   Malagnou", "Florissant   Malagnou" ]
+  }, {
+    "canonicalName" : "21-8",
+    "synonyms" : [ "21-8", "Cluse - Roseraie", "Cluse - Roseraie", "Cluse   Roseraie", "Cluse   Roseraie" ]
+  }, {
+    "canonicalName" : "21-9",
+    "synonyms" : [ "21-9", "Acacias", "Acacias", "Acacias", "Acacias" ]
+  }, {
+    "canonicalName" : "21-10",
+    "synonyms" : [ "21-10", "Mail - Jonction", "Mail - Jonction", "Mail   Jonction", "Mail   Jonction" ]
+  }, {
+    "canonicalName" : "21-11",
+    "synonyms" : [ "21-11", "Servette - Grand-Pré", "Servette - Grand-Pre", "Servette   Grand Pré", "Servette   Grand Pre" ]
+  }, {
+    "canonicalName" : "21-12",
+    "synonyms" : [ "21-12", "Prieuré - Sécheron", "Prieure - Secheron", "Prieuré   Sécheron", "Prieure   Secheron" ]
+  }, {
+    "canonicalName" : "21-13",
+    "synonyms" : [ "21-13", "Saint-Jean", "Saint-Jean", "Saint Jean", "Saint Jean" ]
+  }, {
+    "canonicalName" : "21-14",
+    "synonyms" : [ "21-14", "Les Crêts", "Les Crets", "Les Crêts", "Les Crets" ]
+  }, {
+    "canonicalName" : "21-15",
+    "synonyms" : [ "21-15", "Cropettes - Vidollet", "Cropettes - Vidollet", "Cropettes   Vidollet", "Cropettes   Vidollet" ]
+  }, {
+    "canonicalName" : "21-16",
+    "synonyms" : [ "21-16", "Vieusseux", "Vieusseux", "Vieusseux", "Vieusseux" ]
+  }, {
+    "canonicalName" : "21-17",
+    "synonyms" : [ "21-17", "Champel", "Champel", "Champel", "Champel" ]
+  }, {
+    "canonicalName" : "22-1",
+    "synonyms" : [ "22-1", "Genthod", "Genthod", "Genthod", "Genthod" ]
+  }, {
+    "canonicalName" : "23-1",
+    "synonyms" : [ "23-1", "Grand-Saconnex", "Grand-Saconnex", "Grand Saconnex", "Grand Saconnex" ]
+  }, {
+    "canonicalName" : "24-1",
+    "synonyms" : [ "24-1", "Gy", "Gy", "Gy", "Gy" ]
+  }, {
+    "canonicalName" : "25-1",
+    "synonyms" : [ "25-1", "Hermance", "Hermance", "Hermance", "Hermance" ]
+  }, {
+    "canonicalName" : "26-1",
+    "synonyms" : [ "26-1", "Jussy", "Jussy", "Jussy", "Jussy" ]
+  }, {
+    "canonicalName" : "27-1",
+    "synonyms" : [ "27-1", "Laconnex", "Laconnex", "Laconnex", "Laconnex" ]
+  }, {
+    "canonicalName" : "28-1",
+    "synonyms" : [ "28-1", "Grand-Lancy", "Grand-Lancy", "Grand Lancy", "Grand Lancy" ]
+  }, {
+    "canonicalName" : "28-2",
+    "synonyms" : [ "28-2", "Petit-Lancy", "Petit-Lancy", "Petit Lancy", "Petit Lancy" ]
+  }, {
+    "canonicalName" : "29-1",
+    "synonyms" : [ "29-1", "Meinier", "Meinier", "Meinier", "Meinier" ]
+  }, {
+    "canonicalName" : "30-1",
+    "synonyms" : [ "30-1", "Meyrin", "Meyrin", "Meyrin", "Meyrin" ]
+  }, {
+    "canonicalName" : "31-1",
+    "synonyms" : [ "31-1", "Onex", "Onex", "Onex", "Onex" ]
+  }, {
+    "canonicalName" : "32-1",
+    "synonyms" : [ "32-1", "Perly-Certoux", "Perly-Certoux", "Perly Certoux", "Perly Certoux" ]
+  }, {
+    "canonicalName" : "33-1",
+    "synonyms" : [ "33-1", "Plan-les-Ouates", "Plan-les-Ouates", "Plan les Ouates", "Plan les Ouates" ]
+  }, {
+    "canonicalName" : "34-1",
+    "synonyms" : [ "34-1", "Pregny-Chambésy", "Pregny-Chambesy", "Pregny Chambésy", "Pregny Chambesy" ]
+  }, {
+    "canonicalName" : "35-1",
+    "synonyms" : [ "35-1", "Presinge", "Presinge", "Presinge", "Presinge" ]
+  }, {
+    "canonicalName" : "36-1",
+    "synonyms" : [ "36-1", "Puplinge", "Puplinge", "Puplinge", "Puplinge" ]
+  }, {
+    "canonicalName" : "37-1",
+    "synonyms" : [ "37-1", "Russin", "Russin", "Russin", "Russin" ]
+  }, {
+    "canonicalName" : "38-1",
+    "synonyms" : [ "38-1", "Satigny", "Satigny", "Satigny", "Satigny" ]
+  }, {
+    "canonicalName" : "39-1",
+    "synonyms" : [ "39-1", "Soral", "Soral", "Soral", "Soral" ]
+  }, {
+    "canonicalName" : "40-1",
+    "synonyms" : [ "40-1", "Thônex", "Thonex", "Thônex", "Thonex" ]
+  }, {
+    "canonicalName" : "41-1",
+    "synonyms" : [ "41-1", "Troinex", "Troinex", "Troinex", "Troinex" ]
+  }, {
+    "canonicalName" : "42-1",
+    "synonyms" : [ "42-1", "Vandoeuvres", "Vandoeuvres", "Vandoeuvres", "Vandoeuvres" ]
+  }, {
+    "canonicalName" : "43-1",
+    "synonyms" : [ "43-1", "Vernier village", "Vernier village", "Vernier village", "Vernier village" ]
+  }, {
+    "canonicalName" : "43-2",
+    "synonyms" : [ "43-2", "Châtelaine", "Chatelaine", "Châtelaine", "Chatelaine" ]
+  }, {
+    "canonicalName" : "43-3",
+    "synonyms" : [ "43-3", "Aïre-Le Lignon", "Aire-Le Lignon", "Aïre Le Lignon", "Aire Le Lignon" ]
+  }, {
+    "canonicalName" : "43-4",
+    "synonyms" : [ "43-4", "Les Avanchets", "Les Avanchets", "Les Avanchets", "Les Avanchets" ]
+  }, {
+    "canonicalName" : "44-1",
+    "synonyms" : [ "44-1", "Versoix", "Versoix", "Versoix", "Versoix" ]
+  }, {
+    "canonicalName" : "45-1",
+    "synonyms" : [ "45-1", "Veyrier", "Veyrier", "Veyrier", "Veyrier" ]
+  }, {
+    "canonicalName" : "46-1",
+    "synonyms" : [ "46-1", "Suisses de l'Étranger", "Suisses de l'Etranger", "Suisses de l'Étranger", "Suisses de l'Etranger" ]
+  } ],
+  "namedEntityRuleParams" : [ ]
+}

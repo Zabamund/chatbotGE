@@ -1,0 +1,15 @@
+{
+  "name" : "IntentDebug",
+  "type" : "NLPIntent",
+  "intentParameters" : [ ],
+  "exampleData" : [ {
+    "sentence" : "debug",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "information sur les variables",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "donne moi le debug",
+    "exampleEntities" : [ ]
+  } ]
+}

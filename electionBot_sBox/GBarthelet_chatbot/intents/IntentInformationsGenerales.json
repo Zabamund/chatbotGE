@@ -1,0 +1,12 @@
+{
+  "name" : "IntentInformationsGenerales",
+  "type" : "NLPIntent",
+  "intentParameters" : [ ],
+  "exampleData" : [ {
+    "sentence" : "C'est quoi l'élection ? ",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "il s'est passé quoi ? ",
+    "exampleEntities" : [ ]
+  } ]
+}

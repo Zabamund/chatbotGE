@@ -1,0 +1,35 @@
+{
+  "name" : "IntentTauxParticipationParLocal",
+  "type" : "NLPIntent",
+  "intentParameters" : [ {
+    "name" : "TypeElection",
+    "required" : true,
+    "entity" : "TypeElection"
+  }, {
+    "name" : "LocalDeVote",
+    "required" : true,
+    "entity" : "LocalDeVote"
+  } ],
+  "exampleData" : [ {
+    "sentence" : "Quel est le taux de participation pour Chêne Bougeries centre ?",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "taux de participation pour chene bougeries centre",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "taux de participation pour 1-1",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "quelle était la participation à Anieres",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "Quel était le taux de participation pour chêne bougeries centre pour l'élection du conseil d'état ?",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "combien de personnes ont voté à Anieres pour l'élection du grand conseil ?",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "combien de personnes ont voté à anieres",
+    "exampleEntities" : [ ]
+  } ]
+}
