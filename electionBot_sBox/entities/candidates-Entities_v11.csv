@@ -1,0 +1,628 @@
+entity,value,synonyms
+Candidat,Pagani Rémy,Rémy Pagani:Remy Pagani
+Candidat,Wenger Saliha,Saliha Wenger:Salika Wenger:Saliha Wenger:Salika Wenger
+Candidat,Zaugg Christian,Christian Zaugg:Christian Zaugg
+Candidat,Haller Jocelyne,Jocelyne Haller:Jocelyne Haller
+Candidat,Eniline Alexander,Alexander Eniline:Alexander Eniline
+Candidat,Cruchon Pablo,Pablo Cruchon:Pablo Cruchon
+Candidat,Valentino Stéphanie,Stéphanie Valentino:Stephanie Valentino
+Candidat,Burgermeister Jean,Jean Burgermeister:Jean Burgermeister
+Candidat,Ecuyer Hélène,Hélène Ecuyer:Helene Ecuyer
+Candidat,Issom David-Zacharie,David-Zacharie Issom:David Zacharie Issom
+Candidat,Ossmann Sekna,Sekna Ossmann:Sekna Ossmann
+Candidat,Nyffeler Batou Françoise,Françoise Nyffeler Batou:Françoise Nyffeler Batou
+Candidat,Januzi Bashkim,Bashkim Januzi:Bashkim Januzi
+Candidat,Ecuyer Sébastien,Sébastien Ecuyer:Sebastien Ecuyer
+Candidat,Ovett Bondi Davinia,Davinia Ovett Bondi:Davinia Ovett Bondi
+Candidat,Jimenez Jean-Daniel,Jean-Daniel Jimenez:Jean Daniel Jimenez
+Candidat,Ecuyer Annick,Annick Ecuyer:Annick Ecuyer
+Candidat,Peradotto Julie,Julie Peradotto:Julie Peradotto
+Candidat,Manríquez Matías,Matías Manríquez:Matías Manríquez
+Candidat,Zehfus Yves,Yves Zehfus:Yves Zehfus
+Candidat,Zaugg Daniel,Daniel Zaugg:Daniel Zaugg
+Candidat,Perez Maria,Maria Perez:Lou Perez:Maria Perez:Lou Perez
+Candidat,Schnebli Tobias,Tobias Schnebli:Tobia Schnebli:Tobias Schnebli:Tobia Schnebli
+Candidat,Missoh Dzikunoo Massan,Massan Missoh Dzikunoo:Massan Missoh Dzikunoo
+Candidat,Martenot Aude,Aude Martenot:Aude Martenot
+Candidat,Vanek Pierre,Pierre Vanek:Pierre Vanek
+Candidat,Clement Patrice,Patrice Clement:Patrice Clement
+Candidat,Prezioso Batou Stefania,Stefania Prezioso Batou:Stefania Prezioso Batou
+Candidat,Esaki Kabeya Elisabeth,Elisabeth Esaki Kabeya:Elisabeth Esaki Kabeya
+Candidat,Langford Pia,Pia Langford:Pia Langford
+Candidat,Vincent Michel,Michel Vincent:Michel Vincent
+Candidat,Rumpczyk Delphine,Delphine Rumpczyk:Delphine Rumpczyk
+Candidat,Salm Darboe Karijn,Karijn Salm Darboe:Karijn Salm Darboe
+Candidat,Andenmatten David,David Andenmatten:David Andenmatten
+Candidat,Schmid Audrey,Audrey Schmid:Audrey Schmid
+Candidat,Guevara Francisco,Francisco Guevara:Francisco Guevara
+Candidat,Batou Jean,Jean Batou:Jean Batou
+Candidat,Stebler Guenat Henriette,Henriette Stebler Guenat:Henriette Stebler Guenat
+Candidat,Edjeou Corinne,Corinne Edjeou:Corinne Buntschu:Corinne Edjeou:Corinne Buntschu
+Candidat,Zaugg Cecilia,Cecilia Zaugg:Cecilia Zaugg
+Candidat,Baud Olivier,Olivier Baud:Olivier Baud
+Candidat,Zbinden Livia,Livia Zbinden:Livia Zbinden
+Candidat,Rossel Pascal,Pascal Rossel:Pascal Rossel
+Candidat,Bayenet Pierre,Pierre Bayenet:Pierre Bayenet
+Candidat,Bailat Ariane,Ariane Bailat:Ariane Bailat
+Candidat,Maillefer Denise,Denise Maillefer:Denise Maillefer
+Candidat,Meierhofer Manyagoua Boumtché Charlotte,Charlotte Meierhofer Manyagoua Boumtché:Charlotte Meierhofer Manyagoua Boumtche
+Candidat,Blanchet Marjo,Marjo Blanchet:Marjo Blanchet
+Candidat,Marti Werner,Werner Marti:Werner Marti
+Candidat,Khaouchi Corinne,Corinne Khaouchi:Corinne Khaouchi
+Candidat,Bolay Robin Stéphanie,Stéphanie Bolay Robin:Stephanie Bolay Robin
+Candidat,Blanco Luis,Luis Blanco:Luis Blanco
+Candidat,Mamin François,François Mamin:François Mamin
+Candidat,De Melo Marcelino Amélia,Amélia De Melo Marcelino:Amelia De Melo Marcelino
+Candidat,Bouzid Mohamed,Mohamed Bouzid:Mohamed Bouzid
+Candidat,Boujemaa Sanae,Sanae Boujemaa:Sanae Boujemaa
+Candidat,Galland Eduardo,Eduardo Galland:Eduardo Galland
+Candidat,Jelk Andrée,Andrée Jelk:Andrée Jelk-Peila:Andree Jelk:Andree Jelk Peila
+Candidat,Castro Gloria,Gloria Castro:Gloria Castro
+Candidat,Camelo Alfredo,Alfredo Camelo:Alfredo Camelo
+Candidat,Noetzlin Simon,Simon Noetzlin:Simon Noetzlin
+Candidat,Duraku Fitore,Fitore Duraku:Fitore Duraku
+Candidat,Duraku Edon,Edon Duraku:Edon Duraku
+Candidat,Ferreira Elisabeth,Elisabeth Ferreira:Elisabeth Ferreira
+Candidat,Christinat Jean-David,Jean-David Christinat:Jean David Christinat
+Candidat,Gerardo Féliz Grubi Ynes,Ynes Gerardo Féliz Grubi:Ynes Gerardo Feliz Grubi
+Candidat,Carlo Xavier,Xavier Carlo:Xavier Carlo
+Candidat,Sahin Gazi,Gazi Sahin:Gazi Sahin
+Candidat,Hodgers Antonio,Antonio Hodgers:Antonio Hodgers
+Candidat,De Chastonay Marjorie,Marjorie De Chastonay:Marjorie De Chastonay
+Candidat,Rochat Yvan,Yvan Rochat:Yvan Rochat
+Candidat,Perler Frédérique,Frédérique Perler:Frederique Perler
+Candidat,Buschbeck Mathias,Mathias Buschbeck:Mathias Buschbeck
+Candidat,Lefort François,François Lefort:François Lefort
+Candidat,Leonelli Katia,Katia Leonelli:Katia Leonelli
+Candidat,Macchiavelli Marta,Marta Macchiavelli:Marta Julia Macchiavelli:Marta Macchiavelli:Marta Julia Macchiavelli
+Candidat,Makosso William,William Makosso:William Makosso
+Candidat,Martin David,David Martin:David Martin
+Candidat,Müller Sontag Corinne,Corinne Müller Sontag:Corinne Muller Sontag
+Candidat,Nicolet-Dit-Felix Julien,Julien Nicolet-Dit-Felix:Julien Nicolet Dit Felix
+Candidat,Noël Philippe,Philippe Noël:Philippe Noel
+Candidat,Oriolo Alessandra,Alessandra Oriolo:Alessandra Oriolo
+Candidat,Oztürk Dilara,Dilara Oztürk:Dilara Ozturk
+Candidat,Pasquier Isabelle,Isabelle Pasquier:Isabelle Pasquier-Eichenberger:Isabelle Pasquier:Isabelle Pasquier Eichenberger
+Candidat,Poget Philippe,Philippe Poget:Philippe Poget
+Candidat,Quijano Garcia Maria,Maria Quijano Garcia:Maria José Quijano Garcia:Maria Quijano Garcia:Maria Jose Quijano Garcia
+Candidat,Rodriguez Mario,Mario Rodriguez:Mario Rodriguez
+Candidat,Rogg Catharina,Catharina Rogg:Olowine Rogg:Catharina Rogg:Olowine Rogg
+Candidat,Rossiaud Jean,Jean Rossiaud:Jean Rossiaud
+Candidat,Saa Baud Yubitza,Yubitza Saa Baud:Yubitza Saa Baud
+Candidat,Schalk Antoine,Antoine Schalk:Antoine Schalk
+Candidat,Schaufelberger Esther,Esther Schaufelberger:Esther Schaufelberger
+Candidat,Sordet Adrienne,Adrienne Sordet:Adrienne Sordet
+Candidat,Taleghani Majid,Majid Taleghani:Majid Taleghani
+Candidat,Tchamkerten Jolanka,Jolanka Tchamkerten:Jolanka Tchamkerten
+Candidat,Tiguemounine Sabine,Sabine Tiguemounine:Sabine Tiguemounine
+Candidat,Tinguely Dominique,Dominique Tinguely:Dominique Tinguely
+Candidat,Tschudi Paloma,Paloma Tschudi:Paloma Tschudi
+Candidat,Van Woerden Wendy,Wendy Van Woerden:Wendy Van Woerden
+Candidat,Veiga Arias Damian,Damian Veiga Arias:Damian Veiga Löffel:Damian Veiga Arias:Damian Veiga Loffel
+Candidat,Wisard Prado Leyma,Leyma Wisard Prado:Leyma Wisard Prado
+Candidat,Yunus Ebener Mariam,Mariam Yunus Ebener:Maryam Yunus Ebener:Mariam Yunus Ebener:Maryam Yunus Ebener
+Candidat,Amato Maurice,Maurice Amato:Maurice Amato
+Candidat,Amsellem Benedicte,Benedicte Amsellem:Benedicte Amsellem-Ossipow:Benedicte Amsellem:Benedicte Amsellem Ossipow
+Candidat,Ardizzone Ivan,Ivan Ardizzone:Ivan Ardizzone
+Candidat,Azzabi Omar,Omar Azzabi:Omar Azzabi
+Candidat,Bänziger Ruth,Ruth Bänziger:Ruth Banziger
+Candidat,Barciela Villar Ana,Ana Barciela Villar:Ana Barciela Villar
+Candidat,Bavarel Christian,Christian Bavarel:Christian Bavarel
+Candidat,Boccard Damien,Damien Boccard:Damien Baptiste Boccard:Damien Boccard:Damien Baptiste Boccard
+Candidat,Bonny Didier,Didier Bonny:Didier Bonny
+Candidat,Bonvin Bonfanti Anne,Anne Bonvin Bonfanti:Anne Bonvin Bonfanti
+Candidat,Bucher Denis,Denis Bucher:Denis Bucher
+Candidat,Buenzod Christian,Christian Buenzod:Christian Buenzod
+Candidat,Bui Aurore,Aurore Bui:Aurore Bui
+Candidat,Cabitza Marina,Marina Cabitza:Marina Cabitza
+Candidat,Calame Boris,Boris Calame:Boris Calame
+Candidat,Calame Fabrice,Fabrice Calame:Fabrice Calame
+Candidat,Chaudieu Anne,Anne Chaudieu:Anne Chaudieu
+Candidat,Concha Celtia,Celtia Concha:Celtia Concha
+Candidat,Corpataux Laurence,Laurence Corpataux:Laurence Corpataux
+Candidat,Dalphin Marc,Marc Dalphin:Marc Dalphin
+Candidat,De Felice Nicolas,Nicolas De Felice:Nicolas De Felice
+Candidat,De Maio Sara,Sara De Maio:Sara De Maio
+Candidat,De Matteis Yves,Yves De Matteis:Yves De Matteis
+Candidat,De Rougemont Philippe,Philippe De Rougemont:Philippe De Rougemont
+Candidat,Desbiolles Sophie,Sophie Desbiolles:Sophie Desbiolles
+Candidat,Descombes Isabelle,Isabelle Descombes:Isabelle Descombes
+Candidat,Dujoux Valentin,Valentin Dujoux:Valentin Dujoux
+Candidat,Dupuis Renaud,Renaud Dupuis:Renaud Dupuis
+Candidat,Ebener Christophe,Christophe Ebener:Christophe Ebener
+Candidat,Eckert Pierre,Pierre Eckert:Pierre Eckert
+Candidat,Fischer Fabienne,Fabienne Fischer:Fabienne Fischer
+Candidat,Freymond Pascal,Pascal Freymond:Pascal Freymond
+Candidat,Geoffroy Elias,Elias Geoffroy:Elias Geoffroy
+Candidat,Gomez Alfonso,Alfonso Gomez:Alfonso Gomez
+Candidat,Haas François,François Haas:François Haas
+Candidat,Hartmann Esther,Esther Hartmann:Esther Hartmann
+Candidat,Heberlein Simonett Claudia,Claudia Heberlein Simonett:Claudia Heberlein Simonett
+Candidat,Herren Yves,Yves Herren:Yves Herren
+Candidat,Khamis Vannini Uzma,Uzma Khamis Vannini:Uzma Khamis Vannini
+Candidat,Klopfenstein Broggini Delphine,Delphine Klopfenstein Broggini:Delphine Klopfenstein Broggini
+Candidat,Kündig Ralph,Ralph Kündig:Ralph Kundig
+Candidat,Latour Sabine,Sabine Latour:Sabine Latour
+Candidat,Emery-Torracinta Anne,Anne Emery-Torracinta:Anne Emery Torracinta
+Candidat,Apothéloz Thierry,Thierry Apothéloz:Thierry Apotheloz
+Candidat,Salerno Sandrine,Sandrine Salerno:Sandrine Salerno
+Candidat,De Sainte-Marie Romain,Romain De Sainte-Marie:Romain De Sainte Marie
+Candidat,Kast Carole-Anne,Carole-Anne Kast:Carole Anne Kast
+Candidat,Wenger Thomas,Thomas Wenger:Thomas Wenger
+Candidat,Marti Caroline,Caroline Marti:Caroline Marti
+Candidat,Bandler Marko,Marko Bandler:Marko Bandler
+Candidat,Moyard Mizrahi Salima,Salima Moyard Mizrahi:Salima Moyard Mizrahi
+Candidat,Dandrès Christian,Christian Dandrès:Christian Dandres
+Candidat,Verissimo De Freitas Helena,Helena Verissimo De Freitas:Helena Verissimo De Freitas
+Candidat,Carasso Grégoire,Grégoire Carasso:Gregoire Carasso
+Candidat,Sobanek Marion,Marion Sobanek:Marion Sobanek
+Candidat,Thévoz Sylvain,Sylvain Thévoz:Sylvain Thevoz
+Candidat,Conti Jennifer,Jennifer Conti:Jennifer Conti
+Candidat,Staub Martin,Martin Staub:Martin Staub
+Candidat,Valiquer Grecuccio Nicole,Nicole Valiquer Grecuccio:Nicole Valiquer Grecuccio
+Candidat,Rielle Jean Charles,Jean Charles Rielle:Jean Charles Rielle
+Candidat,Gavilanes Amanda,Amanda Gavilanes:Amanda Gavilanes
+Candidat,Mizrahi Cyril,Cyril Mizrahi:Cyril Mizrahi
+Candidat,Casares Maria Jesus,Maria Jesus Casares:Maria Jesus Casares
+Candidat,Pomatto Michel,Michel Pomatto:Michel Pomatto
+Candidat,Strasser Léna,Léna Strasser:Lena Strasser
+Candidat,Kokot Guilhem,Guilhem Kokot:Guilhem Kokot
+Candidat,Romano Maria,Maria Romano:Maria Vittoria Romano:Maria Romano:Maria Vittoria Romano
+Candidat,Mussa Ahmed,Ahmed Mussa:Youniss Mussa:Ahmed Mussa:Youniss Mussa
+Candidat,Osmani Xhevrie,Xhevrie Osmani:Xhevrie Osmani
+Candidat,Esteban Diego,Diego Esteban:Diego Esteban
+Candidat,Baillon Glenna,Glenna Baillon:Glenna Baillon
+Candidat,Eya Nchama Cruz Melchor,Cruz Melchor Eya Nchama:Cruz Melchor Eya Nchama
+Candidat,Brandrup Gladys,Gladys Brandrup:Gladys Acosta Brandrup:Gladys Brandrup:Gladys Acosta Brandrup
+Candidat,Chiaradonna Denis,Denis Chiaradonna:Denis Chiaradonna
+Candidat,Lüthi Badia,Badia Lüthi:Badia Luthi
+Candidat,Clemence Nicolas,Nicolas Clemence:Nicolas Clemence
+Candidat,Vatre Patricia,Patricia Vatre:Patricia Vatre
+Candidat,Zimmermann Michel,Michel Zimmermann:Michel Zimmermann
+Candidat,Viret Dora,Dora Viret:Cécilia Viret:Dora Viret:Cecilia Viret
+Candidat,Velasco Alberto,Alberto Velasco:Alberto Velasco
+Candidat,Fabre Michel,Michel Fabre:Michel Fabre
+Candidat,De Battista Regis,Regis De Battista:Regis De Battista
+Candidat,Deonna Emmanuel,Emmanuel Deonna:Emmanuel Deonna
+Candidat,Tombola Jean-Pierre,Jean-Pierre Tombola:Jean Pierre Tombola
+Candidat,Keel Theo,Theo Keel:Theo Keel
+Candidat,Lapalud Patrick,Patrick Lapalud:Patrick Lapalud
+Candidat,Barry Thierno,Thierno Barry:Thierno Barry
+Candidat,Halimi Hysri,Hysri Halimi:Hysri Halimi
+Candidat,Gajardo Munoz Jorge,Jorge Gajardo Munoz:Jorge Gajardo Munoz
+Candidat,Alonso Unica Manuel,Manuel Alonso Unica:Manuel Alonso Unica
+Candidat,Baldini Frédéric,Frédéric Baldini:Frederic Baldini
+Candidat,Bruchez Thomas,Thomas Bruchez:Thomas Bruchez
+Candidat,Benda Benjamin,Benjamin Benda:Benjamin Benda
+Candidat,Burkhard Roland,Roland Burkhard:Roland Burkhard
+Candidat,Bosshard Pierre Yves,Pierre Yves Bosshard:Pierre Yves Bosshard
+Candidat,Kurteshi Ismet,Ismet Kurteshi:Ismet Kurteshi
+Candidat,Maudet Pierre,Pierre Maudet:Pierre Maudet
+Candidat,Fontanet Nathalie,Nathalie Fontanet:Nathalie Fontanet
+Candidat,De Senarclens Alexandre,Alexandre De Senarclens:Alexandre De Senarclens
+Candidat,De Montmollin Simone,Simone De Montmollin:Simone De Montmollin
+Candidat,Morel Philippe,Philippe Morel:Philippe Morel
+Candidat,Putallaz Jean,Jean Putallaz:Jean Jean Romain:Jean Putallaz:Jean Jean Romain
+Candidat,Saudan Patrick,Patrick Saudan:Patrick Saudan
+Candidat,Selleger Charles,Charles Selleger:Charles Selleger
+Candidat,Uehlinger Pascal,Pascal Uehlinger:Pascal Uehlinger
+Candidat,Vuillod Georges,Georges Vuillod:Georges Vuillod
+Candidat,Wicky Raymond,Raymond Wicky:Raymond Wicky
+Candidat,Zuber Céline,Céline Zuber:Céline Roy:Celine Zuber:Celine Roy
+Candidat,Zweifel Yvan,Yvan Zweifel:Yvan Zweifel
+Candidat,Aellen Cyril,Cyril Aellen:Cyril Aellen
+Candidat,Alder Murat Julian,Murat Julian Alder:Murat Julian Alder
+Candidat,Barbey Alexis,Alexis Barbey:Alexis Barbey
+Candidat,Barde Antoine,Antoine Barde:Antoine Barde
+Candidat,Béné Jacques,Jacques Béné:Jacques Bene
+Candidat,De Candolle Beatriz,Beatriz De Candolle:Beatriz De Candolle
+Candidat,Conne Pierre,Pierre Conne:Pierre Conne
+Candidat,Cuendet Edouard,Edouard Cuendet:Edouard Cuendet
+Candidat,Hardyn Nathalie,Nathalie Hardyn:Nathalie Hardyn
+Candidat,Hiltpold Serge,Serge Hiltpold:Serge Hiltpold
+Candidat,Malek-Asghar Patrick,Patrick Malek-Asghar:Patrick Malek Asghar
+Candidat,Monbaron Fabienne,Fabienne Monbaron:Fabienne Monbaron-Stress:Fabienne Monbaron:Fabienne Monbaron Stress
+Candidat,Morand Louise,Louise Morand:Louise Morand
+Candidat,Nicollier Pierre,Pierre Nicollier:Pierre Nicollier
+Candidat,Oppliger Danielle,Danielle Oppliger:Danielle Oppliger
+Candidat,Orsini Antoine,Antoine Orsini:Antoine Orsini
+Candidat,Pasquier Jean-Pierre,Jean-Pierre Pasquier:Jean Pierre Pasquier
+Candidat,Patek Serge,Serge Patek:Serge Patek
+Candidat,De Planta Francine,Francine De Planta:Francine De Planta
+Candidat,Rana Zolana Ginior,Ginior Rana Zolana:Ginior Rana Zolana
+Candidat,Rigotti Maria,Maria Rigotti:Helena Rigotti:Maria Rigotti:Helena Rigotti
+Candidat,Roullet Michèle,Michèle Roullet:Michele Roullet
+Candidat,Schaller Vincent,Vincent Schaller:Vincent Schaller
+Candidat,Schneebeli Roland-Daniel,Roland-Daniel Schneebeli:Roland Daniel Schneebeli
+Candidat,Senglet Christophe,Christophe Senglet:Christophe Senglet
+Candidat,Serrano Philippe,Philippe Serrano:Philippe Serrano
+Candidat,Sommer Monika,Monika Sommer:Monika Sommer
+Candidat,Steiner Matthieu,Matthieu Steiner:Matthieu Steiner
+Candidat,Subilia Vincent,Vincent Subilia:Vincent Subilia
+Candidat,Taboada Francisco,Francisco Taboada:Francisco Taboada
+Candidat,Tschopp Laurent,Laurent Tschopp:Laurent Tschopp
+Candidat,Wavre Rolin,Rolin Wavre:Rolin Wavre
+Candidat,Wicki Guy,Guy Wicki:Guy Wicki
+Candidat,Wolfisberg François,François Wolfisberg:François Wolfisberg
+Candidat,Agramunt Gian-Reto,Gian-Reto Agramunt:Gian Reto Agramunt
+Candidat,Apothéloz Jacques,Jacques Apothéloz:Jacques Apotheloz
+Candidat,Aubert Nicolas,Nicolas Aubert:Nicolas Aubert
+Candidat,Barbier-Mueller Diane,Diane Barbier-Mueller:Diane Barbier Mueller
+Candidat,Bellingeri Stefano Vito,Stefano Vito Bellingeri:Stefano Vito Bellingeri
+Candidat,Bersier Julie,Julie Bersier:Julie Bersier
+Candidat,Blanch Richard-Pascal,Richard-Pascal Blanch:Pascal Blanch:Richard Pascal Blanch:Pascal Blanch
+Candidat,Böhler Frances,Frances Böhler:Frances Böhler-GoodshipElizabeth BöhlerElizabeth Böhler-Goodship:Frances Bohler:Frances Bohler GoodshipElizabeth BohlerElizabeth Bohler Goodship
+Candidat,Bouvier Christine,Christine Bouvier:Christine Bouvier
+Candidat,Brandt Simon,Simon Brandt:Simon Brandt
+Candidat,Bron Gilles-Olivier,Gilles-Olivier Bron:Gilles Olivier Bron
+Candidat,Brunel Mayori,Mayori Brunel:Mayori Brunel
+Candidat,Burri Rémy,Rémy Burri:Remy Burri
+Candidat,Cornu Renate,Renate Cornu:Renate Cornu
+Candidat,Creffield Conrad,Conrad Creffield:Conrad Creffield
+Candidat,Daher Vincent,Vincent Daher:Vincent Daher
+Candidat,Dérobert Thierry,Thierry Dérobert:Thierry Derobert
+Candidat,Desfayes Natacha,Natacha Desfayes:Natacha Buffet-Desfayes:Natacha Desfayes:Natacha Buffet Desfayes
+Candidat,Douzals Jacques,Jacques Douzals:Jacques Douzals
+Candidat,Fiss Joëlle,Joëlle Fiss:Joelle Fiss
+Candidat,Genecand Adrien,Adrien Genecand:Adrien Genecand
+Candidat,Giacobino Donata,Donata Giacobino:Donata Giacobino-FroidevauxNadia GiacobinoNadia Giacobino-Froidevaux:Donata Giacobino:Donata Giacobino FroidevauxNadia GiacobinoNadia Giacobino Froidevaux
+Candidat,Grand Eric,Eric Grand:Eric Grand
+Candidat,Grognuz Fabien,Fabien Grognuz:Fabien Grognuz
+Candidat,Jay Sylvie,Sylvie Jay:Sylvie Jay
+Candidat,Jud Philippe,Philippe Jud:Philippe Jud
+Candidat,Kämpfen Véronique,Véronique Kämpfen:Veronique Kampfen
+Candidat,Lämmel Valérie,Valérie Lämmel:Valérie Laemmel-Juillard:Valerie Lammel:Valerie Laemmel Juillard
+Candidat,Leiser Jean-Marc,Jean-Marc Leiser:Jean Marc Leiser
+Candidat,Locher Jean,Jean Locher:Jean Locher
+Candidat,Luzzatto Christine,Christine Luzzatto:Christine Luzzatto
+Candidat,Messerli Marie-Claire,Marie-Claire Messerli:Marie Claire Messerli
+Candidat,Meyer Philippe,Philippe Meyer:Philippe Meyer
+Candidat,Barthassat Luc,Luc Barthassat:Luc Barthassat
+Candidat,Dal Busco Serge,Serge Dal Busco:Serge Dal Busco
+Candidat,Buchs Bertrand,Bertrand Buchs:Bertrand Buchs
+Candidat,Aebi Benjamin,Benjamin Aebi:Benjamin Aebi
+Candidat,Angelozzi Philippe,Philippe Angelozzi:Philippe Angelozzi
+Candidat,Von Arx-Vernon Anne-Marie,Anne-Marie Von Arx-Vernon:Anne Marie Von Arx Vernon
+Candidat,Bachmann Delphine,Delphine Bachmann:Delphine Bachmann
+Candidat,Bidaux Patricia,Patricia Bidaux:Patricia Bidaux-Rodriguez:Patricia Bidaux:Patricia Bidaux Rodriguez
+Candidat,Blondin Jacques,Jacques Blondin:Jacques Blondin
+Candidat,Bocquet Claude,Claude Bocquet:Claude Bocquet
+Candidat,Bourbala Djamel,Djamel Bourbala:Djamel Bourbala
+Candidat,Bouvier Jérémy,Jérémy Bouvier:Jeremy Bouvier
+Candidat,Bugnion Jean-Michel,Jean-Michel Bugnion:Jean Michel Bugnion
+Candidat,Casutt Martine,Martine Casutt:Martine Casutt
+Candidat,Cerutti Olivier,Olivier Cerutti:Olivier Cerutti
+Candidat,Chaker Mangeat Alia,Alia Chaker Mangeat:Alia Chaker Mangeat
+Candidat,Chevalier Alexandre,Alexandre Chevalier:Alexandre Chevalier
+Candidat,Decrey Christophe,Christophe Decrey:Christophe Decrey
+Candidat,Deluermoz Cosima,Cosima Deluermoz:Cosima Deluermoz
+Candidat,Desfayes Sébastien,Sébastien Desfayes:Sebastien Desfayes
+Candidat,Dulex Christophe,Christophe Dulex:Christophe Dulex
+Candidat,Dupont Thérèse,Thérèse Dupont:Therese Dupont
+Candidat,Engelberts Marie-Thérèse,Marie-Thérèse Engelberts:Marie-Thérèse Engelberts-Leone:Marie Therese Engelberts:Marie Therese Engelberts Leone
+Candidat,Fischer Daniel,Daniel Fischer:Daniel Fischer
+Candidat,Forni Jean-Luc,Jean-Luc Forni:Jean Luc Forni
+Candidat,Fournier Nicolas,Nicolas Fournier:Nicolas Fournier
+Candidat,Frischknecht Catherine,Catherine Frischknecht:Catherine Frischknecht
+Candidat,Gache Hélène,Hélène Gache:Helene Gache
+Candidat,Gashi Sami,Sami Gashi:Sami Gashi
+Candidat,Giannasi Anthony,Anthony Giannasi:Anthony Giannasi
+Candidat,Giannelli Mark,Mark Giannelli:Mark Giannelli
+Candidat,Gioria Gaëlle,Gaëlle Gioria:Gaelle Gioria
+Candidat,Guinchard Jean-Marc,Jean-Marc Guinchard:Jean Marc Guinchard
+Candidat,De Kalbermatten Alain,Alain De Kalbermatten:Alain De Kalbermatten
+Candidat,Khattabi Hassar Houda,Houda Khattabi Hassar:Houda Khattabi Hassar
+Candidat,Kunz Laurence,Laurence Kunz:Laurence Kunz
+Candidat,Lance François,François Lance:François Lance
+Candidat,Lathion Jean Charles,Jean Charles Lathion:Jean Charles Lathion
+Candidat,Lehner Laurent,Laurent Lehner:Laurent Lehner
+Candidat,Lupo Paolo,Paolo Lupo:Paolo Lupo
+Candidat,Magnin Xavier,Xavier Magnin:Xavier Magnin
+Candidat,Magnin Yves,Yves Magnin:Yves Magnin
+Candidat,Maitre Vincent,Vincent Maitre:Vincent Maitre
+Candidat,Makki Michela,Michela Makki:Michèle Makki:Michela Makki:Michele Makki
+Candidat,Meissner Reyfer Christine,Christine Meissner Reyfer:Christina Meissner Reyfer:Christine Meissner Reyfer:Christina Meissner Reyfer
+Candidat,Merle Emmanuelle,Emmanuelle Merle:Emmanuelle Merle
+Candidat,Mettan Guy,Guy Mettan:Guy Mettan
+Candidat,Meyer De Stadelhofen Philippe,Philippe Meyer De Stadelhofen:Philippe Meyer De Stadelhofen
+Candidat,Mondoux Alexandre,Alexandre Mondoux:Alexandre Mondoux
+Candidat,Moroni Catherine,Catherine Moroni:Catherine Moroni
+Candidat,Neuder Isabelle,Isabelle Neuder:Isabelle Neuder
+Candidat,Ouedraogo Moustapha,Moustapha Ouedraogo:Moustapha Ouedraogo
+Candidat,Perret Vincent,Vincent Perret:Vincent Perret
+Candidat,Pfeiffer Alex,Alex Pfeiffer:Alex Pfeiffer
+Candidat,Progin Christian,Christian Progin:Christian Progin
+Candidat,Putallaz Thomas,Thomas Putallaz:Thomas Putallaz
+Candidat,Rasolo Daniel,Daniel Rasolo:Daniel Rasolo
+Candidat,Ruchet Philippe,Philippe Ruchet:Philippe Ruchet
+Candidat,Rys Alexandra,Alexandra Rys:Alexandra Rys
+Candidat,Saudan Guy,Guy Saudan:Guy Saudan
+Candidat,Sayegh Souheil,Souheil Sayegh:Souheil Sayegh
+Candidat,Scandurra Alessandro,Alessandro Scandurra:Alessandro Scandurra
+Candidat,Schmied Patrick,Patrick Schmied:Patrick Schmied
+Candidat,Schrag Sylvianne,Sylvianne Schrag:Sylvianne Schrag
+Candidat,Simoes Jose,Jose Simoes:Jose Simoes
+Candidat,Sopi Dardan,Dardan Sopi:Dardan Sopi
+Candidat,Squillaci Nicola,Nicola Squillaci:Nicola Squillaci
+Candidat,Steinberg Candrian Melinda,Melinda Steinberg Candrian:Melinda Steinberg Candrian
+Candidat,Tomassi Christine,Christine Tomassi:Christine Tomassi
+Candidat,Tremblet Laurent,Laurent Tremblet:Laurent Tremblet
+Candidat,Uong Dinh Manh,Dinh Manh Uong:Dinh Manh Uong
+Candidat,Völki Robert,Robert Völki:Robert Volki
+Candidat,Vuarnoz Emanuela,Emanuela Vuarnoz:Emanuelle Vuarnoz:Emanuela Vuarnoz:Emanuelle Vuarnoz
+Candidat,Wehrli Patrick,Patrick Wehrli:Patrick Wehrli
+Candidat,Zimmermann Luc,Luc Zimmermann:Luc Zimmermann
+Candidat,Zimmermann Bertrand,Bertrand Zimmermann:Bertrand Zimmermann
+Candidat,Nidegger Yves,Yves Nidegger:Yves Nidegger
+Candidat,Bläsi Thomas,Thomas Bläsi:Thomas Blasi
+Candidat,Florey Stéphane,Stéphane Florey:Stephane Florey
+Candidat,Leyvraz Eric,Eric Leyvraz:Eric Leyvraz
+Candidat,Fuhrmann Marc,Marc Fuhrmann:Marc Fuhrmann
+Candidat,Lussi Patrick,Patrick Lussi:Patrick Lussi
+Candidat,Ivanov Christo,Christo Ivanov:Christo Ivanov
+Candidat,Falquet Marc,Marc Falquet:Marc Falquet
+Candidat,Maendly Norbert,Norbert Maendly:Norbert Maendly
+Candidat,Pfeffer André,André Pfeffer:Andre Pfeffer
+Candidat,Catelain Gilbert,Gilbert Catelain:Gilbert Catelain
+Candidat,Hulliger Patrick,Patrick Hulliger:Patrick Hulliger
+Candidat,Michaud Eliane,Eliane Michaud:Eliane Ansermet:Eliane Michaud:Eliane Ansermet
+Candidat,Scherb Peter,Peter Scherb:Pierre Scherb:Peter Scherb:Pierre Scherb
+Candidat,Stark Riccardo,Riccardo Stark:Richard Stark:Riccardo Stark:Richard Stark
+Candidat,Guinchard Damien,Damien Guinchard:Damien Guinchard
+Candidat,Bisol Walter,Walter Bisol:Walter Bisol
+Candidat,Masé Zora,Zora Masé:Zora Mase
+Candidat,Velen François,François Velen:François Velen
+Candidat,Knörr Stephen,Stephen Knörr:Stephen Knorr
+Candidat,Rubeli Pascal,Pascal Rubeli:Pascal Rubeli
+Candidat,Lyon Didier,Didier Lyon:Didier Lyon
+Candidat,Perrenoud Philippe,Philippe Perrenoud:Philippe Perrenoud
+Candidat,Dutruit André,André Dutruit:Andre Dutruit
+Candidat,Altenbach Pascal,Pascal Altenbach:Pascal Altenbach
+Candidat,Queffélec Philippe,Philippe Queffélec:Philippe Queffelec
+Candidat,Laporte Claude,Claude Laporte:Claude Laporte
+Candidat,Conti Virna,Virna Conti:Virna Conti
+Candidat,Parel Loïc,Loïc Parel:Loic Parel
+Candidat,Heddi Leila,Leila Heddi:Leila Heddi
+Candidat,Gomes De Almeida José,José Gomes De Almeida:Manuel Gomes De Almeida:Jose Gomes De Almeida:Manuel Gomes De Almeida
+Candidat,Bertinat Marie-Agnès,Marie-Agnès Bertinat:Marie Agnes Bertinat
+Candidat,Mounla Alexandre,Alexandre Mounla:Alexandre Mounla
+Candidat,Dournow David,David Dournow:David Dournow
+Candidat,Chaussivert Patrice,Patrice Chaussivert:Patrice Chaussivert
+Candidat,Knoll Tatiana,Tatiana Knoll:Tatiana Knoll
+Candidat,Rime Alexandre,Alexandre Rime:Alexandre Rime
+Candidat,Desyatkina Dzodziev Viktoriya,Viktoriya Desyatkina Dzodziev:Viktoriya Desyatkina Dzodziev
+Candidat,Thomas Sébastien,Sébastien Thomas:Sebastien Thomas
+Candidat,Romanens Mathieu,Mathieu Romanens:Mathieu Romanens
+Candidat,Schweizer Adriana,Adriana Schweizer:Adriana Schweizer
+Candidat,Khachatryan Gohar,Gohar Khachatryan:Gohar Khachatryan
+Candidat,Prando Stéphane,Stéphane Prando:Stephane Prando
+Candidat,Borer Maria Da Conceicao,Maria Da Conceicao Borer:Maria Da Conceicao Borer
+Candidat,Akaba El Mostafa,El Mostafa Akaba:El Mostafa Akaba
+Candidat,Léguillon Angèle,Angèle Léguillon:Angele Leguillon
+Candidat,Bontoux Caroline,Caroline Bontoux:Caroline Bontoux
+Candidat,Honegger Heller Manuela,Manuela Honegger Heller:Manuela Honegger Heller
+Candidat,Ocharan Robles Rapaz Eva,Eva Ocharan Robles Rapaz:Eva Ocharan Robles:Eva Ocharan Robles Rapaz:Eva Ocharan Robles
+Candidat,Da Cruz Pedro Anna,Anna Da Cruz Pedro:Anna Da Cruz Perret-Gentil:Anna Da Cruz Pedro:Anna Da Cruz Perret Gentil
+Candidat,Borcard Anne,Anne Borcard:Anne Borcard
+Candidat,Müller Fabienne,Fabienne Müller:Fabienne Abramovich:Fabienne Muller:Fabienne Abramovich
+Candidat,Yol Diana,Diana Yol:Diana Yol
+Candidat,Randegger Alice,Alice Randegger:Alice Randegger
+Candidat,Depraetere Graciela,Graciela Depraetere:Graciela Depraetere-Manulis:Graciela Depraetere:Graciela Depraetere Manulis
+Candidat,Ozdemir Elcim,Elcim Ozdemir:Elcim ÖzdemirElçim OzdemirElçim Özdemir:Elcim Ozdemir:Elcim ÖzdemirElçim OzdemirElçim Özdemir
+Candidat,Ricciardi Werlen Jacqueline,Jacqueline Ricciardi Werlen:Jacqueline Ricciardi Werlen
+Candidat,Rossier Fahrion Cerise,Cerise Rossier Fahrion:Cerise Rossier Fahrion
+Candidat,Boselli Gauthey Monica,Monica Boselli Gauthey:Monica Boselli Gauthey
+Candidat,Lavrador Dias Claudia,Claudia Lavrador Dias:Claudia Dias:Claudia Lavrador Dias:Claudia Dias
+Candidat,Jauch Caroline,Caroline Jauch:Caroline Jauch
+Candidat,Grange Marie-Florence,Marie-Florence Grange:Marie Florence Grange
+Candidat,Mazzoni Nikita,Nikita Mazzoni:Nikita Mazzoni
+Candidat,Langer Valérie,Valérie Langer:Valerie Langer
+Candidat,Mayoral Edo Corinne,Corinne Mayoral Edo:Corinne Mayoral:Corinne Mayoral Edo:Corinne Mayoral
+Candidat,Thomias Leduc Diana,Diana Thomias Leduc:Diana Thomias Leduc
+Candidat,Orsini Magali,Magali Orsini:Magali Orsini
+Candidat,Gauthier Pierre,Pierre Gauthier:Pierre Gauthier
+Candidat,Armand Catherine,Catherine Armand:Catherine Armand
+Candidat,Guex Stéphane,Stéphane Guex:dit Guex-Pierre Guex:Stephane Guex:dit Guex Pierre Guex
+Candidat,Humberset Corinne,Corinne Humberset:Corinne Humberset
+Candidat,Ruckterstuhl Jean-Claude,Jean-Claude Ruckterstuhl:Jean Claude Ruckterstuhl
+Candidat,Longo Katrin,Katrin Longo:Katrin Longo
+Candidat,Girod Nicolas,Nicolas Girod:Nicolas Girod
+Candidat,Küderli Berkane Nicole,Nicole Küderli Berkane:Nicole Kuderli Berkane
+Candidat,Flaks Joël,Joël Flaks:Joel Flaks
+Candidat,Perrin Brigitte,Brigitte Perrin:Brigitte Perrin
+Candidat,Goudal Renaud,Renaud Goudal:Renaud Goudal
+Candidat,Meynet Danielle,Danielle Meynet:Danielle Meynet
+Candidat,Meynet Leon,Leon Meynet:Leon Meynet
+Candidat,Turnowsky Serge,Serge Turnowsky:Serge Turnowsky
+Candidat,Zimmermann Olivier,Olivier Zimmermann:Olivier Zimmermann
+Candidat,Chatelain Dimitri,Dimitri Chatelain:Dimitri Chatelain
+Candidat,Stauffer Eric,Eric Stauffer:Eric Stauffer
+Candidat,Zacharias Ronald,Ronald Zacharias:Ronald Zacharias
+Candidat,Saraiva Medeiros Carlos,Carlos Saraiva Medeiros:Carlos Saraiva Medeiros
+Candidat,Spühler Pascal,Pascal Spühler:Pascal Spuhler
+Candidat,Gaetanino Marco,Marco Gaetanino:Marco Gaetanino
+Candidat,Le Jeune Giacobbi Cristina,Cristina Le Jeune Giacobbi:Cristina Le Jeune Giacobbi
+Candidat,Walther Thierry,Thierry Walther:Thierry Walther
+Candidat,Hüssy Coppex Viviana Ximena Anghela,Viviana Ximena Anghela Hüssy Coppex:Viviana Ximena Anghela Hussy Coppex
+Candidat,Loeillet-Rouzier Anne,Anne Loeillet-Rouzier:Marie Loeillet-Rouzier:Anne Loeillet Rouzier:Marie Loeillet Rouzier
+Candidat,Fusco Gerardo,Gerardo Fusco:Gerardo Fusco
+Candidat,Gamberoni Dominique,Dominique Gamberoni:Dominique Gamberoni
+Candidat,Nobs Cyril,Cyril Nobs:Cyril Nobs
+Candidat,Noël Daniel,Daniel Noël:Daniel Noel
+Candidat,Santi Michel,Michel Santi:Michel Santi
+Candidat,Picot Jérôme,Jérôme Picot:Jerome Picot
+Candidat,Ruchonnet Jean-François,Jean-François Ruchonnet:Jean François Ruchonnet
+Candidat,Galetto Frédéric,Frédéric Galetto:Frederic Galetto
+Candidat,Beck Victoria,Victoria Beck:Victoria Beck
+Candidat,Antoine Jean-Marc,Jean-Marc Antoine:Jean Marc Antoine
+Candidat,Rime Fatma,Fatma Rime:Fatima Rime:Fatma Rime:Fatima Rime
+Candidat,L'Huillier Eric,Eric L'Huillier:Eric L Huillier
+Candidat,Paraná Júnior Valério,Valério Paraná Júnior:Valerio Paraná Júnior
+Candidat,Lota Raphaëlle,Raphaëlle Lota:Raphaelle Lota
+Candidat,Thomsen Elena,Elena Thomsen:Elena Milakova:Elena Thomsen:Elena Milakova
+Candidat,Ballesteros Stefan,Stefan Ballesteros:Stefan Ballesteros
+Candidat,Fabre Jean,Jean Fabre:Jean Fabre
+Candidat,Nguyen Van Minh,Van Minh Nguyen:Van Minh Nguyen
+Candidat,Martel Frédéric,Frédéric Martel:Frederic Martel
+Candidat,Frey Priscilla,Priscilla Frey:Priscilla Frey
+Candidat,Brkic Vitomir,Vitomir Brkic:Vitomir Brkic
+Candidat,Levy Yossef,Yossef Levy:Hai Levy:Yossef Levy:Hai Levy
+Candidat,Bissoli Marion,Marion Bissoli:Marion Le Bacquer:Marion Bissoli:Marion Le Bacquer
+Candidat,Cohen Olivier,Olivier Cohen:Olivier Cohen
+Candidat,Bruguier Michel,Michel Bruguier:Michel Bruguier
+Candidat,Solteiro Jorge,Jorge Solteiro:Jorge Solteiro
+Candidat,Halimi Arsim,Arsim Halimi:Arsim Halimi
+Candidat,Berlemont Alain,Alain Berlemont:Alain Berlemont
+Candidat,Gargantini Yves,Yves Gargantini:Yves Gargantini
+Candidat,Maigre Maria Inès,Maria Inès Maigre:Maria Ines Maigre
+Candidat,Farinha Horacio,Horacio Farinha:Horacio Farinha
+Candidat,Vidonne Thierry,Thierry Vidonne:Thierry Vidonne
+Candidat,Leitner André,André Leitner:Andre Leitner
+Candidat,Delacquis Cédric,Cédric Delacquis:Cedric Delacquis
+Candidat,Zagato Sophie,Sophie Zagato:Sophie Zagato
+Candidat,Vidonne Valérie,Valérie Vidonne:Valerie Vidonne
+Candidat,Ferrand Guy,Guy Ferrand:Guy Ferrand
+Candidat,Kunzi Nicolas,Nicolas Kunzi:Nicolas Kunzi
+Candidat,Kugel Mark,Mark Kugel:Mark Kugel
+Candidat,Thurnherr Laurent,Laurent Thurnherr:Laurent Thurnherr
+Candidat,Vidonne David,David Vidonne:David Vidonne
+Candidat,Beureux Silvain,Silvain Beureux:Silvain Beureux
+Candidat,Kunzi Philippe,Philippe Kunzi:Philippe Kunzi
+Candidat,Fader Annette,Annette Fader:Yasuka Fader:Annette Fader:Yasuka Fader
+Candidat,Thurnherr Sylvain,Sylvain Thurnherr:Sylvain Thurnherr
+Candidat,Beureux Johan,Johan Beureux:Johan Beureux
+Candidat,Poggia Mauro,Mauro Poggia:Mauro Poggia
+Candidat,Golay Roger,Roger Golay:Roger Golay
+Candidat,Roch Ana Belen,Ana Belen Roch:Ana Belen Roch
+Candidat,Sormanni Daniel,Daniel Sormanni:Daniel Sormanni
+Candidat,Cerutti Thierry,Thierry Cerutti:Thierry Cerutti
+Candidat,Voumard Jean Marie,Jean Marie Voumard:Jean Marie Voumard
+Candidat,Le Joncour-Brülhart Céline,Céline Le Joncour-Brülhart:Celine Le Joncour Brulhart
+Candidat,Bärtschi François,François Bärtschi:François Bartschi
+Candidat,Pistis Sandro,Sandro Pistis:Sandro Pistis
+Candidat,Derouette Jean-Paul,Jean-Paul Derouette:Jean Paul Derouette
+Candidat,Magnin Danièle,Danièle Magnin:Daniele Magnin
+Candidat,Valentin Francisco,Francisco Valentin:Francisco Valentin
+Candidat,Sapin Françoise,Françoise Sapin:Françoise Sapin
+Candidat,Flury Christian,Christian Flury:Christian Flury
+Candidat,Golay Sandra,Sandra Golay:Sandra Golay
+Candidat,Python André,André Python:Andre Python
+Candidat,Rappaz Henry,Henry Rappaz:Henry Rappaz
+Candidat,Gander Florian,Florian Gander:Florian Gander
+Candidat,Decorvet Christian,Christian Decorvet:Christian Decorvet
+Candidat,Sonderegger Gabriela,Gabriela Sonderegger:Gabriela Sonderegger
+Candidat,Dimier Patrick,Patrick Dimier:Patrick Dimier
+Candidat,Fontaine-Vive-Curtaz Jean,Jean Fontaine-Vive-Curtaz:Jean Fontaine Vive Curtaz
+Candidat,Saas Alexandra,Alexandra Saas:Alexandra Saas
+Candidat,Zogg Thomas,Thomas Zogg:Thomas Zogg
+Candidat,Pascarella Louise,Louise Pascarella:Louise Pascarella
+Candidat,Fekkak Hatem,Hatem Fekkak:Hatem Fekkak
+Candidat,Angelo Antonio,Antonio Angelo:Antonio Angelo
+Candidat,Cattin Jean-Pascal,Jean-Pascal Cattin:Jean Pascal Cattin
+Candidat,Baryeka Jarek,Jarek Baryeka:Jarek Baryeka
+Candidat,Reichenbach Kevin,Kevin Reichenbach:Kevin Reichenbach
+Candidat,Chapou Frédéric,Frédéric Chapou:Frederic Chapou
+Candidat,Madani Amar,Amar Madani:Amar Madani
+Candidat,Leisi Laurent,Laurent Leisi:Laurent Leisi
+Candidat,Oudin Rémy,Rémy Oudin:Remy Oudin
+Candidat,Villette Jean,Jean Villette:Jean Villette
+Candidat,Ambrosio François,François Ambrosio:François Ambrosio
+Candidat,Teixeira Albano,Albano Teixeira:Albano Teixeira
+Candidat,Frauchiger Roger,Roger Frauchiger:Roger Frauchiger
+Candidat,Dellagiovanna Daniel,Daniel Dellagiovanna:Daniel Dellagiovanna
+Candidat,Roulin Claude,Claude Roulin:Claude Roulin
+Candidat,Couto Armando,Armando Couto:Armando Couto
+Candidat,Nieto Alexandre,Alexandre Nieto:Alexandre Nieto
+Candidat,Chaoui Laïla,Laïla Chaoui:Laila Chaoui
+Candidat,Sotomayor André,André Sotomayor:Andre Sotomayor
+Candidat,Do Rego Ricardo,Ricardo Do Rego:Ricardo Do Rego
+Candidat,Vendrell Marie,Marie Vendrell:Marie Vendrell
+Candidat,Ménétrey Yasmine,Yasmine Ménétrey:Yasmine Menetrey
+Candidat,Angeloz Claude,Claude Angeloz:Claude Angeloz
+Candidat,Laurent Pierre-Alain,Pierre-Alain Laurent:Pierre Alain Laurent
+Candidat,Jahija Burim,Burim Jahija:Burim Jahija
+Candidat,Di Salvo Giuseppe,Giuseppe Di Salvo:Giuseppe Di Salvo
+Candidat,Heimo Philippe,Philippe Heimo:Philippe Heimo
+Candidat,Chappaz Marc,Marc Chappaz:Marc Chappaz
+Candidat,Barry Minkailou,Minkailou Barry:Minkailou Barry
+Candidat,Catalan Joëlle,Joëlle Catalan:Joelle Catalan
+Candidat,Reolon Bruno,Bruno Reolon:Bruno Reolon
+Candidat,Albanesi Jean-François,Jean-François Albanesi:Jean François Albanesi
+Candidat,Klingele Olivier,Olivier Klingele:Olivier Klingele
+Candidat,Bencker Jeanne,Jeanne Bencker:Jeanne Bencker
+Candidat,Marguet Tex,Tex Marguet:Tex Marguet
+Candidat,Delmenico Janine,Janine Delmenico:Janine Delmenico
+Candidat,Shlyapina Elena,Elena Shlyapina:Elena Shlyapina
+Candidat,Mudry Yves,Yves Mudry:Yves Mudry
+Candidat,Gostoli Gérard,Gérard Gostoli:Gerard Gostoli
+Candidat,Yau Helen,Helen Yau:Helen Yau
+Candidat,Innocenti Flavio,Flavio Innocenti:Flavio Innocenti
+Candidat,Cover Sabina,Sabina Cover:Sabina Cover
+Candidat,Ambord Cédric,Cédric Ambord:Sandro Ambord:Cedric Ambord:Sandro Ambord
+Candidat,Garcia Javier,Javier Garcia:Javier Garcia
+Candidat,Belcastro De Luca Nathalie,Nathalie Belcastro De Luca:Nathalie Belcastro De Luca
+Candidat,Zbinden Jean-Luc,Jean-Luc Zbinden:Jean Luc Zbinden
+Candidat,Ahdab Ahmad,Ahmad Ahdab:Chawki Ahdab:Ahmad Ahdab:Chawki Ahdab
+Candidat,Baiunco Aurora,Aurora Baiunco:Aurora Baiunco
+Candidat,Oliveira Rui,Rui Oliveira:Rui Oliveira
+Candidat,Pastore Daniel,Daniel Pastore:Dany Pastore:Daniel Pastore:Dany Pastore
+Candidat,Draskovic Rada,Rada Draskovic:Rada Draskovic
+Candidat,Haymoz William,William Haymoz:William Haymoz
+Candidat,Besse Muriel,Muriel Besse:Muriel Besse
+Candidat,Naine Marie-Josée,Marie-Josée Naine:Marie Josee Naine
+Candidat,Gharbi Mohamed,Mohamed Gharbi:Mohamed Gharbi
+Candidat,Loosli Bertille,Bertille Loosli:Clarence Loosli:Bertille Loosli:Clarence Loosli
+Candidat,Emonet Sarah,Sarah Emonet:Sarah Emonet
+Candidat,Müller Olivier,Olivier Müller:Olivier Muller
+Candidat,Loddo Olivier,Olivier Loddo:Olivier Henrioud:Olivier Loddo:Olivier Henrioud
+Candidat,Ben Chaabane Salah,Salah Ben Chaabane:Salah Ben Chaabane
+Candidat,De Oliveira Nunes Vitor,Vitor De Oliveira Nunes:Vitor De Oliveira Nunes
+Candidat,Martignoni Alain,Alain Martignoni:Alain Martignoni
+Candidat,Maréchal Christophe,Christophe Maréchal:Christophe Marechal
+Candidat,Spagnolo Salvatore,Salvatore Spagnolo:Salvatore Spagnolo
+Candidat,Pierre Toussaint Sircee,Sircee Pierre Toussaint:Sircee Pierre Toussaint
+Candidat,Steiner Christian,Christian Steiner:Christian Steiner
+Candidat,Beun Christine,Christine Beun:Kristine Beun:Christine Beun:Kristine Beun
+Candidat,Bissat Rose,Rose Bissat:Marie Angeline Bissat:Rose Bissat:Marie Angeline Bissat
+Candidat,Guisy Milène,Milène Guisy:Milene Guisy
+Candidat,Martin Emmanuel,Emmanuel Martin:Emmanuel Martin
+Candidat,Dussan Julien,Julien Dussan:Julien Dussan
+Candidat,Bonvin Philippe,Philippe Bonvin:Philippe Bonvin
+Candidat,Sauser Nicolas,Nicolas Sauser:Nicolas Sauser
+Candidat,Ryser Alain,Alain Ryser:Alain Ryser
+Candidat,Monney Armand,Armand Monney:Armand Monney
+Candidat,Peyraud Alexandre,Alexandre Peyraud:Alexandre Peyraud
+Candidat,Häusermann Elisabeth,Elisabeth Häusermann:Elisabeth Hausermann
+Candidat,Gautrot Maria Magdalena,Maria Magdalena Gautrot:Marielena Gautrot:Maria Magdalena Gautrot:Marielena Gautrot
+Candidat,Fontana Jérôme,Jérôme Fontana:Jerome Fontana
+Candidat,Piguet Frédéric,Frédéric Piguet:Paul Piguet:Frederic Piguet:Paul Piguet
+Candidat,Wuarin Marc,Marc Wuarin:Marc Wuarin
+Candidat,Samim Firouzsalari Atefeh,Atefeh Samim Firouzsalari:Atefeh Samim Firouzsalari
+Candidat,Bustamante Hernandez Eric,Eric Bustamante Hernandez:Eric Bustamante Hernandez
+Candidat,Hamoir Fursy,Fursy Hamoir:Fursy Hamoir
+Candidat,Preisig Robert,Robert Preisig:Robert Preisig
+Candidat,Jeanmonod Christian,Christian Jeanmonod:Christian Jeanmonod
+Candidat,Meylan Jean Michel,Jean Michel Meylan:Jean Michel Meylan
+Candidat,Cori Claudio,Claudio Cori:Claudio Cori
+Candidat,Wittwer Christoph,Christoph Wittwer:Christoph Wittwer
+Candidat,Besomi Alessandro,Alessandro Besomi:Alex Besomi:Alessandro Besomi:Alex Besomi
+Candidat,Ritter Sven,Sven Ritter:Sven Ritter
+Candidat,Duvnjak Sanja,Sanja Duvnjak:Sanja Duvnjak
+Candidat,Frammery Chloe,Chloe Frammery:Chloe Frammery
+Candidat,Fouda Amougou Charlotte,Charlotte Fouda Amougou:Charlotte Fouda Amougou
+Candidat,Scheller Gérard,Gérard Scheller:Gerard Scheller
+Candidat,Rossellat Blaise,Blaise Rossellat:Blaise Rossellat
+Candidat,Dachroune Samir,Samir Dachroune:Samir Dachroune
+Candidat,Bult Christoph,Christoph Bult:Christoph Bult
+Candidat,Monshengwo Jessica,Jessica Monshengwo:Jessica Monshengwo
+Candidat,Lopez Julien,Julien Lopez:Julien Lopez
+Candidat,Fraudeau Delphine,Delphine Fraudeau:Delphine Fraudeau
+Candidat,Abesse Hayet,Hayet Abesse:Hayet Abesse
+Candidat,Golay Séverine,Séverine Golay:Severine Golay
+Candidat,Jordan Claude,Claude Jordan:Claude Jordan
+Candidat,Regamey Murielle,Murielle Regamey:Murielle Regamey
+Candidat,Schucani Grégoire,Grégoire Schucani:Gregoire Schucani
+Candidat,Amberger Axel,Axel Amberger:Axel Amberger
+Candidat,Aymon Paul,Paul Aymon:dit Paul Sierre Aymon:Paul Aymon:dit Paul Sierre Aymon
+Candidat,Cretegny Willy,Willy Cretegny:Willy Cretegny
+Candidat,Amsler Susanne,Susanne Amsler:Susanne Amsler

@@ -1,0 +1,7 @@
+﻿query,topIntent,topScore,entityMatches
+Taux de participation à choulex,IntentTauxParticipationParLocal,,"{""LocalDeVote"":[""Choulex""]}"
+Taux de participation à Aire-la-Ville,IntentTauxParticipationParLocal,,"{""LocalDeVote"":[""Aire-la-Ville""]}"
+Taux de participation à aire-la-ville,IntentTauxParticipationParLocal,,"{""LocalDeVote"":[""Aire-la-Ville""]}"
+Taux de participation à aire la ville,IntentTauxParticipationParLocal,,"{""LocalDeVote"":[""Aire-la-Ville""]}"
+Taux de participation à Anières,IntentTauxParticipationParLocal,,"{""LocalDeVote"":[""Anières""]}"
+Taux de participation à anieres,IntentTauxParticipationParLocal,,"{""LocalDeVote"":[""Anières""]}"

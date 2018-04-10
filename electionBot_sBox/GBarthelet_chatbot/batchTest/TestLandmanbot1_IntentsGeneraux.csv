@@ -1,0 +1,15 @@
+﻿query,topIntent,topScore,entityMatches
+bonjour,IntentWelcome,0.9721,{}
+résultats,IntentResultatElections,0.9211,{}
+Quels sont les résultats du grand conseil ?,IntentResultatElections,0.8404,"{""TypeElection"":[""GC""]}"
+Quels sont les résultats du conseil d'état ?,IntentResultatElections,0.9064,"{""TypeElection"":[""CE""]}"
+change,IntentChangeElectionType,0.9697,{}
+quels sont les résultats de Pierre Maudet ?,IntentResultatParCandidat,0.8942,"{""Candidat"":[""Maudet Pierre""]}"
+et pour Axel Amberger ?,IntentResultatParCandidat,0.9577,"{""Candidat"":[""Amberger Axel""]}"
+taux de participation,IntentTauxParticipation,0.9359,{}
+et pour le grand conseil ?,IntentChangeElectionType,0.9664,"{""TypeElection"":[""GC""]}"
+répartition des suffrages,IntentResultatGC,0.9795,{}
+résultats grand conseil,IntentResultatElections,0.9273,"{""TypeElection"":[""GC""]}"
+répartition des suffrages,IntentResultatGC,0.9795,{}
+résultats conseil d'état,IntentResultatElections,0.9428,"{""TypeElection"":[""CE""]}"
+répartition des suffrages,IntentResultatGC,0.9795,{}
