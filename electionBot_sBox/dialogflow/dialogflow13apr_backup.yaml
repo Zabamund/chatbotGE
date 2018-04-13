@@ -255,8 +255,8 @@ states:
   resultsByCandidateCallBackofficeCandidateResultsCanton:
     component: "resultCandidateCanton" #1
     properties:
-        candidateName: "${candidateName.value}"
-        resultType: "${resultType.value}"
+      candidateName: "${candidateName.value}"
+      resultType: "${resultType.value}"
     transitions: {} 
 
   resultsByCandidateOutput: 
@@ -300,10 +300,10 @@ states:
       
   # Backend Call #2
   returnBiffeCandidate:
-     component: "returnBiffeCandidate" #2
-     properties:
-        candidateName: "${candidateName.value}"
-        resultType: "${resultType.value}"
+    component: "returnBiffeCandidate" #2
+    properties:
+      candidateName: "${candidateName.value}"
+      resultType: "${resultType.value}"
         
   nombreFoisCandidatBiffeOutput:
     component: "System.Output"
@@ -614,15 +614,9 @@ states:
           - title: "${electedCandidates.candidateName}"
             description: "Liste: ${listName.value} Suffrages: ${electedCandidates.suffrages}\n${electedCandidates.equality}" 
             iteratorVariable: "electedCandidates"
-      processUserMessage: true  
+      processUserMessage: true
+      keepTurn: true
     transitions: {}
-      
-  resetCandidateByList:
-    component: "System.ResetVariables"
-    properties:
-      variableList: "listName,resultType"
-    transitions:
-      next: "checkIntent"
   
 # suggest résultat pour une autre liste  
   whoIsElectedForAListSuggestListbox:
@@ -740,13 +734,6 @@ states:
             iteratorVariable: "notElectedCandidates"
       processUserMessage: true  
     transitions: {}
-      
-  resetNotElectedCandidateByList:
-    component: "System.ResetVariables"
-    properties:
-      variableList: "listName,resultType"
-    transitions:
-      next: "checkIntent"
 
 # suggest résultat pour une autre liste  
   whoINotsElectedForAListSuggestListbox:
@@ -781,7 +768,7 @@ states:
       resultType: "${resultType.value}"
     transitions: {}
 
-  resultatCEOutput: #===========================================output ${electedCandidatesCanton} is an empty array. no error but empty
+  resultatCEOutput:
     component: "System.Output"
     properties:
       text: "Pour les ${timeStampElectedCandidatesCanton?lower_case}, les résultat de l'élection au Conseil d'Etat sont ${electedCandidatesCanton}"
@@ -927,7 +914,7 @@ states:
   helpForAskOtherStart:
     component: "System.Output"
     properties:
-      text: "TODO Bientôt je vous aiderai à choisir d'autres résultats si vous le voulez pour le type d'élection ${resultType.value!\"null\"} que vous avez choisi."
+      text: "TODO Bientôt je vous aiderai à choisir d'autres résultats si vous le voulez pour le type d'élection ${resultType.value!\"null\"} que vous aÍ choisi."
     transitions:
       next: "checkIntent"
 
