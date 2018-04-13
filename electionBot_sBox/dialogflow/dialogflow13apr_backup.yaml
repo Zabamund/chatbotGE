@@ -304,6 +304,15 @@ states:
       candidateName: "${candidateName.value}"
       resultType: "${resultType.value}"
     transitions: {} 
+    
+  #BEC1_conditionExists:
+  #  component: "System.ConditionExists"
+  #  properties:
+  #    variable: "candidateName,resultType"
+  #  transitions:
+  #    actions:
+  #      exists: "resultsByCandidateOutput"
+  #      notexists: "didNotUnderstand"
 
   resultsByCandidateOutput: 
     component: "System.Output"
@@ -350,6 +359,15 @@ states:
     properties:
       candidateName: "${candidateName.value}"
       resultType: "${resultType.value}"
+      
+  #BEC2_conditionExists:
+  #  component: "System.ConditionExists"
+  #  properties:
+  #    variable: "candidateName,resultType"
+  #  transitions:
+  #    actions:
+  #      exists: "nombreFoisCandidatBiffeOutput"
+  #      notexists: "didNotUnderstand"
         
   nombreFoisCandidatBiffeOutput:
     component: "System.Output"
@@ -471,6 +489,15 @@ states:
        listName: "${listName.value}"
        resultType: "${resultType.value}"
      transitions: {}
+     
+  #BEC3_conditionExists:
+  #  component: "System.ConditionExists"
+  #  properties:
+  #    variable: "listName,resultType"
+  #  transitions:
+  #    actions:
+  #      exists: "resultsByListOutput"
+  #      notexists: "didNotUnderstand"
         
   resultsByListOutput:
     component: "System.Output"
@@ -642,6 +669,15 @@ states:
       resultType: "${resultType.value}"
     transitions: {}
     
+  #BEC4_conditionExists:
+  #  component: "System.ConditionExists"
+  #  properties:
+  #    variable: "listName,resultType"
+  #  transitions:
+  #    actions:
+  #      exists: "printTimeStampElectedCandidatesByList"
+  #      notexists: "didNotUnderstand"
+    
   printTimeStampElectedCandidatesByList:
     component: "System.Output"
     properties:
@@ -761,6 +797,15 @@ states:
       resultType: "${resultType.value}"
     transitions: {}
     
+  #BEC5_conditionExists:
+  #  component: "System.ConditionExists"
+  #  properties:
+  #    variable: "listName,resultType"
+  #  transitions:
+  #    actions:
+  #      exists: "printTimeStampNotElectedCandidatesByList"
+  #      notexists: "didNotUnderstand"
+    
   printTimeStampNotElectedCandidatesByList:
     component: "System.Output"
     properties:
@@ -814,7 +859,16 @@ states:
     properties:
       resultType: "${resultType.value}"
     transitions: {}
-
+    
+  #BEC6_conditionExists:
+  #  component: "System.ConditionExists"
+  #  properties:
+  #    variable: "resultType"
+  #  transitions:
+  #    actions:
+  #      exists: "resultatCEOutput"
+  #      notexists: "didNotUnderstand"
+    
   resultatCEOutput:
     component: "System.Output"
     properties:
@@ -837,6 +891,15 @@ states:
     properties:
       resultType: "${resultType.value}"
     transitions: {}
+    
+  #BEC7_conditionExists:
+  #  component: "System.ConditionExists"
+  #  properties:
+  #    variable: "resultType"
+  #  transitions:
+  #    actions:
+  #      exists: "printTimeStampAllPartiesSeats"
+  #      notexists: "didNotUnderstand"
   
   printTimeStampAllPartiesSeats:
     component: "System.Output"
@@ -887,6 +950,16 @@ states:
      component: "resultPartecipation" #8
      properties:
         resultType: "${resultType.value}"
+        
+  #BEC8_conditionExists:
+  #  component: "System.ConditionExists"
+  #  properties:
+  #    variable: "resultType"
+  #  transitions:
+  #    actions:
+  #      exists: "printPartecipation"
+  #      notexists: "didNotUnderstand"
+        
   printPartecipation:
       component: "System.Output"  
       properties:
@@ -943,6 +1016,15 @@ states:
         comuneName: "${comuneName.value}"
         resultType: "${resultType.value}"
     transitions: {} 
+    
+  #BEC9_conditionExists:
+  #  component: "System.ConditionExists"
+  #  properties:
+  #    variable: "comuneName,resultType"
+  #  transitions:
+  #    actions:
+  #      exists: "printComune"
+  #      notexists: "didNotUnderstand"
 
   printComune: 
     component: "System.Output"
