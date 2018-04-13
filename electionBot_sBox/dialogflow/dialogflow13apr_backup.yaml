@@ -81,11 +81,12 @@ states:
       # translate: 
     transitions:
       actions:
+        IntentMenu: "resetVariablesContextMenu"
         IntentWelcome: "greet"
         IntentJoke: "tellAJoke"
         IntentDebug: "tellDebug"
         IntentResultatElections: "resultsStart"
-        IntentResultatGC: "resultatGCStart"
+        IntentResultatGC: "resultsStart"
         IntentChangeElectionType: "changeElectionTypeStart"
         IntentResultatParCandidat: "resultsByCandidateStart"
         IntentNbreFoisCandidatBiffe: "nombreFoisCandidatBiffeStart"
@@ -95,7 +96,52 @@ states:
         IntentListeElusParListe: "whoIsElectedForAListStart"
         IntentListeNonElusParListe: "whoIsNotElectedForAListStart"
         unresolvedIntent: "didNotUnderstand"
-
+  
+  #Context menu/help
+  resetVariablesContextMenu:
+    component: "System.ResetVariables"
+    properties:
+      variableList: "candidateName,resultType,listName,comuneName"
+    transitions:
+      next: "contextMenu"
+  
+  contextMenu:
+    component: "System.List"
+    properties:
+      prompt: "Comment puis-je vous aider?"
+      options:
+      - label: "Une blague ?"
+        value: "tellAJoke"
+      - label: "Les résultats des élections ?"
+        value: "resultsStart"
+      - label: "Les résultats pour un candidat ?"
+        value: "resultsByCandidateStart"
+      - label: "Le nombre de fois qu'un(e) candidate(e) a été biffé(e)"
+        value: "nombreFoisCandidatBiffeStart"
+      - label: "Le taux de participation ?"
+        value: "participationRateStart"
+      - label: "Le taux de participation pour un local de vote ?"
+        value: "participationRateByLocalStart"
+      - label: "Les résultats d'une liste ?"
+        value: "resultsByListStart"
+      - label: "Les candidat(e)s élu(e)s par liste ?"
+        value: "whoIsElectedForAListStart"
+      - label: "Les candidat(e)s non-élu(e)s par liste"
+        value: "whoIsNotElectedForAListStart"
+      maxPrompts: 1
+    transitions:
+      actions:
+        tellAJoke: "tellAJoke"
+        resultsStart: "resultsStart"
+        resultsByCandidateStart: "resultsByCandidateStart"
+        nombreFoisCandidatBiffeStart: "nombreFoisCandidatBiffeStart"
+        participationRateStart: "participationRateStart"
+        participationRateByLocalStart: "participationRateByLocalStart"
+        resultsByListStart: "resultsByListStart"
+        whoIsElectedForAListStart: "whoIsElectedForAListStart"
+        whoIsNotElectedForAListStart: "whoIsNotElectedForAListStart"
+        textReceived: "checkIntent"
+    
 # welcome        
   greet:
     component: "System.Output"
@@ -107,7 +153,7 @@ states:
   greet2:
     component: "System.Output"
     properties:
-     text: "Comment puis-je vous aider ?"
+     text: "Comment puis-je vous aider ?\n(vous pouvez toujours taper \"menu\" pour obtenir de l'aide)"
     transitions:
       next: "checkIntent"
 
