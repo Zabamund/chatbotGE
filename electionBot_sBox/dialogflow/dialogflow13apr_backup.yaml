@@ -1,0 +1,968 @@
+#metadata: information about the flow
+#  platformVersion: the version of the bots platform that this flow was written to work with 
+metadata:
+  platformVersion: 1.0
+main: true
+name: TestLandmanbot1
+
+context:
+  variables:
+    # Entity variables
+    candidateName: "Candidat"
+    resultType: "TypeElection"
+    listName: "ListeElectorale"
+    comuneName: "LocalDeVote"
+    
+    # Variables for backend calls (functions are numbered same as in this list)
+    # resultCandidateCanton #1
+    timeStampCandidateCanton: "string" #1
+    candidateVotesCanton: "string" #1
+    candidateOrderCanton: "string" #1
+    candidateElectedCanton: "string" #1
+    candidateEqualityCanton: "string" #1
+    # returnBiffeCandidate #2
+    timeStampCandidateBiffe: "string"
+    candidateBiffeCanton: "string"
+    # resultDistributionSeats #3
+    timeStampSeats: "string"
+    numberOfSeats: "string"
+    # electedCandidatesByList #4
+    timeStampElectedCandidates: "string"
+    electedCandidates: "string"
+    # notElectedCandidatesByList #5
+    timeStampNotElectedCandidates: "string"
+    notElectedCandidates: "string"
+    # returnElectedCandidatesCanton #6
+    timeStampElectedCandidatesCanton: "string"
+    electedCandidatesCanton: "string"
+    # returnElectedCandidatesCanton #7
+    timeStampDistributionSeatsAllPartiesCanton: "string"
+    seatsDistributionAllPartiesCanton: "string"
+    # resultPartecipation #8
+    timeStampPartecipation: "string"
+    percentagePartecipation: "string"
+    votersPartecipation: "string"
+    # resultLocal #9
+    localPercentage: "string"
+    timeStampLocal: "string"
+    
+    # system variables
+    iResult: "nlpresult"
+    
+#states is where you can define the various states within your flow.
+# The syntax for defining a state is
+# statename:
+#   component:Specify the component you want to use. This can be either a Built-In or custom component.
+#   properties:
+#     property1: "value" (These are the properties to the specified component
+#   transitions: You can specify one of the following four
+#     next: Specify the state you want to execute next after this state. By default it will execute the state specified after this
+#     error: Specify the state you want to execute in case the component encounters any error in execution.
+#     actions: You can handle various actions returned by the components here the syntax is actionName: "statename"
+#        action1: state1
+#     return: "done" You can exit the flow using the return statement
+
+states:
+
+  checkIntent:
+    component: "System.Intent"
+    properties:
+      variable:  "iResult"
+      confidenceThreshold: 0.4
+      # botName (optional) refers to the name of the bot that resolves the intent. Use this property when you have a reusable bot that holds all of the intent and entity definitions. To support multiple languages, define this property with a variable expression that evaluates to a bot name based on the current language.
+      # botName: 
+      # sourceVariable (optional) refers to a user or context variable. If a value is set for this property, then this value is used for intent matching instead of the text from the user’s previous message.
+      # sourceVariable: 
+      # translate (optional) allows you to override the global autoTranslate variable. If set to true, then both the bot’s and the  user’s messages are auto-translated from English to the user’s language and vice versa. 
+      # translate: 
+    transitions:
+      actions:
+        IntentWelcome: "greet"
+        IntentJoke: "tellAJoke"
+        IntentDebug: "tellDebug"
+        IntentResultatElections: "resultsStart"
+        IntentResultatGC: "resultatGCStart"
+        IntentChangeElectionType: "changeElectionTypeStart"
+        IntentResultatParCandidat: "resultsByCandidateStart"
+        IntentNbreFoisCandidatBiffe: "nombreFoisCandidatBiffeStart"
+        IntentTauxParticipation: "participationRateStart"
+        IntentTauxParticipationParLocal: "participationRateByLocalStart"
+        IntentResultatsGCParListe: "resultsByListStart"
+        IntentListeElusParListe: "whoIsElectedForAListStart"
+        IntentListeNonElusParListe: "whoIsNotElectedForAListStart"
+        unresolvedIntent: "didNotUnderstand"
+
+# welcome        
+  greet:
+    component: "System.Output"
+    properties:
+     text: "Bonjour et bienvenue\nJ'ai été développé par quelques passionnés, pour vous donner les résultats des votations et élections (résultats).\nMes informations sont principalement destinées aux citoyennes et citoyens genevois"
+     keepTurn: true
+    transitions:
+      next: "greet2"
+  greet2:
+    component: "System.Output"
+    properties:
+     text: "Comment puis-je vous aider ?"
+    transitions:
+      next: "checkIntent"
+
+# smalltalk
+  tellAJoke:
+    component: "System.Output"
+    properties:
+     text: "Je suis un robot et tous mes boulons n'ont pas encore été serrés! [:]"
+    transitions:
+      next: "checkIntent"
+      
+# gestion incompréhension
+  didNotUnderstand:
+    component: "System.Output"
+    properties:
+      text: "Désolé mais je n'ai pas tout compris ... je débute seulement."
+      keepTurn: true
+    transitions:
+      next: "didNotUnderstand2"
+  didNotUnderstand2:
+    component: "System.Output"
+    properties:
+     text: "Pourriez-vous reformuler ? \n Si vous avez besoin d'aide, dites-le moi simplement."
+    transitions:
+      next: "checkIntent"
+      
+# Résultats généraux
+# Il se peut que le type d'élection n'aie pas été précisé - le composant "System.List" le demande dans ce cas        
+  resultsStart:
+    component: "System.SetVariable"
+    properties:
+      variable: "resultType"
+      value: "${iResult.value.entityMatches['TypeElection'][0]}"
+  
+  resultsAskForMissinElectionType:
+    component: "System.List"
+    properties: 
+      prompt: "Pour quelle élection vous voulez les résultats ?"
+      options: 
+      - label: "Conseil Etat"
+        value: "CE" 
+      - label: "Grand Conseil"
+        value: "GC" 
+      maxPrompts: 1
+      variable: "resultType"
+      nlpResultVariable: "iResult"
+    transitions:
+      actions:
+        unexpectedAction: "handleUnexpectedAction"
+
+  resultsSwitchToRelevantAction:
+    component: "System.Switch"
+    properties:
+      variable: "resultType"
+      values:
+      - null
+      - "CE"
+      - "GC"
+    transitions:
+      actions:
+        null: "resultsStart"
+        CE: "resultatCEStart"
+        GC: "resultatGCStart"
+        NONE: "resultsStart"
+
+# Changement du type d'élection
+# 1) on reset la préférence de l'utilisateur
+# 2) on regarde si il l'a donné dans l'intention (entityMatches)
+# 3) on demande si elle manque (System.List)
+# 4) on redirige vers la bonne action en fonction de la valeur choisie
+  changeElectionTypeStart:
+    component: "System.ResetVariables"
+    properties:
+      variableList: "resultType"
+  changeElectionTypeMatchEntity:
+    component: "System.SetVariable"
+    properties:
+      variable: "resultType"
+      value: "${iResult.value.entityMatches['TypeElection'][0]}"
+  changeElectionTypeAskForMissingNewType:
+    component: "System.List"
+    properties: 
+      prompt: "Pour quelle election vous voulez les résultats ?"
+      options: 
+      - label: "Conseil Etat"
+        value: "CE" 
+      - label: "Grand Conseil"
+        value: "GC" 
+      maxPrompts: 1
+      variable: "resultType"
+      nlpResultVariable: "iResult"
+    transitions: {}
+  changeElectionTypeAskForNextAction:
+    component: "System.List"
+    properties: 
+      prompt: "Qu'est-ce qui vous intéresse ?"
+      options: 
+      - label: "Les résultats"
+        value: "Results"
+      - label: "Le taux de participation"
+        value: "TauxParticipation"
+      - label: "Autres informations"
+        value: "Other" 
+      maxPrompts: 1
+      #translate:
+    transitions:
+      actions:
+        Results: "resultsStart"
+        TauxParticipation: "participationRateStart"
+        Other: "helpForAskOtherStart"
+        cancel: "checkIntent"
+
+# Changement du type d'élection
+# 1) on reset la préférence de l'utilisateur en termes de nom de candidat
+# 2) on regarde si il l'a donné dans l'intention (entityMatches)
+# 3) on demande si elle manque (System.List)
+# 4) on redirige vers la bonne action en fonction de la valeur choisie
+  resultsByCandidateStart:
+    component: "System.ResetVariables"
+    properties:
+      variableList: "candidateName"
+  resultsByCandidateAskForMissingCandidateName:
+    component: "System.Text"
+    properties:
+      prompt: "Merci de me donner le nom du candidat ?"
+      variable: "candidateName"
+      nlpResultVariable: "iResult"
+    transitions:
+      actions:
+        unexpectedAction: "handleUnexpectedAction"
+  resultsByCandidateAskForMissingElectionType:
+    component: "System.List"
+    properties: 
+      prompt: "Vous ne m'avez pas dit pour quelle élection vous voulez ses résultats ?"
+      options: 
+      - label: "Conseil Etat"
+        value: "CE" 
+      - label: "Grand Conseil"
+        value: "GC" 
+      variable: "resultType"
+      nlpResultVariable: "iResult"
+    transitions: {}
+
+  # Backend Call #1
+  resultsByCandidateCallBackofficeCandidateResultsCanton:
+    component: "resultCandidateCanton" #1
+    properties:
+        candidateName: "${candidateName.value}"
+        resultType: "${resultType.value}"
+    transitions: {} 
+
+  resultsByCandidateOutput: 
+    component: "System.Output"
+    properties:
+        text:  "Selon les ${timeStampCandidateCanton?lower_case}, ${candidateName.value!\"null\"} obtient ${candidateVotesCanton} suffrages à l'élection du ${resultType.value?replace(\"CE\",\"Conseil d'Etat\")?replace(\"GC\",\"GrandConseil\")!\"null\"}. Il est classé n°${candidateOrderCanton?size} et ${candidateElectedCanton}." 
+        # GBA 10.04.2018: je choisis de ne pas afficher : égalité: ${candidateEqualityCanton}
+        #<#if candidateOrderCanton>1>${candidateOrderCanton}ème</#if> <#if candidateOrderCanton?long == 1>1er</#if>
+    transitions: 
+      next: "checkIntent"
+
+# Nombre de fois qu'un candidat a été biffé
+# On doit seulement savoir son nom
+# 1) match du nom du candidat dans l'intention
+# 2) on demande le nom si on le trouve pas
+# 3) on set élection type = GC (même si on peut biffer pour le conseil d'état)
+# 4) on donne le résultat
+  nombreFoisCandidatBiffeStart:
+    component: "System.SetVariable"
+    properties:
+      variable: "candidateName"
+      value: "${iResult.value.entityMatches['Candidat'][0]}"
+  nombreFoisCandidatBiffeAskForMissingCandidateName:
+    component: "System.Text"
+    properties: 
+      prompt: "Nom du candidat ?"
+      variable: "candidateName"
+      nlpResultVariable: "iResult"
+    transitions: {}
+  nombreFoisCandidatBiffeSetElectionType:
+    component: "System.SetVariable"
+    properties:
+      variable: "resultType"
+      value: "GC"
+      
+  # Backend Call #2
+  returnBiffeCandidate:
+     component: "returnBiffeCandidate" #2
+     properties:
+        candidateName: "${candidateName.value}"
+        resultType: "${resultType.value}"
+        
+  nombreFoisCandidatBiffeOutput:
+    component: "System.Output"
+    properties:
+      text: "Pour les ${timeStampCandidateBiffe?lower_case}, ${candidateName.value!\"null\"} a été biffé ${candidateBiffeCanton} fois."
+    transitions:
+      next: "checkIntent"
+      
+# Résultats par liste
+# 1) on regarde si la personne a donné le nom de la liste dans l'intention
+# 2) System.Text permet de redemander le nom de la liste si pas compris
+# 3) On force le resultType à "GC" (les résultats par liste ne sont que pour le GC)
+# 4) on donne le résultat
+  resultsByListStart:
+    component: "System.SetVariable"
+    properties:
+      variable: "listName"
+      value: "${iResult.value.entityMatches['ListeElectorale'][0]}"
+  resultsByListAskForMissingListName:
+    component: "System.Text"
+    properties: 
+      prompt: "Pour quelle liste électorale voulez-vous les résultats ? \n(taper \"aide\" pour les lister)"
+      variable: "listName"
+      nlpResultVariable: "iResult"
+      maxPrompts: 1
+    transitions:
+      actions:
+        cancel: "resultsByListSelectFromListbox"
+  resultsByListSelectFromListbox:
+    component: "System.List"
+    properties:
+      prompt: "Je n'ai pas compris - à quelle liste pensez-vous ?"
+      options:
+        - value: "PDC"
+          label: "Démocrate-Chrétien"
+        - value: "LEE"
+          label: "Égalité Et Équité"
+        - value: "EAG"
+          label: "Ensemble À Gauche, ensemble a gauche"
+        - value: "GEMA"
+          label: "Genève En Marche"
+        - value: "LPG"
+          label: "La Liste Pour Genève"
+        - value: "FEM"
+          label: "Laliste-Femmes 2018"
+        - value: "SOC"
+          label: "Les Socialistes"
+        - value: "VERT"
+          label: "Les Verts"
+        - value: "PLR"
+          label: "Libéraux-Radicaux"
+        - value: "AUTRE"
+          label: "autre ..."
+      variable: "listName"
+      maxPrompts: 1
+    transitions:
+      actions:
+        cancel: "resultsByListSelectFromListboxOther" # premier attempt fails
+        unexpectedAction: "resultsByListSelectFromListboxOther"
+        textReceived: "checkIntent"
+  resultsByListSelectFromCheckAutre:
+    component: "System.ConditionEquals"
+    properties:
+      variable: "listName"
+      value: "AUTRE"
+    transitions:
+      actions:
+        equal: "resultsByListSelectFromListboxOther"
+        notequal: "resultsByListSetElectionType"
+  resultsByListSelectFromListboxOther:
+    component: "System.ResetVariables"
+    properties:
+      variableList: "listName"
+  resultsByListSelectFromListboxOther2:
+    component: "System.List"
+    properties:
+      prompt: "Autres listes :"
+      options:
+        - value: "MCG"
+          label: "MCG"
+        - value: "PBD"
+          label: "PBD Genève"
+        - value: "ENT"
+          label: "PLR - PDC - Entente"
+        - value: "PROM"
+          label: "Prospérité Maîtrisée"
+        - value: "RIEN"
+          label: "Rien Pas Grand Chose"
+        - value: "SAN"
+          label: "Santé"
+        - value: "UDC"
+          label: "UDC"
+        - value: "VERL"
+          label: "Vert'Libéraux"
+      variable: "listName"
+      maxPrompts: 1
+    transitions:
+      actions:
+        cancel: "resultsByListSelectFromListboxOther" # TODO choose better (Gilles)
+        unexpectedAction: "resultsByListSelectFromListboxOther" # TODO choose better (Gilles)
+        textReceived: "checkIntent"
+  resultsByListSetElectionType:
+    component: "System.SetVariable"
+    properties:
+      variable: "resultType"
+      value: "GC"
+    transitions: {}
+      
+  # Backend Call #3
+  resultsByListCallBackendResultDistributionSeats:
+     component: "resultDistributionSeats" #3
+     properties:
+       listName: "${listName.value}"
+       resultType: "${resultType.value}"
+     transitions: {}
+        
+  resultsByListOutput:
+    component: "System.Output"
+    properties:
+      text: "Pour les ${timeStampSeats?lower_case}, la liste ${listName.value!\"null\"} a obtenu ${numberOfSeats} sièges sur 100 au Grand Conseil."
+      keepTurn: true
+    transitions: {}
+    
+# suggest résultat pour une autre liste  
+  resultsByListSuggestListbox:
+    component: "System.List"
+    properties: 
+      prompt: "Voulez-vous voir ?"
+      options: 
+      - label: "qui y est élu"
+        value: "quiEstElu" 
+      - label: "qui n'y est pas élu"
+        value: "quiEstPasElu" 
+      - label: "les résultats d'une autre liste"
+        value: "resultatsAutreListe"
+      maxPrompts: 1
+    transitions:
+      actions:
+        quiEstElu: "whoIsElectedForAListStart"
+        quiEstPasElu: "whoIsNotElectedForAListStart"
+        resultatsAutreListe: "resultsByListChangeListStart"
+        textReceived: "checkIntent"
+
+# Changement de liste demandé par l'utilisateur
+# 1) On reset la variable listName
+# 2) On demande le nouveau nom de la liste
+# 3) si on comprends pas on demande à partir de la liste
+# 4) on rebranche sur "resultsByListSetElectionType"
+# NB : iResult n'est pas resetté et faire un ResetVariables dessus pose problème > du coup j'ai été obligé de reproduire le code ci-dessous
+  resultsByListChangeListStart:
+    component: "System.ResetVariables"
+    properties:
+      variableList: "listName"
+  resultsByListChangeListAskForMissingListName:
+    component: "System.Text"
+    properties: 
+      prompt: "Pour quelle autre liste ? \n(taper \"aide\" pour avoir la liste)"
+      variable: "listName"
+      maxPrompts: 1
+    transitions:
+      actions:
+        cancel: "resultsByListChangeListSelectFromListbox"
+  resultsByListChangeListSelectFromListbox:
+    component: "System.List"
+    properties:
+      prompt: "Quelle liste exactement ?"
+      options:
+        - value: "PDC"
+          label: "Démocrate-Chrétien"
+        - value: "LEE"
+          label: "Égalité Et Équité"
+        - value: "EAG"
+          label: "Ensemble À Gauche, ensemble a gauche"
+        - value: "GEMA"
+          label: "Genève En Marche"
+        - value: "LPG"
+          label: "La Liste Pour Genève"
+        - value: "FEM"
+          label: "Laliste-Femmes 2018"
+        - value: "SOC"
+          label: "Les Socialistes"
+        - value: "VERT"
+          label: "Les Verts"
+        - value: "PLR"
+          label: "Libéraux-Radicaux"
+        - value: "MCG"
+          label: "MCG"
+        - value: "PBD"
+          label: "PBD Genève"
+        - value: "ENT"
+          label: "PLR - PDC - Entente"
+        - value: "PROM"
+          label: "Prospérité Maîtrisée"
+        - value: "RIEN"
+          label: "Rien Pas Grand Chose"
+        - value: "SAN"
+          label: "Santé"
+        - value: "UDC"
+          label: "UDC"
+        - value: "VERL"
+          label: "Vert'Libéraux"
+      variable: "listName"
+      maxPrompts: 1
+    transitions:
+      actions:
+        textReceived: "checkIntent"
+      next: "resultsByListSetElectionType"
+
+# Qui est élu pour une liste ?
+# 1) on regarde si la personne a donné le nom de la liste dans l'intention
+# 2) System.Text permet de redemander le nom de la liste si pas compris
+# 3) On force le resultType à "GC" (les résultats par liste ne sont que pour le GC)
+# 4) on donne le résultat
+  whoIsElectedForAListStart:
+    component: "System.SetVariable"
+    properties:
+      variable: "listName"
+      value: "${iResult.value.entityMatches['ListeElectorale'][0]}"
+  whoIsElectedForAListAskForMissingListName:
+    component: "System.Text"
+    properties: 
+      prompt: "Pour quelle liste voulez-vous avoir la liste des personnes élues ?\n(taper \"aide\" si besoin)"
+      variable: "listName"
+      nlpResultVariable: "iResult"
+      maxPrompts: 1
+    transitions:
+      actions:
+        cancel: "whoIsElectedForAListSelectFromListbox"
+  whoIsElectedForAListSelectFromListbox:
+    component: "System.List"
+    properties:
+      prompt: "Pour quelle liste ?"
+      options:
+        - value: "PDC"
+          label: "Démocrate-Chrétien"
+        - value: "LEE"
+          label: "Égalité Et Équité"
+        - value: "EAG"
+          label: "Ensemble À Gauche, ensemble a gauche"
+        - value: "GEMA"
+          label: "Genève En Marche"
+        - value: "LPG"
+          label: "La Liste Pour Genève"
+        - value: "FEM"
+          label: "Laliste-Femmes 2018"
+        - value: "SOC"
+          label: "Les Socialistes"
+        - value: "VERT"
+          label: "Les Verts"
+        - value: "PLR"
+          label: "Libéraux-Radicaux"
+        - value: "MCG"
+          label: "MCG"
+        - value: "PBD"
+          label: "PBD Genève"
+        - value: "ENT"
+          label: "PLR - PDC - Entente"
+        - value: "PROM"
+          label: "Prospérité Maîtrisée"
+        - value: "RIEN"
+          label: "Rien Pas Grand Chose"
+        - value: "SAN"
+          label: "Santé"
+        - value: "UDC"
+          label: "UDC"
+        - value: "VERL"
+          label: "Vert'Libéraux"
+      variable: "listName"
+      maxPrompts: 1
+    transitions:
+      actions:
+        textReceived: "checkIntent"
+  whoIsElectedForAListMatchElectionType:
+    component: "System.SetVariable"
+    properties:
+      variable: "resultType"
+      value: "GC"
+      
+  # Backend Call #4
+  electedCandidatesByList:
+    component: "electedCandidatesByList" #4
+    properties:
+      listName: "${listName.value}"
+      resultType: "${resultType.value}"
+    transitions: {}
+    
+  printTimeStampElectedCandidatesByList:
+    component: "System.Output"
+    properties:
+      text:  "Pour les ${timeStampElectedCandidates} des élections au Grand Conseil, les candidat(e)s suivants sont pressenti(e)s:"  
+      keepTurn: true
+    transitions: {}
+  
+  printAsCardsElectedCandidatesByList:
+    component: "System.CommonResponse"
+    properties:
+      metadata: 
+        responseItems:         
+        - type: "cards" 
+          cardLayout: "vertical"
+          cards:
+          - title: "${electedCandidates.candidateName}"
+            description: "Liste: ${listName.value} Suffrages: ${electedCandidates.suffrages}\n${electedCandidates.equality}" 
+            iteratorVariable: "electedCandidates"
+      processUserMessage: true  
+    transitions:
+      next: "checkIntent"
+  
+# suggest résultat pour une autre liste  
+  whoIsElectedForAListSuggestListbox:
+    component: "System.List"
+    properties: 
+      prompt: "Voulez-vous voir ?"
+      options: 
+      - label: "qui n'y est pas élu"
+        value: "quiEstPasElu" 
+      - label: "les résultats d'une autre liste"
+        value: "resultatsAutreListe"
+      maxPrompts: 1
+    transitions:
+      actions:
+        quiEstPasElu: "whoIsNotElectedForAListStart"
+        resultatsAutreListe: "resultsByListChangeListStart"
+        textReceived: "checkIntent"
+      
+# Qui n'est PAS élu pour une liste ?
+# 1) on regarde si la personne a donné le nom de la liste dans l'intention
+# 2) System.Text permet de redemander le nom de la liste si pas compris
+# 3) On force le resultType à "GC" (les résultats par liste ne sont que pour le GC)
+# 4) on donne le résultat
+  whoIsNotElectedForAListStart:
+    component: "System.SetVariable"
+    properties:
+      variable: "listName"
+      value: "${iResult.value.entityMatches['ListeElectorale'][0]}"
+  whoIsNotElectedForAListAskForMissingListName:
+    component: "System.Text"
+    properties: 
+      prompt: "Pour quelle liste voulez-vous avoir la liste des personnes qui n'ont pas été élues ?\n(taper \"aide\" si besoin)"
+      variable: "listName"
+      nlpResultVariable: "iResult"
+      maxPrompts: 1
+    transitions:
+      actions:
+        cancel: "whoIsNotElectedForAListSelectFromListbox"
+  whoIsNotElectedForAListSelectFromListbox:
+    component: "System.List"
+    properties:
+      prompt: "Pour quelle liste ?"
+      options:
+        - value: "PDC"
+          label: "Démocrate-Chrétien"
+        - value: "LEE"
+          label: "Égalité Et Équité"
+        - value: "EAG"
+          label: "Ensemble À Gauche, ensemble a gauche"
+        - value: "GEMA"
+          label: "Genève En Marche"
+        - value: "LPG"
+          label: "La Liste Pour Genève"
+        - value: "FEM"
+          label: "Laliste-Femmes 2018"
+        - value: "SOC"
+          label: "Les Socialistes"
+        - value: "VERT"
+          label: "Les Verts"
+        - value: "PLR"
+          label: "Libéraux-Radicaux"
+        - value: "MCG"
+          label: "MCG"
+        - value: "PBD"
+          label: "PBD Genève"
+        - value: "ENT"
+          label: "PLR - PDC - Entente"
+        - value: "PROM"
+          label: "Prospérité Maîtrisée"
+        - value: "RIEN"
+          label: "Rien Pas Grand Chose"
+        - value: "SAN"
+          label: "Santé"
+        - value: "UDC"
+          label: "UDC"
+        - value: "VERL"
+          label: "Vert'Libéraux"
+      variable: "listName"
+      maxPrompts: 1
+    transitions:
+      actions:
+        textReceived: "checkIntent"
+  whoIsNotElectedForAListMatchElectionType:
+    component: "System.SetVariable"
+    properties:
+      variable: "resultType"
+      value: "GC"
+
+
+# Backend Call #5
+  notElectedCandidatesByList:
+    component: "notElectedCandidatesByList" #5
+    properties:
+      listName: "${listName.value}"
+      resultType: "${resultType.value}"
+    transitions: {}
+    
+  printTimeStampNotElectedCandidatesByList:
+    component: "System.Output"
+    properties:
+      text:  "Pour les ${timeStampNotElectedCandidates} des élections au Grand Conseil, les candidat(e)s suivants sont ne sont actuellement pas élus:" 
+      keepTurn: true
+    transitions: {}
+  
+  printAsCardsNotElectedCandidatesByList:
+    component: "System.CommonResponse"
+    properties:
+      metadata: 
+        responseItems:         
+        - type: "cards" 
+          cardLayout: "vertical"
+          cards:
+          - title: "${notElectedCandidates.candidateName}"
+            description: "Liste: ${listName.value} Suffrages: ${notElectedCandidates.suffrages}" 
+            iteratorVariable: "notElectedCandidates"
+      processUserMessage: true  
+    transitions:
+      next: "checkIntent"
+
+# suggest résultat pour une autre liste  
+  whoINotsElectedForAListSuggestListbox:
+    component: "System.List"
+    properties: 
+      prompt: "Voulez-vous voir ?"
+      options: 
+      - label: "Qui n'y est pas élu"
+        value: "quiEstPasElu" 
+      - label: "les résultats d'une autre liste"
+        value: "resultatsAutreListe"
+      maxPrompts: 1
+    transitions:
+      actions:
+        quiEstPasElu: "whoIsNotElectedForAListStart"
+        resultatsAutreListe: "resultsByListChangeListStart"
+        textReceived: "checkIntent"
+      
+# Résultats CE :
+# On fixe le type d'élection à CE (pour être sûr) + on donne les résultats
+  resultatCEStart:
+    component: "System.SetVariable"
+    properties:
+      variable: "resultType"
+      value: "CE"
+    transitions: {}
+
+  # Backend Call #6
+  resultatCECallBackOfficeReturnElectedCandidatesCanton:
+    component: "returnElectedCandidatesCanton" #6
+    properties:
+      resultType: "${resultType.value}"
+    transitions: {}
+
+  resultatCEOutput:
+    component: "System.Output"
+    properties:
+      text: "Pour les ${timeStampElectedCandidatesCanton?lower_case}, les résultat de l'élection au Conseil d'Etat sont " #${electedCandidatesCanton}"
+      #du Conseil d'Etat : \n Les 7 candidats pressentis pour le second tour sont  : \n Christopher Lora, Gilles Barpéaimu, Pierre Midi, Robert Letitbe, Olivier Lesombre, Eric Brave, Agnès Cuèlli }  [Appel BackOffice]"
+    transitions:
+      next: "checkIntent"
+
+# Résultats GC :
+# On fixe le type d'élection à GC (pour être sûr) + on donne les résultats
+  resultatGCStart:
+    component: "System.SetVariable"
+    properties:
+      variable: "resultType"
+      value: "GC"
+    
+  # Backend Call #7
+  resultatGCCallBackofficeResultDistributionOfSeatsAllLists:
+    component: "resultDistributionOfSeatsAllLists" #7
+    properties:
+      resultType: "${resultType.value}"
+    transitions: {}
+  
+  printTimeStampAllPartiesSeats:
+    component: "System.Output"
+    properties:
+     text:  " Pour les ${timeStampDistributionSeatsAllPartiesCanton?lower_case} à l'élection du Grand Conseil, la répartition des sièges pressentie est:"  
+     keepTurn: true
+    transitions: {}
+    
+  printAllPartiesSeats:
+    component: "System.CommonResponse"
+    properties:
+      metadata: 
+        responseItems:         
+        - type: "cards" 
+          cardLayout: "vertical"
+          cards:
+          - title: "${seatsDistributionAllPartiesCanton.partyName}"
+            description: "Nombre de sièges pressentis ${seatsDistributionAllPartiesCanton.numberOfSeats}" #${timeStampDistributionSeatsAllPartiesCanton}
+            iteratorVariable: "seatsDistributionAllPartiesCanton"
+      processUserMessage: true  
+    transitions:
+      next: "checkIntent"
+
+# Taux de participation
+# 1) on demande type élection si absent (System.Liste)
+# 2) appel backoffice donne le taux de participation
+  participationRateStart:
+    component: "System.List"
+    properties: 
+      prompt: "Vous ne m'avez pas dit pour quelle élection vous voulez le taux de participation ?"
+      options: 
+      - label: "Conseil Etat"
+        value: "CE" 
+      - label: "Grand Conseil"
+        value: "GC" 
+      variable: "resultType" # in System.List if set variable need System.Switch to navigate based on that variable # in System.List if set variable is NOT set we can navigate with options
+      nlpResultVariable: "iResult"
+    transitions: {}
+  
+  # Backend Call #8
+  getPartecipation:
+     component: "resultPartecipation" #8
+     properties:
+        resultType: "${resultType.value}"
+  printPartecipation:
+      component: "System.Output"  
+      properties:
+        text: "Pour les ${timeStampPartecipation?lower_case}, le taux de participation est de ${percentagePartecipation} et ${votersPartecipation} bulletins rentrés sont comptés."
+      transitions:
+        next: "checkIntent"
+
+# Taux de participation par local
+# 1) on regarde si match localDeVote  
+# 2) on demande le local si pas compris
+# 3) on regarde si match election type
+# 4) on demande type élection si absent (System.Liste)
+# 5) appel backoffice donne le taux de participation
+  participationRateByLocalStart:
+    component: "System.SetVariable"
+    properties:
+      variable: "comuneName"
+      value: "${iResult.value.entityMatches['LocalDeVote'][0]}"
+  participationRateByLocalAskForMissingLocalName:
+    component: "System.Text"
+    properties:
+      prompt: "Pour quel local de vote ?"
+      variable: "comuneName"
+      nlpResultVariable: "iResult"
+    transitions: {}
+  participationRateByLocalMatchElectionType:
+    component: "System.SetVariable"
+    properties:
+      variable: "resultType"
+      value: "${iResult.value.entityMatches['TypeElection'][0]}"
+  participationRateByLocalAskForMissingElectionType:
+    component: "System.List"
+    properties: 
+      prompt: "Vous ne m'avez pas dit pour quelle élection ?"
+      options: 
+      - label: "Conseil Etat"
+        value: "CE" 
+      - label: "Grand Conseil"
+        value: "GC" 
+      variable: "resultType"
+      nlpResultVariable: "iResult"
+    transitions: {}
+
+  # Backend Call #9
+  getPartecipationComune:
+    component: "resultLocal" #9  
+    properties:
+        comuneName: "${comuneName.value}"
+        resultType: "${resultType.value}"
+    transitions: {} 
+
+  printComune: 
+     component: "System.Output"
+     properties:
+        text:  "Le taux de participation à ${comuneName} est de: ${localPercentage} pour les ${timeStampLocal}" 
+  
+  #participationRateByLocalOutput:
+  #  component: "System.Output"
+  #  properties:
+  #    text: "Le taux  participation dans le local ${comuneName.value!\"null\"} à l'élection du ${resultType.value!\"null\"} est de 35%. \n [Appel BackOffice]"
+  #  transitions:
+  #    next: "checkIntent"
+
+# TODO aide pour avoir d'autres résultats/informations que les résultats globaux de l'élection
+  helpForAskOtherStart:
+    component: "System.Output"
+    properties:
+      text: "TODO Bientôt je t'aiderai à choisir d'autres résultats si tu veux pour le type d'élection ${resultType.value!\"null\"} que tu as choisi."
+    transitions:
+      next: "checkIntent"
+
+# debug
+  tellDebug:
+    component: "System.Output"
+    properties:
+      text: "(debug) Valeur des variables : \n resultType = ${resultType.value!\"null\"} \n candidateName = ${candidateName.value!\"null\"}"
+    transitions:
+      next: "checkIntent"
+
+# gestion des actions sur les anciens messages
+  handleUnexpectedAction:
+    component: "System.Switch"
+    properties:
+      variable: "user.botsUnexpectedAction"
+      values:
+        - value: "CE" 
+        - value: "GC" 
+        - value: "Results"
+        - value: "TauxParticipation"
+        - value: "Other"
+        - value: "quiEstElu" 
+        - value: "quiEstPasElu" 
+        - value: "resultatsAutreListe"
+        - value: "PDC"
+        - value: "LEE"
+        - value: "EAG"
+        - value: "GEMA"
+        - value: "LPG"
+        - value: "FEM"
+        - value: "SOC"
+        - value: "VERT"
+        - value: "PLR"
+        - value: "MCG"
+        - value: "PBD"
+        - value: "ENT"
+        - value: "PROM"
+        - value: "RIEN"
+        - value: "SAN"
+        - value: "UDC"
+        - value: "VERL"
+    transitions:
+      actions:
+        NONE: "actionNoLongerAvailable"
+        CE:  "actionNoLongerAvailable"
+        GC:  "actionNoLongerAvailable"
+        Results: "resultsStart"
+        TauxParticipation: "participationRateStart"
+        Other: "helpForAskOtherStart"
+        quiEstElu: "whoIsElectedForAListStart"
+        quiEstPasElu: "whoIsNotElectedForAListStart"
+        resultatsAutreListe: "resultsByListChangeListStart"
+        PDC: "resultsByListStart"
+        LEE: "resultsByListStart"
+        EAG: "resultsByListStart"
+        GEMA: "resultsByListStart"
+        LPG: "resultsByListStart"
+        FEM: "resultsByListStart"
+        SOC: "resultsByListStart"
+        VERT: "resultsByListStart"
+        PLR: "resultsByListStart"
+        MCG: "resultsByListStart"
+        PBD: "resultsByListStart"
+        ENT: "resultsByListStart"
+        PROM: "resultsByListStart"
+        RIEN: "resultsByListStart"
+        SAN: "resultsByListStart"
+        UDC:  "resultsByListStart"
+        VERL: "resultsByListStart"
+
+  actionNoLongerAvailable:
+    component: "System.Output"
+    properties:
+      text: "Je ne sais plus répondre à cette action. Comment puis-je vous aider ?"
+    transitions:
+      next: "checkIntent"  
+      
+# END
