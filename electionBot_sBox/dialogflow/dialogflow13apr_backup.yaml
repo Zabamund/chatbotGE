@@ -29,15 +29,19 @@ context:
     # electedCandidatesByList #4
     timeStampElectedCandidates: "string"
     electedCandidates: "string"
+    electedCandidatesAsMessage: "string"
     # notElectedCandidatesByList #5
     timeStampNotElectedCandidates: "string"
     notElectedCandidates: "string"
+    notElectedCandidatesAsMessage: "string"
     # returnElectedCandidatesCanton #6
     timeStampElectedCandidatesCanton: "string"
     electedCandidatesCanton: "string"
+    outputMsgElectedCandidatesCanton: "string"
     # returnElectedCandidatesCanton #7
     timeStampDistributionSeatsAllPartiesCanton: "string"
     seatsDistributionAllPartiesCanton: "string"
+    distributionAllSeatsMessage: "string"
     # resultPartecipation #8
     timeStampPartecipation: "string"
     percentagePartecipation: "string"
@@ -126,7 +130,7 @@ states:
   didNotUnderstand2:
     component: "System.Output"
     properties:
-     text: "Pourriez-vous reformuler ? \n Si vous avez besoin d'aide, dites-le moi simplement."
+     text: "Pourriez-vous reformuler ? \nSi vous avez besoin d'aide, dites-le moi simplement."
     transitions:
       next: "checkIntent"
       
@@ -258,10 +262,16 @@ states:
   resultsByCandidateOutput: 
     component: "System.Output"
     properties:
-        text:  "Selon les ${timeStampCandidateCanton?lower_case}, ${candidateName.value!\"null\"} obtient ${candidateVotesCanton} suffrages à l'élection du ${resultType.value?replace(\"CE\",\"Conseil d'Etat\")?replace(\"GC\",\"GrandConseil\")!\"null\"}. Il est classé n°${candidateOrderCanton?size} et ${candidateElectedCanton}." 
+        text:  "Selon les ${timeStampCandidateCanton?lower_case}, ${candidateName.value!\"null\"} obtient ${candidateVotesCanton} suffrages à l'élection du ${resultType.value?replace(\"CE\",\"Conseil d'Etat\")?replace(\"GC\",\"GrandConseil\")!\"null\"}. Il/elle est classé(e) n°${candidateOrderCanton?size} et ${candidateElectedCanton}." 
         # GBA 10.04.2018: je choisis de ne pas afficher : égalité: ${candidateEqualityCanton}
         #<#if candidateOrderCanton>1>${candidateOrderCanton}ème</#if> <#if candidateOrderCanton?long == 1>1er</#if>
-    transitions: 
+    transitions: {}
+      
+  resetByCandidateVariables:
+    component: "System.ResetVariables"
+    properties:
+      variableList: "candidateName,resultType"
+    transitions:
       next: "checkIntent"
 
 # Nombre de fois qu'un candidat a été biffé
@@ -298,7 +308,13 @@ states:
   nombreFoisCandidatBiffeOutput:
     component: "System.Output"
     properties:
-      text: "Pour les ${timeStampCandidateBiffe?lower_case}, ${candidateName.value!\"null\"} a été biffé ${candidateBiffeCanton} fois."
+      text: "Pour les ${timeStampCandidateBiffe?lower_case}, ${candidateName.value!\"null\"} a été biffé(e) ${candidateBiffeCanton} fois."
+    transitions: {}
+      
+  resetBiffeCandidate:
+    component: "System.ResetVariables"
+    properties:
+      variableList: "candidateName,resultType"
     transitions:
       next: "checkIntent"
       
@@ -351,7 +367,7 @@ states:
       maxPrompts: 1
     transitions:
       actions:
-        cancel: "resultsByListSelectFromListboxOther" # premier attempt fails
+        cancel: "resultsByListSelectFromListboxOther" # first attempt fails
         unexpectedAction: "resultsByListSelectFromListboxOther"
         textReceived: "checkIntent"
   resultsByListSelectFromCheckAutre:
@@ -416,7 +432,7 @@ states:
       text: "Pour les ${timeStampSeats?lower_case}, la liste ${listName.value!\"null\"} a obtenu ${numberOfSeats} sièges sur 100 au Grand Conseil."
       keepTurn: true
     transitions: {}
-    
+      
 # suggest résultat pour une autre liste  
   resultsByListSuggestListbox:
     component: "System.List"
@@ -599,6 +615,12 @@ states:
             description: "Liste: ${listName.value} Suffrages: ${electedCandidates.suffrages}\n${electedCandidates.equality}" 
             iteratorVariable: "electedCandidates"
       processUserMessage: true  
+    transitions: {}
+      
+  resetCandidateByList:
+    component: "System.ResetVariables"
+    properties:
+      variableList: "listName,resultType"
     transitions:
       next: "checkIntent"
   
@@ -714,9 +736,15 @@ states:
           cardLayout: "vertical"
           cards:
           - title: "${notElectedCandidates.candidateName}"
-            description: "Liste: ${listName.value} Suffrages: ${notElectedCandidates.suffrages}" 
+            description: "Liste: ${listName.value} Suffrages: ${notElectedCandidates.suffrages}.\nPas élu(e) à ce stade des élections." 
             iteratorVariable: "notElectedCandidates"
       processUserMessage: true  
+    transitions: {}
+      
+  resetNotElectedCandidateByList:
+    component: "System.ResetVariables"
+    properties:
+      variableList: "listName,resultType"
     transitions:
       next: "checkIntent"
 
@@ -753,10 +781,10 @@ states:
       resultType: "${resultType.value}"
     transitions: {}
 
-  resultatCEOutput:
+  resultatCEOutput: #===========================================output ${electedCandidatesCanton} is an empty array. no error but empty
     component: "System.Output"
     properties:
-      text: "Pour les ${timeStampElectedCandidatesCanton?lower_case}, les résultat de l'élection au Conseil d'Etat sont " #${electedCandidatesCanton}"
+      text: "Pour les ${timeStampElectedCandidatesCanton?lower_case}, les résultat de l'élection au Conseil d'Etat sont ${electedCandidatesCanton}"
       #du Conseil d'Etat : \n Les 7 candidats pressentis pour le second tour sont  : \n Christopher Lora, Gilles Barpéaimu, Pierre Midi, Robert Letitbe, Olivier Lesombre, Eric Brave, Agnès Cuèlli }  [Appel BackOffice]"
     transitions:
       next: "checkIntent"
@@ -795,6 +823,12 @@ states:
             description: "Nombre de sièges pressentis ${seatsDistributionAllPartiesCanton.numberOfSeats}" #${timeStampDistributionSeatsAllPartiesCanton}
             iteratorVariable: "seatsDistributionAllPartiesCanton"
       processUserMessage: true  
+    transitions: {}
+      
+  resetAllPartySeats:
+    component: "System.ResetVariables"
+    properties:
+      variableList: "resultType"
     transitions:
       next: "checkIntent"
 
@@ -823,8 +857,14 @@ states:
       component: "System.Output"  
       properties:
         text: "Pour les ${timeStampPartecipation?lower_case}, le taux de participation est de ${percentagePartecipation} et ${votersPartecipation} bulletins rentrés sont comptés."
-      transitions:
-        next: "checkIntent"
+      transitions: {}
+        
+  resetParticipation:
+    component: "System.ResetVariables"
+    properties:
+      variableList: "resultType"
+    transitions:
+      next: "checkIntent"
 
 # Taux de participation par local
 # 1) on regarde si match localDeVote  
@@ -871,22 +911,23 @@ states:
     transitions: {} 
 
   printComune: 
-     component: "System.Output"
-     properties:
-        text:  "Le taux de participation à ${comuneName} est de: ${localPercentage} pour les ${timeStampLocal}" 
-  
-  #participationRateByLocalOutput:
-  #  component: "System.Output"
-  #  properties:
-  #    text: "Le taux  participation dans le local ${comuneName.value!\"null\"} à l'élection du ${resultType.value!\"null\"} est de 35%. \n [Appel BackOffice]"
-  #  transitions:
-  #    next: "checkIntent"
+    component: "System.Output"
+    properties:
+      text:  "Le taux de participation à ${comuneName} est de: ${localPercentage} pour les ${timeStampLocal}"
+    transitions: {}
+        
+  resetParticipationCommune:
+    component: "System.ResetVariables"
+    properties:
+      variableList: "comuneName,resultType"
+    transitions:
+      next: "checkIntent"
 
 # TODO aide pour avoir d'autres résultats/informations que les résultats globaux de l'élection
   helpForAskOtherStart:
     component: "System.Output"
     properties:
-      text: "TODO Bientôt je t'aiderai à choisir d'autres résultats si tu veux pour le type d'élection ${resultType.value!\"null\"} que tu as choisi."
+      text: "TODO Bientôt je vous aiderai à choisir d'autres résultats si vous le voulez pour le type d'élection ${resultType.value!\"null\"} que vous avez choisi."
     transitions:
       next: "checkIntent"
 
