@@ -662,7 +662,8 @@ states:
             iteratorVariable: "electedCandidates"
       processUserMessage: true
       keepTurn: true
-    transitions: {}
+    transitions: #{}
+      next: "whoIsElectedForAListSuggestListbox"
   
 # suggest résultat pour une autre liste  
   whoIsElectedForAListSuggestListbox:
@@ -778,7 +779,7 @@ states:
           - title: "${notElectedCandidates.candidateName}"
             description: "Liste: ${listName.value} Suffrages: ${notElectedCandidates.suffrages}.\nPas élu(e) à ce stade des élections." 
             iteratorVariable: "notElectedCandidates"
-      processUserMessage: true  
+      processUserMessage: true 
     transitions: {}
 
 # suggest résultat pour une autre liste  
