@@ -1,0 +1,73 @@
+value,entity,synonyms
+aire la ville,LocalDeVote,Aire-la-Ville:0100
+anieres,LocalDeVote,Anières:0200
+avully,LocalDeVote,Avully:0300
+avusy,LocalDeVote,Avusy:0400
+bardonnex,LocalDeVote,Bardonnex:0500
+bellevue,LocalDeVote,Bellevue:0600
+bernex,LocalDeVote,Bernex:0700
+carouge,LocalDeVote,Carouge:0800
+cartigny,LocalDeVote,Cartigny:0900
+celigny,LocalDeVote,Céligny:1000
+chancy,LocalDeVote,Chancy:1100
+chene bougeries centre,LocalDeVote,Chêne-Bougeries-Centre:1201
+conches,LocalDeVote,Conches:1202
+chene bourg,LocalDeVote,Chêne-Bourg:1300
+choulex,LocalDeVote,Choulex:1400
+collex bossy,LocalDeVote,Collex-Bossy:1500
+collonge bellerive,LocalDeVote,Collonge-Bellerive:1600
+cologny,LocalDeVote,Cologny:1700
+confignon,LocalDeVote,Confignon:1800
+corsier,LocalDeVote,Corsier:1900
+dardagny,LocalDeVote,Dardagny:2000
+cite   rive,LocalDeVote,Cité - Rive:2101
+paquis,LocalDeVote,Pâquis:2102
+saint gervais,LocalDeVote,Saint-Gervais:2103
+prairie delices,LocalDeVote,Prairie-Délices:2104
+eaux vives   lac,LocalDeVote,Eaux-Vives - Lac:2105
+eaux vives   frontenex,LocalDeVote,Eaux-Vives - Frontenex:2106
+florissant   malagnou,LocalDeVote,Florissant - Malagnou:2107
+cluse   roseraie,LocalDeVote,Cluse - Roseraie:2108
+acacias,LocalDeVote,Acacias:2109
+mail   jonction,LocalDeVote,Mail - Jonction:2110
+servette   grand pre,LocalDeVote,Servette - Grand-Pré:2111
+prieure   secheron,LocalDeVote,Prieuré - Sécheron:2112
+saint jean,LocalDeVote,Saint-Jean:2113
+les crets,LocalDeVote,Les Crêts:2114
+cropettes   vidollet,LocalDeVote,Cropettes - Vidollet:2115
+vieusseux,LocalDeVote,Vieusseux:2116
+champel,LocalDeVote,Champel:2117
+genthod,LocalDeVote,Genthod:2200
+grand saconnex,LocalDeVote,Grand-Saconnex:2300
+gy,LocalDeVote,Gy:2400
+hermance,LocalDeVote,Hermance:2500
+jussy,LocalDeVote,Jussy:2600
+laconnex,LocalDeVote,Laconnex:2700
+grand lancy,LocalDeVote,Grand-Lancy:2801
+petit lancy,LocalDeVote,Petit-Lancy:2802
+meinier,LocalDeVote,Meinier:2900
+meyrin,LocalDeVote,Meyrin:3000
+onex,LocalDeVote,Onex:3100
+perly certoux,LocalDeVote,Perly-Certoux:3200
+plan les ouates,LocalDeVote,Plan-les-Ouates:3300
+pregny chambesy,LocalDeVote,Pregny-Chambésy:3400
+presinge,LocalDeVote,Presinge:3500
+puplinge,LocalDeVote,Puplinge:3600
+russin,LocalDeVote,Russin:3700
+satigny,LocalDeVote,Satigny:3800
+soral,LocalDeVote,Soral:3900
+thonex,LocalDeVote,Thônex:4000
+troinex,LocalDeVote,Troinex:4100
+vandoeuvres,LocalDeVote,Vandoeuvres:4200
+vernier village,LocalDeVote,Vernier village:4301
+chatelaine,LocalDeVote,Châtelaine:4302
+aire le lignon,LocalDeVote,Aïre-Le Lignon:4303
+les avanchets,LocalDeVote,Les Avanchets:4304
+versoix,LocalDeVote,Versoix:4400
+veyrier,LocalDeVote,Veyrier:4500
+suisses de l'etranger,LocalDeVote,Suisses de l'Étranger:4600
+total canton,LocalDeVote,TOTAL CANTON:0000
+chene bougeries,LocalDeVote,Chêne-Bougeries:1200
+geneve,LocalDeVote,Genève:2100
+lancy,LocalDeVote,Lancy:2800
+vernier,LocalDeVote,Vernier:4300
