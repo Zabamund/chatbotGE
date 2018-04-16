@@ -1,0 +1,73 @@
+value,entity,synonyms
+aire la ville,LocalDeVote,Aire-la-Ville:0100:aire la ville
+anieres,LocalDeVote,Anières:0200:anieres
+avully,LocalDeVote,Avully:0300:avully
+avusy,LocalDeVote,Avusy:0400:avusy
+bardonnex,LocalDeVote,Bardonnex:0500:bardonnex
+bellevue,LocalDeVote,Bellevue:0600:bellevue
+bernex,LocalDeVote,Bernex:0700:bernex
+carouge,LocalDeVote,Carouge:0800:carouge
+cartigny,LocalDeVote,Cartigny:0900:cartigny
+celigny,LocalDeVote,Céligny:1000:celigny
+chancy,LocalDeVote,Chancy:1100:chancy
+chene bougeries centre,LocalDeVote,Chêne-Bougeries-Centre:1201:chene bougeries centre
+conches,LocalDeVote,Conches:1202:conches
+chene bourg,LocalDeVote,Chêne-Bourg:1300:chene bourg
+choulex,LocalDeVote,Choulex:1400:choulex
+collex bossy,LocalDeVote,Collex-Bossy:1500:collex bossy
+collonge bellerive,LocalDeVote,Collonge-Bellerive:1600:collonge bellerive
+cologny,LocalDeVote,Cologny:1700:cologny
+confignon,LocalDeVote,Confignon:1800:confignon
+corsier,LocalDeVote,Corsier:1900:corsier
+dardagny,LocalDeVote,Dardagny:2000:dardagny
+cite   rive,LocalDeVote,Cité - Rive:2101:cite   rive
+paquis,LocalDeVote,Pâquis:2102:paquis
+saint gervais,LocalDeVote,Saint-Gervais:2103:saint gervais
+prairie delices,LocalDeVote,Prairie-Délices:2104:prairie delices
+eaux vives   lac,LocalDeVote,Eaux-Vives - Lac:2105:eaux vives   lac
+eaux vives   frontenex,LocalDeVote,Eaux-Vives - Frontenex:2106:eaux vives   frontenex
+florissant   malagnou,LocalDeVote,Florissant - Malagnou:2107:florissant   malagnou
+cluse   roseraie,LocalDeVote,Cluse - Roseraie:2108:cluse   roseraie
+acacias,LocalDeVote,Acacias:2109:acacias
+mail   jonction,LocalDeVote,Mail - Jonction:2110:mail   jonction
+servette   grand pre,LocalDeVote,Servette - Grand-Pré:2111:servette   grand pre
+prieure   secheron,LocalDeVote,Prieuré - Sécheron:2112:prieure   secheron
+saint jean,LocalDeVote,Saint-Jean:2113:saint jean
+les crets,LocalDeVote,Les Crêts:2114:les crets
+cropettes   vidollet,LocalDeVote,Cropettes - Vidollet:2115:cropettes   vidollet
+vieusseux,LocalDeVote,Vieusseux:2116:vieusseux
+champel,LocalDeVote,Champel:2117:champel
+genthod,LocalDeVote,Genthod:2200:genthod
+grand saconnex,LocalDeVote,Grand-Saconnex:2300:grand saconnex
+gy,LocalDeVote,Gy:2400:gy
+hermance,LocalDeVote,Hermance:2500:hermance
+jussy,LocalDeVote,Jussy:2600:jussy
+laconnex,LocalDeVote,Laconnex:2700:laconnex
+grand lancy,LocalDeVote,Grand-Lancy:2801:grand lancy
+petit lancy,LocalDeVote,Petit-Lancy:2802:petit lancy
+meinier,LocalDeVote,Meinier:2900:meinier
+meyrin,LocalDeVote,Meyrin:3000:meyrin
+onex,LocalDeVote,Onex:3100:onex
+perly certoux,LocalDeVote,Perly-Certoux:3200:perly certoux
+plan les ouates,LocalDeVote,Plan-les-Ouates:3300:plan les ouates
+pregny chambesy,LocalDeVote,Pregny-Chambésy:3400:pregny chambesy
+presinge,LocalDeVote,Presinge:3500:presinge
+puplinge,LocalDeVote,Puplinge:3600:puplinge
+russin,LocalDeVote,Russin:3700:russin
+satigny,LocalDeVote,Satigny:3800:satigny
+soral,LocalDeVote,Soral:3900:soral
+thonex,LocalDeVote,Thônex:4000:thonex
+troinex,LocalDeVote,Troinex:4100:troinex
+vandoeuvres,LocalDeVote,Vandoeuvres:4200:vandoeuvres
+vernier village,LocalDeVote,Vernier village:4301:vernier village
+chatelaine,LocalDeVote,Châtelaine:4302:chatelaine
+aire le lignon,LocalDeVote,Aïre-Le Lignon:4303:aire le lignon
+les avanchets,LocalDeVote,Les Avanchets:4304:les avanchets
+versoix,LocalDeVote,Versoix:4400:versoix
+veyrier,LocalDeVote,Veyrier:4500:veyrier
+suisses de l'etranger,LocalDeVote,Suisses de l'Étranger:4600:suisses de l'etranger
+total canton,LocalDeVote,TOTAL CANTON:0000:total canton
+chene bougeries,LocalDeVote,Chêne-Bougeries:1200:chene bougeries
+geneve,LocalDeVote,Genève:2100:geneve
+lancy,LocalDeVote,Lancy:2800:lancy
+vernier,LocalDeVote,Vernier:4300:vernier
