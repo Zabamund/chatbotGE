@@ -19,67 +19,28 @@
 
 ## Contenu
 
-
-
 ```bash
 .
+├── .ipynb_checkpoints
+# jupyter notebooks checkpoints
 ├── DATA_format_JSON
-# test
-├── LICENSE.md
-├── README.md
+# example open-source files as used during the elections
 ├── UX
+# input about the proposed UX
 ├── botTutorial
+# bot tutorial material
 ├── docs
+# Reference Documents available on the internet
 ├── electionBot_sBox
+# sandbox of the bot during development
 ├── images
+# *.png and other assets made available for the UX
 ├── introFiles
+# files provided early on to guide development of the bot
 ├── node_snippets
+# small snippets - code sandbox
 ├── pythonNotebooks
-├── sqli
+# jupyter notebooks
 └── test27mar
+# files used and created during prod url tests on march 27th
 ```
-
-./.ipynb_checkpoints
-
-jupyter notebooks checkpoints
-
-./DATA_format_JSON
-
-example open-source files as used during the elections
-
-./UX
-
-input about the proposed UX
-
-./botTutorial
-
-bot tutorial material
-
-./docs
-
-Refernce Documents available on the internet
-
-./electionBot_sbox
-
-sandbox of the bot during development
-
-./images
-
-*.png and other assets made available for the UX
-
-./introFiles
-
-files provided early on to guide development of the bot
-
-./node_snippets
-
-small snippets - code sandbox
-
-./pythonNotebooks
-
-jupyter notebooks
-
-./test27mar
-
-files used and created during prod url tests on march 27th
-
