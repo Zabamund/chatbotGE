@@ -2,14 +2,14 @@
 
 ## Context
 
-Ce repo a été crée dans le cadre d'un stage effectué au DGSI de l'Etat de Genève
-This repo was created as part of work experience at the DGSI of the State of Geneva
-
-Il est ouvert et libre d'accès
-It is open-source
-
-L'objectif du stage est une exploration des technologies de chatbots dans le contexte des Elections cantonales genevoises d'avril 2018
-The objectif of this work experience was to explore chatbot technologies in the context of the cantonal elections in Geneva in April 2018
+<ul>
+<li>Ce repo a été crée dans le cadre d'un stage effectué au DGSI de l'Etat de Genève</li>
+<li>This repo was created as part of work experience at the DGSI of the State of Geneva</li>
+<li>Il est ouvert et libre d'accès</li>
+<li>It is open-source</li>
+<li>L'objectif du stage est une exploration des technologies de chatbots dans le contexte des Elections cantonales genevoises d'avril 2018</li>
+<li>The objectif of this work experience was to explore chatbot technologies in the context of the cantonal elections in Geneva in April 2018</li>
+</ul>
 
 ## Contenu
 ./.ipynb_checkpoints
