@@ -68,22 +68,17 @@ jupyter notebooks
 files used and created during prod url tests on march 27th
 
 
-
 .
-+-- _config.yml
-+-- _drafts
-|   +-- begin-with-the-crazy-ideas.textile
-|   +-- on-simplicity-in-technology.markdown
-+-- _includes
-|   +-- footer.html
-|   +-- header.html
-+-- _layouts
-|   +-- default.html
-|   +-- post.html
-+-- _posts
-|   +-- 2007-10-29-why-every-programmer-should-play-nethack.textile
-|   +-- 2009-04-26-barcamp-boston-4-roundup.textile
-+-- _data
-|   +-- members.yml
-+-- _site
-+-- index.html
+├── DATA_format_JSON
+├── LICENSE.md
+├── README.md
+├── UX
+├── botTutorial
+├── docs
+├── electionBot_sBox
+├── images
+├── introFiles
+├── node_snippets
+├── pythonNotebooks
+├── sqli
+└── test27mar
