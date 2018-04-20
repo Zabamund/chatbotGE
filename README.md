@@ -19,10 +19,6 @@
 
 ## Contenu
 
-.
-+-- _config.yml
-+-- _drafts
-
 ./.ipynb_checkpoints
 
 jupyter notebooks checkpoints
@@ -68,6 +64,7 @@ jupyter notebooks
 files used and created during prod url tests on march 27th
 
 
+```bash
 .
 ├── DATA_format_JSON
 ├── LICENSE.md
@@ -82,3 +79,4 @@ files used and created during prod url tests on march 27th
 ├── pythonNotebooks
 ├── sqli
 └── test27mar
+```
