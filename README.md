@@ -1,11 +1,15 @@
 # chatbotGE
 
-## Contexte
-Ce repo a été crée dans le cadre d'un stage effectué au DGSI
+## Context
+
+Ce repo a été crée dans le cadre d'un stage effectué au DGSI de l'Etat de Genève
+This repo was created as part of work experience at the DGSI of the State of Geneva
 
 Il est ouvert et libre d'accès
+It is open-source
 
-L'objectif du stage est une exploration des technologies de chatbots dans le contexte des Elections genevoises d'Avril 2018
+L'objectif du stage est une exploration des technologies de chatbots dans le contexte des Elections cantonales genevoises d'avril 2018
+The objectif of this work experience was to explore chatbot technologies in the context of the cantonal elections in Geneva in April 2018
 
 ## Contenu
 ./.ipynb_checkpoints
