@@ -8,10 +8,46 @@ Il est ouvert et libre d'accès
 L'objectif du stage est une exploration des technologies de chatbots dans le contexte des Elections genevoises d'Avril 2018
 
 ## Contenu
+./.ipynb_checkpoints
+
+jupyter notebooks checkpoints
+
+./DATA_format_JSON
+
+example open-source files as used during the elections
+
+./UX
+
+input about the proposed UX
+
+./botTutorial
+
+bot tutorial material
+
 ./docs
 
-Documents de références disponibles sur internet
+Refernce Documents available on the internet
 
-./assets
+./electionBot_sbox
 
-images ou documents d'illustrations du projet
+sandbox of the bot during development
+
+./images
+
+*.png and other assets made available for the UX
+
+./introFiles
+
+files provided early on to guide development of the bot
+
+./node_snippets
+
+small snippets - code sandbox
+
+./pythonNotebooks
+
+jupyter notebooks
+
+./test27mar
+
+files used and created during prod url tests on march 27th
