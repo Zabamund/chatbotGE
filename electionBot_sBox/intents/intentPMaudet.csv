@@ -1,0 +1,13 @@
+query,topIntent
+quel score a fait Pierre Maudet,IntentResultatPierreMaudet
+et pour Pierre Maudet,IntentResultatPierreMaudet
+Pierre Maudet,IntentResultatPierreMaudet
+résultats pour Pierre Maudet,IntentResultatPierreMaudet
+quels sont les résultats de Pierre Maudet à l'élection du conseil d'état ?,IntentResultatPierreMaudet
+Est-ce que Pierre Maudet est élu ?,IntentResultatPierreMaudet
+Pierre Maudet est-il élu ?,IntentResultatPierreMaudet
+résultats Pierre Maudet,IntentResultatPierreMaudet
+qui a gagné?,IntentResultatPierreMaudet
+résultats pour Pierre Maudet,IntentResultatPierreMaudet
+quel sont les résultats de Maudet,IntentResultatPierreMaudet
+quel est le score de Pierre Maudet,IntentResultatPierreMaudet

@@ -1,0 +1,158 @@
+query,topIntent
+résultats liste pbd,IntentResultatsGCParListe
+quels sont les résultats des socialistes,IntentResultatsGCParListe
+Combien de sièges a obtenu la liste pbd ?,IntentResultatsGCParListe
+résultats liste femmes 2018,IntentResultatsGCParListe
+quels sont les résultats du mcg,IntentResultatsGCParListe
+résultats de la liste démocrates chrétiens,IntentResultatsGCParListe
+quels sont les résultats des libéraux radicaux,IntentResultatsGCParListe
+quels sont les résultats de ensemble à gauche,IntentResultatsGCParListe
+quels sont les résultats de la liste pbd ?,IntentResultatsGCParListe
+résultats pour la liste les verts,IntentResultatsGCParListe
+résultat pour la liste toto,IntentResultatsGCParListe
+sièges liste pbd,IntentResultatsGCParListe
+Quels sont les résultats à geneve ?,IntentResultatParLocalDeVote
+résultat des élections au conseil d'état à genève,IntentResultatParLocalDeVote
+résultats à versoix,IntentResultatParLocalDeVote
+quels sont les résultats à Vernier ?,IntentResultatParLocalDeVote
+qui est élu au Grand Conseil,IntentResultatGC
+Quel est le résultat de l'élection au Grand Conseil ?,IntentResultatGC
+résultats GC,IntentResultatGC
+suffrages,IntentResultatGC
+répartition des sièges,IntentResultatGC
+quels sont les résultats du Grand Conseil,IntentResultatGC
+quels sont les résultats au GC,IntentResultatGC
+sièges,IntentResultatGC
+Quelles sont les listes qui ont des candidats élus ?,IntentResultatGC
+Quelle est la répartition des suffrages ?,IntentResultatGC
+répartition des suffrages,IntentResultatGC
+Quelle est la répartition des sièges ?,IntentResultatGC
+qui est élu chez le MCG,IntentListeElusParListe
+qui sont les élues socialistes?,IntentListeElusParListe
+Qui a été élu chez les verts ?,IntentListeElusParListe
+qui sont les élus MCG?,IntentListeElusParListe
+liste des élus pour la liste,IntentListeElusParListe
+qui sont les élus FEM,IntentListeElusParListe
+liste élus par liste,IntentListeElusParListe
+quels sont les élus dans la liste PLR,IntentListeElusParListe
+qui sont les élues de droite?,IntentListeElusParListe
+MCG candidats élus?,IntentListeElusParListe
+Qui a été élu pour la liste les verts ?,IntentListeElusParListe
+qui y est élu,IntentListeElusParListe
+qui sont les élues de gauche ?,IntentListeElusParListe
+quelles sont les élues EAG?,IntentListeElusParListe
+qui sont les femmes élues chez les Socialistes ?,IntentListeElusParListe
+qui est élue PLR,IntentListeElusParListe
+PLR candidates élues ?,IntentListeElusParListe
+les élues MCG,IntentListeElusParListe
+biffée?,IntentNbreFoisCandidatBiffe
+combien de bulletins ont été biffés pour pierre maudet,IntentNbreFoisCandidatBiffe
+combien de fois il a été biffé ?,IntentNbreFoisCandidatBiffe
+nombre de bulletins biffés?,IntentNbreFoisCandidatBiffe
+Combien de fois Stéphanie Valentino a-t-elle été biffée?,IntentNbreFoisCandidatBiffe
+biffées?,IntentNbreFoisCandidatBiffe
+biffé?,IntentNbreFoisCandidatBiffe
+nombre de fois ou pierre maudet a été biffé ?,IntentNbreFoisCandidatBiffe
+biffé combien de fois ?,IntentNbreFoisCandidatBiffe
+biffés?,IntentNbreFoisCandidatBiffe
+combien de fois pierre maudet a été biffé ?,IntentNbreFoisCandidatBiffe
+tip top,IntentThank
+super,IntentThank
+merci,IntentThank
+ok,IntentThank
+cool,IntentThank
+ok à plus,IntentThank
+génial !,IntentThank
+ok ciao,IntentThank
+extra,IntentThank
+parfait merci,IntentThank
+extra bleu ciel,IntentThank
+hi,IntentWelcome
+adieu,IntentWelcome
+hello,IntentWelcome
+bonjour,IntentWelcome
+salut,IntentWelcome
+ciao,IntentWelcome
+Qui n'a pas été élu chez les verts ?,IntentListeNonElusParListe
+qui n'a pas obtenu assez de voix pour être élu?,IntentListeNonElusParListe
+qui a perdu à droite ?,IntentListeNonElusParListe
+Qui n'a pas été élu ?,IntentListeNonElusParListe
+non-élus?,IntentListeNonElusParListe
+qui n'a pas passé la barre?,IntentListeNonElusParListe
+qui n'est pas élu chez les socialistes,IntentListeNonElusParListe
+non élus?,IntentListeNonElusParListe
+qui a perdu au centre,IntentListeNonElusParListe
+liste non élus pour la liste les verts,IntentListeNonElusParListe
+quels Verts sont virés?,IntentListeNonElusParListe
+MCG non-élus ?,IntentListeNonElusParListe
+qui a perdu à gauche?,IntentListeNonElusParListe
+quelles roses sont recalées?,IntentListeNonElusParListe
+pas élus par liste,IntentListeNonElusParListe
+qui n'y est pas élu,IntentListeNonElusParListe
+qui est passé à la trappe ?,IntentListeNonElusParListe
+PLR non-élues?,IntentListeNonElusParListe
+quels Roses sont recalés?,IntentListeNonElusParListe
+qui a perdu?,IntentListeNonElusParListe
+combien pierre maudet a eu de suffrages à genève,IntentResultatParCandidatParLocalDeVote
+résultats de Pierre Maudet au Grand conseil à Anières,IntentResultatParCandidatParLocalDeVote
+quels sont les résultats de Pierre Maudet à genève,IntentResultatParCandidatParLocalDeVote
+résultats de pierre maudet à anières,IntentResultatParCandidatParLocalDeVote
+pierre maudet versoix,IntentResultatParCandidatParLocalDeVote
+feedback,IntentDonnerDuFeedback
+j'aimerais une nouvelle fonction,IntentDonnerDuFeedback
+je trouve ce bot très bien,IntentDonnerDuFeedback
+je voudrais vous donner mon avis,IntentDonnerDuFeedback
+je trouve ce chatbot super,IntentDonnerDuFeedback
+je voudrais suggérer une amélioration,IntentDonnerDuFeedback
+participation,IntentTauxParticipation
+combien de votants ?,IntentTauxParticipation
+taux de participation,IntentTauxParticipation
+Combien de personnes ont voté ?,IntentTauxParticipation
+Quel est le taux de participation ?,IntentTauxParticipation
+debug,IntentDebug
+donne moi le debug,IntentDebug
+information sur les variables,IntentDebug
+quel score a fait Yves Nidegger,IntentResultatParCandidat
+et pour Yves Nidegger,IntentResultatParCandidat
+Yves Nidegger,IntentResultatParCandidat
+résultats pour Nathalie Fontanet,IntentResultatParCandidat
+quels sont les résultats de Yves Nidegger à l'élection du conseil d'état ?,IntentResultatParCandidat
+qui a été élu?,IntentResultatParCandidat
+qui est élu?,IntentResultatParCandidat
+Est-ce que Yves Nidegger est élu ?,IntentResultatParCandidat
+Yves Nidegger est-il élu ?,IntentResultatParCandidat
+résultats Thierry Apothéloz,IntentResultatParCandidat
+qui a gagné?,IntentResultatParCandidat
+résultats pour Luc Barthassat,IntentResultatParCandidat
+quel sont les résultats de Nidegger,IntentResultatParCandidat
+quel est le score de Yves Nidegger,IntentResultatParCandidat
+Résultat des élections,IntentResultatElections
+quels conseillers d'état sont élus ?,IntentResultatElections
+résultats grand conseil,IntentResultatElections
+résultats conseil d'état,IntentResultatElections
+résultat élection,IntentResultatElections
+Donne moi le résultat des élections,IntentResultatElections
+quels députés ont été élus ?,IntentResultatElections
+Résultats de l'élection du conseil d'état,IntentResultatElections
+je veux les résutats,IntentResultatElections
+Résultats,IntentResultatElections
+résultats,IntentResultatElections
+quels sont les résultats du mcg,IntentResultatElections
+Résultat,IntentResultatElections
+résultats des élections,IntentResultatElections
+c'est quoi les résultats ?,IntentResultatElections
+Menu,IntentMenu
+menu,IntentMenu
+MENU,IntentMenu
+"il s'est passé quoi ? ",IntentInformationsGenerales
+"C'est quoi l'élection ? ",IntentInformationsGenerales
+combien de personnes ont voté à Anieres pour l'élection du grand conseil ?,IntentTauxParticipationParLocal
+taux de participation pour chene bougeries centre,IntentTauxParticipationParLocal
+quelle était la participation à Anieres,IntentTauxParticipationParLocal
+Quel était le taux de participation pour chêne bougeries centre pour l'élection du conseil d'état ?,IntentTauxParticipationParLocal
+taux de participation pour 1-1,IntentTauxParticipationParLocal
+Quel est le taux de participation pour Chêne Bougeries centre ?,IntentTauxParticipationParLocal
+combien de personnes ont voté à anieres,IntentTauxParticipationParLocal
+"Tu connais une blague ? ",IntentJoke
+fais moi rigoler,IntentJoke
+Raconte moi une blague,IntentJoke
