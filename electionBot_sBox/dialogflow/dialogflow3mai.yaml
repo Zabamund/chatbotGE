@@ -1,1569 +1,771 @@
-Toggle to show or hide the app menu.
-
-Mobile Cloud Enterprise
-Oracle Mobile Cloud Enterprise
-
-RL
-
-Back
-LandmanbotV2_1
-
-
-Instant Apps
-
-Validate
-
-Train
-
-View problems affecting this bot.
-
-Test
-
-
-Components
-Theme
-Default
-Press the Escape key to exit the current flow editor.
-
-1
 #metadata: information about the flow
-2
 #  platformVersion: the version of the bots platform that this flow was written to work with 
-3
 metadata:
-4
   platformVersion: 1.0
-5
 main: true
-6
 name: LandmanbotV2_1 # refactoring pour le 2e tour des élections
-7
-​
-8
+
 context:
-9
   variables:
-10
     # Entity variables
-11
     candidateName: "Candidats_CE"
-12
     resultType: "TypeElection"
-13
     listName: "ListeElectorale"
-14
     comuneName: "LocalDeVote"
-15
     
-16
     # Variables for backend calls (functions are numbered same as in this list)
-17
     debugJSBackend: "string"
-18
     # Variable utilisé pour récolter le feedback
-19
     feedback: "string"
-20
     # resultCandidateCanton #1
-21
     timeStampCandidateCanton: "string" #1
-22
     candidateVotesCanton: "string" #1
-23
     candidateOrderCanton: "string" #1
-24
     candidateElectedCanton: "string" #1
-25
     candidateEqualityCanton: "string" #1
-26
     # returnBiffeCandidate #2
-27
     #timeStampCandidateBiffe: "string"
-28
     #candidateBiffeCanton: "string"
-29
     # resultDistributionSeats #3
-30
     #timeStampSeats: "string"
-31
     #numberOfSeats: "string"
-32
     # electedCandidatesByList #4
-33
     #timeStampElectedCandidates: "string"
-34
     #electedCandidates: "string"
-35
     #electedCandidatesAsMessage: "string"
-36
     # notElectedCandidatesByList #5
-37
     #timeStampNotElectedCandidates: "string"
-38
     #notElectedCandidates: "string"
-39
     #notElectedCandidatesAsMessage: "string"
-40
     # returnElectedCandidatesCanton #6
-41
     timeStampElectedCandidatesCanton: "string"
-42
     electedCandidatesCanton: "string"
-43
     outputMsgElectedCandidatesCanton: "string"
-44
     # returnElectedCandidatesCanton #7
-45
     #timeStampDistributionSeatsAllPartiesCanton: "string"
-46
     #seatsDistributionAllPartiesCanton: "string"
-47
     #distributionAllSeatsMessage: "string"
-48
     # resultPartecipation #8
-49
     timeStampPartecipation: "string"
-50
     percentagePartecipation: "string"
-51
     votersPartecipation: "string"
-52
     # resultLocal #9
-53
     localPercentage: "string"
-54
     timeStampLocal: "string"
-55
     
-56
     # system variables
-57
     iResult: "nlpresult"
-58
     
-59
 #states is where you can define the various states within your flow.
-60
 # The syntax for defining a state is
-61
 # statename:
-62
 #   component:Specify the component you want to use. This can be either a Built-In or custom component.
-63
 #   properties:
-64
 #     property1: "value" (These are the properties to the specified component
-65
 #   transitions: You can specify one of the following four
-66
 #     next: Specify the state you want to execute next after this state. By default it will execute the state specified after this
-67
 #     error: Specify the state you want to execute in case the component encounters any error in execution.
-68
 #     actions: You can handle various actions returned by the components here the syntax is actionName: "statename"
-69
 #        action1: state1
-70
 #     return: "done" You can exit the flow using the return statement
-71
-​
-72
+
 # global error handler
-73
 error: "handleGlobalError"
-74
-​
-75
+
 states:
-76
-​
-77
+
 #=======================================================================================================================
-78
 # Etat particulier pour bloquer le chatbot avant 12:45
-79
 #=======================================================================================================================
-80
 #  blockChatbot:
-81
 #    component: "System.Output"
-82
 #    properties:
-83
 #     text: "Bonjour et bienvenue\nJ'ai été développé par quelques passionnés, pour vous donner les résultats des votations et élections (résultats).\nMes informations sont principalement destinées aux citoyennes et citoyens genevois."
-84
 #     keepTurn: true
-85
 #  blockChatbot2:
-86
 #    component: "System.Output"
-87
 #    properties:
-88
 #     text: "Malheureusement les résultats ne sont pas encore disponibles ! Revenez me voir à 12:45 lorsqu'ils seront publiés: il ne me faudra que quelques millisecondes pour les apprendre par coeur et répondre à vos questions :-).\n\nA tout à l'heure !"
-89
 #    transitions:
-90
 #      return: "blockChatbot2"
-91
-​
-92
+
 #=======================================================================================================================
-93
 # Détection d'intention : premier état du dialogue
-94
 #=======================================================================================================================
-95
   checkIntent:
-96
     component: "System.Intent"
-97
     properties:
-98
       variable:  "iResult"
-99
       confidenceThreshold: 0.4
-100
     transitions:
-101
       actions:
-102
         IntentMenu: "resetVariablesContextMenu"
-103
         IntentWelcome: "greet"
-104
         IntentJoke: "tellAJoke"
-105
         IntentDebug: "tellDebug"
-106
         IntentResultatElections: "resultsStart"
-107
         IntentResultatParCandidat: "resultsByCandidateStart"
-108
         IntentNbreFoisCandidatBiffe: "nombreFoisCandidatBiffeStart"
-109
         IntentTauxParticipation: "participationRateStart"
-110
         IntentTauxParticipationParLocal: "participationRateByLocalStart"
-111
         IntentResultatsGCParListe: "resultsByListStart"
-112
         IntentListeElusParListe: "whoIsElectedForAListStart"
-113
         IntentListeNonElusParListe: "whoIsNotElectedForAListStart"
-114
         IntentResultatParLocalDeVote: "resultatParLocalDeVote"
-115
         IntentResultatParCandidatParLocalDeVote: "resultatParCandidatParLocalDeVote"
-116
         unresolvedIntent: "didNotUnderstand"
-117
         #IntentThank: "undefined"
-118
         #IntentDonnerDuFeedback: "undefined"
-119
         #IntentInformationsGenerales: "undefined"
-120
         IntentResultatPierreMaudet: "resultsPierreMaudetStart"
-121
-​
-122
+
 #=======================================================================================================================
-123
 #Context menu/help
-124
 #=======================================================================================================================
-125
   resetVariablesContextMenu:
-126
     component: "System.ResetVariables"
-127
     properties:
-128
       variableList: "candidateName,resultType,listName,comuneName"
-129
     transitions:
-130
       next: "contextMenu"
-131
   
-132
   contextMenu:
-133
     component: "System.List"
-134
     properties:
-135
       prompt: "Comment puis-je vous aider?"
-136
       options:
-137
       #- label: "Une blague ?"
-138
       #  value: "tellAJoke"
-139
       - label: "résultats"
-140
         value: "resultsStart"
-141
       #- label: "Les résultats pour un candidat ?"
-142
       #  value: "resultsByCandidateStart"
-143
       #- label: "Le nombre de fois qu'un(e) candidate(e) a été biffé(e)"
-144
       #  value: "nombreFoisCandidatBiffeStart"
-145
       - label: "participation"
-146
         value: "participationRateStart"
-147
       #- label: "Le taux de participation pour un local de vote ?"
-148
       #  value: "participationRateByLocalStart"
-149
       - label: "sièges"
-150
         value: "resultsByListStart"
-151
       - label: "élus"
-152
         value: "whoIsElectedForAListStart"
-153
       #- label: "Les candidat(e)s non-élu(e)s par liste"
-154
       #  value: "whoIsNotElectedForAListStart"
-155
       maxPrompts: 1
-156
     transitions:
-157
       actions:
-158
         tellAJoke: "tellAJoke"
-159
         resultsStart: "resultsStart"
-160
         resultsByCandidateStart: "resultsByCandidateStart"
-161
         nombreFoisCandidatBiffeStart: "nombreFoisCandidatBiffeStart"
-162
         participationRateStart: "participationRateStart"
-163
         participationRateByLocalStart: "participationRateByLocalStart"
-164
         resultsByListStart: "resultsByListStart"
-165
         whoIsElectedForAListStart: "whoIsElectedForAListStart"
-166
         whoIsNotElectedForAListStart: "whoIsNotElectedForAListStart"
-167
         textReceived: "checkIntent"
-168
-​
-169
+
 #=======================================================================================================================
-170
 # welcome
-171
 #=======================================================================================================================
-172
   greet:
-173
     component: "System.Output"
-174
     properties:
-175
      text: "Bonjour et bienvenue\nJ'ai été développé par quelques passionnés, pour vous donner les résultats des votations et élections (résultats).\nMes informations sont principalement destinées aux citoyennes et citoyens genevois"
-176
      keepTurn: true
-177
     transitions:
-178
       next: "greet2"
-179
   greet2:
-180
     component: "System.Output"
-181
     properties:
-182
      text: "Comment puis-je vous aider ?\n(vous pouvez toujours taper \"menu\" pour obtenir de l'aide)"
-183
     transitions:
-184
       next: "checkIntent"
-185
-​
-186
+
 #=======================================================================================================================
-187
 # smalltalk
-188
 #=======================================================================================================================
-189
   tellAJoke:
-190
     component: "System.Output"
-191
     properties:
-192
      text: "Je suis un robot et tous mes boulons n'ont pas encore été serrés! [:]"
-193
     transitions:
-194
       next: "checkIntent"
-195
       
-196
 #=======================================================================================================================
-197
 # renvoi sur url 1er tour
-198
 #=======================================================================================================================
-199
   renvoiURL:
-200
     component: "System.ResetVariables"
-201
     properties:
-202
       variableList: "candidateName,resultType,listName,comuneName"
-203
     transitions: {}
-204
       
-205
   renvoiURL2:
-206
     component: "System.Output"
-207
     properties:
-208
      text: "Vous pouvez consulter les résultats des élections du 1er tour sur https://www.ge.ch/elections/20180415/"
-209
      keepTurn: false
-210
     transitions:
-211
       next: "checkIntent"
-212
-​
-213
+
 #=======================================================================================================================
-214
 # gestion incompréhension
-215
 #=======================================================================================================================
-216
   didNotUnderstand:
-217
     component: "System.Output"
-218
     properties:
-219
       text: "Désolé mais je n'ai pas tout compris ... je débute seulement."
-220
       keepTurn: true
-221
-​
-222
+
   didNotUnderstand2:
-223
     component: "System.List"
-224
     properties:
-225
       prompt: "Pourriez-vous reformuler ? \nSinon aidez-vous des liens ci-dessous pour revenir au menu ou me faire un feedback constructif pour que je m'améliore ;-)."
-226
       options:    
-227
         - value: "menu"
-228
           label: "menu"
-229
         - value: "feedback"
-230
           label: "feedback"
-231
     transitions:
-232
       actions:
-233
         feedback: "giveFeedback"
-234
         menu: "resetVariablesContextMenu"
-235
         textReceived: "checkIntent"
-236
       
-237
 #=======================================================================================================================
-238
 # Résultats sans savoir Grand Conseil ou Conseil d'Etat
-239
 #=======================================================================================================================
-240
 # Il se peut que le type d'élection n'aie pas été précisé - le composant "System.List" le demande dans ce cas        
-241
   resultsStart:
-242
     component: "System.ResetVariables"
-243
     properties:
-244
       variableList: "candidateName,listName,comuneName"
-245
   resultsGetElectionTypeFromUserSentence:
-246
     component: "System.SetVariable"
-247
     properties:
-248
       variable: "resultType"
-249
       value: "${iResult.value.entityMatches['TypeElection'][0]}"
-250
   resultsAskForMissinElectionType:
-251
     component: "System.List"
-252
     properties: 
-253
       prompt: "Pour quelle élection vous voulez les résultats ?"
-254
       options: 
-255
       - label: "Conseil Etat"
-256
         value: "CE" 
-257
       - label: "Grand Conseil"
-258
         value: "GC" 
-259
       maxPrompts: 1
-260
       variable: "resultType"
-261
       nlpResultVariable: "iResult"
-262
     transitions:
-263
       actions:
-264
         unexpectedAction: "handleUnexpectedAction"
-265
-​
-266
+
   resultsSwitchToRelevantAction:
-267
     component: "System.Switch"
-268
     properties:
-269
       variable: "resultType"
-270
       values:
-271
       - null
-272
       - "CE"
-273
       - "GC"
-274
     transitions:
-275
       actions:
-276
         null: "resultsStart"
-277
         CE: "resultatCEStart"
-278
         GC: "resultatGCStart"
-279
         NONE: "resultsStart"
-280
-​
-281
+
 #=======================================================================================================================
-282
 # Résultats par candidat quelle que soit l'élection
-283
 #=======================================================================================================================
-284
 # 1) on reset la préférence de l'utilisateur en termes de nom de candidat
-285
 # 2) on regarde si il l'a donné dans l'intention (entityMatches)
-286
 # 3) on demande si elle manque (System.List)
-287
 # 4) on redirige vers la bonne action en fonction de la valeur choisie
-288
   resultsByCandidateStart:
-289
     component: "System.ResetVariables"
-290
     properties:
-291
       variableList: "candidateName"
-292
   
-293
   resultsByCandidateAskForMissingCandidateName:
-294
     component: "System.Text"
-295
     properties:
-296
       prompt: "Merci de me donner le nom du candidat ?"
-297
       variable: "candidateName"
-298
       nlpResultVariable: "iResult"
-299
     transitions:
-300
       actions:
-301
         unexpectedAction: "handleUnexpectedAction"
-302
   
-303
   resultsByCandidateAskSetElectionType:
-304
     component: "System.SetVariable"
-305
     properties:
-306
       variable: "resultType" 
-307
       value: "CE"
-308
     transitions: {}
-309
     
-310
   # Backend Call #1 ========================================== Problem with this call
-311
   resultsByCandidateCallBackofficeCandidateResultsCanton:
-312
     component: "resultCandidateCanton" #1
-313
     properties:
-314
       candidateName: "${candidateName.value}"
-315
       resultType: "${resultType.value}"
-316
     transitions: {} 
-317
-​
-318
+
   resultsByCandidateOutput: 
-319
     component: "System.Output"
-320
     properties:
-321
         text:  "Selon les ${timeStampCandidateCanton?lower_case}, ${candidateName.value!\"null\"} obtient ${candidateVotesCanton} suffrages à l'élection du ${resultType.value?replace(\"CE\",\"Conseil d'Etat\")?replace(\"GC\",\"GrandConseil\")!\"null\"}.<#if candidateElectedCanton ==''><#else> ${candidateElectedCanton}.</#if>"
-322
         # to debug add : \n\n${debugJSBackend}
-323
         # GBA 10.04.2018: je choisis de ne pas afficher : égalité: ${candidateEqualityCanton}
-324
     transitions: {}
-325
       
-326
   resetByCandidateVariables:
-327
     component: "System.ResetVariables"
-328
     properties:
-329
       variableList: "candidateName,resultType"
-330
     transitions:
-331
       next: "checkIntent"
-332
       
-333
       
-334
 #=======================================================================================================================
-335
 # Résultats pour Pierre Maudet
-336
 #=======================================================================================================================
-337
 # 1) on renvoie du texte
-338
 # 2) on refixe les variables (pour être propre)
-339
   resultsPierreMaudetStart: 
-340
     component: "System.Output"
-341
     properties:
-342
         text: "Pierre Maudet a été élu au Conseil d'Etat au 1er tour des élections du 15 avril 2018 avec 50'180 suffrages sur une majorité absolue de 49'011 suffrages"
-343
     transitions: {}
-344
       
-345
   resetPierreMaudetVariables:
-346
     component: "System.ResetVariables"
-347
     properties:
-348
       variableList: "candidateName,resultType"
-349
     transitions:
-350
       next: "checkIntent"
-351
-​
-352
+
 #=======================================================================================================================
-353
 # Nombre de fois qu'un candidat a été biffé
-354
 #=======================================================================================================================
-355
 # On renvoie au 1er tour
-356
   nombreFoisCandidatBiffeStart:
-357
     component: "System.Output"
-358
     properties:
-359
       text: "Ces résultats ne sont pas disponibles pour le 2e tour"
-360
       keepTurn: true
-361
     transitions:
-362
       next: "renvoiURL"
-363
   
-364
 #=======================================================================================================================
-365
 # Résultats par liste
-366
 #=======================================================================================================================
-367
 # On renvoie au 1er tour
-368
   resultsByListStart:
-369
     component: "System.Output"
-370
     properties:
-371
       text: "Ces résultats ne sont pas disponibles pour le 2e tour"
-372
       keepTurn: true
-373
     transitions:
-374
       next: "renvoiURL"
-375
-​
-376
+
 #=======================================================================================================================
-377
 # Qui est élu pour une liste ?
-378
 #=======================================================================================================================
-379
 # On renvoie au 1er tour
-380
   whoIsElectedForAListStart:
-381
     component: "System.Output"
-382
     properties:
-383
       text: "Ces résultats ne sont pas disponibles pour le 2e tour"
-384
       keepTurn: true
-385
     transitions:
-386
       next: "renvoiURL"
-387
-​
-388
+
 #=======================================================================================================================
-389
 # Qui n'est PAS élu pour une liste ?
-390
 #=======================================================================================================================
-391
 # On renvoie au 1er tour
-392
   whoIsNotElectedForAListStart:
-393
     component: "System.Output"
-394
     properties:
-395
       text: "Ces résultats ne sont pas disponibles pour le 2e tour"
-396
       keepTurn: true
-397
     transitions:
-398
       next: "renvoiURL"
-399
-​
-400
+
 #=======================================================================================================================
-401
 # Résultats Conseil d'Etat : liste des suffrages par candidats
-402
 #=======================================================================================================================
-403
 # On fixe le type d'élection à CE (pour être sûr) + on donne les résultats
-404
   resultatCEStart:
-405
     component: "System.SetVariable"
-406
     properties:
-407
       variable: "resultType"
-408
       value: "CE"
-409
     transitions: {}
-410
-​
-411
+
   # Backend Call #6
-412
   resultatCECallBackOfficeReturnElectedCandidatesCanton:
-413
     component: "returnElectedCandidatesCanton" #6
-414
     properties:
-415
       resultType: "${resultType.value}"
-416
     transitions: {}
-417
     
-418
   resultatCEOutput:
-419
     component: "System.Output"
-420
     properties:
-421
       text: "Les ${timeStampElectedCandidatesCanton?lower_case} de l'élection au Conseil d'Etat sont: \n(par ordre de suffrages)\n\n${outputMsgElectedCandidatesCanton}"
-422
     transitions:
-423
       next: "checkIntent"
-424
-​
-425
+
 #=======================================================================================================================
-426
 # Résultats Grand Conseil : liste des sièges par liste électorale
-427
 #=======================================================================================================================
-428
 # On renvoie au 1er tour
-429
   resultatGCStart:
-430
     component: "System.Output"
-431
     properties:
-432
       text: "Ces résultats ne sont pas disponibles pour le 2e tour"
-433
       keepTurn: true
-434
     transitions:
-435
       next: "renvoiURL"
-436
         
-437
 #=======================================================================================================================
-438
 # Taux de participation
-439
 #=======================================================================================================================
-440
 # 1) on fixe le type d'élection pour CE
-441
 # 1) on demande type élection si absent (System.Liste)
-442
 # 2) appel backoffice donne le taux de participation
-443
   participationRateStart:
-444
     component: "System.SetVariable"
-445
     properties:
-446
       variable: "resultType"
-447
       value: "CE"
-448
     transitions: {}
-449
   
-450
   # Backend Call #8
-451
   participationRateCallResultPartecipationBackend:
-452
      component: "resultPartecipation" #8
-453
      properties:
-454
         resultType: "${resultType.value}"
-455
         
-456
   participationRateOutput:
-457
       component: "System.Output"  
-458
       properties:
-459
         text: "Pour les ${timeStampPartecipation?lower_case}, le taux de participation à l'élection du ${resultType.value?replace(\"CE\",\"Conseil d'Etat\")?replace(\"GC\",\"GrandConseil\")!\"null\"} est de ${percentagePartecipation} et ${votersPartecipation} bulletins rentrés sont comptés."
-460
         keepTurn: true
-461
       transitions: {}  
-462
       
-463
 # suggest résultat pour une autre liste  
-464
   participationRateSuggestListbox:
-465
     component: "System.List"
-466
     properties: 
-467
       prompt: "Voulez-vous voir ?"
-468
       options: 
-469
       - label: "par local"
-470
         value: "parLocal" 
-471
       maxPrompts: 1
-472
     transitions:
-473
       actions:
-474
         parLocal: "participationRateByLocalStart"
-475
         textReceived: "checkIntent"
-476
-​
-477
+
 #=======================================================================================================================
-478
 # Taux de participation par local
-479
 #=======================================================================================================================
-480
 # 1) on regarde si match localDeVote  
-481
 # 2) on demande le local si pas compris
-482
 # 3) on regarde si match election type
-483
 # 4) on demande type élection si absent (System.Liste)
-484
 # 5) appel backoffice donne le taux de participation
-485
   participationRateByLocalStart:
-486
     component: "System.SetVariable"
-487
     properties:
-488
       variable: "comuneName"
-489
       value: "${iResult.value.entityMatches['LocalDeVote'][0]}"
-490
   participationRateByLocalAskForMissingLocalName:
-491
     component: "System.Text"
-492
     properties:
-493
       prompt: "Donnez-moi le nom de votre local de vote"
-494
       variable: "comuneName"      
-495
       maxPrompts: 3
-496
       nlpResultVariable: "iResult"
-497
     transitions:
-498
       actions:
-499
         cancel: "participationRateByLocalFailToUnderstandLocal"
-500
   participationRateByLocalMatchElectionType:
-501
     component: "System.SetVariable"
-502
     properties:
-503
       variable: "resultType"
-504
       value: "${iResult.value.entityMatches['TypeElection'][0]}"
-505
   participationRateByLocalAskForMissingElectionType:
-506
     component: "System.List"
-507
     properties: 
-508
       prompt: "Vous ne m'avez pas dit pour quelle élection ?"
-509
       options: 
-510
       - label: "Conseil Etat"
-511
         value: "CE" 
-512
       - label: "Grand Conseil"
-513
         value: "GC" 
-514
       variable: "resultType"
-515
       nlpResultVariable: "iResult"
-516
     transitions: {}
-517
-​
-518
+
   # Backend Call #9
-519
   participationRateByLocalCallBackendResultLocal:
-520
     component: "resultLocal" #9  
-521
     properties:
-522
         comuneName: "${comuneName.value}"
-523
         resultType: "${resultType.value}"
-524
     transitions: {} 
-525
-​
-526
+
   participationRateByLocalOutput: 
-527
     component: "System.Output"
-528
     properties:
-529
       text:  "<#if localPercentage == ''>Le taux de participation à ${comuneName} n'est pas encore connu ! Réessayez plus tard ... <#else>Le taux de participation à ${comuneName} est de: ${localPercentage} pour les ${timeStampLocal}.</#if>"
-530
       keepTurn: true
-531
     transitions: {}
-532
-​
-533
+
   # Suggestion de suite
-534
   participationRateByLocalSuggestNext: 
-535
     component: "System.List"
-536
     properties: 
-537
       prompt: "Je vous propose :"
-538
       options: 
-539
       - label: "autre commune"
-540
         value: "autreCommune" 
-541
       - label: "menu"
-542
         value: "menu"
-543
     transitions:
-544
       actions:
-545
         menu: "resetVariablesContextMenu"
-546
         autreCommune : "participationRateByLocalReset"
-547
         #unexpectedAction: "resultsByListSelectFromListboxOther"
-548
         textReceived: "checkIntent"
-549
-​
-550
+
   
-551
   # echec de comprendre le local
-552
   participationRateByLocalFailToUnderstandLocal: 
-553
     component: "System.List"
-554
     properties: 
-555
       prompt: "Je suis navré je ne comprends pas de quel local de vote vous parlez."
-556
       options: 
-557
       - label: "autre commune"
-558
         value: "autreCommune" 
-559
       - label: "menu"
-560
         value: "menu" 
-561
     transitions:
-562
       actions:
-563
         menu: "resetVariablesContextMenu"
-564
         autreCommune : "participationRateByLocalReset"
-565
         #unexpectedAction: "resultsByListSelectFromListboxOther"
-566
         textReceived: "checkIntent"
-567
         
-568
   participationRateByLocalReset:
-569
     component: "System.ResetVariables"
-570
     properties:
-571
       variableList: "comuneName"
-572
     transitions:
-573
       next: "participationRateByLocalStart"
-574
-​
-575
+
 #=======================================================================================================================
-576
 # Résultats par local de vote : non implémenté mais géré pour avoir une conversation fluide
-577
 #=======================================================================================================================
-578
-​
-579
+
   resultatParLocalDeVote:
-580
     component: "System.Output"
-581
     properties:
-582
       text: "Flute :-) je ne sais pas encore vous donner les résultats par local de vote ..."
-583
       keepTurn: true
-584
       
-585
   resultatParLocalDeVote2:
-586
     component: "System.List"
-587
     properties:
-588
       prompt: "Essayez de me demander le taux de participation ? ou donnez moi votre feedback !"  
-589
       options:    
-590
         - value: "participation\npar local"
-591
           label: "participation"
-592
         - value: "feedback"
-593
           label: "feedback"
-594
         - value: "menu"
-595
           label: "menu"
-596
     transitions:
-597
       actions:
-598
         participation: "participationRateByLocalStart"
-599
         feedback: "giveFeedback"
-600
         menu: "resetVariablesContextMenu"
-601
         textReceived: "checkIntent"
-602
-​
-603
+
 #=======================================================================================================================
-604
 # Résultats par candidat pour un local de vote : non implémenté mais géré pour avoir une conversation fluide
-605
 #=======================================================================================================================
-606
-​
-607
+
   resultatParCandidatParLocalDeVote:
-608
     component: "System.Output"
-609
     properties:
-610
       text: "De bleu de bleu ! Vous voulez en savoir plus pour un candidat dans un local de vote ? Va falloir que j'y travaille !"
-611
       keepTurn: true
-612
-​
-613
+
   resultatParCandidatParLocalDeVote2:
-614
     component: "System.List"
-615
     properties:
-616
       prompt: "Essayez de me demander ses résultats ou le nombre de bulletins biffés ? ou donnez-moi du feedback sur ce qui vous a manqué !"
-617
       options:    
-618
         - value: "sesResultats"
-619
           label: "ses résultats"
-620
         - value: "bulletinsBiffes"
-621
           label: "ses bulletins biffés"
-622
         - value: "feedback"
-623
           label: "feedback"
-624
         - value: "menu"
-625
           label: "menu"
-626
     transitions:
-627
       actions:
-628
         sesResultats: "resultsByCandidateStart"
-629
         bulletinsBiffes: "nombreFoisCandidatBiffeStart"
-630
         feedback: "giveFeedback"
-631
         menu: "resetVariablesContextMenu"
-632
         textReceived: "checkIntent"
-633
     
-634
 #=======================================================================================================================
-635
 # Feedback
-636
 #=======================================================================================================================
-637
 # une variable factice feedback est utilisée pour demander du feedback ; on suggère ensuite d'en savoir plus sur l'histoire du bot
-638
 # 1) on reset la variable sinon il passe pas dans System.Text
-639
 # 2) on demande le feedback avec System.Text
-640
 # 3) on suggère une suite
-641
   giveFeedback:
-642
     component: "System.ResetVariables"
-643
     properties:
-644
       variableList: "feedback"
-645
     transitions: {}
-646
       
-647
   giveFeedbackAskForFeedback:
-648
     component: "System.Text"
-649
     properties:
-650
       prompt: "Aidez-moi à m'améliorer ! Dites-moi ce qui vous a plu dans notre conversation et ce qui vous a manqué :"
-651
       variable: "feedback"
-652
     transitions: {}
-653
       
-654
   giveFeedbackSuggestNext:
-655
     component: "System.List"
-656
     properties:
-657
       prompt: "Merci !"  
-658
       options:    
-659
         - value: "newFeedback"
-660
           label: "autre feedback"
-661
         - value: "menu"
-662
           label: "menu"
-663
           #TODO ajouter un lien vers l'histoire du bot
-664
     transitions:
-665
       actions:
-666
         newFeedback: "giveFeedback"
-667
         menu: "resetVariablesContextMenu"
-668
         textReceived: "checkIntent"
-669
 #=======================================================================================================================
-670
 # TODO aide pour avoir d'autres résultats/informations que les résultats globaux de l'élection
-671
 #=======================================================================================================================
-672
   helpForAskOtherStart:
-673
     component: "System.Output"
-674
     properties:
-675
       text: "TODO Bientôt je vous aiderai à choisir d'autres résultats si vous le voulez pour le type d'élection ${resultType.value!\"null\"} que vous aÍ choisi."
-676
     transitions:
-677
       next: "checkIntent"
-678
-​
-679
+
 #=======================================================================================================================
-680
 # debug
-681
 #=======================================================================================================================
-682
   tellDebug:
-683
     component: "System.Output"
-684
     properties:
-685
       text: "(debug) Valeur des variables : \n resultType = ${resultType.value!\"null\"} \n candidateName = ${candidateName.value!\"null\"}"
-686
     transitions:
-687
       next: "checkIntent"
-688
-​
-689
+
 #=======================================================================================================================
-690
 # gestion des actions sur les anciens messages
-691
 #=======================================================================================================================
-692
   handleUnexpectedAction:
-693
     component: "System.Switch"
-694
     properties:
-695
       variable: "user.botsUnexpectedAction"
-696
       values:
-697
         - value: "CE" 
-698
         - value: "GC" 
-699
         - value: "Results"
-700
         - value: "TauxParticipation"
-701
         - value: "Other"
-702
         - value: "quiEstElu" 
-703
         - value: "quiEstPasElu" 
-704
         - value: "resultatsAutreListe"
-705
         - value: "PDC"
-706
         - value: "LEE"
-707
         - value: "EAG"
-708
         - value: "GEMA"
-709
         - value: "LPG"
-710
         - value: "FEM"
-711
         - value: "SOC"
-712
         - value: "VERT"
-713
         - value: "PLR"
-714
         - value: "MCG"
-715
         - value: "PBD"
-716
         - value: "ENT"
-717
         - value: "PROM"
-718
         - value: "RIEN"
-719
         - value: "SAN"
-720
         - value: "UDC"
-721
         - value: "VERL"
-722
         - value: "menu"
-723
     transitions:
-724
       actions:
-725
         NONE: "actionNoLongerAvailable"
-726
         CE:  "actionNoLongerAvailable"
-727
         GC:  "actionNoLongerAvailable"
-728
         Results: "resultsStart"
-729
         TauxParticipation: "participationRateStart"
-730
         Other: "actionNoLongerAvailable"
-731
         quiEstElu: "whoIsElectedForAListStart"
-732
         quiEstPasElu: "whoIsNotElectedForAListStart"
-733
         #resultatsAutreListe: "resultsByListChangeListStart"
-734
         PDC: "resultsByListStart"
-735
         LEE: "resultsByListStart"
-736
         EAG: "resultsByListStart"
-737
         GEMA: "resultsByListStart"
-738
         LPG: "resultsByListStart"
-739
         FEM: "resultsByListStart"
-740
         SOC: "resultsByListStart"
-741
         VERT: "resultsByListStart"
-742
         PLR: "resultsByListStart"
-743
         MCG: "resultsByListStart"
-744
         PBD: "resultsByListStart"
-745
         ENT: "resultsByListStart"
-746
         PROM: "resultsByListStart"
-747
         RIEN: "resultsByListStart"
-748
         SAN: "resultsByListStart"
-749
         UDC:  "resultsByListStart"
-750
         VERL: "resultsByListStart"
-751
         menu: "resetVariablesContextMenu"
-752
-​
-753
+
   actionNoLongerAvailable:
-754
     component: "System.Output"
-755
     properties:
-756
       text: "Je ne sais plus répondre à cette action. Comment puis-je vous aider ?"
-757
     transitions:
-758
       next: "checkIntent"  
-759
-​
-760
+
 #=======================================================================================================================
-761
 # Global error handler
-762
 #=======================================================================================================================
-763
   handleGlobalError:
-764
     component: "System.Output"
-765
     properties:
-766
       text: "Ouups il semble y avoir eu un problème. Tous mes boulons ne sont pas encore bien serrés [:]. Si c'est pour le grand conseil il faut attendre 13:30 pour les premiers résultats."
-767
       keepTurn: true
-768
     transitions:
-769
       next: "resetVariablesContextMenu"
-770
-​
-771
+
 # END
